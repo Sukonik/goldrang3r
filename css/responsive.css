@@ -1,0 +1,43 @@
+/* ==========================================================================
+   BASE3 UI — responsive layer
+   Mobile-first breakpoints on the established framework grid:
+   640px small tablets, 1024px desktop. Nothing in this file changes
+   identity — it only re-flows the primitives.
+   ========================================================================== */
+
+@media (min-width: 640px) {
+  .grid { grid-template-columns: repeat(2, 1fr); }
+  .lanes { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (min-width: 1024px) {
+  .nav { display: block; }
+  .nav-toggle { display: none; }
+  .grid { grid-template-columns: repeat(3, 1fr); }
+  .site-footer__inner {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 639px) {
+  .container { padding: 0 var(--b3-space-4); }
+  section { padding: var(--b3-space-8) 0; }
+  .hero { padding-block: var(--b3-space-8); }
+  .display { font-size: clamp(1.9rem, 9vw, 2.6rem); }
+  .section-title { font-size: 1.7rem; }
+  .brand__mark { width: 30px; height: 30px; }
+  .brand { font-size: 1rem; }
+  .card, .stat, .lane { padding: var(--b3-space-5); }
+  .hero__cta .btn { flex: 1; justify-content: center; }
+  .site-footer__links { gap: var(--b3-space-3); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

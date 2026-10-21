@@ -1,0 +1,98 @@
+/* ==========================================================================
+   BASE3 UI — tokens layer
+   BASE3 is our modernized take on the Base UI concept: structure, behavior
+   and accessibility live in unstyled primitives; ALL identity lives here,
+   in tokens. Swap the tokens, keep the primitives — the site re-skins
+   without a single markup change.
+
+   Formatting foundation: a proven mobile-first responsive framework —
+   same spacing scale, type scale, container and breakpoints — re-lit for
+   NEON FUTURE: night black, yellow neon primary, traces of cyberpunk neon.
+   ========================================================================== */
+
+:root {
+  /* -- Night surfaces ---------------------------------------------------- */
+  --b3-black-950: #050504;
+  --b3-black-900: #0a0908;
+  --b3-black-800: #121009;
+  --b3-black-700: #1a160e;
+  --b3-line: #2a2418;
+
+  /* -- BASE3 neon yellow — the modernized gold --------------------------
+     Gold, pushed to neon: brighter, cleaner, electric. This is the one
+     primary glow for the whole publication. */
+  --b3-yellow: #ffe81a;
+  --b3-yellow-bright: #fff45c;
+  --b3-yellow-dim: #d4c200;
+  --b3-yellow-glow: rgba(255, 232, 26, 0.45);
+  --b3-yellow-wash: rgba(255, 232, 26, 0.07);
+
+  /* -- Traces of cyberpunk neon (small doses only) ---------------------- */
+  --b3-cyan: #00e5ff;
+  --b3-magenta: #ff2ea6;
+
+  /* -- Lane gemstones ----------------------------------------------------- */
+  --lane-fraud: #f05a6b;    /* ruby    — fraud / whistleblower */
+  --lane-bug: #6b84ff;      /* sapphire — bug bounties       */
+  --lane-protect: #4ac58c; /* emerald — protect             */
+
+  /* -- Text --------------------------------------------------------------*/
+  --b3-text-primary: #f6f1e6;
+  --b3-text-secondary: #c9c0a8;
+  --b3-text-muted: #8f8672;
+  --b3-text-on-accent: #171300;
+
+  /* -- Semantic aliases --------------------------------------------------*/
+  --b3-bg: var(--b3-black-950);
+  --b3-bg-raised: var(--b3-black-900);
+  --b3-bg-card: var(--b3-black-800);
+  --b3-border: var(--b3-line);
+  --b3-accent: var(--b3-yellow-dim);
+  --b3-accent-strong: var(--b3-yellow);
+  --b3-focus: var(--b3-yellow-bright);
+
+  /* -- Typography ---------------------------------------------------------*/
+  --b3-font-sans: "Helvetica Neue", Helvetica, Arial, "Nimbus Sans L",
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --b3-font-mono: ui-monospace, "SF Mono", "Cascadia Code", "Roboto Mono",
+    Consolas, monospace;
+
+  --b3-fs-xs: 0.75rem;
+  --b3-fs-sm: 0.875rem;
+  --b3-fs-base: 1rem;
+  --b3-fs-md: 1.125rem;
+  --b3-fs-lg: 1.375rem;
+  --b3-fs-xl: 1.875rem;
+  --b3-fs-2xl: 2.5rem;
+  --b3-fs-3xl: 3.25rem;
+
+  --b3-lh-tight: 1.15;
+  --b3-lh-normal: 1.45;
+  --b3-measure: 36rem;
+
+  /* -- Spacing scale -------------------------------------------------------*/
+  --b3-space-1: 0.25rem;
+  --b3-space-2: 0.5rem;
+  --b3-space-3: 0.75rem;
+  --b3-space-4: 1rem;
+  --b3-space-5: 1.5rem;
+  --b3-space-6: 2rem;
+  --b3-space-8: 3rem;
+  --b3-space-10: 4rem;
+  --b3-space-12: 6rem;
+
+  /* -- Shape / effects ------------------------------------------------------*/
+  --b3-radius-sm: 6px;
+  --b3-radius-md: 12px;
+  --b3-radius-lg: 20px;
+
+  --b3-shadow-card: 0 1px 0 rgba(255, 232, 26, 0.06) inset,
+    0 8px 24px rgba(0, 0, 0, 0.35);
+  --b3-glow-accent: 0 0 18px var(--b3-yellow-glow);
+
+  --b3-container: 72rem;
+
+  --b3-duration-fast: 120ms;
+  --b3-duration-normal: 220ms;
+  --b3-ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+}

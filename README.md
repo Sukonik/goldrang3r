@@ -1,14 +1,15 @@
-# goldrang3r
+# GoldRang3r
 
 **🌐 Latest iteration — v1 (live): https://sukonik.github.io/goldrang3r/**
 
-goldrang3r — the public log of the GoldRanger security team: AI-automated solution hunting, daily blog posts, results, and completed cases. Tracking cybercrime from Long Beach NY, Nassau County, and NYC (Manhattan, Brooklyn, Queens) to Upstate, New York State, federal, and global — with a tech focus.
+**GoldRang3r is a team of GitHub-focused devs and AI agents.**
+
+This is its public presence — a log built for one job: presenting results to the world. Daily blog posts, results, and completed cases from security research: hunting fraud, bugs, and scams, and tracking cybercrime from Long Beach NY, Nassau County, and NYC (Manhattan, Brooklyn, Queens) to Upstate, New York State, federal, and global — with a tech focus.
 
 ## What you'll find here
 
-- **Solutions** — write-ups of solved cases and the fixes that came out of them
 - **Blog posts, by day** — the daily log: what was hunted, what the data said, what closed
-- **Results** — numbers and outcomes from the hunt, dated and sourced
+- **Results** — numbers and outcomes from finished work, dated and sourced
 - **Completed cases** — the finished work, published once a case is closed and cleared for disclosure
 - **Breaking news** — cybercrime developments as they land, local to global
 
@@ -19,25 +20,19 @@ goldrang3r — the public log of the GoldRanger security team: AI-automated solu
 - **Federal & global:** federal programs, platforms, and worldwide cybercrime trends
 - **Focus lane:** Fintech — payment apps, exchanges, and financial platforms
 
-## The team
-
-- **Nate** — CEO, Product Manager, Lead Site Architect
-- **David (King David)** — Lead Developer
-- **Reina** — Content Creator, Developer Evangelist; beaches & nature infrastructure, Long Beach first
-
-## Find us
+## Find GoldRang3r
 
 - **HackerOne:** goldrang3r
 - **Web:** https://sukonik.github.io/goldrang3r/
-- Found a security issue with something of ours? Open an issue here — we read everything.
+- Found a security issue with something published here? Report it on HackerOne under the handle above — everything is read.
 
-*Coverage areas name the public programs and public data we study — never employment, partnership, or endorsement. This log publishes finished, public-safe results only: no live case details, no allegations.*
+*Coverage areas name the public programs and public data under study — never employment, partnership, or endorsement. This log publishes finished, public-safe results only: no live case details, no allegations.*
 
 ---
 
 ## Versions & web links
 
-Every iteration of the goldrang3r site is recorded here with its web link — newest first. The latest link also sits at the top of this README.
+Every iteration of the GoldRang3r site is recorded here with its web link — newest first. The latest link also sits at the top of this README.
 
 | Version | Date | Web link | Notes |
 |---|---|---|---|
