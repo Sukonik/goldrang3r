@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Newsletter — GoldRang3r</title>
+  <meta name="description" content="The GoldRang3r weekly digest: the week's security, tech, and fintech-security news plus one email-only security tip." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html" aria-label="GoldRang3r — home">
+        <span class="brand__mark" aria-hidden="true">G3</span>
+        <span class="brand__name">Gold<span class="accent">Rang3r</span></span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="index.html">Home</a></li>
+          <li><a class="nav__link" href="log.html">Log</a></li>
+          <li><a class="nav__link" href="results.html">Results</a></li>
+          <li><a class="nav__link" href="completed.html">Completed Cases</a></li>
+          <li><a class="nav__link" href="lake.html">Lake</a></li>
+          <li><a class="nav__link" href="leaderboards.html">Leaderboards</a></li>
+          <li><a class="nav__link" href="about.html">About</a></li>
+          <li><a class="nav__link" href="events.html">Events</a></li>
+          <li><a class="nav__link" href="newsletter.html">Newsletter</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-drawer" aria-label="Open menu">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="nav-drawer" id="nav-drawer" data-open="false" hidden>
+    <div class="nav-drawer__header">
+      <span class="brand">
+        <span class="brand__mark" aria-hidden="true">G3</span>
+        <span class="brand__name">Gold<span class="accent">Rang3r</span></span>
+      </span>
+      <button class="nav-drawer__close" aria-label="Close menu">✕</button>
+    </div>
+    <ul class="nav-drawer__list">
+      <li><a class="nav-drawer__link" href="index.html"><span class="mono">01</span>Home</a></li>
+      <li><a class="nav-drawer__link" href="log.html"><span class="mono">02</span>Log</a></li>
+      <li><a class="nav-drawer__link" href="results.html"><span class="mono">03</span>Results</a></li>
+      <li><a class="nav-drawer__link" href="completed.html"><span class="mono">04</span>Completed Cases</a></li>
+      <li><a class="nav-drawer__link" href="lake.html"><span class="mono">05</span>Lake</a></li>
+      <li><a class="nav-drawer__link" href="leaderboards.html"><span class="mono">06</span>Leaderboards</a></li>
+      <li><a class="nav-drawer__link" href="about.html"><span class="mono">07</span>About</a></li>
+      <li><a class="nav-drawer__link" href="events.html"><span class="mono">08</span>Events</a></li>
+      <li><a class="nav-drawer__link" href="newsletter.html"><span class="mono">09</span>Newsletter</a></li>
+    </ul>
+    <p class="nav-drawer__footer">GoldRang3r — news, logs, and results. Published when finished.</p>
+  </div>
+
+  <main id="main">
+
+    <section>
+      <div class="container">
+        <p class="eyebrow">Newsletter — the weekly digest</p>
+        <h1 class="section-title">One email. <span style="color:var(--b3-accent-strong)">Every week.</span></h1>
+        <p class="lede">The week's top security, tech, and fintech-security stories — summarized, grouped Lake-style, and finished with <b>unique security tips</b> that run only in the email. No daily spam: one digest, once per week.</p>
+
+        <form class="newsletter-form" id="newsletter-form" action="#" method="get">
+          <label class="visually-hidden" for="newsletter-email">Email address</label>
+          <input type="email" id="newsletter-email" name="email" placeholder="you@example.com" required autocomplete="email" />
+          <button class="btn" data-variant="solid" type="submit">Join the digest</button>
+        </form>
+        <p class="form-note" id="newsletter-note">Signups open with Issue #1. Leave your email and you're on the founding list — weekly digest + the email-only security tip, that's the whole deal.</p>
+
+        <div class="grid">
+          <article class="card" data-lane="fraud">
+            <p class="card__meta">In every issue</p>
+            <h3>The week in security</h3>
+            <p>The stories that mattered, summarized in minutes — breaches, scams, policy, and the fixes.</p>
+          </article>
+          <article class="card" data-lane="bug">
+            <p class="card__meta">In every issue</p>
+            <h3>Fintech security watch</h3>
+            <p>Payment apps, exchanges, and fraud patterns — the 1:30 PM summaries, rolled up for the week.</p>
+          </article>
+          <article class="card" data-lane="protect">
+            <p class="card__meta">Email only</p>
+            <h3>One unique security tip</h3>
+            <p>A single practical move per issue — a setting, a check, a habit — written for the digest, never posted on the site.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <script>
+      (function () {
+        var form = document.getElementById("newsletter-form");
+        var note = document.getElementById("newsletter-note");
+        form.addEventListener("submit", function (e) {
+          e.preventDefault();
+          var email = document.getElementById("newsletter-email").value.trim();
+          if (!email) return;
+          try {
+            var list = JSON.parse(localStorage.getItem("g3_newsletter") || "[]");
+            if (list.indexOf(email) === -1) list.push(email);
+            localStorage.setItem("g3_newsletter", JSON.stringify(list));
+          } catch (err) {}
+          note.textContent = "You're on the founding list — Issue #1 lands in your inbox on launch week. Welcome aboard.";
+          note.classList.add("form-ok");
+          form.reset();
+        });
+      })();
+    </script>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <span class="site-footer__brand">GoldRang3r</span>
+      <nav class="site-footer__links" aria-label="Footer">
+        <a href="index.html">Home</a>
+        <a href="log.html">Log</a>
+        <a href="results.html">Results</a>
+        <a href="completed.html">Completed Cases</a>
+        <a href="lake.html">Lake</a>
+        <a href="leaderboards.html">Leaderboards</a>
+        <a href="about.html">About</a>
+        <a href="events.html">Events</a>
+        <a href="newsletter.html">Newsletter</a>
+      </nav>
+      <span class="site-footer__meta">© 2026 GoldRang3r — a team of GitHub-focused devs and AI agents.</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

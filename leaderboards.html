@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Leaderboards — GoldRang3r</title>
+  <meta name="description" content="GoldRang3r Leaderboards: news reporters ranked by stories tracked in the river and the Lake." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html" aria-label="GoldRang3r — home">
+        <span class="brand__mark" aria-hidden="true">G3</span>
+        <span class="brand__name">Gold<span class="accent">Rang3r</span></span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="index.html">Home</a></li>
+          <li><a class="nav__link" href="log.html">Log</a></li>
+          <li><a class="nav__link" href="results.html">Results</a></li>
+          <li><a class="nav__link" href="completed.html">Completed Cases</a></li>
+          <li><a class="nav__link" href="lake.html">Lake</a></li>
+          <li><a class="nav__link" href="leaderboards.html">Leaderboards</a></li>
+          <li><a class="nav__link" href="about.html">About</a></li>
+          <li><a class="nav__link" href="events.html">Events</a></li>
+          <li><a class="nav__link" href="newsletter.html">Newsletter</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-drawer" aria-label="Open menu">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="nav-drawer" id="nav-drawer" data-open="false" hidden>
+    <div class="nav-drawer__header">
+      <span class="brand">
+        <span class="brand__mark" aria-hidden="true">G3</span>
+        <span class="brand__name">Gold<span class="accent">Rang3r</span></span>
+      </span>
+      <button class="nav-drawer__close" aria-label="Close menu">✕</button>
+    </div>
+    <ul class="nav-drawer__list">
+      <li><a class="nav-drawer__link" href="index.html"><span class="mono">01</span>Home</a></li>
+      <li><a class="nav-drawer__link" href="log.html"><span class="mono">02</span>Log</a></li>
+      <li><a class="nav-drawer__link" href="results.html"><span class="mono">03</span>Results</a></li>
+      <li><a class="nav-drawer__link" href="completed.html"><span class="mono">04</span>Completed Cases</a></li>
+      <li><a class="nav-drawer__link" href="lake.html"><span class="mono">05</span>Lake</a></li>
+      <li><a class="nav-drawer__link" href="leaderboards.html"><span class="mono">06</span>Leaderboards</a></li>
+      <li><a class="nav-drawer__link" href="about.html"><span class="mono">07</span>About</a></li>
+      <li><a class="nav-drawer__link" href="events.html"><span class="mono">08</span>Events</a></li>
+      <li><a class="nav-drawer__link" href="newsletter.html"><span class="mono">09</span>Newsletter</a></li>
+    </ul>
+    <p class="nav-drawer__footer">GoldRang3r — news, logs, and results. Published when finished.</p>
+  </div>
+
+  <main id="main">
+
+    <section>
+      <div class="container">
+        <p class="eyebrow">Leaderboards — by news reporter</p>
+        <h1 class="section-title">Who's filing the stories we track</h1>
+        <p class="lede">Ranked by stories tracked in the GoldRang3r river and Lake. The board re-ranks at every update cycle — 7:30 AM, 12:30 PM, and 1:30 PM ET — and resets weekly.</p>
+
+        <!-- LEADERBOARD:START -->
+        <div class="table-wrap">
+          <table class="table">
+            <thead><tr><th>Rank</th><th>Reporter</th><th>Outlet</th><th>Stories tracked</th><th>Latest</th></tr></thead>
+            <tbody>
+              <tr><td><b>1</b></td><td><b>Emma Roth</b></td><td>The Verge</td><td>1</td><td>“Made for iPhone Duo” badge — Oct 22, 9:35 AM</td></tr>
+              <tr><td><b>1</b></td><td><b>Elias Schisgall</b></td><td>Wall Street Journal</td><td>1</td><td>1Password passes $500M ARR — Oct 22, 9:05 AM</td></tr>
+              <tr><td><b>1</b></td><td><b>John Reynolds</b></td><td>Tech.eu</td><td>1</td><td>Enact emerges from stealth, $30M pre-seed — Oct 22, 8:50 AM</td></tr>
+              <tr><td><b>1</b></td><td><b>Politico staff</b></td><td>Politico</td><td>1</td><td>Pentagon's Technology Support Office — Oct 22, 9:15 AM</td></tr>
+              <tr><td><b>1</b></td><td><b>New York Times staff</b></td><td>New York Times</td><td>1</td><td>Starshield throttling in Ukraine — Oct 22, 8:55 AM</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- LEADERBOARD:END -->
+
+        <div class="note">
+          <p><b>Week 1 — everybody's tied at 1.</b> The board launched today; bylines without a named reporter rank under their outlet. First full ranking lands with tomorrow's 7:30 AM edition.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <span class="site-footer__brand">GoldRang3r</span>
+      <nav class="site-footer__links" aria-label="Footer">
+        <a href="index.html">Home</a>
+        <a href="log.html">Log</a>
+        <a href="results.html">Results</a>
+        <a href="completed.html">Completed Cases</a>
+        <a href="lake.html">Lake</a>
+        <a href="leaderboards.html">Leaderboards</a>
+        <a href="about.html">About</a>
+        <a href="events.html">Events</a>
+        <a href="newsletter.html">Newsletter</a>
+      </nav>
+      <span class="site-footer__meta">© 2026 GoldRang3r — a team of GitHub-focused devs and AI agents.</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

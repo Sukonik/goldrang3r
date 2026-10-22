@@ -36,7 +36,7 @@
 .brand__name .accent { color: var(--b3-accent-strong); }
 
 .nav { display: none; }
-.nav__list { display: flex; align-items: center; gap: var(--b3-space-6); font-size: var(--b3-fs-sm); }
+.nav__list { display: flex; align-items: center; gap: var(--b3-space-4); font-size: var(--b3-fs-sm); }
 .nav__link {
   color: var(--b3-text-secondary);
   padding: var(--b3-space-2) 0;
@@ -253,3 +253,87 @@ body[data-drawer-open="true"] { overflow: hidden; }
 .site-footer__links { display: flex; flex-wrap: wrap; gap: var(--b3-space-4); font-size: var(--b3-fs-sm); }
 .site-footer__links a:hover { color: var(--b3-accent-strong); }
 .site-footer__meta { font-size: var(--b3-fs-xs); font-family: var(--b3-font-mono); }
+
+
+/* ==========================================================================
+   v2 — publication layer: river feed, Lake clusters, sponsored / ad slots,
+   newsletter form. Same primitives, new compositions.
+   ========================================================================== */
+
+/* ---------- river feed (Techmeme-style aggregation) ---------- */
+.feed { margin-top: var(--b3-space-6); border-top: 1px solid var(--b3-border); }
+.feed__item {
+  display: grid; grid-template-columns: 6.5rem 1fr; gap: var(--b3-space-4);
+  padding: var(--b3-space-4) 0; border-bottom: 1px solid var(--b3-border);
+}
+.feed__time {
+  font-family: var(--b3-font-mono); font-size: var(--b3-fs-sm);
+  color: var(--b3-accent-strong); white-space: nowrap; padding-top: 0.15rem;
+}
+.feed__source { font-weight: 700; color: var(--b3-text-primary); }
+.feed__body { color: var(--b3-text-secondary); font-size: var(--b3-fs-base); }
+.feed__body a { color: var(--b3-text-primary); font-weight: 600; }
+.feed__body a:hover { color: var(--b3-accent-strong); text-decoration: underline; }
+.feed__tag {
+  font-family: var(--b3-font-mono); font-size: var(--b3-fs-xs);
+  text-transform: uppercase; letter-spacing: 0.06em;
+  color: var(--b3-text-muted); margin-left: var(--b3-space-2);
+}
+.feed__tag[data-lane="fraud"] { color: var(--lane-fraud); }
+.feed__tag[data-lane="bug"] { color: var(--lane-bug); }
+.feed__tag[data-lane="protect"] { color: var(--lane-protect); }
+.feed__date {
+  font-family: var(--b3-font-mono); font-size: var(--b3-fs-md);
+  color: var(--b3-accent-strong); margin-top: var(--b3-space-8);
+}
+
+/* ---------- Lake clusters (grouped related coverage) ---------- */
+.cluster {
+  background: var(--b3-bg-card); border: 1px solid var(--b3-border);
+  border-radius: var(--b3-radius-lg); padding: var(--b3-space-6);
+  box-shadow: var(--b3-shadow-card); margin-top: var(--b3-space-5);
+}
+.cluster__title { font-size: var(--b3-fs-lg); }
+.cluster__title .accent { color: var(--b3-cyan); }
+.cluster__items { margin-top: var(--b3-space-4); display: grid; gap: var(--b3-space-3); }
+.cluster__items li {
+  color: var(--b3-text-secondary); font-size: var(--b3-fs-sm);
+  border-left: 3px solid var(--b3-cyan); padding-left: var(--b3-space-4);
+}
+.cluster__items li b { color: var(--b3-text-primary); }
+.cluster__items a { color: var(--b3-text-primary); font-weight: 600; }
+.cluster__items a:hover { color: var(--b3-accent-strong); text-decoration: underline; }
+.cluster__meta {
+  font-family: var(--b3-font-mono); font-size: var(--b3-fs-xs);
+  text-transform: uppercase; letter-spacing: 0.08em; color: var(--b3-text-muted);
+}
+
+/* ---------- sponsored + ad slots ---------- */
+.slot {
+  border: 1px dashed var(--b3-border); border-radius: var(--b3-radius-md);
+  padding: var(--b3-space-5); margin-top: var(--b3-space-6);
+  background: var(--b3-bg-raised);
+}
+.slot__label {
+  font-family: var(--b3-font-mono); font-size: var(--b3-fs-xs);
+  text-transform: uppercase; letter-spacing: 0.12em; color: var(--b3-magenta);
+}
+.slot p { color: var(--b3-text-secondary); font-size: var(--b3-fs-sm); margin-top: var(--b3-space-2); }
+.slot p b { color: var(--b3-text-primary); }
+.slot--ad { text-align: center; }
+.slot--ad .slot__label { color: var(--b3-text-muted); }
+
+/* ---------- newsletter form ---------- */
+.newsletter-form {
+  display: flex; gap: var(--b3-space-3); flex-wrap: wrap;
+  margin-top: var(--b3-space-6); max-width: 34rem;
+}
+.newsletter-form input[type="email"] {
+  flex: 1 1 16rem; padding: var(--b3-space-3) var(--b3-space-4);
+  border-radius: var(--b3-radius-sm); border: 1px solid var(--b3-border);
+  background: var(--b3-bg); color: var(--b3-text-primary);
+  font-size: var(--b3-fs-base);
+}
+.newsletter-form input[type="email"]:focus { border-color: var(--b3-accent-strong); outline: none; }
+.form-note { color: var(--b3-text-muted); font-size: var(--b3-fs-sm); margin-top: var(--b3-space-3); }
+.form-ok { color: var(--lane-protect); font-weight: 600; margin-top: var(--b3-space-3); }

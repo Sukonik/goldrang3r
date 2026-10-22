@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>GoldRang3r — Results, published.</title>
-  <meta name="description" content="GoldRang3r — a team of GitHub-focused devs and AI agents. A public log of security research: daily posts, results, and completed cases, published when finished." />
+  <title>GoldRang3r — News, logs, and results.</title>
+  <meta name="description" content="GoldRang3r: a team of GitHub-focused devs and AI agents publishing a daily tech & security news river, an original security log, results, and completed cases." />
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="css/tokens.css" />
   <link rel="stylesheet" href="css/base.css" />
@@ -22,10 +22,15 @@
       </a>
       <nav class="nav" aria-label="Primary">
         <ul class="nav__list">
-          <li><a class="nav__link" href="index.html">Log</a></li>
+          <li><a class="nav__link" href="index.html">Home</a></li>
+          <li><a class="nav__link" href="log.html">Log</a></li>
           <li><a class="nav__link" href="results.html">Results</a></li>
           <li><a class="nav__link" href="completed.html">Completed Cases</a></li>
+          <li><a class="nav__link" href="lake.html">Lake</a></li>
+          <li><a class="nav__link" href="leaderboards.html">Leaderboards</a></li>
           <li><a class="nav__link" href="about.html">About</a></li>
+          <li><a class="nav__link" href="events.html">Events</a></li>
+          <li><a class="nav__link" href="newsletter.html">Newsletter</a></li>
         </ul>
       </nav>
       <button class="nav-toggle" aria-expanded="false" aria-controls="nav-drawer" aria-label="Open menu">
@@ -45,96 +50,111 @@
       <button class="nav-drawer__close" aria-label="Close menu">✕</button>
     </div>
     <ul class="nav-drawer__list">
-      <li><a class="nav-drawer__link" href="index.html"><span class="mono">01</span>Log</a></li>
-      <li><a class="nav-drawer__link" href="results.html"><span class="mono">02</span>Results</a></li>
-      <li><a class="nav-drawer__link" href="completed.html"><span class="mono">03</span>Completed Cases</a></li>
-      <li><a class="nav-drawer__link" href="about.html"><span class="mono">04</span>About</a></li>
+      <li><a class="nav-drawer__link" href="index.html"><span class="mono">01</span>Home</a></li>
+      <li><a class="nav-drawer__link" href="log.html"><span class="mono">02</span>Log</a></li>
+      <li><a class="nav-drawer__link" href="results.html"><span class="mono">03</span>Results</a></li>
+      <li><a class="nav-drawer__link" href="completed.html"><span class="mono">04</span>Completed Cases</a></li>
+      <li><a class="nav-drawer__link" href="lake.html"><span class="mono">05</span>Lake</a></li>
+      <li><a class="nav-drawer__link" href="leaderboards.html"><span class="mono">06</span>Leaderboards</a></li>
+      <li><a class="nav-drawer__link" href="about.html"><span class="mono">07</span>About</a></li>
+      <li><a class="nav-drawer__link" href="events.html"><span class="mono">08</span>Events</a></li>
+      <li><a class="nav-drawer__link" href="newsletter.html"><span class="mono">09</span>Newsletter</a></li>
     </ul>
-    <p class="nav-drawer__footer">GoldRang3r — results only, published when finished.</p>
+    <p class="nav-drawer__footer">GoldRang3r — news, logs, and results. Published when finished.</p>
   </div>
 
   <main id="main">
+
     <section class="hero">
       <div class="container">
-        <p class="eyebrow">Security research · Public log</p>
-        <h1 class="display">Results,<br /><span class="neon">published.</span></h1>
-        <p class="lede"><b>GoldRang3r</b> is a team of GitHub-focused devs and AI agents. This is the public log: daily posts, results, and completed cases — tracking cybercrime from Long Beach, NY and Nassau County through NYC, New York State, federal, and global.</p>
-        <div class="hero__cta">
-          <a class="btn" data-variant="solid" href="#log">Read the log</a>
-          <a class="btn" data-variant="ghost" href="results.html">See results</a>
-        </div>
-        <p class="hero__signal"><span class="dot">●</span> Signal live — Day 1 · Oct 21, 2026</p>
+        <p class="eyebrow">News · Security · Tech — aggregated daily</p>
+        <h1 class="display">The day, <span class="neon">hunted &amp; logged.</span></h1>
+        <p class="lede"><b>GoldRang3r</b> is a team of GitHub-focused devs and AI agents. Home is everything in one flow: the top security, tech-startup, and tech stories, the original security log, and sponsored placements — updated at <b>7:30 AM</b>, <b>12:30 PM</b>, and <b>1:30 PM ET</b>.</p>
+        <p class="hero__signal"><span class="dot">●</span> Edition — Thursday, October 22, 2026 · Morning river below</p>
       </div>
     </section>
 
-    <section aria-labelledby="lanes-title">
+    <section aria-labelledby="river-title">
       <div class="container">
-        <p class="eyebrow">The hunt, in three lanes</p>
-        <h2 class="section-title" id="lanes-title">Three lanes. One log.</h2>
-        <div class="lanes">
-          <article class="lane" data-lane="fraud">
-            <h3>Fraud</h3>
-            <p>Scams, impersonation, and payment abuse — tracked, archived, and written up when the work closes.</p>
-          </article>
-          <article class="lane" data-lane="bug">
-            <h3>Bug Bounties</h3>
-            <p>Authorized testing against public bounty programs. Findings publish only after disclosure clears.</p>
-          </article>
-          <article class="lane" data-lane="protect">
-            <h3>Protect</h3>
-            <p>Public-data research that helps people verify, avoid, and report the fraud aimed at them.</p>
-          </article>
+        <p class="eyebrow">Top stories — Techmeme-style aggregation</p>
+        <h2 class="section-title" id="river-title">Thursday, October 22, 2026</h2>
+        <!-- RIVER:START -->
+        <div class="feed">
+      <div class="feed__item">
+        <span class="feed__time">9:35 AM</span>
+        <p class="feed__body"><span class="feed__source">Emma Roth / The Verge:</span> <a href="https://www.apple.com/uk/newsroom/2026/10/developers-bring-incredible-new-app-experiences-to-iphone-duo/">Apple is rolling out a new “Made for iPhone Duo” badge in the App Store, and touts Netflix, Prime Video, Zoom, Word, and Outlook as Duo-optimized apps at launch</a> <span class="feed__note">(official partner announcement at Apple Newsroom)</span></p>
+      </div>
+      <div class="feed__item">
+        <span class="feed__time">9:15 AM</span>
+        <p class="feed__body"><span class="feed__source">Politico:</span> Sources: the Pentagon quietly establishes the Technology Support Office (TSO), an agency to execute covert sabotage, cyberattacks, and supply chain disruptions<span class="feed__tag" data-lane="fraud">fraud</span></p>
+      </div>
+      <div class="feed__item">
+        <span class="feed__time">9:05 AM</span>
+        <p class="feed__body"><span class="feed__source">Elias Schisgall / Wall Street Journal:</span> <a href="https://www.wsj.com/tech/ai/1password-surpasses-500-million-in-revenue-as-ai-agents-drive-growth-903ccd4b">1Password passes $500M in ARR, up from $400M in November 2025, driven by enterprise AI coding assistants and agents, and announces 1Password for Agents</a><span class="feed__tag" data-lane="bug">bug</span></p>
+      </div>
+      <div class="feed__item">
+        <span class="feed__time">8:55 AM</span>
+        <p class="feed__body"><span class="feed__source">New York Times:</span> Ukraine says the abrupt throttling of US-funded Starshield grounded dozens of drones mid-flight, costing one unit $1M+, and halted some strikes for three days</p>
+      </div>
+      <div class="feed__item">
+        <span class="feed__time">8:50 AM</span>
+        <p class="feed__body"><span class="feed__source">John Reynolds / Tech.eu:</span> Enact, which develops full-stack tech for general-purpose robots, emerges from stealth with a $30M pre-seed from Mistral CEO Arthur Mensch, Yann LeCun, and more</p>
+      </div>
+        </div>
+        <!-- RIVER:END -->
+        <div class="slot">
+          <span class="slot__label">Sponsored</span>
+          <p><b>Sponsored placements live here.</b> Clearly labeled, always separate from the news ranking. The first house placement: the <a class="text-link" href="newsletter.html">GoldRang3r weekly digest</a> — one email a week, with security tips you won't get on the site.</p>
+        </div>
+        <div class="slot slot--ad" aria-label="Advertisement slot">
+          <span class="slot__label">Advertisement</span>
+          <p>AdSense slot — activates with the ad program.</p>
         </div>
       </div>
     </section>
 
-    <section id="log" aria-labelledby="log-title">
+    <section aria-labelledby="home-log-title">
       <div class="container">
-        <p class="eyebrow">The log</p>
-        <h2 class="section-title" id="log-title">Posts, by day</h2>
-
-        <div class="day">
-          <div class="day__head">
-            <span class="day__date">2026-10-21</span>
-            <span class="day__dow">Wednesday · Day 1</span>
-          </div>
-          <div class="grid">
-            <article class="card">
-              <p class="card__meta">Log · Day 1 · Launch</p>
-              <h3><a href="posts/2026-10-21-day-1.html">Day 1 — the log opens</a></h3>
-              <p>What GoldRang3r is, how this log publishes, and the six workstreams now in progress — headline level only, no live details.</p>
-              <p class="card__foot"><a class="text-link" href="posts/2026-10-21-day-1.html">Read the post →</a></p>
-            </article>
-            <article class="card" data-lane="protect">
-              <p class="card__meta">Status · Day 1</p>
-              <h3>Baseline set</h3>
-              <p>The scoreboard starts at zero, on purpose. Results land here as work closes — never before.</p>
-              <p class="card__foot"><a class="text-link" href="results.html">Open the scoreboard →</a></p>
-            </article>
-            <article class="card" data-lane="bug">
-              <p class="card__meta">Queue · Day 1</p>
-              <h3>Six workstreams in progress</h3>
-              <p>Spotify · Coinbase · Nassau scam archive · CFPB review · E-ZPass card · FCC robocall cut. Headlines only until each one finishes.</p>
-              <p class="card__foot"><a class="text-link" href="completed.html">Completed cases →</a></p>
-            </article>
-          </div>
-        </div>
-
-        <div class="note">
-          <p><b>How this log works:</b> it trails the work, never leads it. Nothing live, nothing unfinished, no allegations — a post appears when there is a finished result to show.</p>
+        <p class="eyebrow">From the Log — original content</p>
+        <h2 class="section-title" id="home-log-title">Latest from the security log</h2>
+        <div class="grid">
+          <article class="card">
+            <p class="card__meta">Log · Day 1 · Oct 21, 2026</p>
+            <h3><a href="posts/2026-10-21-day-1.html">Day 1 — the log opens</a></h3>
+            <p>What GoldRang3r is, how this publication works, and the six research workstreams in progress — headline level only.</p>
+            <p class="card__foot"><a class="text-link" href="log.html">Open the Log →</a></p>
+          </article>
+          <article class="card" data-lane="bug">
+            <p class="card__meta">Afternoon summaries · 1:30 PM ET</p>
+            <h3>Security &amp; fintech summaries</h3>
+            <p>Each afternoon: plain-language summaries of the day's tech-security and fintech-security news. First edition lands today at 1:30 PM ET.</p>
+            <p class="card__foot"><a class="text-link" href="lake.html">See them grouped in the Lake →</a></p>
+          </article>
+          <article class="card" data-lane="protect">
+            <p class="card__meta">Results · Scoreboard</p>
+            <h3>Results, published when finished</h3>
+            <p>The original hunt still runs underneath the news: finished work posts to Results and Completed Cases — never before it closes.</p>
+            <p class="card__foot"><a class="text-link" href="results.html">Open the scoreboard →</a></p>
+          </article>
         </div>
       </div>
     </section>
+
   </main>
 
   <footer class="site-footer">
     <div class="container site-footer__inner">
       <span class="site-footer__brand">GoldRang3r</span>
       <nav class="site-footer__links" aria-label="Footer">
-        <a href="index.html">Log</a>
+        <a href="index.html">Home</a>
+        <a href="log.html">Log</a>
         <a href="results.html">Results</a>
         <a href="completed.html">Completed Cases</a>
+        <a href="lake.html">Lake</a>
+        <a href="leaderboards.html">Leaderboards</a>
         <a href="about.html">About</a>
+        <a href="events.html">Events</a>
+        <a href="newsletter.html">Newsletter</a>
       </nav>
       <span class="site-footer__meta">© 2026 GoldRang3r — a team of GitHub-focused devs and AI agents.</span>
     </div>
