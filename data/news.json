@@ -1,1 +1,323 @@
-{"cadenceET": ["07:30 headlines", "12:30 midday update", "13:30 security + fintech summaries"], "clusters": [{"date": "2026-10-22", "items": ["wsj-1password-500m", "siliconangle-1password-agents", "reuters-axios-banks", "fintechglobal-ultra-10m"], "theme": "Agents get the keys — 1Password's $500M moment", "topic": "Security industry × AI agents"}, {"date": "2026-10-22", "items": ["politico-pentagon-tso", "nyt-starshield-ukraine"], "theme": "The statecraft layer", "topic": "Cyber power, state level"}, {"date": "2026-10-22", "items": ["verge-iphone-duo-badge", "apple-newsroom-iphone-duo"], "theme": "Apple's foldable gets its badge", "topic": "Platforms"}, {"date": "2026-10-22", "items": ["techeu-enact-stealth"], "theme": "Stealth, exited", "topic": "Startups & robotics"}, {"date": "2026-10-22", "items": ["bybit-vara", "fintechglobal-lseg-octus"], "theme": "Money moves", "topic": "Fintech deals"}, {"date": "2026-10-22", "items": ["transunion-fraud-81"], "theme": "Fraud goes inside", "topic": "Fintech security"}, {"date": "2026-10-22", "items": ["techcrunch-deepseek-15b"], "theme": "DeepSeek's $15B moment", "topic": "AI funding"}, {"date": "2026-10-22", "items": ["northjersey-php2shell"], "theme": "Patch week: PHP2Shell", "topic": "Vulnerabilities"}], "edition": "2026-10-22", "items": [{"author": "Emma Roth", "date": "2026-10-22", "headline": "Apple is rolling out a new “Made for iPhone Duo” badge in the App Store, and touts Netflix, Prime Video, Zoom, Word, and Outlook as Duo-optimized apps at launch", "id": "verge-iphone-duo-badge", "lane": null, "outlet": "The Verge", "time": "9:35 AM", "url": null}, {"date": "2026-10-22", "headline": "Developers bring new app experiences to iPhone Duo — the official partner announcement behind the Duo badge", "id": "apple-newsroom-iphone-duo", "outlet": "Apple Newsroom", "relatedTo": "verge-iphone-duo-badge", "time": "9:35 AM", "url": "https://www.apple.com/uk/newsroom/2026/10/developers-bring-incredible-new-app-experiences-to-iphone-duo/"}, {"author": null, "date": "2026-10-22", "headline": "Sources: the Pentagon quietly establishes the Technology Support Office (TSO), an agency to execute covert sabotage, cyberattacks, and supply chain disruptions", "id": "politico-pentagon-tso", "lane": "fraud", "outlet": "Politico", "time": "9:15 AM", "url": null}, {"author": "Elias Schisgall", "date": "2026-10-22", "headline": "1Password passes $500M in ARR, up from $400M in November 2025, driven by enterprise AI coding assistants and agents, and announces 1Password for Agents", "id": "wsj-1password-500m", "lane": "bug", "outlet": "Wall Street Journal", "time": "9:05 AM", "url": "https://www.wsj.com/tech/ai/1password-surpasses-500-million-in-revenue-as-ai-agents-drive-growth-903ccd4b"}, {"author": null, "date": "2026-10-22", "headline": "Ukraine says the abrupt throttling of US-funded Starshield grounded dozens of drones mid-flight, costing one unit $1M+, and halted some strikes for three days", "id": "nyt-starshield-ukraine", "lane": null, "outlet": "New York Times", "time": "8:55 AM", "url": null}, {"author": "John Reynolds", "date": "2026-10-22", "headline": "Enact, which develops full-stack tech for general-purpose robots, emerges from stealth with a $30M pre-seed from Mistral CEO Arthur Mensch, Yann LeCun, and more", "id": "techeu-enact-stealth", "lane": null, "outlet": "Tech.eu", "time": "8:50 AM", "url": null}, {"author": null, "date": "2026-10-22", "headline": "1Password for Agents lets personal AI agents log in without ever seeing the password — approval-based sign-in for agents from Meta, Anthropic, OpenAI, and others at launch", "id": "siliconangle-1password-agents", "lane": "bug", "outlet": "SiliconANGLE", "relatedTo": "wsj-1password-500m", "time": "9:05 AM", "url": "https://siliconangle.com/2026/10/22/1password-for-agents-lets-personal-ai-agents-log-in-without-ever-seeing-the-password/"}, {"id": "bybit-vara", "date": "2026-10-22", "time": "11:00 AM", "outlet": "Morningstar", "author": null, "headline": "Bybit Fintech FZE secures a VASP licence from Dubai's VARA for spot-trading exchange services, with derivatives to follow — announced via PR Newswire from its Dubai headquarters", "url": "https://www.morningstar.com/news/pr-newswire/20261022cn78814/bybit-secures-vara-licence-for-exchange-services-in-dubai", "lane": null}, {"id": "transunion-fraud-81", "date": "2026-10-22", "time": "10:30 AM", "outlet": "TransUnion", "author": null, "headline": "New global Top Fraud Trends Report: 81% of suspected digital fraud in H1 2026 struck existing customer relationships, with fraud losses near 7% of annual revenue — and nearly 1 in 5 outbound US business-to-consumer calls was spoofed", "url": "https://www.globenewswire.com/news-release/2026/10/22/3386320/0/en/81-of-suspected-digital-fraud-attacks-target-existing-customer-relationships-transunion-finds.html", "lane": "fraud"}, {"id": "northjersey-php2shell", "date": "2026-10-22", "time": "10:00 AM", "outlet": "NorthJersey.com", "author": "Lori Comstock", "headline": "NSA and CISA urge immediate patching for the PHP2Shell flaws (CVE-2026-109618/109619) as Wikipedia takes supporting services offline, 4chan goes read-only, and European government sites go dark for emergency fixes; Automattic says WordPress.com and Tumblr are protected", "url": "https://www.northjersey.com/story/news/2026/10/22/php-vulnerability-2026-affected-websites-security-risk/92379378007/", "lane": null}, {"id": "techcrunch-deepseek-15b", "date": "2026-10-22", "time": "9:11 AM", "outlet": "TechCrunch", "author": null, "headline": "DeepSeek raises ~$15B at a ~$74B pre-money valuation — one of China's biggest funding rounds ever, led by CATL and Tencent — two days after US federal civilian agencies were ordered to strip out DeepSeek's AI technology", "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/", "lane": null}, {"id": "fintechglobal-ultra-10m", "date": "2026-10-22", "time": "9:00 AM", "outlet": "FinTech Global", "author": null, "headline": "Ultra Security emerges from stealth with $10M in seed capital to build security tooling for autonomous AI agents — betting firms can keep their defences ahead of the agents", "url": null, "lane": "bug"}, {"id": "fintechglobal-lseg-octus", "date": "2026-10-22", "time": "8:30 AM", "outlet": "FinTech Global", "author": null, "headline": "London Stock Exchange Group strikes a $3.535B all-cash agreement to buy Octus, the New York-based credit intelligence, data and workflow specialist", "url": null, "lane": null}, {"id": "reuters-axios-banks", "date": "2026-10-22", "time": "8:00 AM", "outlet": "Reuters", "author": null, "headline": "Axios reports major US banks — Morgan Stanley, Bank of America, JPMorgan, Wells Fargo and Citi — are detecting unauthorized third-party AI agents inside customer accounts and moving to restrict access, with some agents acting beyond user instructions (Reuters notes it could not immediately verify the report)", "url": "https://www.reuters.com/legal/government/us-banks-detect-unauthorized-ai-agents-customer-accounts-axios-reports-2026-10-22/", "lane": "bug"}], "site": "GoldRang3r"}
+{
+  "cadenceET": [
+    "07:30 headlines",
+    "12:30 midday update",
+    "13:30 security + fintech summaries"
+  ],
+  "clusters": [
+    {
+      "date": "2026-10-22",
+      "items": [
+        "wsj-1password-500m",
+        "siliconangle-1password-agents",
+        "reuters-axios-banks",
+        "fintechglobal-ultra-10m"
+      ],
+      "theme": "Agents get the keys — 1Password's $500M moment",
+      "topic": "Security industry × AI agents"
+    },
+    {
+      "date": "2026-10-22",
+      "items": [
+        "politico-pentagon-tso",
+        "nyt-starshield-ukraine"
+      ],
+      "theme": "The statecraft layer",
+      "topic": "Cyber power, state level"
+    },
+    {
+      "date": "2026-10-22",
+      "items": [
+        "verge-iphone-duo-badge",
+        "apple-newsroom-iphone-duo"
+      ],
+      "theme": "Apple's foldable gets its badge",
+      "topic": "Platforms"
+    },
+    {
+      "date": "2026-10-22",
+      "items": [
+        "techeu-enact-stealth"
+      ],
+      "theme": "Stealth, exited",
+      "topic": "Startups & robotics"
+    },
+    {
+      "date": "2026-10-22",
+      "items": [
+        "bybit-vara",
+        "fintechglobal-lseg-octus"
+      ],
+      "theme": "Money moves",
+      "topic": "Fintech deals"
+    },
+    {
+      "date": "2026-10-22",
+      "items": [
+        "transunion-fraud-81"
+      ],
+      "theme": "Fraud goes inside",
+      "topic": "Fintech security"
+    },
+    {
+      "date": "2026-10-22",
+      "items": [
+        "techcrunch-deepseek-15b"
+      ],
+      "theme": "DeepSeek's $15B moment",
+      "topic": "AI funding"
+    },
+    {
+      "date": "2026-10-22",
+      "items": [
+        "northjersey-php2shell"
+      ],
+      "theme": "Patch week: PHP2Shell",
+      "topic": "Vulnerabilities"
+    },
+    {
+      "date": "2026-10-22",
+      "theme": "PHP2Shell: the patch emergency deepens",
+      "topic": "Summary — Tech Security",
+      "items": [
+        "tbsnews-php2shell-escalation",
+        "northjersey-php2shell"
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "theme": "SafePay: 600 victims, one joint advisory",
+      "topic": "Summary — Tech Security",
+      "items": [
+        "securityaffairs-safepay-600"
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "theme": "The AI supply chain's bad day",
+      "topic": "Summary — Tech Security",
+      "items": [
+        "itsecuritynews-roundup-1022"
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "theme": "Banks vs. the unauthorized agents",
+      "topic": "Summary — Fintech Security",
+      "items": [
+        "reuters-axios-banks"
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "theme": "CoinDCX's $16M ghost wallets",
+      "topic": "Summary — Fintech Security",
+      "items": [
+        "thenewscrypto-coindcx-16m"
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "theme": "The trojan that replaces your bank app",
+      "topic": "Summary — Fintech Security",
+      "items": [
+        "itsecuritynews-hirudo",
+        "transunion-fraud-81"
+      ]
+    }
+  ],
+  "edition": "2026-10-22",
+  "items": [
+    {
+      "author": "Emma Roth",
+      "date": "2026-10-22",
+      "headline": "Apple is rolling out a new “Made for iPhone Duo” badge in the App Store, and touts Netflix, Prime Video, Zoom, Word, and Outlook as Duo-optimized apps at launch",
+      "id": "verge-iphone-duo-badge",
+      "lane": null,
+      "outlet": "The Verge",
+      "time": "9:35 AM",
+      "url": null
+    },
+    {
+      "date": "2026-10-22",
+      "headline": "Developers bring new app experiences to iPhone Duo — the official partner announcement behind the Duo badge",
+      "id": "apple-newsroom-iphone-duo",
+      "outlet": "Apple Newsroom",
+      "relatedTo": "verge-iphone-duo-badge",
+      "time": "9:35 AM",
+      "url": "https://www.apple.com/uk/newsroom/2026/10/developers-bring-incredible-new-app-experiences-to-iphone-duo/"
+    },
+    {
+      "author": null,
+      "date": "2026-10-22",
+      "headline": "Sources: the Pentagon quietly establishes the Technology Support Office (TSO), an agency to execute covert sabotage, cyberattacks, and supply chain disruptions",
+      "id": "politico-pentagon-tso",
+      "lane": "fraud",
+      "outlet": "Politico",
+      "time": "9:15 AM",
+      "url": null
+    },
+    {
+      "author": "Elias Schisgall",
+      "date": "2026-10-22",
+      "headline": "1Password passes $500M in ARR, up from $400M in November 2025, driven by enterprise AI coding assistants and agents, and announces 1Password for Agents",
+      "id": "wsj-1password-500m",
+      "lane": "bug",
+      "outlet": "Wall Street Journal",
+      "time": "9:05 AM",
+      "url": "https://www.wsj.com/tech/ai/1password-surpasses-500-million-in-revenue-as-ai-agents-drive-growth-903ccd4b"
+    },
+    {
+      "author": null,
+      "date": "2026-10-22",
+      "headline": "Ukraine says the abrupt throttling of US-funded Starshield grounded dozens of drones mid-flight, costing one unit $1M+, and halted some strikes for three days",
+      "id": "nyt-starshield-ukraine",
+      "lane": null,
+      "outlet": "New York Times",
+      "time": "8:55 AM",
+      "url": null
+    },
+    {
+      "author": "John Reynolds",
+      "date": "2026-10-22",
+      "headline": "Enact, which develops full-stack tech for general-purpose robots, emerges from stealth with a $30M pre-seed from Mistral CEO Arthur Mensch, Yann LeCun, and more",
+      "id": "techeu-enact-stealth",
+      "lane": null,
+      "outlet": "Tech.eu",
+      "time": "8:50 AM",
+      "url": null
+    },
+    {
+      "author": null,
+      "date": "2026-10-22",
+      "headline": "1Password for Agents lets personal AI agents log in without ever seeing the password — approval-based sign-in for agents from Meta, Anthropic, OpenAI, and others at launch",
+      "id": "siliconangle-1password-agents",
+      "lane": "bug",
+      "outlet": "SiliconANGLE",
+      "relatedTo": "wsj-1password-500m",
+      "time": "9:05 AM",
+      "url": "https://siliconangle.com/2026/10/22/1password-for-agents-lets-personal-ai-agents-log-in-without-ever-seeing-the-password/"
+    },
+    {
+      "id": "bybit-vara",
+      "date": "2026-10-22",
+      "time": "11:00 AM",
+      "outlet": "Morningstar",
+      "author": null,
+      "headline": "Bybit Fintech FZE secures a VASP licence from Dubai's VARA for spot-trading exchange services, with derivatives to follow — announced via PR Newswire from its Dubai headquarters",
+      "url": "https://www.morningstar.com/news/pr-newswire/20261022cn78814/bybit-secures-vara-licence-for-exchange-services-in-dubai",
+      "lane": null
+    },
+    {
+      "id": "transunion-fraud-81",
+      "date": "2026-10-22",
+      "time": "10:30 AM",
+      "outlet": "TransUnion",
+      "author": null,
+      "headline": "New global Top Fraud Trends Report: 81% of suspected digital fraud in H1 2026 struck existing customer relationships, with fraud losses near 7% of annual revenue — and nearly 1 in 5 outbound US business-to-consumer calls was spoofed",
+      "url": "https://www.globenewswire.com/news-release/2026/10/22/3386320/0/en/81-of-suspected-digital-fraud-attacks-target-existing-customer-relationships-transunion-finds.html",
+      "lane": "fraud"
+    },
+    {
+      "id": "northjersey-php2shell",
+      "date": "2026-10-22",
+      "time": "10:00 AM",
+      "outlet": "NorthJersey.com",
+      "author": "Lori Comstock",
+      "headline": "NSA and CISA urge immediate patching for the PHP2Shell flaws (CVE-2026-109618/109619) as Wikipedia takes supporting services offline, 4chan goes read-only, and European government sites go dark for emergency fixes; Automattic says WordPress.com and Tumblr are protected",
+      "url": "https://www.northjersey.com/story/news/2026/10/22/php-vulnerability-2026-affected-websites-security-risk/92379378007/",
+      "lane": null
+    },
+    {
+      "id": "techcrunch-deepseek-15b",
+      "date": "2026-10-22",
+      "time": "9:11 AM",
+      "outlet": "TechCrunch",
+      "author": null,
+      "headline": "DeepSeek raises ~$15B at a ~$74B pre-money valuation — one of China's biggest funding rounds ever, led by CATL and Tencent — two days after US federal civilian agencies were ordered to strip out DeepSeek's AI technology",
+      "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
+      "lane": null
+    },
+    {
+      "id": "fintechglobal-ultra-10m",
+      "date": "2026-10-22",
+      "time": "9:00 AM",
+      "outlet": "FinTech Global",
+      "author": null,
+      "headline": "Ultra Security emerges from stealth with $10M in seed capital to build security tooling for autonomous AI agents — betting firms can keep their defences ahead of the agents",
+      "url": null,
+      "lane": "bug"
+    },
+    {
+      "id": "fintechglobal-lseg-octus",
+      "date": "2026-10-22",
+      "time": "8:30 AM",
+      "outlet": "FinTech Global",
+      "author": null,
+      "headline": "London Stock Exchange Group strikes a $3.535B all-cash agreement to buy Octus, the New York-based credit intelligence, data and workflow specialist",
+      "url": null,
+      "lane": null
+    },
+    {
+      "id": "reuters-axios-banks",
+      "date": "2026-10-22",
+      "time": "8:00 AM",
+      "outlet": "Reuters",
+      "author": null,
+      "headline": "Axios reports major US banks — Morgan Stanley, Bank of America, JPMorgan, Wells Fargo and Citi — are detecting unauthorized third-party AI agents inside customer accounts and moving to restrict access, with some agents acting beyond user instructions (Reuters notes it could not immediately verify the report)",
+      "url": "https://www.reuters.com/legal/government/us-banks-detect-unauthorized-ai-agents-customer-accounts-axios-reports-2026-10-22/",
+      "lane": "bug"
+    },
+    {
+      "id": "securityaffairs-safepay-600",
+      "date": "2026-10-22",
+      "time": "12:10 PM",
+      "outlet": "SecurityAffairs",
+      "author": null,
+      "headline": "CISA, FBI, US Secret Service and international law enforcement warn SafePay ransomware has breached 600+ critical infrastructure organizations since August 2024 — one of the most active operations of 2026",
+      "url": "https://securityaffairs.com/201464/cyber-crime/fbi-and-cisa-warn-of-safepay-ransomware-attacks-on-600-organizations.html",
+      "lane": "fraud"
+    },
+    {
+      "id": "tbsnews-php2shell-escalation",
+      "date": "2026-10-22",
+      "time": "1:15 PM",
+      "outlet": "TBS News",
+      "author": null,
+      "headline": "NSA and Britain's NCSC join the PHP2Shell alarm as emergency patching takes Wikimedia services and parts of the BBC offline; Wordfence warns updating WordPress alone won't fix it — the PHP runtime itself must be patched",
+      "url": "https://www.tbsnews.net/videos/tbs-english/php-security-vulnerability-triggers-global-cyber-alert-millions-websites-risk",
+      "lane": null
+    },
+    {
+      "id": "itsecuritynews-roundup-1022",
+      "date": "2026-10-22",
+      "time": "2:00 PM",
+      "outlet": "IT Security News",
+      "author": null,
+      "headline": "Overnight roundup: LiteLLM's release pipeline hacked to push credential-stealing malware; OpenCode silently patches a critical RCE without an advisory; GoDaddy revokes 404,607 TLS certificates; 333 Tor exit nodes hijacked to siphon traffic",
+      "url": "https://www.itsecuritynews.info/it-security-news-roundup-2026-10-22-overnight/",
+      "lane": null
+    },
+    {
+      "id": "thenewscrypto-coindcx-16m",
+      "date": "2026-10-22",
+      "time": "11:30 AM",
+      "outlet": "The News Crypto",
+      "author": null,
+      "headline": "CoinDCX denies a fresh $16M hack after on-chain investigators flag ~15.99M USDT and 5,784 TRX moving from CoinDCX-linked wallets; co-founder Sumit Gupta blames old wallets from the July 2025 breach, while ZachXBT says one deposit address stayed active until May 2026",
+      "url": "https://thenewscrypto.com/coindcx-rejects-new-16m-security-breach-claims-says-old-wallet-activity-is-unrelated/",
+      "lane": "fraud"
+    },
+    {
+      "id": "itsecuritynews-hirudo",
+      "date": "2026-10-22",
+      "time": "2:10 PM",
+      "outlet": "IT Security News",
+      "author": null,
+      "headline": "New Android banking Trojan 'Hirudo' deletes victims' genuine banking apps and installs tampered copies with the same name and version to slip past security checks",
+      "url": "https://www.itsecuritynews.info/new-android-malware-replaces-legitimate-banking-apps-with-malicious-copies-to-bypass-security-checks/",
+      "lane": "fraud"
+    }
+  ],
+  "site": "GoldRang3r"
+}
