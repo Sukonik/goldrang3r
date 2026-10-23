@@ -124,9 +124,56 @@
         "itsecuritynews-hirudo",
         "transunion-fraud-81"
       ]
+    },
+    {
+      "date": "2026-10-23",
+      "theme": "PHP2Shell: the exploit window opens",
+      "topic": "Vulnerabilities",
+      "items": [
+        "ai0-php2shell-exploited",
+        "tbsnews-php2shell-escalation",
+        "northjersey-php2shell"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "theme": "CoinDCX's $16M ghost wallets, confirmed",
+      "topic": "Fintech security",
+      "items": [
+        "hindubusinessline-coindcx-16m",
+        "thenewscrypto-coindcx-16m"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "theme": "OpenAI's record bridge round",
+      "topic": "AI funding",
+      "items": [
+        "techcrunch-openai-30b",
+        "techcrunch-deepseek-15b"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "theme": "Banking the bot economy",
+      "topic": "Security industry × AI agents",
+      "items": [
+        "coindesk-mural-15m",
+        "maglazana-mave-34m",
+        "fintechglobal-ultra-10m",
+        "wsj-1password-500m"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "theme": "Meta's $25B judgment",
+      "topic": "Platforms",
+      "items": [
+        "reuters-meta-25b"
+      ]
     }
   ],
-  "edition": "2026-10-22",
+  "edition": "2026-10-23",
   "items": [
     {
       "author": "Emma Roth",
@@ -317,6 +364,130 @@
       "headline": "New Android banking Trojan 'Hirudo' deletes victims' genuine banking apps and installs tampered copies with the same name and version to slip past security checks",
       "url": "https://www.itsecuritynews.info/new-android-malware-replaces-legitimate-banking-apps-with-malicious-copies-to-bypass-security-checks/",
       "lane": "fraud"
+    },
+    {
+      "id": "ai0-php2shell-exploited",
+      "date": "2026-10-23",
+      "time": "7:30 AM",
+      "outlet": "ai0.news",
+      "author": null,
+      "headline": "Amazon says the AI-found PHP2Shell flaws (CVE-2026-109618/109619) are \"now being broadly exploited in the wild\" — its decoy servers saw first attempts on October 17, four days before PHP shipped patches, and VirusTotal counts more than 5.1 million exposed PHP hosts (reported via BleepingComputer)",
+      "url": "https://ai0.news/posts/2026-10-23-daily-digest/",
+      "lane": null,
+      "relatedTo": "northjersey-php2shell"
+    },
+    {
+      "id": "inshorts-clinton-18mo",
+      "date": "2026-10-23",
+      "time": "12:53 AM",
+      "outlet": "Inshorts",
+      "author": null,
+      "headline": "Anthropic cybersecurity chief Jason Clinton warns software vulnerabilities \"will get worse before improving,\" telling organizations to \"hold on for 18 months\" — after which cheaper AI models should let developers stop shipping security bugs",
+      "url": "https://inshorts.com/en/news/things-are-going-to-get-worse--hold-on-for-18-months--anthropic-exec-on-cyber-threats-1792731200053",
+      "lane": null
+    },
+    {
+      "id": "cybernoz-emudhra",
+      "date": "2026-10-23",
+      "time": "7:30 AM",
+      "outlet": "Cybernoz",
+      "author": null,
+      "headline": "eMudhra, an Indian certificate authority, will exit its global SSL/TLS certificate business after eight intermediate CA keys were found easily guessable — the board decided five days after the disclosure",
+      "url": null,
+      "lane": null
+    },
+    {
+      "id": "cybernoz-nk-ddos",
+      "date": "2026-10-23",
+      "time": "7:30 AM",
+      "outlet": "Cybernoz",
+      "author": null,
+      "headline": "Multiple waves of DDoS attacks disrupted North Korea's internet infrastructure this week, intermittently knocking more than 40 official websites offline for about 32 hours",
+      "url": null,
+      "lane": null
+    },
+    {
+      "id": "hindubusinessline-coindcx-16m",
+      "date": "2026-10-23",
+      "time": "7:30 AM",
+      "outlet": "The Hindu BusinessLine",
+      "author": "Renil S Varghese",
+      "headline": "CoinDCX confirms an operational failure behind the ~$16M in flagged wallets: users kept depositing into deprecated wallets from its July 2025 breach while the sweep process failed — affected users were credited and the company absorbed the loss",
+      "url": "https://www.thehindubusinessline.com/multimedia/audio/bl-morning-report-top-business-amp-market-headlines-today-october-23-2026/article71613080.ece",
+      "lane": "fraud",
+      "relatedTo": "thenewscrypto-coindcx-16m"
+    },
+    {
+      "id": "techcrunch-openai-30b",
+      "date": "2026-10-23",
+      "time": "6:08 PM",
+      "outlet": "TechCrunch",
+      "author": null,
+      "headline": "OpenAI is nearing a $30B raise at a $1.25T pre-money valuation led by Coatue and UAE investors — a record for the most valuable private company ever, framed as an \"opportunistic\" bridge to a planned IPO (CNBC reporting)",
+      "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+      "lane": null,
+      "relatedTo": "techcrunch-deepseek-15b"
+    },
+    {
+      "id": "reuters-meta-25b",
+      "date": "2026-10-23",
+      "time": "7:30 AM",
+      "outlet": "Reuters",
+      "author": null,
+      "headline": "A New Mexico judge orders Meta to pay $25B after a jury found the company misled consumers in the Cambridge Analytica case — 43M+ consumer-protection violations, with the state calculating up to $219B before the judge reduced it; Meta says it will appeal",
+      "url": "https://www.reuters.com/business/meta-ordered-pay-25-billion-new-mexico-after-jury-finds-company-misled-consumers-2026-10-21/",
+      "lane": null
+    },
+    {
+      "id": "coinmarketcap-jpmorgan-solana",
+      "date": "2026-10-23",
+      "time": "7:30 AM",
+      "outlet": "CoinMarketCap",
+      "author": null,
+      "headline": "J.P. Morgan Asset Management brings its tokenized money market funds (MONY and JLTXX) to Solana for qualified US investors via Morgan Money — JLTXX is a registered government fund designed to support stablecoin issuers under the GENIUS Act",
+      "url": "https://coinmarketcap.com/academy/article/jpmorgan-tokenized-money-market-funds-solana",
+      "lane": null
+    },
+    {
+      "id": "coindesk-mural-15m",
+      "date": "2026-10-23",
+      "time": "7:30 AM",
+      "outlet": "CoinDesk",
+      "author": null,
+      "headline": "Tether leads a $15M Series A in Mural, the Palantir-alumni payments startup building compliant accounts for AI agents — $2.1B in payment volume since its 2025 API launch, with Deel and Opera as customers",
+      "url": "https://www.coindesk.com/business/2026/10/21/tether-leads-usd15-million-series-a-for-ai-focused-payment-startup-mural",
+      "lane": null,
+      "relatedTo": "fintechglobal-ultra-10m"
+    },
+    {
+      "id": "maglazana-mave-34m",
+      "date": "2026-10-23",
+      "time": "7:30 AM",
+      "outlet": "Maglazana",
+      "author": null,
+      "headline": "Israeli cybersecurity startup Mave emerges from stealth with $34M in total funding ($28M Series A led by Red Dot Capital Partners) to build AI agents that investigate attacks across a company's existing security tools",
+      "url": "https://www.maglazana.com/2026/10/23/cybersecurity-startup-mave-secures-34-million/",
+      "lane": "bug"
+    },
+    {
+      "id": "kucoin-nirva-25m",
+      "date": "2026-10-23",
+      "time": "7:30 AM",
+      "outlet": "KuCoin",
+      "author": null,
+      "headline": "AI wearable startup Nirva closes a $25M pre-A round (total $33M) for its always-listening AI pendant, built by former Meta Reality Labs employees — though it's still unclear whether voice processing happens locally or in the cloud (per TechCrunch)",
+      "url": "https://www.kucoin.com/news/flash/ai-wearable-startup-nirva-completes-25m-pre-a-round-total-funding-reaches-33m",
+      "lane": null
+    },
+    {
+      "id": "channelnews-musk-skydance",
+      "date": "2026-10-23",
+      "time": "7:30 AM",
+      "outlet": "ChannelNews",
+      "author": null,
+      "headline": "Elon Musk has reportedly taken a $1B stake in Skydance (TechCrunch) — leaving media and tech watchers wondering what it means for the future of the merged media giant",
+      "url": "https://channelnews.com/news/daily-signal-20261023",
+      "lane": null
     }
   ],
   "site": "GoldRang3r"
