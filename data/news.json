@@ -220,6 +220,49 @@
       "items": [
         "thehackernews-interpol-serengeti"
       ]
+    },
+    {
+      "date": "2026-10-23",
+      "theme": "The agent goes on offense",
+      "topic": "Summary — Tech Security",
+      "items": [
+        "secureresearch-daily-1023"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "theme": "Patch-week whiplash",
+      "topic": "Summary — Tech Security",
+      "items": [
+        "secureresearch-daily-1023"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "theme": "Breach watch: PwC's claim, Quest's 8-K",
+      "topic": "Summary — Tech Security",
+      "items": [
+        "itsecuritynews-everest-pwc",
+        "itsecuritynews-quest-8k"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "theme": "The money printers",
+      "topic": "Summary — Fintech Security",
+      "items": [
+        "cryptobriefing-initia-infinimint",
+        "crowdfundinsider-cysic-mint"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "theme": "CoinDCX: denial vs. the chain",
+      "topic": "Summary — Fintech Security",
+      "items": [
+        "coindesk-coindcx-cleanup",
+        "protos-coindcx-dispute"
+      ]
     }
   ],
   "edition": "2026-10-23",
@@ -610,6 +653,78 @@
       "headline": "Arista warns of a critical SQL injection zero-day in its VeloCloud Orchestrator being exploited in attacks (reported via The Hacker News)",
       "url": "https://www.aha.org/h-isac-white-reports/2026-10-23-h-isac-tlp-white-daily-cyber-headlines-october-23-2026",
       "lane": "bug"
+    },
+    {
+      "id": "secureresearch-daily-1023",
+      "date": "2026-10-23",
+      "time": "1:30 PM",
+      "outlet": "SecureResearch",
+      "author": null,
+      "headline": "Daily cyber brief: Microsoft attributes the ConnectWise Cloud Backup compromise to China-linked Storm-0940, which used the ARTEX agentic AI framework against 2,250+ Microsoft 365 tenants; GitLab patches a CVSS 10.0 unauthenticated RCE; CISA adds 20 KEV entries; Oracle's October CPU fixes 1,209 CVEs",
+      "url": "https://secureresearch.com/briefings/2026-10-23.html",
+      "lane": null
+    },
+    {
+      "id": "cryptobriefing-initia-infinimint",
+      "date": "2026-10-23",
+      "time": "1:30 PM",
+      "outlet": "Crypto Briefing",
+      "author": null,
+      "headline": "Hacker exploits an \"infinimint\" flaw on Initia Chain, minting uncapped tokens and cashing out roughly $2.6M before detection (per security researcher Spreek); Initia had not responded at report time",
+      "url": "https://cryptobriefing.com/hacker-mints-tokens-initia-chain-exploit/",
+      "lane": "fraud"
+    },
+    {
+      "id": "crowdfundinsider-cysic-mint",
+      "date": "2026-10-23",
+      "time": "1:30 PM",
+      "outlet": "Crowdfund Insider",
+      "author": null,
+      "headline": "Cysic halts its cross-chain bridge after an attacker minted 10M unauthorized CYS tokens on Smart Chain — 7.2M sold before the project blacklisted the address and froze the remaining ~2.8M",
+      "url": "https://www.crowdfundinsider.com/2026/10/319464-cysic-halts-cross-chain-bridge-after-unauthorized-mint-of-10-million-cys-tokens/",
+      "lane": "fraud"
+    },
+    {
+      "id": "coindesk-coindcx-cleanup",
+      "date": "2026-10-23",
+      "time": "1:30 PM",
+      "outlet": "CoinDesk",
+      "author": null,
+      "headline": "CoinDCX denies a fresh $16M hack, blaming a broken cleanup job that left user deposits flowing into deprecated July-2025 wallets — insists no user funds are at risk",
+      "url": "https://www.coindesk.com/markets/2026/10/23/india-s-largest-exchange-denies-hack-after-blockchain-sleuths-pointed-to-usd16-million-in-suspicious-outflows",
+      "lane": "fraud",
+      "relatedTo": "thenewscrypto-coindcx-16m"
+    },
+    {
+      "id": "protos-coindcx-dispute",
+      "date": "2026-10-23",
+      "time": "1:30 PM",
+      "outlet": "Protos",
+      "author": null,
+      "headline": "Blockchain investigators dispute CoinDCX's explanation of the $16M movements, with one investigator accusing the exchange of misrepresentation; ZachXBT says a \"dead\" deposit address stayed active into May 2026",
+      "url": "https://protos.com/crypto-exchange-coindcx-lying-about-16m-hack-say-blockchain-investigators/",
+      "lane": "fraud",
+      "relatedTo": "thenewscrypto-coindcx-16m"
+    },
+    {
+      "id": "itsecuritynews-everest-pwc",
+      "date": "2026-10-23",
+      "time": "1:30 PM",
+      "outlet": "IT Security News",
+      "author": null,
+      "headline": "Everest ransomware group claims to have stolen 590.69 GB of data from PwC — claim unconfirmed",
+      "url": null,
+      "lane": "fraud"
+    },
+    {
+      "id": "itsecuritynews-quest-8k",
+      "date": "2026-10-23",
+      "time": "1:30 PM",
+      "outlet": "IT Security News",
+      "author": null,
+      "headline": "Quest Diagnostics discloses unauthorized access to its Quanum LSM system — the portal clients use to place test orders and look up results — via an SEC 8-K filing",
+      "url": null,
+      "lane": "fraud"
     }
   ],
   "site": "GoldRang3r"
