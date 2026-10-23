@@ -150,7 +150,8 @@
       "topic": "AI funding",
       "items": [
         "techcrunch-openai-30b",
-        "techcrunch-deepseek-15b"
+        "techcrunch-deepseek-15b",
+        "inshorts-openai-cut"
       ]
     },
     {
@@ -170,6 +171,54 @@
       "topic": "Platforms",
       "items": [
         "reuters-meta-25b"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "theme": "Daytona's $1B agent cloud",
+      "topic": "Startups × AI agents",
+      "items": [
+        "techcrunch-daytona-1b"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "theme": "Anthropic's IPO windfalls",
+      "topic": "AI funding",
+      "items": [
+        "techcrunch-anthropic-backers"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "theme": "Solidigm's IPO, on hold",
+      "topic": "Tech markets",
+      "items": [
+        "techinsider-solidigm-ipo"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "theme": "Pillow's $436M-a-month patch day",
+      "topic": "Vulnerabilities",
+      "items": [
+        "thehackernews-pillow-112900"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "theme": "VeloCloud's zero-day in the wild",
+      "topic": "Vulnerabilities",
+      "items": [
+        "ahaisac-arista-velocloud"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "theme": "Serengeti III: the takedown",
+      "topic": "Law enforcement",
+      "items": [
+        "thehackernews-interpol-serengeti"
       ]
     }
   ],
@@ -488,6 +537,79 @@
       "headline": "Elon Musk has reportedly taken a $1B stake in Skydance (TechCrunch) — leaving media and tech watchers wondering what it means for the future of the merged media giant",
       "url": "https://channelnews.com/news/daily-signal-20261023",
       "lane": null
+    },
+    {
+      "id": "techcrunch-daytona-1b",
+      "date": "2026-10-23",
+      "time": "12:26 PM",
+      "outlet": "TechCrunch",
+      "author": null,
+      "headline": "Daytona raises a $60M Series B at a $1B valuation led by FirstMark to build a cloud for long-running AI agents — angels include Stripe's Patrick Collison, Shopify's Tobi Lütke, Perplexity's Aravind Srinivas, Zoom's Eric Yuan, Datadog's Olivier Pomel and Quora's Adam D'Angelo",
+      "url": "https://techcrunch.com/2026/10/23/agent-cloud-startup-daytona-hits-1b-valuation-backed-by-firstmark-and-a-whos-who-of-angels/",
+      "lane": null,
+      "relatedTo": "maglazana-mave-34m"
+    },
+    {
+      "id": "techcrunch-anthropic-backers",
+      "date": "2026-10-23",
+      "time": "12:02 PM",
+      "outlet": "TechCrunch",
+      "author": null,
+      "headline": "Bloomberg pegs what Anthropic's backers stand to be worth ahead of a possible $2T IPO: Eric Schmidt's ~1% stake near $10B, Iconiq's $6B bet now worth $17B, Menlo's stake $14B, and Sequoia's $3B bet already more than doubled",
+      "url": "https://techcrunch.com/2026/10/23/what-some-of-anthropics-backers-are-reportedly-worth-before-its-ipo/",
+      "lane": null,
+      "relatedTo": "techcrunch-openai-30b"
+    },
+    {
+      "id": "inshorts-openai-cut",
+      "date": "2026-10-23",
+      "time": "10:30 AM",
+      "outlet": "Inshorts",
+      "author": null,
+      "headline": "OpenAI has cut its valuation target by $150B to $1.25T while negotiating the up-to-$30B round ahead of its planned IPO — down from a previously discussed $1.4T, as investors scrutinize AI infrastructure spending (per Livemint)",
+      "url": "https://inshorts.com/en/news/openai-cuts-valuation-target-by--150-billion-ahead-of-ipo-1792740758618",
+      "lane": null,
+      "relatedTo": "techcrunch-openai-30b"
+    },
+    {
+      "id": "thehackernews-pillow-112900",
+      "date": "2026-10-23",
+      "time": "10:00 AM",
+      "outlet": "The Hacker News",
+      "author": "Swati Khandelwal",
+      "headline": "Critical flaw in Python's Pillow image library (CVE-2026-112900): an attacker-controlled EPS filename is passed to Ghostscript unchecked, enabling operating-system command execution — fixed in 13.0.0; the GitHub-assigned CVE scores it 9.2 while Pillow's maintainers rate it moderate",
+      "url": "http://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
+      "lane": null
+    },
+    {
+      "id": "thehackernews-interpol-serengeti",
+      "date": "2026-10-23",
+      "time": "9:00 AM",
+      "outlet": "The Hacker News",
+      "author": "Ravie Lakshmanan",
+      "headline": "INTERPOL announces Operation Serengeti III: 1,462 suspects arrested across 21 countries and 10,909 malicious networks disrupted between June 29 and August 31 — targeting ransomware, business email compromise, phishing, crypto mining and investment scams, with $105M+ in illicit funds recovered",
+      "url": "https://thehackernews.com/2026/10/interpol-arrests-1462-suspects-disrupts.html",
+      "lane": "fraud"
+    },
+    {
+      "id": "techinsider-solidigm-ipo",
+      "date": "2026-10-23",
+      "time": "8:30 AM",
+      "outlet": "Tech Insider",
+      "author": null,
+      "headline": "SK hynix suspends review of a US IPO for its American subsidiary Solidigm, citing market conditions and semiconductor-stock volatility — while insisting it still needs capital for the new US fab and will keep exploring other financing",
+      "url": "https://tech-insider.org/sk-hynix-solidigm-us-ipo-on-hold-dual-listing-2026/",
+      "lane": null
+    },
+    {
+      "id": "ahaisac-arista-velocloud",
+      "date": "2026-10-23",
+      "time": "8:00 AM",
+      "outlet": "H-ISAC (AHA)",
+      "author": null,
+      "headline": "Arista warns of a critical SQL injection zero-day in its VeloCloud Orchestrator being exploited in attacks (reported via The Hacker News)",
+      "url": "https://www.aha.org/h-isac-white-reports/2026-10-23-h-isac-tlp-white-daily-cyber-headlines-october-23-2026",
+      "lane": "bug"
     }
   ],
   "site": "GoldRang3r"
