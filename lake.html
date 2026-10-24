@@ -75,6 +75,55 @@
         <p class="feed__date">Saturday, October 24, 2026</p>
 
         <article class="cluster">
+          <p class="cluster__meta">Cluster · Summary — Tech Security</p>
+          <h2 class="cluster__title">PHP2Shell's <span class="accent">second act</span></h2>
+          <ul class="cluster__items">
+            <li><b>Cyber Recaps:</b> <a href="https://cyberrecaps.com/news/cybersecurity-news-october-24-2026">PHP's crisis didn't end with the emergency patch. Days after the October 21 fixes, PHP disclosed a second, still-unpatched remote-code path tied to session upload progress — narrower than the first flaws, since it needs a runtime handler switch, but a reminder that the first patch round wasn't the whole story.</a></li>
+            <li><b>SecurityWeek:</b> <a href="https://www.securityweek.com/mirai-botnet-operators-join-php2shell-attacks-as-aslr-bypass-exploits-emerge/">Meanwhile Mirai's operators have joined the original PHP2Shell attacks, trying to seed a botnet variant</a> <span class="feed__note">(no successful in-the-wild compromise confirmed so far)</span>; <b>Nordisk Post:</b> <a href="https://www.nordiskpost.com/2026/10/24/danish-websites-php-security-updates/">and in Denmark more than 21,000 websites still hadn't applied the security updates days after disclosure.</a> The pattern of the week: the exploit window stays open long after the patch ships, because the long tail of unpatched servers is where the damage happens.</li>
+          </ul>
+        </article>
+
+        <article class="cluster">
+          <p class="cluster__meta">Cluster · Summary — Tech Security</p>
+          <h2 class="cluster__title">Japan's <span class="accent">record breach week</span></h2>
+          <ul class="cluster__items">
+            <li><b>Japan Cyber Watch:</b> <a href="https://japancyberwatch.com/articles/japan-cyber-week-2026-10-24">Japan just had its worst breach week on record, by the numbers. Sagawa Express put its incident at up to 53 million records and Capcom at 11.77 million accounts, while the PHP flaw knocked company, municipal and even prime-ministerial sites offline.</a> Tokyo's response, per the same report, includes plans for a government AI penetration-testing team — a sign that breach response is becoming a standing capability, not a one-off cleanup. For anyone tracking scale: this single week dwarfs most countries' annual breach totals.</li>
+          </ul>
+        </article>
+
+        <article class="cluster">
+          <p class="cluster__meta">Cluster · Summary — Tech Security</p>
+          <h2 class="cluster__title">The state-actor map, <span class="accent">redrawn</span></h2>
+          <ul class="cluster__items">
+            <li><b>CyberGeoDigest:</b> <a href="https://cybergeodigest.com/archive/2026-10-24.html">Saturday's threat briefing reads like a map of the world's intelligence priorities. Russia's APT28 targeted NATO defense firms, China-linked APT41 planted a UEFI bootkit called BlackX against Central Asian diplomatic targets, Tor exit relays were hijacked, PingCAP's source code was stolen, and self-rebuilding macOS ransomware surfaced.</a> The same briefing flags Microsoft's finding that AI model-routing library LiteLLM was backdoored to steal credentials — the AI supply chain is now a first-class target, not a side note. The through-line: firmware, anonymity networks and AI tooling are all in play at once.</li>
+          </ul>
+        </article>
+
+        <article class="cluster">
+          <p class="cluster__meta">Cluster · Summary — Fintech Security</p>
+          <h2 class="cluster__title">The notification that <span class="accent">stole $2.56M</span></h2>
+          <ul class="cluster__items">
+            <li><b>The Currency Analytics:</b> <a href="https://thecurrencyanalytics.com/digital-wallet/ngrave-liquid-notification-phishing-attack-305841">The most expensive push notification of the week cost NGRAVE's LIQUID wallet users at least $2.56 million. Attackers compromised the third-party provider that sends LIQUID's alerts, pushed a fake security warning to customers, and steered them to a lookalike page where entering a recovery phrase handed over the keys.</a> Roughly 70 addresses were drained across four chains — about $1.77M in Bitcoin, $454K in XRP, $316K in Ethereum assets and $18K in Stellar. The lesson travels beyond one wallet: any trusted alert channel can become the phish, and no legitimate wallet will ever ask for your seed phrase.</li>
+          </ul>
+        </article>
+
+        <article class="cluster">
+          <p class="cluster__meta">Cluster · Summary — Fintech Security</p>
+          <h2 class="cluster__title">The <span class="accent">$39B dragnet</span></h2>
+          <ul class="cluster__items">
+            <li><b>Bitcoin.com:</b> <a href="https://news.bitcoin.com/crypto-news/uae-led-coalition-exposes-39-billion-in-crypto-fraud-960-arrested/">A UAE-led coalition of 30 countries just posted the largest anti-scam numbers of the year: 123 million fraud attempts thwarted over three months, 960 arrests, 29 fraud centers raided, 4,000 bank accounts closed, and $39 billion in fraud-linked assets identified.</a> Private partners including Huawei, Mastercard and Meta joined the operation, which also secured $12 billion in tokenized transfers. Set against FinCEN's warning this week — US digital-asset scam losses up from $907M in 2021 to $7.2B in 2025 — the dragnet shows enforcement scaling up, but so is the scam economy it's chasing.</li>
+          </ul>
+        </article>
+
+        <article class="cluster">
+          <p class="cluster__meta">Cluster · Summary — Fintech Security</p>
+          <h2 class="cluster__title">Stolen coins <span class="accent">don't sit still</span></h2>
+          <ul class="cluster__items">
+            <li><b>CryptoNews:</b> <a href="https://cryptonews.net/news/security/33643959/">On-chain watchers tracked $19.48 million moving out of wallets tied to the Bitget hack, across 52 transfers</a> <span class="feed__note">(via Arkham)</span>. <b>TokenPost:</b> <a href="https://www.tokenpost.com/news/regulation/40013">The movement lands the same day a suspect in a Cambodia-based crypto investment scam appeared in a US federal court after extradition from the Netherlands, with 174 identified US victims.</a> The two stories are the same race from opposite ends: stolen funds keep moving through the system while investigators and prosecutors try to close the distance. For exchanges and users alike, the window between theft and laundering keeps shrinking.</li>
+          </ul>
+        </article>
+
+        <article class="cluster">
           <p class="cluster__meta">Cluster · Vulnerabilities</p>
           <h2 class="cluster__title">KEV week, continued: <span class="accent">two more flaws, actively exploited</span></h2>
           <ul class="cluster__items">

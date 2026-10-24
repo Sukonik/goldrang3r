@@ -70,6 +70,57 @@
       ]
     },
     {
+      "date": "2026-10-24",
+      "theme": "PHP2Shell's second act",
+      "topic": "Summary — Tech Security",
+      "items": [
+        "cyberrecaps-php-rce2",
+        "securityweek-mirai-php2shell",
+        "nordiskpost-denmark-php"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "theme": "Japan's record breach week",
+      "topic": "Summary — Tech Security",
+      "items": [
+        "japancyberwatch-week"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "theme": "The state-actor map, redrawn",
+      "topic": "Summary — Tech Security",
+      "items": [
+        "cybergeodigest-apt-1024"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "theme": "The notification that stole $2.56M",
+      "topic": "Summary — Fintech Security",
+      "items": [
+        "ngrave-liquid-phishing"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "theme": "The $39B dragnet",
+      "topic": "Summary — Fintech Security",
+      "items": [
+        "bitcoin-uae-fraud-coalition"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "theme": "Stolen coins don't sit still",
+      "topic": "Summary — Fintech Security",
+      "items": [
+        "cryptonews-bitget-wallets",
+        "tokenpost-doj-cambodia"
+      ]
+    },
+    {
       "date": "2026-10-23",
       "theme": "PHP2Shell: the exploit window opens",
       "topic": "Vulnerabilities",
@@ -849,6 +900,46 @@
       "headline": "AI compliance platform Readily raises an $11 million Series A, announced October 24, to map complex regulatory requirements directly to internal company policies and automate audit tracking for health plans",
       "url": "https://wearemainstreet.org/world/us/ca/san-francisco/2026/10/24/ai-compliance-platform-raises-11-million",
       "lane": null
+    },
+    {
+      "id": "nordiskpost-denmark-php",
+      "date": "2026-10-24",
+      "time": "1:30 PM",
+      "outlet": "Nordisk Post",
+      "author": null,
+      "headline": "Over 21,000 Danish websites still lack PHP security updates days after disclosure, with small and medium businesses hit hardest; Denmark's Aula school platform and Meteorological Institute services were among those taken offline as a precaution",
+      "url": "https://www.nordiskpost.com/2026/10/24/danish-websites-php-security-updates/",
+      "lane": "bug"
+    },
+    {
+      "id": "ngrave-liquid-phishing",
+      "date": "2026-10-24",
+      "time": "1:30 PM",
+      "outlet": "The Currency Analytics",
+      "author": "Steven Anderson",
+      "headline": "NGRAVE details a $2.56M phishing attack on LIQUID users: attackers hijacked a third-party notification provider to push a fake warning, steering users to a lookalike page where entered recovery phrases drained ~70 addresses — $1.77M BTC, $454K XRP, $316K ETH assets, $18K XLM",
+      "url": "https://thecurrencyanalytics.com/digital-wallet/ngrave-liquid-notification-phishing-attack-305841",
+      "lane": "fraud"
+    },
+    {
+      "id": "bitcoin-uae-fraud-coalition",
+      "date": "2026-10-24",
+      "time": "1:30 PM",
+      "outlet": "Bitcoin.com",
+      "author": null,
+      "headline": "UAE-led coalition of 30 nations exposes $39B in crypto fraud: 960 arrested, 29 fraud centers raided, 4,000 bank accounts closed, 123M+ fraud attempts thwarted in a three-month operation with Huawei, Mastercard and Meta among private partners",
+      "url": "https://news.bitcoin.com/crypto-news/uae-led-coalition-exposes-39-billion-in-crypto-fraud-960-arrested/",
+      "lane": "fraud"
+    },
+    {
+      "id": "cryptonews-bitget-wallets",
+      "date": "2026-10-24",
+      "time": "1:30 PM",
+      "outlet": "CryptoNews.net",
+      "author": null,
+      "headline": "Arkham tracks $19.48M in 52 transfers from wallets tied to the Bitget hack, as stolen September funds move again in size",
+      "url": "https://cryptonews.net/news/security/33643959/",
+      "lane": "fraud"
     }
   ],
   "site": "GoldRang3r"
