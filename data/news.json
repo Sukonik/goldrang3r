@@ -7,12 +7,46 @@
   "clusters": [
     {
       "date": "2026-10-24",
+      "theme": "The Cambodia scam case reaches a US court",
+      "topic": "Fintech security",
+      "items": [
+        "tokenpost-doj-cambodia"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "theme": "Japan's record breach week",
+      "topic": "Breaches",
+      "items": [
+        "japancyberwatch-week"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "theme": "APT28, APT41 and the week's threat map",
+      "topic": "Threat intelligence",
+      "items": [
+        "cybergeodigest-apt-1024"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "theme": "Startups beyond the funding wrap",
+      "topic": "Startups",
+      "items": [
+        "startupfeed-stpi",
+        "mainstreet-readily-11m"
+      ]
+    },
+    {
+      "date": "2026-10-24",
       "theme": "KEV week, continued: two more flaws, actively exploited",
       "topic": "Vulnerabilities",
       "items": [
         "thn-cisa-kev-1024",
         "securityweek-mirai-php2shell",
-        "thn-node2shell"
+        "thn-node2shell",
+        "cyberrecaps-php-rce2"
       ]
     },
     {
@@ -754,6 +788,66 @@
       "author": null,
       "headline": "Vivo confirms its Y600 smartphone launches in China on October 30 with a 10,000mAh battery as its headline feature, a square rear camera module, and pre-orders opening October 26",
       "url": "https://www.gizbot.com/mobile/news/vivo-y600-launching-on-october-30-10-000mah-battery-design-and-other-details-revealed-129395.html",
+      "lane": null
+    },
+    {
+      "id": "cyberrecaps-php-rce2",
+      "date": "2026-10-24",
+      "time": "12:30 PM",
+      "outlet": "Cyber Recaps",
+      "author": null,
+      "headline": "PHP warns of a second unpatched remote-code-execution path after PHP2Shell — a session-upload-progress route that needs the serialize handler switched at runtime, not fixed by the October 21 patches, with no exploitation of the new path reported",
+      "url": "https://cyberrecaps.com/news/cybersecurity-news-october-24-2026",
+      "lane": "bug"
+    },
+    {
+      "id": "tokenpost-doj-cambodia",
+      "date": "2026-10-24",
+      "time": "12:30 PM",
+      "outlet": "TokenPost",
+      "author": null,
+      "headline": "The US Justice Department says a Chinese national accused of taking part in a Cambodia-based crypto investment scam was extradited from the Netherlands to the US and appeared in federal court on October 24 — 174 identified US victims, arraignment set for November 30",
+      "url": "https://www.tokenpost.com/news/regulation/40013",
+      "lane": "fraud"
+    },
+    {
+      "id": "japancyberwatch-week",
+      "date": "2026-10-24",
+      "time": "12:30 PM",
+      "outlet": "Japan Cyber Watch",
+      "author": null,
+      "headline": "Japan's breach week sets records: Sagawa Express puts its breach at up to 53 million records, Capcom at 11.77 million accounts, and the PHP flaw takes company, municipal and prime-ministerial sites offline as the government plans an AI penetration-testing team",
+      "url": "https://japancyberwatch.com/articles/japan-cyber-week-2026-10-24",
+      "lane": null
+    },
+    {
+      "id": "cybergeodigest-apt-1024",
+      "date": "2026-10-24",
+      "time": "12:30 PM",
+      "outlet": "CyberGeoDigest",
+      "author": null,
+      "headline": "Saturday threat briefing: Russia's APT28 targeted NATO defense firms, China-linked APT41 deployed the BlackX UEFI bootkit against Central Asian diplomatic targets, Tor exit relays were hijacked, PingCAP source code was stolen, and self-rebuilding macOS ransomware emerged",
+      "url": "https://cybergeodigest.com/archive/2026-10-24.html",
+      "lane": "bug"
+    },
+    {
+      "id": "startupfeed-stpi",
+      "date": "2026-10-24",
+      "time": "12:30 PM",
+      "outlet": "StartupFeed",
+      "author": null,
+      "headline": "India's STPI opens a 30,000 sq ft startup incubation centre in Dehradun on October 24 for Uttarakhand's 1,700+ recognised startups — its NGIS scheme has given 17 Dehradun-linked startups Rs 4.25 crore in seed funding",
+      "url": "https://startupfeed.in/stpi-dehradun-incubation-centre-30000-sq-ft/",
+      "lane": null
+    },
+    {
+      "id": "mainstreet-readily-11m",
+      "date": "2026-10-24",
+      "time": "12:30 PM",
+      "outlet": "We Are Main Street",
+      "author": null,
+      "headline": "AI compliance platform Readily raises an $11 million Series A, announced October 24, to map complex regulatory requirements directly to internal company policies and automate audit tracking for health plans",
+      "url": "https://wearemainstreet.org/world/us/ca/san-francisco/2026/10/24/ai-compliance-platform-raises-11-million",
       "lane": null
     }
   ],
