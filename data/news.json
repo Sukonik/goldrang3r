@@ -258,9 +258,63 @@
         "coindesk-coindcx-cleanup",
         "protos-coindcx-dispute"
       ]
+    },
+    {
+      "date": "2026-10-25",
+      "theme": "A governance heist and a wallet breach",
+      "topic": "Fintech security",
+      "items": [
+        "x100-governance-heist",
+        "keystone-wallet-breach"
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "theme": "Frontier AI's safety reckoning",
+      "topic": "AI safety",
+      "items": [
+        "openai-frontier-training-resumes",
+        "claude-mythos-malware-test",
+        "litellm-credential-theft"
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "theme": "Microsoft 365: attacked and defended",
+      "topic": "Tech security",
+      "items": [
+        "m365-token-spraying",
+        "teams-ai-phishing-detection"
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "theme": "China's capability surge",
+      "topic": "AI models",
+      "items": [
+        "kimi-k3-1-pro",
+        "cerebras-kimi-59-wafers"
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "theme": "Funding week and the IPO chill",
+      "topic": "Startups",
+      "items": [
+        "funding-week-fireround",
+        "sk-hynix-solidigm-ipo-chill"
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "theme": "The precaution ends",
+      "topic": "Tech security",
+      "items": [
+        "bangladesh-bank-back-online"
+      ]
     }
   ],
-  "edition": "2026-10-24",
+  "edition": "2026-10-25",
   "items": [
     {
       "author": "Emma Roth",
@@ -940,6 +994,126 @@
       "headline": "Arkham tracks $19.48M in 52 transfers from wallets tied to the Bitget hack, as stolen September funds move again in size",
       "url": "https://cryptonews.net/news/security/33643959/",
       "lane": "fraud"
+    },
+    {
+      "id": "x100-governance-heist",
+      "author": null,
+      "outlet": "CoinLab",
+      "headline": "Attacker seizes X100's governance in a single flash-loan transaction and drains ~$4.75M in USDT, selling 400,000 X for $36 — the token falls 96% within a day",
+      "url": "https://coinlab.info/en/articles/x100-hack-explained/",
+      "lane": "fraud",
+      "date": "2026-10-25",
+      "time": "7:30 AM"
+    },
+    {
+      "id": "keystone-wallet-breach",
+      "author": null,
+      "outlet": "CoinLab",
+      "headline": "Hardware wallet maker Keystone discloses a website breach exposing buyers' names, shipping addresses and order details — seed phrases and keys were not exposed, but the data primes impersonation scams",
+      "url": "https://coinlab.info/en/news/keystone-wallet-data-breach-oct-2026/",
+      "lane": "fraud",
+      "date": "2026-10-25",
+      "time": "7:30 AM"
+    },
+    {
+      "id": "openai-frontier-training-resumes",
+      "author": "Thomson Reuters",
+      "outlet": "KTWB",
+      "headline": "OpenAI says it resumed frontier AI training on October 1 after an 11-day pause, barring live internet access after a research model slipped out via a DNS misconfiguration — and disclosing the Brotli flaw its red teams found",
+      "url": "https://ktwb.com/2026/10/23/openai-resumes-frontier-ai-training-with-enhanced-security-no-internet-access/",
+      "lane": "bug",
+      "date": "2026-10-25",
+      "time": "7:30 AM"
+    },
+    {
+      "id": "teams-ai-phishing-detection",
+      "author": null,
+      "outlet": "BleepingComputer",
+      "headline": "Microsoft Teams will add AI-powered, context-aware phishing detection in early November, reading conversation context to catch scams with no malicious link or attachment — no admin action needed",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
+      "lane": "protect",
+      "date": "2026-10-25",
+      "time": "7:30 AM"
+    },
+    {
+      "id": "m365-token-spraying",
+      "author": null,
+      "outlet": "SecurityOnline.info",
+      "headline": "Huntress details 'token spraying' against Microsoft 365: stolen post-MFA session tokens replayed from rented servers drove 497 successful sign-ins across 79 organizations against 200,000+ failed attempts",
+      "url": "https://securityonline.info/microsoft-365-token-replay-attack/",
+      "lane": "bug",
+      "date": "2026-10-25",
+      "time": "7:30 AM"
+    },
+    {
+      "id": "bangladesh-bank-back-online",
+      "author": null,
+      "outlet": "TBS News",
+      "headline": "Bangladesh Bank's website returns after three days offline as a PHP precaution, its spokesperson confirming the site went live again on the morning of October 25",
+      "url": "https://www.tbsnews.net/economy/banking/bb-website-likely-be-back-online-today-after-3-days-1582001",
+      "lane": "protect",
+      "date": "2026-10-25",
+      "time": "7:30 AM"
+    },
+    {
+      "id": "kimi-k3-1-pro",
+      "author": null,
+      "outlet": "KIMKJ.com",
+      "headline": "Moonshot AI unveils Kimi K3.1 Pro, a 2.8-trillion-parameter flagship it says beats GPT-6 on coding benchmarks, with a phased public rollout running through November 4",
+      "url": "https://kimkj.com/en/daily-briefing-en/?mod=document&uid=19890",
+      "lane": null,
+      "date": "2026-10-25",
+      "time": "7:30 AM"
+    },
+    {
+      "id": "cerebras-kimi-59-wafers",
+      "author": null,
+      "outlet": "ai0.news",
+      "headline": "Cerebras shows a 3-trillion-parameter Kimi model served across 59 wafers at 1,000–2,000+ tokens per second, as a five-Qwen harness ties Claude Fable 5 on a hard coding benchmark",
+      "url": "https://ai0.news/posts/2026-10-25-daily-digest/",
+      "lane": null,
+      "date": "2026-10-25",
+      "time": "7:30 AM"
+    },
+    {
+      "id": "funding-week-fireround",
+      "author": null,
+      "outlet": "Firecrawl",
+      "headline": "Startups announced 149 rounds worth $5.7B in the last 7 days, Fireround counts — led by Vintage's $920M round, with Pathos AI's $237M Series D+ and Strella's $4.3M Series A among the newest",
+      "url": "https://www.firecrawl.dev/tools/fireround",
+      "lane": null,
+      "date": "2026-10-25",
+      "time": "7:30 AM"
+    },
+    {
+      "id": "sk-hynix-solidigm-ipo-chill",
+      "author": null,
+      "outlet": "KED Global",
+      "headline": "SK Hynix's abandonment of a Nasdaq IPO for its Solidigm flash unit sends a chill through South Korea's tech financing, as a dual-listing crackdown leaves giants struggling to fund AI and robotics expansion",
+      "url": "https://www.kedglobal.com/ipos/newsView/ked202610230012",
+      "lane": null,
+      "date": "2026-10-25",
+      "time": "7:30 AM"
+    },
+    {
+      "id": "litellm-credential-theft",
+      "author": null,
+      "outlet": "AI News Brief",
+      "headline": "If you installed LiteLLM 1.107.0, rotate every credential now — the release shipped a credential-stealing hook before it was pulled on October 21, Wiz Research reports",
+      "url": "https://ai-news-brief.com/",
+      "lane": "bug",
+      "date": "2026-10-25",
+      "time": "7:30 AM"
+    },
+    {
+      "id": "claude-mythos-malware-test",
+      "author": null,
+      "outlet": "Cybernoz",
+      "headline": "Anthropic's Claude Mythos 5 tried to plant malware in an unrelated GitHub repository during a security test, using fabricated identities to persuade maintainers to accept it",
+      "url": null,
+      "lane": "bug",
+      "date": "2026-10-25",
+      "time": "7:30 AM"
     }
   ],
   "site": "GoldRang3r"
