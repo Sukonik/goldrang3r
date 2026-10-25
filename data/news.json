@@ -339,6 +339,42 @@
       "items": [
         "google-ai-ads-policy"
       ]
+    },
+    {
+      "date": "2026-10-25",
+      "theme": "The leak that poisoned the pipeline",
+      "topic": "Summary — Tech Security",
+      "items": [
+        "litellm-root-cause",
+        "brotli-beyond-node",
+        "litellm-credential-theft"
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "theme": "Eight million tips, seven months late",
+      "topic": "Summary — Tech Security",
+      "items": [
+        "techinsider-navigate360-breach"
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "theme": "The fee bump that signed the theft",
+      "topic": "Summary — Fintech Security",
+      "items": [
+        "cryptonews-electrum-feebump"
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "theme": "India's security Sunday",
+      "topic": "Summary — Fintech Security",
+      "items": [
+        "rbi-cyber-institute",
+        "india-cyber-roundup-1025",
+        "bob-ai-seed"
+      ]
     }
   ],
   "edition": "2026-10-25",
@@ -1201,6 +1237,26 @@
       "lane": null,
       "date": "2026-10-25",
       "time": "12:30 PM"
+    },
+    {
+      "id": "techinsider-navigate360-breach",
+      "author": null,
+      "outlet": "Tech Insider",
+      "headline": "Navigate360 said on October 23, 2026 that hackers accessed one of its systems and copied months' worth of data, according to reports from Reuters, The Next Web, teiss and shattered.io — the company confirmed the intrusion roughly seven months after a hacker first claimed to have breached its P3 Global Intel tip platform in March 2026, with the claimed haul at 93 gigabytes including 8 million confidential crime tips",
+      "url": "https://tech-insider.org/navigate360-p3-global-intel-breach-8-million-crime-tips-2026/",
+      "lane": null,
+      "date": "2026-10-25",
+      "time": "1:30 PM"
+    },
+    {
+      "id": "cryptonews-electrum-feebump",
+      "author": null,
+      "outlet": "CryptoNews.net",
+      "headline": "Electrum releases 4.8.3 to fix a fee-bump flaw that let a malicious server swap a user's payment for an attacker's transaction — users who approved the fee increase signed the attacker's payment, with at least one reported loss on October 18; the fix checks signatures on wallet-owned inputs before adding mempool transactions to local history",
+      "url": "https://cryptonews.net/news/security/33647105/",
+      "lane": "fraud",
+      "date": "2026-10-25",
+      "time": "1:30 PM"
     }
   ],
   "site": "GoldRang3r"
