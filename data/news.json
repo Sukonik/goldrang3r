@@ -375,9 +375,55 @@
         "india-cyber-roundup-1025",
         "bob-ai-seed"
       ]
+    },
+    {
+      "date": "2026-10-26",
+      "theme": "PHP2Shell's third week: exploited, attributed, and now scanned",
+      "topic": "Vulnerabilities",
+      "items": [
+        "secureresearch-daily-1026",
+        "cybernoz-php2shell-nk-1026",
+        "wsnext-penta-scanner-1026"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "theme": "Node2Shell: one Brotli flaw, patches everywhere",
+      "topic": "Vulnerabilities",
+      "items": [
+        "cybernoz-node2shell-1026",
+        "secureresearch-daily-1026"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "theme": "India's October 26 enforcement day",
+      "topic": "Fraud",
+      "items": [
+        "the420-india-1026"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "theme": "AI's money squeeze: debt, price cuts, and a bank's AI buy",
+      "topic": "AI funding",
+      "items": [
+        "ainewsonline-spacex-gpu-1026",
+        "ai0-inference-prices-1026",
+        "reuters-itau-neospace-1026"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "theme": "Funding Monday: wearables and travel",
+      "topic": "Startups",
+      "items": [
+        "finsmes-nirva-1026",
+        "yourstory-roundup-1026"
+      ]
     }
   ],
-  "edition": "2026-10-25",
+  "edition": "2026-10-26",
   "items": [
     {
       "author": "Emma Roth",
@@ -1257,6 +1303,116 @@
       "lane": "fraud",
       "date": "2026-10-25",
       "time": "1:30 PM"
+    },
+    {
+      "id": "secureresearch-daily-1026",
+      "date": "2026-10-26",
+      "time": "7:30 AM",
+      "outlet": "SecureResearch",
+      "author": null,
+      "headline": "Daily cyber brief for October 26: two PHP memory flaws are now reported exploited in the wild, GitLab patches a CVSS 10.0 unauthenticated code-execution flaw, CISA adds Plex and Siemens flaws to its exploited catalog, and CISA's vulnerability-response chief departs after nearly six years",
+      "url": "https://secureresearch.com/briefings/2026-10-26.html",
+      "lane": "bug"
+    },
+    {
+      "id": "cybernoz-node2shell-1026",
+      "date": "2026-10-26",
+      "time": "7:30 AM",
+      "outlet": "Cybernoz",
+      "author": null,
+      "headline": "Node2Shell: the Brotli decoder flaw (CVE-2026-111497) triggers patching across Microsoft, Node.js and Python packages as vendors race to fix every bundled copy",
+      "url": null,
+      "lane": "bug"
+    },
+    {
+      "id": "cybernoz-php2shell-nk-1026",
+      "date": "2026-10-26",
+      "time": "7:30 AM",
+      "outlet": "Cybernoz",
+      "author": null,
+      "headline": "PHP2Shell: a suspected North Korean campaign scanned 216 vulnerable PHP hosts, Cyfirma-linked reporting says, as Japan plans an AI-powered cyberattack simulation team amid the PHP disruption",
+      "url": null,
+      "lane": "bug"
+    },
+    {
+      "id": "the420-india-1026",
+      "date": "2026-10-26",
+      "time": "7:30 AM",
+      "outlet": "The420.in",
+      "author": null,
+      "headline": "India's October 26 cyber roundup: Operation Trident exposes a ₹100-crore hawala network with 18 arrests and 1,424 bank accounts frozen, a seventh arrest lands in a ₹28,000-crore cyberfraud probe, and Goa police recover ₹23 lakh in a ₹39-lakh investment fraud",
+      "url": "https://the420.in/india-cyber-tech-brief-26-october-2026-hawala-cyberfraud-ai-security/",
+      "lane": "fraud"
+    },
+    {
+      "id": "wsnext-penta-scanner-1026",
+      "date": "2026-10-26",
+      "time": "7:30 AM",
+      "outlet": "WSNext",
+      "author": null,
+      "headline": "Penta Security launches a free Cloudbric Security Check scanner on October 26 so site owners can instantly test exposure to the PHP2Shell flaws without installing software, after deploying custom WAF rules within hours of the October 21 patches",
+      "url": "https://wsnext.com/edeac94-Cybersecurity-Enterprise-Software/",
+      "lane": "protect"
+    },
+    {
+      "id": "finsmes-nirva-1026",
+      "date": "2026-10-26",
+      "time": "7:30 AM",
+      "outlet": "FinSMEs",
+      "author": null,
+      "headline": "Nirva raises $25M in initial funding from Lightspeed Venture Partners and South Park Commons to scale its wearable AI personal companion, moving prototypes from lab testing toward a public beta manufacturing run",
+      "url": "https://www.finsmes.com/2026/10/nirva-raises-25m-in-funding.html",
+      "lane": null
+    },
+    {
+      "id": "reuters-itau-neospace-1026",
+      "date": "2026-10-26",
+      "time": "7:30 AM",
+      "outlet": "Reuters",
+      "author": "Isabel Teles",
+      "headline": "Brazil's Itaú agrees to buy AI startup NeoSpace for $589 million (2.925 billion reais), part due at closing and the rest deferred over five years, after nearly two years of working together — subject to regulatory approval",
+      "url": "https://www.wysl1040.com/brazils-itau-agrees-to-buy-ai-startup-neospace-for-589-million/",
+      "lane": null
+    },
+    {
+      "id": "ainewsonline-spacex-gpu-1026",
+      "date": "2026-10-26",
+      "time": "7:30 AM",
+      "outlet": "AI News Online",
+      "author": null,
+      "headline": "Musk says SpaceX closed $40B of GPU debt for chips due in early 2027 and warns 200+ neoclouds face a shakeout as debt markets shut off to companies without substantial revenue outside AI data centres (SiliconANGLE reports)",
+      "url": "https://ai-news-online.com/briefing/2026-10-26/",
+      "lane": null
+    },
+    {
+      "id": "yourstory-roundup-1026",
+      "date": "2026-10-26",
+      "time": "7:30 AM",
+      "outlet": "YourStory",
+      "author": null,
+      "headline": "India's startup daily roundup for October 26: wear brand ReplyAll raises ₹9.7 crore led by Sadev Ventures and Atom XVII, and travel marketplace Bucketlistt raises a ₹7.6-crore seed round led by Kairon Capital",
+      "url": "https://yourstory.com/2026/10/startup-news-and-updates-daily-roundup-october-26-2026",
+      "lane": null
+    },
+    {
+      "id": "ai0-inference-prices-1026",
+      "date": "2026-10-26",
+      "time": "7:30 AM",
+      "outlet": "ai0.news",
+      "author": null,
+      "headline": "OpenAI and Anthropic have quietly cut inference prices by up to 80% since June under pressure from DeepSeek's pricing, while IBM's CEO tells investors open-weight models now do the job at 10% of the cost on-prem",
+      "url": "https://ai0.news/posts/2026-10-26-daily-digest/",
+      "lane": null
+    },
+    {
+      "id": "cybernoz-gmo-compensation-1026",
+      "date": "2026-10-26",
+      "time": "7:30 AM",
+      "outlet": "Cybernoz",
+      "author": null,
+      "headline": "Japanese companies start compensating customers after a run of cyberattacks disrupted internet services, with GMO Internet announcing compensation after an attack on its foreign-exchange trading service",
+      "url": null,
+      "lane": "fraud"
     }
   ],
   "site": "GoldRang3r"
