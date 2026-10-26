@@ -449,6 +449,60 @@
         "myza-binance-westafrica-1026",
         "morningstar-fsecure-qutwo-1026"
       ]
+    },
+    {
+      "date": "2026-10-26",
+      "theme": "PHP2Shell's third week, in one picture",
+      "topic": "Summary — Tech Security",
+      "items": [
+        "secureresearch-daily-1026",
+        "cybernoz-php2shell-nk-1026",
+        "wsnext-penta-scanner-1026"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "theme": "The midday flaws: tokens and roots",
+      "topic": "Summary — Tech Security",
+      "items": [
+        "itsecuritynews-authenticator-1026",
+        "itsecuritynews-tailscale-ssh-1026"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "theme": "The breach ledger grows",
+      "topic": "Summary — Tech Security",
+      "items": [
+        "malware-news-1026"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "theme": "The Electrum trap, in full",
+      "topic": "Summary — Fintech Security",
+      "items": [
+        "coindesk-electrum-1026",
+        "pymnts-electrum-1026"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "theme": "CoinDCX owns the $16M",
+      "topic": "Summary — Fintech Security",
+      "items": [
+        "coindesk-coindcx-1026"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "theme": "Enforcement day, on two continents",
+      "topic": "Summary — Fintech Security",
+      "items": [
+        "the420-india-1026",
+        "myza-binance-westafrica-1026",
+        "kucoin-coinswitch-safeswitch-1026"
+      ]
     }
   ],
   "edition": "2026-10-26",
@@ -1511,6 +1565,56 @@
       "headline": "F-Secure and QuTwo expand their partnership to compress scam-detection AI models onto consumer devices, keeping user data on-device for instant, offline-capable scam protection",
       "url": "https://www.morningstar.com/news/pr-newswire/20261026hs80749/f-secure-and-qutwo-bring-advanced-scam-protection-directly-to-consumer-devices",
       "lane": "protect"
+    },
+    {
+      "id": "coindesk-electrum-1026",
+      "date": "2026-10-26",
+      "time": "1:30 PM",
+      "outlet": "CoinDesk",
+      "author": null,
+      "headline": "Bitcoin wallet bug let rogue servers steal funds when users tried to speed up payments: Electrum disclosed a flaw letting a malicious server swap a user's pending payment for the attacker's own, with at least one user losing funds after approving what looked like a routine fee increase",
+      "url": "https://www.coindesk.com/tech/2026/10/26/bitcoin-wallet-bug-let-rogue-servers-steal-funds-when-users-tried-to-speed-up-payments",
+      "lane": "fraud"
+    },
+    {
+      "id": "pymnts-electrum-1026",
+      "date": "2026-10-26",
+      "time": "1:30 PM",
+      "outlet": "PYMNTS",
+      "author": null,
+      "headline": "Electrum wallet bug tricks users into signing over payments: a flaw in the bitcoin software wallet let cybercriminals dupe users into signing over payments, with developers issuing an update adding signature checks for unconfirmed transactions",
+      "url": "https://www.pymnts.com/cryptocurrency/2026/electrum-wallet-bug-tricks-users-into-signing-over-payments/",
+      "lane": "fraud"
+    },
+    {
+      "id": "coindesk-coindcx-1026",
+      "date": "2026-10-26",
+      "time": "1:30 PM",
+      "outlet": "CoinDesk",
+      "author": null,
+      "headline": "CoinDCX absorbs a $16M loss from an internal process failure tied to a retired wallet: the exchange says users kept depositing into deprecated addresses from its July 2025 hack while the sweep process failed, and it credited affected users",
+      "url": "https://www.coindesk.com/markets/2026/10/26/coindcx-absorbs-usd16-million-loss-from-internal-process-failure-tied-to-retired-wallet",
+      "lane": "fraud"
+    },
+    {
+      "id": "kucoin-coinswitch-safeswitch-1026",
+      "date": "2026-10-26",
+      "time": "1:30 PM",
+      "outlet": "KuCoin",
+      "author": null,
+      "headline": "Indian crypto platform CoinSwitch launches the SafeSwitch anti-fraud initiative on October 26: scam-identification quizzes, website security check tools, reporting guidelines, and information about India's cyber fraud reporting hotline 1930",
+      "url": "https://www.kucoin.com/news/flash/india-s-coinswitch-launches-safeswitch-anti-fraud-initiative",
+      "lane": "protect"
+    },
+    {
+      "id": "malware-news-1026",
+      "date": "2026-10-26",
+      "time": "1:30 PM",
+      "outlet": "Malware News",
+      "author": null,
+      "headline": "October 26 threat intelligence roundup: Japan's Onamae Desktop Cloud confirms an intrusion affecting 26,000+ servers, India's State Bank of India discloses a breach of 3,897 customer records, and attackers abused UpdraftCentral keys to backdoor WordPress sites",
+      "url": "https://malware.news/t/26th-october-threat-intelligence-report/126726",
+      "lane": "fraud"
     }
   ],
   "site": "GoldRang3r"
