@@ -421,6 +421,34 @@
         "finsmes-nirva-1026",
         "yourstory-roundup-1026"
       ]
+    },
+    {
+      "date": "2026-10-26",
+      "theme": "Midday flaws: authenticator tokens and SSH roots",
+      "topic": "Vulnerabilities",
+      "items": [
+        "itsecuritynews-authenticator-1026",
+        "itsecuritynews-tailscale-ssh-1026"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "theme": "Funding midday: autonomy, confidential cloud, and a new model lab",
+      "topic": "Startups",
+      "items": [
+        "globenewswire-bedrock-600m-1026",
+        "finsmes-modelyo-17m-1026",
+        "technode-hypersphere-1026"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "theme": "Scams, fought on two fronts",
+      "topic": "Fraud",
+      "items": [
+        "myza-binance-westafrica-1026",
+        "morningstar-fsecure-qutwo-1026"
+      ]
     }
   ],
   "edition": "2026-10-26",
@@ -1413,6 +1441,76 @@
       "headline": "Japanese companies start compensating customers after a run of cyberattacks disrupted internet services, with GMO Internet announcing compensation after an attack on its foreign-exchange trading service",
       "url": null,
       "lane": "fraud"
+    },
+    {
+      "id": "itsecuritynews-authenticator-1026",
+      "date": "2026-10-26",
+      "time": "12:30 PM",
+      "outlet": "IT Security News",
+      "author": null,
+      "headline": "Microsoft patches Authenticator for Android flaw CVE-2026-80097 (CVSS 8.6) that let malicious apps with no declared permissions steal work-account access tokens via its broker component",
+      "url": "https://www.itsecuritynews.info/microsoft-authenticator-flaw-lets-malicious-android-apps-steal-account-tokens-with-zero-permissions/",
+      "lane": "bug"
+    },
+    {
+      "id": "itsecuritynews-tailscale-ssh-1026",
+      "date": "2026-10-26",
+      "time": "12:30 PM",
+      "outlet": "IT Security News",
+      "author": null,
+      "headline": "Security researchers disclose multiple high-severity Tailscale and Headscale SSH vulnerabilities that could let attackers gain root access to connected servers",
+      "url": null,
+      "lane": "bug"
+    },
+    {
+      "id": "globenewswire-bedrock-600m-1026",
+      "date": "2026-10-26",
+      "time": "12:30 PM",
+      "outlet": "GlobeNewswire",
+      "author": null,
+      "headline": "Bedrock Robotics raises a $600M Series C at a $4.1B post-money valuation, co-led by CapitalG and Emergence Capital, to scale fully autonomous construction equipment after paid autonomous excavator work on live commercial job sites",
+      "url": "https://www.globenewswire.com/news-release/2026/10/26/3388197/0/en/bedrock-robotics-raises-600-million-series-c-to-scale-autonomous-construction-equipment-across-u-s-sites.html",
+      "lane": null
+    },
+    {
+      "id": "finsmes-modelyo-17m-1026",
+      "date": "2026-10-26",
+      "time": "12:30 PM",
+      "outlet": "FinSMEs",
+      "author": null,
+      "headline": "Tel Aviv confidential-computing startup Modelyo raises ~$17M in first funding led by OlivTree to protect corporate data and keys while they are processed across public clouds",
+      "url": "https://www.finsmes.com/2026/10/modelyo-raises-approx-17m-in-first-funding.html",
+      "lane": null
+    },
+    {
+      "id": "technode-hypersphere-1026",
+      "date": "2026-10-26",
+      "time": "12:30 PM",
+      "outlet": "TechNode",
+      "author": null,
+      "headline": "Shenzhen AI startup Hypersphere Technology raises hundreds of millions of RMB in angel funding from Legend Capital, CAS Star, SenseTime Guoxiang Capital and WestSummit Capital to build 'Infinite Models' foundation models",
+      "url": "https://technode.com/2026/10/26/ai-model-startup-hypersphere-raises-hundreds-of-millions-of-rmb-in-angel-funding/",
+      "lane": null
+    },
+    {
+      "id": "myza-binance-westafrica-1026",
+      "date": "2026-10-26",
+      "time": "12:30 PM",
+      "outlet": "MyZA",
+      "author": null,
+      "headline": "Binance joins a West Africa Joint Disruption Week operation leading to 28 arrests in Ghana and Nigeria, with 303 devices seized in Ghana and $11M+ in funds identified as freezable, while flagging ~$10.5B in potential fraud intercepted since 2025",
+      "url": "https://myza.co.za/binance-flags-10-5-billion-in-potential-fraud-28-arrested-in-west-african-scam-crackdown/",
+      "lane": "fraud"
+    },
+    {
+      "id": "morningstar-fsecure-qutwo-1026",
+      "date": "2026-10-26",
+      "time": "12:30 PM",
+      "outlet": "Morningstar",
+      "author": null,
+      "headline": "F-Secure and QuTwo expand their partnership to compress scam-detection AI models onto consumer devices, keeping user data on-device for instant, offline-capable scam protection",
+      "url": "https://www.morningstar.com/news/pr-newswire/20261026hs80749/f-secure-and-qutwo-bring-advanced-scam-protection-directly-to-consumer-devices",
+      "lane": "protect"
     }
   ],
   "site": "GoldRang3r"
