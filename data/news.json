@@ -503,9 +503,56 @@
         "myza-binance-westafrica-1026",
         "kucoin-coinswitch-safeswitch-1026"
       ]
+    },
+    {
+      "date": "2026-10-27",
+      "theme": "PHP2Shell, confirmed exploited",
+      "topic": "Vulnerabilities",
+      "items": [
+        "thn-cisa-php2shell-1027",
+        "secureresearch-daily-1027"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "theme": "The AI money race: Anthropic's IPO, Meta's $95B raise, Microsoft's buyouts",
+      "topic": "AI funding",
+      "items": [
+        "usatoday-anthropic-ipo-1027",
+        "morningstar-meta-95b-1027",
+        "techible-microsoft-buyouts-1027"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "theme": "Startup Tuesday: an agent platform and a defence AI deal",
+      "topic": "Startups",
+      "items": [
+        "technode-omnichat-10m-1027",
+        "yourstory-sarvam-defence-1027"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "theme": "Fraud and breach Tuesday: a $50M standoff, stolen tokens, spyware ads and ENGIE",
+      "topic": "Fraud",
+      "items": [
+        "ncta-gmo-50m",
+        "cybernoz-m365-token-1027",
+        "cybernoz-instagram-spyware-1027",
+        "itsecuritynews-engie-1027"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "theme": "OpenAI's cheaper, faster agent model",
+      "topic": "AI models",
+      "items": [
+        "cybernoz-gpt61-terra-1027"
+      ]
     }
   ],
-  "edition": "2026-10-26",
+  "edition": "2026-10-27",
   "items": [
     {
       "author": "Emma Roth",
@@ -1614,6 +1661,126 @@
       "author": null,
       "headline": "October 26 threat intelligence roundup: Japan's Onamae Desktop Cloud confirms an intrusion affecting 26,000+ servers, India's State Bank of India discloses a breach of 3,897 customer records, and attackers abused UpdraftCentral keys to backdoor WordPress sites",
       "url": "https://malware.news/t/26th-october-threat-intelligence-report/126726",
+      "lane": "fraud"
+    },
+    {
+      "id": "thn-cisa-php2shell-1027",
+      "date": "2026-10-27",
+      "time": "7:30 AM",
+      "outlet": "The Hacker News",
+      "author": "Ravie Lakshmanan",
+      "headline": "CISA confirms active exploitation of the two PHP2Shell flaws (CVE-2026-109618/109619, CVSS 9.2), adding them to its Known Exploited Vulnerabilities catalog — unauthenticated remote code execution on affected PHP deployments",
+      "url": "http://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
+      "lane": "bug"
+    },
+    {
+      "id": "secureresearch-daily-1027",
+      "date": "2026-10-27",
+      "time": "7:30 AM",
+      "outlet": "SecureResearch",
+      "author": null,
+      "headline": "Daily cyber brief for October 27: CISA publishes its CISA 2030 strategy; Rapid7 finds a three-day average from disclosure to exploitation; the Gheist campaign plants workflows via stolen GitHub tokens to print repository secrets into logs; SafePay draws a joint CISA warning; and Dahua cameras are abused as an access point",
+      "url": "https://secureresearch.com/briefings/2026-10-27.html",
+      "lane": "bug"
+    },
+    {
+      "id": "ncta-gmo-50m",
+      "date": "2026-10-27",
+      "time": "7:30 AM",
+      "outlet": "National Cybersecurity Training Academy",
+      "author": null,
+      "headline": "GMO Internet says attackers threatened to release customer data and launch a ransomware attack at noon Tuesday, demanding a reported $50M — the company says it will not comply, and as of 1:55 PM on October 27 no ransomware attack had been confirmed",
+      "url": "https://blog.nationalcybersecuritytrainingacademy.com/gmo-internet-ransomware-warning-50m-demand-2026-ransomware-cybercrime/",
+      "lane": "fraud"
+    },
+    {
+      "id": "cybernoz-m365-token-1027",
+      "date": "2026-10-27",
+      "time": "7:30 AM",
+      "outlet": "Cybernoz",
+      "author": null,
+      "headline": "Hackers hijack Microsoft 365 accounts at 79 organizations using stolen login tokens, recording at least 497 successful sign-ins between July 14 and September 22",
+      "url": null,
+      "lane": "bug"
+    },
+    {
+      "id": "cybernoz-instagram-spyware-1027",
+      "date": "2026-10-27",
+      "time": "7:30 AM",
+      "outlet": "Cybernoz",
+      "author": null,
+      "headline": "Cybercriminals use malicious Instagram ads, abandoned analytics tags and compromised websites to push Coruna and DarkSword spyware kits onto iPhones",
+      "url": null,
+      "lane": "fraud"
+    },
+    {
+      "id": "cybernoz-gpt61-terra-1027",
+      "date": "2026-10-27",
+      "time": "7:30 AM",
+      "outlet": "Cybernoz",
+      "author": null,
+      "headline": "OpenAI launches GPT-6.1 Terra, pitched at 3x faster AI agents and 50% lower pricing, aimed at computer use, visual reasoning and coding",
+      "url": null,
+      "lane": null
+    },
+    {
+      "id": "usatoday-anthropic-ipo-1027",
+      "date": "2026-10-27",
+      "time": "7:30 AM",
+      "outlet": "USA Today",
+      "author": null,
+      "headline": "Anthropic files its proposed IPO, expected to be one of the largest stock debuts ever, trading as ANT — first-half 2026 revenue $16.3B, up 1,300% year over year, with a reported $1.5T–$2T valuation target",
+      "url": "https://www.usatoday.com/story/news/state/california/san-francisco/2026/10/26/anthropics-ipo-gives-investors-new-insight-into-the-company/92444644007/",
+      "lane": null
+    },
+    {
+      "id": "morningstar-meta-95b-1027",
+      "date": "2026-10-27",
+      "time": "7:30 AM",
+      "outlet": "Morningstar",
+      "author": "Connor Hart",
+      "headline": "Meta launches ~$35B in equity offerings — $22.5B Class A stock plus $12.5B mandatory convertible preferred — and plans a $60B at-the-market program, eyeing up to $95B to fund AI infrastructure as 2026 capex runs $135B–$145B",
+      "url": "https://www.morningstar.com/news/dow-jones/202610262815/meta-plans-35-billion-stock-offering-to-power-ai-buildout-eyes-95-billion-total-plan",
+      "lane": null
+    },
+    {
+      "id": "techible-microsoft-buyouts-1027",
+      "date": "2026-10-27",
+      "time": "7:30 AM",
+      "outlet": "Techible",
+      "author": null,
+      "headline": "Microsoft offers voluntary exit buyouts to roughly 60,000 eligible employees globally, open up to vice-president level, as it cuts costs and pivots deeper into automated AI architecture",
+      "url": "https://techible.net/the-daily-ping-27th-october-2026/",
+      "lane": null
+    },
+    {
+      "id": "technode-omnichat-10m-1027",
+      "date": "2026-10-27",
+      "time": "7:30 AM",
+      "outlet": "TechNode",
+      "author": null,
+      "headline": "Omnichat raises a $10M Series A led by Openspace Capital to scale its Omni AI Agents for marketing, sales and service inside the chat, and to drive global expansion",
+      "url": "https://technode.global/prnasia/omnichat-raises-us10m-series-a-led-by-openspace-capital-to-scale-ai-agent-platform-and-drive-global-expansion/",
+      "lane": null
+    },
+    {
+      "id": "yourstory-sarvam-defence-1027",
+      "date": "2026-10-27",
+      "time": "7:30 AM",
+      "outlet": "YourStory",
+      "author": null,
+      "headline": "Sarvam AI signs a five-year agreement with India's Defence Ministry to build AI for the armed forces — intelligence, surveillance, reconnaissance and operational decision-making — in a push for homegrown defence AI",
+      "url": "https://yourstory.com/2026/10/startup-news-and-updates-daily-roundup-october-27-2026",
+      "lane": null
+    },
+    {
+      "id": "itsecuritynews-engie-1027",
+      "date": "2026-10-27",
+      "time": "7:30 AM",
+      "outlet": "IT Security News",
+      "author": null,
+      "headline": "French energy giant ENGIE discloses a data breach affecting customers after attackers stole customer data — one of the world's largest power and natural gas providers",
+      "url": null,
       "lane": "fraud"
     }
   ],
