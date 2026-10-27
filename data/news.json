@@ -577,6 +577,72 @@
         "pymnts-hyphenate-45m-1027",
         "reuters-atlast-12m-1027"
       ]
+    },
+    {
+      "date": "2026-10-27",
+      "theme": "Afternoon: KEV confirmation, wallet fallout, and a blocked campaign",
+      "topic": "Afternoon",
+      "items": [
+        "techcrunch-php2shell-1027",
+        "thn-keystone-destroy-1027",
+        "ct-bloom-953k-1027",
+        "hokanews-binance-nk-1027"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "theme": "KEV day: the PHP warning becomes an order",
+      "topic": "Summary — Tech Security",
+      "items": [
+        "thn-cisa-php2shell-1027",
+        "techcrunch-php2shell-1027",
+        "secureresearch-daily-1027"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "theme": "Stolen tokens, signed in",
+      "topic": "Summary — Tech Security",
+      "items": [
+        "cybernoz-m365-token-1027",
+        "secureresearch-daily-1027"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "theme": "Breach Tuesday: auditor, utility, ad feed",
+      "topic": "Summary — Tech Security",
+      "items": [
+        "dispatch-ohio-auditor-1027",
+        "itsecuritynews-engie-1027",
+        "cybernoz-instagram-spyware-1027"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "theme": "Keystone's drastic fix: destroy 18,835 wallets",
+      "topic": "Summary — Fintech Security",
+      "items": [
+        "coindesk-keystone-destroy-1027",
+        "thn-keystone-destroy-1027"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "theme": "Bloom's 94-second drain",
+      "topic": "Summary — Fintech Security",
+      "items": [
+        "w3rooster-bloom-drain-1027",
+        "ct-bloom-953k-1027"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "theme": "Binance blocks the interview trap",
+      "topic": "Summary — Fintech Security",
+      "items": [
+        "hokanews-binance-nk-1027"
+      ]
     }
   ],
   "edition": "2026-10-27",
@@ -1868,6 +1934,46 @@
       "author": null,
       "headline": "An attacker drains about 9,408 SOL from 48 wallets tied to Telegram trading bot Bloom in roughly 94 seconds, using the wallets’ own keys — how the keys were obtained remains unconfirmed",
       "url": "https://w3rooster.com/bloom-trading-incident-exposes-the-hidden-risks-of-automated-crypto-wallets/",
+      "lane": "fraud"
+    },
+    {
+      "id": "techcrunch-php2shell-1027",
+      "date": "2026-10-27",
+      "time": "1:30 PM",
+      "outlet": "TechCrunch",
+      "author": null,
+      "headline": "CISA confirms hackers are actively exploiting the critical PHP2Shell flaws and orders US civilian federal agencies to patch within three days — PHP powers roughly 70% of web-facing servers",
+      "url": "https://techcrunch.com/2026/10/27/us-government-says-hackers-are-now-exploiting-critical-php-web-bugs/",
+      "lane": null
+    },
+    {
+      "id": "thn-keystone-destroy-1027",
+      "date": "2026-10-27",
+      "time": "1:30 PM",
+      "outlet": "The Hacker News",
+      "author": "Swati Khandelwal",
+      "headline": "Keystone will destroy 18,835 unsold hardware wallets after a website breach exposed the key devices use to prove they are genuine — 25,964 buyer records exposed, recovery phrases and private keys not involved",
+      "url": "http://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html",
+      "lane": "fraud"
+    },
+    {
+      "id": "ct-bloom-953k-1027",
+      "date": "2026-10-27",
+      "time": "1:30 PM",
+      "outlet": "CT.com",
+      "author": null,
+      "headline": "Bloom pledges to reimburse nine traders after $953,000 was drained from 48 wallets in 94 seconds, blaming a remote code execution flaw in a third-party module and saying no private keys were accessed",
+      "url": "https://ct.com/news/bloom-bot-hackers-953k-faster-popcorn",
+      "lane": "fraud"
+    },
+    {
+      "id": "hokanews-binance-nk-1027",
+      "date": "2026-10-27",
+      "time": "1:30 PM",
+      "outlet": "Hokanews",
+      "author": "Victoria Hale",
+      "headline": "Binance says it blocked multiple North Korea-linked cyberattacks over the past week with no system damage or asset losses, warning of the 'Contagious Interview' social-engineering campaign using fake job interviews and coding tests",
+      "url": "https://www.hokanews.com/2026/10/binance-blocks-multiple-north-korea.html",
       "lane": "fraud"
     }
   ],
