@@ -550,6 +550,33 @@
       "items": [
         "cybernoz-gpt61-terra-1027"
       ]
+    },
+    {
+      "date": "2026-10-27",
+      "theme": "Midday: Ohio’s auditor goes offline",
+      "topic": "Breaches",
+      "items": [
+        "dispatch-ohio-auditor-1027"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "theme": "Midday: wallet security, two fronts",
+      "topic": "Fintech security",
+      "items": [
+        "coindesk-keystone-destroy-1027",
+        "w3rooster-bloom-drain-1027"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "theme": "Midday funding: agents for benefits, finance and drug trials",
+      "topic": "Startups",
+      "items": [
+        "geekwire-avante-30m-1027",
+        "pymnts-hyphenate-45m-1027",
+        "reuters-atlast-12m-1027"
+      ]
     }
   ],
   "edition": "2026-10-27",
@@ -1781,6 +1808,66 @@
       "author": null,
       "headline": "French energy giant ENGIE discloses a data breach affecting customers after attackers stole customer data — one of the world's largest power and natural gas providers",
       "url": null,
+      "lane": "fraud"
+    },
+    {
+      "id": "dispatch-ohio-auditor-1027",
+      "date": "2026-10-27",
+      "time": "12:30 PM",
+      "outlet": "The Columbus Dispatch",
+      "author": "Bailey Gallion",
+      "headline": "Ohio’s Auditor of State takes its website offline after an October 25 cyberattack — Auditor Keith Faber says overseas cybercriminals and possible foreign state actors were responsible, no data was lost, and the site remained offline as of about noon October 27",
+      "url": "https://www.dispatch.com/story/news/state/2026/10/27/ohio-auditor-of-state-website-offline-cyberattack-faber/92460001007/",
+      "lane": null
+    },
+    {
+      "id": "reuters-atlast-12m-1027",
+      "date": "2026-10-27",
+      "time": "12:30 PM",
+      "outlet": "Reuters",
+      "author": "Sudip Kar-Gupta and Marleen Kaesebier",
+      "headline": "Swiss AI startup Atlast Bio raises $12.5M led by Creandum to run drug trials on virtual patients, aiming to replace Phase II trials with 12-week simulations trained on about two million human RNA readouts",
+      "url": "https://www.reuters.com/legal/litigation/swiss-ai-drug-trial-start-up-receives-funding-spotify-backer-creandum-2026-10-27/",
+      "lane": null
+    },
+    {
+      "id": "geekwire-avante-30m-1027",
+      "date": "2026-10-27",
+      "time": "12:30 PM",
+      "outlet": "GeekWire",
+      "author": "Kurt Schlosser",
+      "headline": "Seattle startup Avante raises a $30M Series A led by Frist Cressey Ventures to bring AI agents to corporate benefits teams — total raised now $40M, with bookings up nearly fivefold over the past year",
+      "url": "https://www.geekwire.com/2026/seattle-startup-avante-raises-30m-to-bring-ai-agents-to-corporate-benefits-teams/",
+      "lane": null
+    },
+    {
+      "id": "pymnts-hyphenate-45m-1027",
+      "date": "2026-10-27",
+      "time": "12:30 PM",
+      "outlet": "PYMNTS",
+      "author": null,
+      "headline": "Hyphenate raises $45M for finance-focused AI agents that handle accounting and strategic finance — revenue up 86x since its $9M seed round, per Bloomberg",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/hyphenate-raises-45-million-dollars-finance-focused-ai-agents/",
+      "lane": null
+    },
+    {
+      "id": "coindesk-keystone-destroy-1027",
+      "date": "2026-10-27",
+      "time": "12:30 PM",
+      "outlet": "CoinDesk",
+      "author": null,
+      "headline": "Keystone will destroy 18,835 unsold hardware wallets after a website breach exposed an authenticity key and 25,964 buyer records — recovery phrases and private keys were not exposed, the company says",
+      "url": "https://www.coindesk.com/business/2026/10/27/crypto-wallet-maker-keystone-to-destroy-almost-19-000-devices-after-security-breach",
+      "lane": "fraud"
+    },
+    {
+      "id": "w3rooster-bloom-drain-1027",
+      "date": "2026-10-27",
+      "time": "12:30 PM",
+      "outlet": "W3Rooster",
+      "author": null,
+      "headline": "An attacker drains about 9,408 SOL from 48 wallets tied to Telegram trading bot Bloom in roughly 94 seconds, using the wallets’ own keys — how the keys were obtained remains unconfirmed",
+      "url": "https://w3rooster.com/bloom-trading-incident-exposes-the-hidden-risks-of-automated-crypto-wallets/",
       "lane": "fraud"
     }
   ],
