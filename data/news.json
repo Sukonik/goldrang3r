@@ -739,6 +739,60 @@
         "itsecuritynews-roundup-morning-1028",
         "cybermaterial-briefing-1028"
       ]
+    },
+    {
+      "date": "2026-10-28",
+      "theme": "PHP2Shell, rooted: 25 servers and a government network",
+      "topic": "Summary — Tech Security",
+      "items": [
+        "thn-php2shell-roots-1028",
+        "digitaltoday-php-kev-1028"
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "theme": "Oracle's 9.8 flaw draws probes days after its patch",
+      "topic": "Summary — Tech Security",
+      "items": [
+        "thn-oracle-ebs-1028"
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "theme": "Election week, under attack",
+      "topic": "Summary — Tech Security",
+      "items": [
+        "em360-fec-1028",
+        "cybernoz-teams-1028",
+        "itsecuritynews-roundup-1028"
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "theme": "Seoul's breach wave widens",
+      "topic": "Summary — Fintech Security",
+      "items": [
+        "reuters-korea-breaches-1028",
+        "nationpress-daishin-1028",
+        "tokenpost-bithumb-inspections-1028"
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "theme": "Coinbase's vendor problem",
+      "topic": "Summary — Fintech Security",
+      "items": [
+        "thenewscrypto-coinbase-amplitude-1028",
+        "cointelegraph-coinbase-amplitude-1028"
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "theme": "Diamante promises payback",
+      "topic": "Summary — Fintech Security",
+      "items": [
+        "cryptofox-diamante-1028"
+      ]
     }
   ],
   "edition": "2026-10-28",
@@ -2261,6 +2315,46 @@
       "headline": "Cyber briefing: Veeam patches an unauthenticated authorization bypass (CVE-2026-108142, CVSS 9.1) in Backup & Replication; PHP2Shell is chained to root firewalls, with 24 devices rooted; a Nefilim and Hive affiliate gets 70 months",
       "url": "https://cybermaterial.medium.com/cyber-briefing-october-28-2026-293f18666d54",
       "lane": "bug"
+    },
+    {
+      "id": "thn-php2shell-roots-1028",
+      "date": "2026-10-28",
+      "time": "1:30 PM",
+      "outlet": "The Hacker News",
+      "author": "Ravie Lakshmanan",
+      "headline": "AI-assisted attack rooted 25 servers via PHP2Shell, researchers say — including three systems in a US government-affiliated environment, with credential extraction and directory enumeration reported",
+      "url": "http://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html",
+      "lane": "bug"
+    },
+    {
+      "id": "thn-oracle-ebs-1028",
+      "date": "2026-10-28",
+      "time": "1:30 PM",
+      "outlet": "The Hacker News",
+      "author": "Ravie Lakshmanan",
+      "headline": "Threat actors begin probing a critical Oracle E-Business Suite flaw (CVE-2026-101767, CVSS 9.8) days after Oracle's patch — an unauthenticated SQL injection chainable to remote code execution",
+      "url": "http://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
+      "lane": "bug"
+    },
+    {
+      "id": "cointelegraph-coinbase-amplitude-1028",
+      "date": "2026-10-28",
+      "time": "1:30 PM",
+      "outlet": "Cointelegraph",
+      "author": "Zoltan Vardai",
+      "headline": "Coinbase denies its own systems were breached, saying an incident at analytics vendor Amplitude exposed contact data for a small subset of customers; the affected count remains undisclosed",
+      "url": "https://cointelegraph.com/news/coinbase-analytics-provider-customer-data",
+      "lane": "fraud"
+    },
+    {
+      "id": "nationpress-daishin-1028",
+      "date": "2026-10-28",
+      "time": "1:30 PM",
+      "outlet": "Nation Press",
+      "author": null,
+      "headline": "Daishin Securities confirms personal data of 38,490 customers leaked after hackers accessed its systems — names, email addresses and mobile numbers, in South Korea's widening financial-sector breach wave",
+      "url": "https://www.nationpress.com/business/daishin-securities-breach-hits-38490-customers",
+      "lane": "fraud"
     }
   ],
   "site": "GoldRang3r"
