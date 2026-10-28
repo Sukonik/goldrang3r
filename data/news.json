@@ -643,9 +643,70 @@
       "items": [
         "hokanews-binance-nk-1027"
       ]
+    },
+    {
+      "date": "2026-10-28",
+      "theme": "Election week under attack: the FEC filing system goes dark",
+      "topic": "Breaches",
+      "items": [
+        "em360-fec-1028"
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "theme": "PHP2Shell: the federal patching order",
+      "topic": "Vulnerabilities",
+      "items": [
+        "digitaltoday-php-kev-1028"
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "theme": "Enterprise patching: Teams abuse and the Node stopgap",
+      "topic": "Tech security",
+      "items": [
+        "cybernoz-teams-1028",
+        "cybernoz-node-stopgap-1028"
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "theme": "Overnight roundup: firmware, repos, and searchable servers",
+      "topic": "Vulnerabilities",
+      "items": [
+        "itsecuritynews-roundup-1028"
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "theme": "Fintech breach wave: Seoul firms and Diamante",
+      "topic": "Fintech security",
+      "items": [
+        "reuters-korea-breaches-1028",
+        "cryptofox-diamante-1028"
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "theme": "AI infrastructure money: TPUs, a $10B fund, and cross-cloud compute",
+      "topic": "AI funding",
+      "items": [
+        "bworld-openai-tpu-1028",
+        "aiinsider-disruptive-1028",
+        "kucoin-hyperbolic-1028"
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "theme": "Startup Wednesday: a cash-out, a rocket-motor valuation",
+      "topic": "Startups",
+      "items": [
+        "pathfounders-lovable-1028",
+        "reuters-firehawk-1028"
+      ]
     }
   ],
-  "edition": "2026-10-27",
+  "edition": "2026-10-28",
   "items": [
     {
       "author": "Emma Roth",
@@ -1974,6 +2035,126 @@
       "author": "Victoria Hale",
       "headline": "Binance says it blocked multiple North Korea-linked cyberattacks over the past week with no system damage or asset losses, warning of the 'Contagious Interview' social-engineering campaign using fake job interviews and coding tests",
       "url": "https://www.hokanews.com/2026/10/binance-blocks-multiple-north-korea.html",
+      "lane": "fraud"
+    },
+    {
+      "id": "em360-fec-1028",
+      "date": "2026-10-28",
+      "time": "7:30 AM",
+      "outlet": "EM360Tech",
+      "author": null,
+      "headline": "Hackers target the US Federal Election Commission's electronic filing system days before the November 3 midterms, forcing officials to shut down its web-facing services and disrupting campaign finance disclosures — Reuters reports the outage began about 10 p.m. ET on October 26",
+      "url": "https://em360tech.com/tech-articles/fec-cyberattack-electronic-filing-outage-midterm-elections",
+      "lane": "fraud"
+    },
+    {
+      "id": "digitaltoday-php-kev-1028",
+      "date": "2026-10-28",
+      "time": "7:30 AM",
+      "outlet": "DigitalToday",
+      "author": null,
+      "headline": "The US government orders urgent patching after confirming exploitation of critical PHP flaws — CISA adds the PHP2Shell flaws to its known-exploited catalog, and PHP urges immediate updates to 8.5.12, 8.4.27, 8.3.36 and 8.2.35",
+      "url": "https://www.digitaltoday.co.kr/en/view/120318/us-government-orders-urgent-patching-after-confirming-exploitation-of-critical-php-flaws",
+      "lane": "bug"
+    },
+    {
+      "id": "reuters-korea-breaches-1028",
+      "date": "2026-10-28",
+      "time": "7:30 AM",
+      "outlet": "Reuters",
+      "author": null,
+      "headline": "Three South Korean financial firms including crypto exchange Bithumb report data breaches, Yonhap says — brokerage Daishin Securities reports about 38,000 pieces of customer information leaked, in a wave that has hit 16 firms with around 100,000 leaks so far",
+      "url": "https://www.reuters.com/legal/government/three-south-korean-financial-firms-including-bithumb-report-data-breaches-yonhap-2026-10-28/",
+      "lane": "fraud"
+    },
+    {
+      "id": "cybernoz-teams-1028",
+      "date": "2026-10-28",
+      "time": "7:30 AM",
+      "outlet": "Cybernoz",
+      "author": null,
+      "headline": "Hackers abuse Microsoft Teams external chats to access corporate PCs, Arctic Wolf Labs finds — a widespread campaign exploiting the default external-chat settings to gain initial access",
+      "url": null,
+      "lane": "bug"
+    },
+    {
+      "id": "cybernoz-node-stopgap-1028",
+      "date": "2026-10-28",
+      "time": "7:30 AM",
+      "outlet": "Cybernoz",
+      "author": null,
+      "headline": "Can't patch Node.js yet? Build a stopgap with the controls you own — Node.js fixed the Brotli decoder flaw CVE-2026-111497 in 22.23.4, 24.22.1 and 26.12.1, but upgrading at scale takes time",
+      "url": null,
+      "lane": "bug"
+    },
+    {
+      "id": "itsecuritynews-roundup-1028",
+      "date": "2026-10-28",
+      "time": "7:30 AM",
+      "outlet": "IT Security News",
+      "author": null,
+      "headline": "Overnight roundup: a critical flaw (CVE-2026-97631, CVSS 9.5) in the EDK II firmware PXE network boot driver lets a remote attacker run code before the operating system starts; JFrog finds 42 GitHub repositories compromised with payloads too large for GitHub search to catch",
+      "url": "https://www.itsecuritynews.info/it-security-news-roundup-2026-10-28-overnight/",
+      "lane": "bug"
+    },
+    {
+      "id": "bworld-openai-tpu-1028",
+      "date": "2026-10-28",
+      "time": "7:30 AM",
+      "outlet": "BusinessWorld Online",
+      "author": null,
+      "headline": "OpenAI plans to buy Google's AI chips, The Information reports — a deal that would deepen ties between the AI rivals as Amazon, Microsoft and Alphabet plan up to $600 billion combined in AI infrastructure spending this year",
+      "url": "https://bworldonline.com/technology/2026/10/28/789847/openai-plans-to-buy-googles-ai-chips-the-information-reports/",
+      "lane": null
+    },
+    {
+      "id": "pathfounders-lovable-1028",
+      "date": "2026-10-28",
+      "time": "7:30 AM",
+      "outlet": "PathFounders",
+      "author": null,
+      "headline": "Lovable offers employees an $80 million cash-out at a $13.3 billion valuation, Sifted reports exclusively — employee liquidity at this scale is one of the main ways late-stage startups reward staff without a public listing",
+      "url": "https://pathfounders.com/p/tech-venture-briefing-wednesday-28-october-2026",
+      "lane": null
+    },
+    {
+      "id": "kucoin-hyperbolic-1028",
+      "date": "2026-10-28",
+      "time": "7:30 AM",
+      "outlet": "KuCoin",
+      "author": null,
+      "headline": "Hyperbolic raises a $30 million Series A-1 led by Walden Catalyst, bringing total funding to $50 million — the AI compute startup connects enterprises with more than 30 AI cloud providers and manages $200 million in annualized computing value",
+      "url": "https://www.kucoin.com/news/flash/intel-ceo-leads-30m-a-1-round-for-hyperbolic-total-funding-reaches-50m",
+      "lane": null
+    },
+    {
+      "id": "aiinsider-disruptive-1028",
+      "date": "2026-10-28",
+      "time": "7:30 AM",
+      "outlet": "The AI Insider",
+      "author": null,
+      "headline": "Disruptive closes a $10 billion fund to back late-stage AI and defence companies, with checks up to $1 billion — the largest venture fund ever raised in Texas, per the Dallas Business Journal",
+      "url": "https://theaiinsider.tech/2026/10/28/disruptive-closes-10b-fund-to-back-late-stage-ai-and-defense-companies/",
+      "lane": null
+    },
+    {
+      "id": "reuters-firehawk-1028",
+      "date": "2026-10-28",
+      "time": "7:30 AM",
+      "outlet": "Reuters",
+      "author": null,
+      "headline": "Trump Jr.-backed defence startup Firehawk Defense is valued at more than $1.4 billion in a new $150 million round co-led by Advent International and Rochefort Asset Management, as private capital chases shortages in tactical munitions",
+      "url": "https://www.reuters.com/business/aerospace-defense/us-rocket-motor-maker-with-trump-family-ties-valued-14-billion-2026-10-28/",
+      "lane": null
+    },
+    {
+      "id": "cryptofox-diamante-1028",
+      "date": "2026-10-28",
+      "time": "7:30 AM",
+      "outlet": "CryptoFox",
+      "author": null,
+      "headline": "Web3 infrastructure and payment network Diamante confirms a security breach detected October 28, promises full compensation for affected participants, and says it is working with authorities to track stolen funds across the blockchain",
+      "url": "https://cryptofox.news/news/diamante-infrastructure-breach-attackers-identified-as-users-await-payouts",
       "lane": "fraud"
     }
   ],
