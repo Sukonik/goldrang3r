@@ -704,6 +704,41 @@
         "pathfounders-lovable-1028",
         "reuters-firehawk-1028"
       ]
+    },
+    {
+      "date": "2026-10-28",
+      "theme": "Midday: vendor breach hits Coinbase customers, regulators inspect Bithumb",
+      "topic": "Fintech security",
+      "items": [
+        "thenewscrypto-coinbase-amplitude-1028",
+        "tokenpost-bithumb-inspections-1028"
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "theme": "Midday: cloud security's $400M day",
+      "topic": "Startups",
+      "items": [
+        "reuters-upwind-400m-1028"
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "theme": "Midday funding: AI for circuit boards and procurement",
+      "topic": "Startups",
+      "items": [
+        "globenewswire-fragment-56m-1028",
+        "globenewswire-circuitmind-25m-1028"
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "theme": "Midday patching: Veeam, Brotli fallout, and So-net",
+      "topic": "Tech security",
+      "items": [
+        "itsecuritynews-roundup-morning-1028",
+        "cybermaterial-briefing-1028"
+      ]
     }
   ],
   "edition": "2026-10-28",
@@ -2156,6 +2191,76 @@
       "headline": "Web3 infrastructure and payment network Diamante confirms a security breach detected October 28, promises full compensation for affected participants, and says it is working with authorities to track stolen funds across the blockchain",
       "url": "https://cryptofox.news/news/diamante-infrastructure-breach-attackers-identified-as-users-await-payouts",
       "lane": "fraud"
+    },
+    {
+      "id": "reuters-upwind-400m-1028",
+      "date": "2026-10-28",
+      "time": "12:30 PM",
+      "outlet": "Reuters",
+      "author": null,
+      "headline": "Cloud security startup Upwind raises $400M led by Bessemer Venture Partners at a $3.8B valuation, up from about $900M in December 2024 — total funding now over $800M since its 2022 founding",
+      "url": "https://duke.fm/2026/10/28/cloud-security-startup-upwind-raises-400-million-valued-at-3-8-billion-2/",
+      "lane": "bug"
+    },
+    {
+      "id": "thenewscrypto-coinbase-amplitude-1028",
+      "date": "2026-10-28",
+      "time": "12:30 PM",
+      "outlet": "TheNewsCrypto",
+      "author": null,
+      "headline": "Coinbase says a security incident at analytics vendor Amplitude exposed contact data for a small subset of customers, denies its own systems were breached, and says customer funds were unaffected — the affected count remains undisclosed",
+      "url": "https://thenewscrypto.com/coinbase-confirms-third-party-security-incident-affected-some-users/",
+      "lane": "fraud"
+    },
+    {
+      "id": "tokenpost-bithumb-inspections-1028",
+      "date": "2026-10-28",
+      "time": "12:30 PM",
+      "outlet": "TokenPost",
+      "author": null,
+      "headline": "South Korean regulators begin on-site inspections of Bithumb after the exchange reports an outside intrusion exposed employee information — customer impact still under investigation, with no wallet or payment data confirmed leaked",
+      "url": "https://www.tokenpost.com/news/technology/42610",
+      "lane": "fraud"
+    },
+    {
+      "id": "itsecuritynews-roundup-morning-1028",
+      "date": "2026-10-28",
+      "time": "12:30 PM",
+      "outlet": "IT Security News",
+      "author": null,
+      "headline": "Morning roundup: Sony's So-net says attackers took personal data of over 2.58M current and former customers plus email passwords for 54,401 users; Microsoft ships emergency .NET fixes for the Brotli flaw; AWS discloses a Redshift CDK flaw",
+      "url": "https://www.itsecuritynews.info/it-security-news-roundup-2026-10-28-morning/",
+      "lane": "bug"
+    },
+    {
+      "id": "globenewswire-fragment-56m-1028",
+      "date": "2026-10-28",
+      "time": "12:30 PM",
+      "outlet": "GlobeNewswire",
+      "author": null,
+      "headline": "Fragment launches with $56M in total funding, including a Series A led by 8VC and a seed co-led by General Catalyst and A*, to automate procurement exceptions for large physical-goods companies",
+      "url": "https://www.globenewswire.com/news-release/2026/10/28/3390260/0/en/fragment-launches-with-56-million-to-automate-the-work-enterprise-software-leaves-behind.html",
+      "lane": null
+    },
+    {
+      "id": "globenewswire-circuitmind-25m-1028",
+      "date": "2026-10-28",
+      "time": "12:30 PM",
+      "outlet": "GlobeNewswire",
+      "author": null,
+      "headline": "Circuit Mind announces $25M in new financing, including an $18.5M Series A led by Norwest, to bring AI workflows to enterprise electronics design — total funding now $33.4M",
+      "url": "https://www.globenewswire.com/news-release/2026/10/28/3390091/0/en/circuit-mind-announces-25m-in-funding-to-accelerate-the-rise-of-electronic-design-intelligence.html",
+      "lane": null
+    },
+    {
+      "id": "cybermaterial-briefing-1028",
+      "date": "2026-10-28",
+      "time": "12:30 PM",
+      "outlet": "CyberMaterial",
+      "author": null,
+      "headline": "Cyber briefing: Veeam patches an unauthenticated authorization bypass (CVE-2026-108142, CVSS 9.1) in Backup & Replication; PHP2Shell is chained to root firewalls, with 24 devices rooted; a Nefilim and Hive affiliate gets 70 months",
+      "url": "https://cybermaterial.medium.com/cyber-briefing-october-28-2026-293f18666d54",
+      "lane": "bug"
     }
   ],
   "site": "GoldRang3r"
