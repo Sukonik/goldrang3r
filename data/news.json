@@ -882,6 +882,62 @@
         "roboticstomorrow-opentrons-1029",
         "morningstar-crux-1029"
       ]
+    },
+    {
+      "date": "2026-10-29",
+      "theme": "Afternoon: Cisco's second VPN zero-day",
+      "topic": "Vulnerabilities",
+      "items": [
+        "thn-cisco-asa-vpn-1029"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "theme": "The KEV pile-up: four flaws, one patch week",
+      "topic": "Summary — Tech Security",
+      "items": [
+        "thn-php2shell-paloalto-1029",
+        "punkreport-brotli-kev-1029",
+        "thn-cisco-asa-vpn-1029",
+        "thn-vmware-esx-warppanda-1029",
+        "cybernoz-vmware-kev-1029"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "theme": "The edge roundup: hijacks, zero-clicks, and an 8.2M-person filing",
+      "topic": "Summary — Tech Security",
+      "items": [
+        "itsec-roundup-1029",
+        "secureresearch-brief-1029"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "theme": "Bithumb walks back 'internal-only'",
+      "topic": "Summary — Fintech Security",
+      "items": [
+        "hokanews-bithumb-breach-1029",
+        "outlookmoney-sbi-breach-1029"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "theme": "Buy the wallet, lose the coins",
+      "topic": "Summary — Fintech Security",
+      "items": [
+        "hokanews-ledger-singapore-1029",
+        "hokanews-zklink-1029"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "theme": "Crime's bill comes due",
+      "topic": "Summary — Fintech Security",
+      "items": [
+        "coinlab-johnston-1029",
+        "particle-dprk-sanctions-1029"
+      ]
     }
   ],
   "edition": "2026-10-29",
@@ -2623,6 +2679,16 @@
       "author": null,
       "headline": "Crux Labs emerges from stealth with a $6M+ oversubscribed round co-led by Benchstrength and Misneach to align enterprise AI agents with expert human judgment",
       "url": "https://www.morningstar.com/news/pr-newswire/20261029ph83365/crux-labs-raises-over-6m-to-align-ai-agents-with-human-judgment-inside-the-enterprise",
+      "lane": null
+    },
+    {
+      "id": "thn-cisco-asa-vpn-1029",
+      "date": "2026-10-29",
+      "time": "1:30 PM",
+      "outlet": "The Hacker News",
+      "author": "Ravie Lakshmanan",
+      "headline": "Cisco patches a second actively exploited firewall VPN zero-day since August: CVE-2026-76418 (CVSS 8.6) in ASA and FTD Remote Access SSL VPN lets an unauthenticated remote attacker crash the device with a crafted request when secondary authentication is configured on a tunnel group",
+      "url": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html?m=1",
       "lane": null
     }
   ],
