@@ -793,9 +793,63 @@
       "items": [
         "cryptofox-diamante-1028"
       ]
+    },
+    {
+      "date": "2026-10-29",
+      "theme": "PHP2Shell reaches the firewall edge",
+      "topic": "Vulnerabilities",
+      "items": [
+        "thn-php2shell-paloalto-1029",
+        "secureresearch-brief-1029"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "theme": "VMware’s logging flaw, exploited",
+      "topic": "Vulnerabilities",
+      "items": [
+        "thn-vmware-esx-warppanda-1029",
+        "cybernoz-vmware-kev-1029"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "theme": "Morning roundup: edge, browser, and identity",
+      "topic": "Threat intelligence",
+      "items": [
+        "itsec-roundup-1029"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "theme": "Tampered wallets and a drained bridge",
+      "topic": "Fintech security",
+      "items": [
+        "hokanews-ledger-singapore-1029",
+        "hokanews-zklink-1029"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "theme": "Crypto crime, sentenced and sanctioned",
+      "topic": "Fintech security",
+      "items": [
+        "coinlab-johnston-1029",
+        "particle-dprk-sanctions-1029"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "theme": "Funding morning: chips, finance agents, accounting AI",
+      "topic": "Startups",
+      "items": [
+        "finsmes-furiosaai-1029",
+        "finsmes-casap-1029",
+        "techeu-ravical-1029"
+      ]
     }
   ],
-  "edition": "2026-10-28",
+  "edition": "2026-10-29",
   "items": [
     {
       "author": "Emma Roth",
@@ -2355,6 +2409,126 @@
       "headline": "Daishin Securities confirms personal data of 38,490 customers leaked after hackers accessed its systems — names, email addresses and mobile numbers, in South Korea's widening financial-sector breach wave",
       "url": "https://www.nationpress.com/business/daishin-securities-breach-hits-38490-customers",
       "lane": "fraud"
+    },
+    {
+      "id": "thn-php2shell-paloalto-1029",
+      "date": "2026-10-29",
+      "time": "7:30 AM",
+      "outlet": "The Hacker News",
+      "author": "Ravie Lakshmanan",
+      "headline": "Palo Alto Networks warns threat actors are exploiting the patched PHP2Shell flaws against internet-exposed management interfaces — unauthenticated remote code execution via CVE-2026-109618 and CVE-2026-109619 (CVSS 9.2)",
+      "url": "https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html?m=1",
+      "lane": "bug"
+    },
+    {
+      "id": "thn-vmware-esx-warppanda-1029",
+      "date": "2026-10-29",
+      "time": "7:30 AM",
+      "outlet": "The Hacker News",
+      "author": "Ravie Lakshmanan",
+      "headline": "CISA adds a VMware ESX logging flaw (CVE-2026-41709) to its exploited catalog after CrowdStrike ties it to China-nexus Warp Panda attacks on the US legal sector — admin actions that leave no log trail",
+      "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
+      "lane": "bug"
+    },
+    {
+      "id": "cybernoz-vmware-kev-1029",
+      "date": "2026-10-29",
+      "time": "7:30 AM",
+      "outlet": "Cybernoz",
+      "author": null,
+      "headline": "CISA warns of a VMware ESX logging vulnerability exploited in attacks — CVE-2026-41709, added October 28 with a November 11 remediation deadline, shows why a low CVSS score should not set patching priority",
+      "url": "https://cybernoz.com/cisa-warns-of-vmware-esx-logging-vulnerability-exploited-in-attacks/",
+      "lane": "bug"
+    },
+    {
+      "id": "itsec-roundup-1029",
+      "date": "2026-10-29",
+      "time": "7:30 AM",
+      "outlet": "IT Security News",
+      "author": null,
+      "headline": "Morning roundup: Cisco patches a second actively exploited firewall VPN zero-day since August, a researcher shows a zero-click Microsoft Edge chain, Volt Typhoon is tied to zero-days against US critical infrastructure, and a 319-extension Chrome hijack netted 13.4M users",
+      "url": "https://www.itsecuritynews.info/it-security-news-roundup-2026-10-29-morning/",
+      "lane": "bug"
+    },
+    {
+      "id": "secureresearch-brief-1029",
+      "date": "2026-10-29",
+      "time": "7:30 AM",
+      "outlet": "SecureResearch",
+      "author": null,
+      "headline": "Daily cyber brief: PHP2Shell exploitation spreads into firewall management interfaces, Volt Typhoon’s rebuilt ‘Silent Train’ network is disrupted after four zero-day campaigns, and the iRhythm breach filing reaches 8.2 million people",
+      "url": "https://secureresearch.com/briefings/2026-10-29.html",
+      "lane": "bug"
+    },
+    {
+      "id": "hokanews-ledger-singapore-1029",
+      "date": "2026-10-29",
+      "time": "7:30 AM",
+      "outlet": "Hokanews",
+      "author": "Ethan Collins",
+      "headline": "Singapore police report $2.7 million in losses from tampered Ledger hardware wallets sold through local retail stores, with cases reported since September 10 and malicious hardware components found",
+      "url": "https://www.hokanews.com/2026/10/singapore-police-report-27-million.html",
+      "lane": "fraud"
+    },
+    {
+      "id": "hokanews-zklink-1029",
+      "date": "2026-10-29",
+      "time": "7:30 AM",
+      "outlet": "Hokanews",
+      "author": "Ethan Collins",
+      "headline": "zkLink Nova bridge exploit drains $778,625 in ETH and tokens in a single transaction after an attacker used a public relayer to introduce a forged batch root",
+      "url": "https://www.hokanews.com/2026/10/zklink-nova-bridge-exploit-drains.html",
+      "lane": "fraud"
+    },
+    {
+      "id": "coinlab-johnston-1029",
+      "date": "2026-10-29",
+      "time": "7:30 AM",
+      "outlet": "CoinLab",
+      "author": null,
+      "headline": "A Miami federal court gives Canadian Trenton Johnston 25 months for a money-laundering conspiracy that stole over $13M in crypto by impersonating Google and crypto support staff",
+      "url": "https://coinlab.info/en/news/johnston-crypto-fraud-sentenced-25-months-oct-2026/",
+      "lane": "fraud"
+    },
+    {
+      "id": "particle-dprk-sanctions-1029",
+      "date": "2026-10-29",
+      "time": "7:30 AM",
+      "outlet": "Particle News",
+      "author": null,
+      "headline": "US sanctions 10 individuals and a Russia-based entity in a North Korean IT worker fraud scheme — the move targets the financial plumbing converting stolen payroll and crypto flows into money for Pyongyang’s weapons programs",
+      "url": "https://particle.news/story/us-sanctions-10-individuals-and-russia-based-entity-in-north-korean-it-worker-fraud",
+      "lane": "fraud"
+    },
+    {
+      "id": "finsmes-furiosaai-1029",
+      "date": "2026-10-29",
+      "time": "7:30 AM",
+      "outlet": "FinSMEs",
+      "author": null,
+      "headline": "FuriosaAI raises $620M in Series D funding — one of the largest Korean startup rounds ever — to expand production of its RNGD AI accelerator and build its third-generation chip",
+      "url": "https://www.finsmes.com/2026/10/furiosaai-raises-620m-in-series-d-funding.html",
+      "lane": null
+    },
+    {
+      "id": "finsmes-casap-1029",
+      "date": "2026-10-29",
+      "time": "7:30 AM",
+      "outlet": "FinSMEs",
+      "author": null,
+      "headline": "Casap raises $56M in Series B led by Base10 Partners, with Experian and Synchrony participating, to push agentic AI deeper into banks’ fraud, disputes, collections and claims work",
+      "url": "https://www.finsmes.com/2026/10/casap-raises-56m-in-series-b-funding.html",
+      "lane": null
+    },
+    {
+      "id": "techeu-ravical-1029",
+      "date": "2026-10-29",
+      "time": "7:30 AM",
+      "outlet": "Tech.eu",
+      "author": null,
+      "headline": "Ravical raises $17M in seed funding led by MMC Ventures to turn accounting firms’ best people into a shared AI way of working — over 100 European firms already use the platform",
+      "url": "https://tech.eu/2026/10/29/ravical-raises-17m-to-break-the-link-between-accounting-firms-growth-and-hiring/",
+      "lane": null
     }
   ],
   "site": "GoldRang3r"
