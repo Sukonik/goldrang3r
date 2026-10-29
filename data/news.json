@@ -847,6 +847,41 @@
         "finsmes-casap-1029",
         "techeu-ravical-1029"
       ]
+    },
+    {
+      "date": "2026-10-29",
+      "theme": "Midday: Bithumb admits the breach reached customers",
+      "topic": "Fintech security",
+      "items": [
+        "hokanews-bithumb-breach-1029"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "theme": "Midday: bank customer data surfaces, from Seoul to Mumbai",
+      "topic": "Breaches",
+      "items": [
+        "hokanews-bithumb-breach-1029",
+        "outlookmoney-sbi-breach-1029"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "theme": "Midday: Node2Shell exploitation confirmed",
+      "topic": "Vulnerabilities",
+      "items": [
+        "punkreport-brotli-kev-1029"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "theme": "Midday funding: cameras, lab robots, agent judgment",
+      "topic": "Startups",
+      "items": [
+        "siliconangle-solink-1029",
+        "roboticstomorrow-opentrons-1029",
+        "morningstar-crux-1029"
+      ]
     }
   ],
   "edition": "2026-10-29",
@@ -2528,6 +2563,66 @@
       "author": null,
       "headline": "Ravical raises $17M in seed funding led by MMC Ventures to turn accounting firms’ best people into a shared AI way of working — over 100 European firms already use the platform",
       "url": "https://tech.eu/2026/10/29/ravical-raises-17m-to-break-the-link-between-accounting-firms-growth-and-hiring/",
+      "lane": null
+    },
+    {
+      "id": "hokanews-bithumb-breach-1029",
+      "date": "2026-10-29",
+      "time": "12:30 PM",
+      "outlet": "Hokanews",
+      "author": "Victoria Hale",
+      "headline": "Bithumb admits customer data leaked in an October 27 intrusion into its internal groupware system — 6,444 customers and 715 employees affected, with 844 customer records exposed in readable form after the breach was first reported as internal-only",
+      "url": "https://www.hokanews.com/2026/10/bithumb-reports-data-breach-affecting.html",
+      "lane": "fraud"
+    },
+    {
+      "id": "outlookmoney-sbi-breach-1029",
+      "date": "2026-10-29",
+      "time": "12:30 PM",
+      "outlet": "Outlook Money",
+      "author": "Brajesh Kumar Tiwari",
+      "headline": "State Bank of India confirms personal data of nearly 4,000 customers surfaced on the dark web — names, phone numbers, dates of birth and loan details exposed, though the bank says balances and operations are unaffected",
+      "url": "https://www.outlookmoney.com/news/sbi-data-breach-your-money-may-be-safe-but-what-about-your-personal-information",
+      "lane": "fraud"
+    },
+    {
+      "id": "punkreport-brotli-kev-1029",
+      "date": "2026-10-29",
+      "time": "12:30 PM",
+      "outlet": "Punk Report",
+      "author": "Punk Research",
+      "headline": "CISA confirms attackers are actively exploiting the Brotli decoder flaw behind Node2Shell (CVE-2026-111497) — Microsoft shipped emergency out-of-band .NET 8, 9 and 10 updates and federal agencies must patch by November 10",
+      "url": "https://punkreport.sh/news/brotli-node2shell-exploited-in-wild/",
+      "lane": "bug"
+    },
+    {
+      "id": "siliconangle-solink-1029",
+      "date": "2026-10-29",
+      "time": "12:30 PM",
+      "outlet": "SiliconANGLE",
+      "author": null,
+      "headline": "Solink raises more than $100M led by Vertu Capital, with Goldman Sachs Growth Equity participating, to expand its AI vision platform that pulls business data from the security cameras retailers and warehouses already run",
+      "url": "https://siliconangle.com/2026/10/29/solink-raises-more-than-100m-to-pull-business-data-from-security-cameras-with-ai/",
+      "lane": null
+    },
+    {
+      "id": "roboticstomorrow-opentrons-1029",
+      "date": "2026-10-29",
+      "time": "12:30 PM",
+      "outlet": "RoboticsTomorrow",
+      "author": null,
+      "headline": "Opentrons raises a $40M Series E led by Avego to standardize AI-driven science on its lab robots — over 11,000 robots deployed in 80+ countries, including at 90% of the top 20 pharma companies",
+      "url": "https://www.roboticstomorrow.com/news/2026/10/29/opentrons-announces-40m-series-e-round-to-standardize-ai-driven-science-on-its-robots/27316/",
+      "lane": null
+    },
+    {
+      "id": "morningstar-crux-1029",
+      "date": "2026-10-29",
+      "time": "12:30 PM",
+      "outlet": "Morningstar",
+      "author": null,
+      "headline": "Crux Labs emerges from stealth with a $6M+ oversubscribed round co-led by Benchstrength and Misneach to align enterprise AI agents with expert human judgment",
+      "url": "https://www.morningstar.com/news/pr-newswire/20261029ph83365/crux-labs-raises-over-6m-to-align-ai-agents-with-human-judgment-inside-the-enterprise",
       "lane": null
     }
   ],
