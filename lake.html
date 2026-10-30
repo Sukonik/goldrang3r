@@ -76,6 +76,65 @@
                 <p class="feed__date">Friday, October 30, 2026</p>
 
         <article class="cluster">
+          <p class="cluster__meta">Cluster · Afternoon summaries · Summary — Tech Security</p>
+          <h2 class="cluster__title">Sunday's patch deadline</h2>
+          <p class="cluster__body">The federal patching clock is now measured in days, not weeks: CISA added a maximum-severity GitLab code-execution flaw and a Cisco firewall denial-of-service flaw to its exploited-vulnerabilities list, with federal agencies ordered to fix both by Sunday, November 1. The GitLab flaw lets an unauthenticated attacker run code on the server through a crafted regular expression in a pipeline configuration, and it was already probed against an Alpine Linux instance on October 20–21. The Cisco flaw is quieter but nastier in its own way — a single crafted request to the VPN login page can force the firewall to reload, dropping every connection passing through it.</p>
+          <ul class="cluster__items">
+          <li><b>The Hacker News:</b> <a href="https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html">CISA adds a CVSS-10 GitLab RCE and a Cisco firewall DoS flaw to its exploited-vulnerabilities list</a></li>
+          <li><b>BleepingComputer:</b> <a href="https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/">CISA says max severity GitLab flaw now exploited in the wild</a></li>
+          </ul>
+        </article>
+
+        <article class="cluster">
+          <p class="cluster__meta">Cluster · Afternoon summaries · Summary — Tech Security</p>
+          <h2 class="cluster__title">WordPress and Drupal, under live fire</h2>
+          <p class="cluster__body">Patching fast is no longer enough — the window between a fix and mass probing is now measured in hours. A WordPress Core remote-code flaw patched on October 28 drew nearly 63,000 attack attempts in its first 24 hours, with attackers polling vulnerable paths in long, steady waves that look designed to catch sites mid-upgrade. At the same time, Drupal warned that a highly critical authorization bypass in its Commerce Core component is being actively exploited, letting attackers slip past access controls on store routes and fields with potential financial impact for shop owners.</p>
+          <ul class="cluster__items">
+          <li><b>The Hacker News:</b> <a href="http://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html">WordPress RCE flaw draws nearly 63,000 attack attempts in just 24 hours</a></li>
+          <li><b>The Hacker News:</b> <a href="https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html">Hackers actively exploit highly critical Drupal Commerce Core authorization bypass flaw</a></li>
+          </ul>
+        </article>
+
+        <article class="cluster">
+          <p class="cluster__meta">Cluster · Afternoon summaries · Summary — Tech Security</p>
+          <h2 class="cluster__title">PHP2Shell's long tail reaches the travel desk</h2>
+          <p class="cluster__body">Two weeks on, the PHP flaws refuse to fade into background noise: the overnight roundup still finds PHP2Shell and the Brotli decoder flaw turning up in real attacks, and the blast radius keeps widening beyond server rooms. Travel firms are now being told to stay vigilant after the alert took more than 30 UK government sites offline, with agents urged to confirm their providers patched both PHP flaws rather than assuming the WordPress update alone did the job. The through-line of the week holds — the runtime underneath the app is the patch that matters.</p>
+          <ul class="cluster__items">
+          <li><b>Travel Weekly:</b> <a href="https://travelweekly.co.uk/news/travel-firms-told-be-vigilant-following-cybersecurity-alert">Travel firms told to stay vigilant as the PHP2Shell alert takes 30+ UK government sites offline</a></li>
+          <li><b>IT Security News:</b> <a href="https://www.itsecuritynews.info/it-security-news-roundup-2026-10-30-overnight/">Overnight roundup: PHP2Shell and Brotli flaws keep turning up in real attacks</a></li>
+          </ul>
+        </article>
+
+        <article class="cluster">
+          <p class="cluster__meta">Cluster · Afternoon summaries · Summary — Fintech Security</p>
+          <h2 class="cluster__title">The $6.3B heist, and the $6.34B promise</h2>
+          <p class="cluster__body">The largest crypto theft on record took about 20 minutes: attackers drained roughly $6.3 billion from Binance's hot wallets across ten blockchains, and the exchange now says its first findings point to a compromised DevOps engineer's laptop that let the attacker submit unauthorized withdrawals — with additional breach points uncovered since. Binance has set aside more than $6.34 billion in company resources to restore customer balances, says about $3 billion has been frozen with industry partners, and has paused withdrawals while it rebuilds its withdrawal checks. The market felt it instantly — bitcoin slid below $77,000, over $1 billion in leveraged bets liquidated, and Polymarket suspended international trading after a separate $2.6 million drain — while analysts link the heist with high confidence to North Korea's TraderTraitor unit, though Binance itself has named no one.</p>
+          <ul class="cluster__items">
+          <li><b>Reuters:</b> <a href="https://www.reuters.com/legal/government/gone-20-minutes-how-biggest-heist-crypto-history-unfolded-2026-10-30/">Gone in 20 minutes: hackers drain $6.3 billion from Binance in the largest crypto heist on record</a></li>
+          <li><b>CoinDesk:</b> <a href="https://www.coindesk.com/business/2026/10/30/binance-arranges-usd6-34-billion-to-cover-losses-from-record-crypto-hack">Binance arranges $6.34 billion to cover losses from biggest crypto hack ever</a></li>
+          <li><b>CoinDesk:</b> <a href="https://www.coindesk.com/markets/2026/10/30/usd6-billion-binance-hack-sends-bitcoin-ether-tumbling-standard-chartered-sees-more-losses-ahead">Bitcoin slides below $77,000 as the Binance theft liquidates over $1 billion in bets</a></li>
+          </ul>
+        </article>
+
+        <article class="cluster">
+          <p class="cluster__meta">Cluster · Afternoon summaries · Summary — Fintech Security</p>
+          <h2 class="cluster__title">Buy the wallet, lose the coins — again</h2>
+          <p class="cluster__body">The week's second hardware-wallet warning lands on the same lesson as the first: where you buy the device matters as much as the device itself. Trezor is warning customers who bought wallets through reseller CryptoBilis since March to move their funds immediately over a suspected hardware implant that could compromise private keys. It follows Singapore police reporting $2.7 million lost to tampered Ledger wallets sold through local shops — two brands, two countries, one pattern — and the fix in both cases is blunt: buy direct from the maker, and treat any third-party device as suspect until proven otherwise.</p>
+          <ul class="cluster__items">
+          <li><b>EU Finance News:</b> <a href="https://eufinance.news/trezor-issues-security-alert-over-suspected-hardware-implant-in-devices-sold-by-cryptobilis/">Trezor warns of suspected hardware implant in devices sold by CryptoBilis</a></li>
+          </ul>
+        </article>
+
+        <article class="cluster">
+          <p class="cluster__meta">Cluster · Afternoon summaries · Summary — Fintech Security</p>
+          <h2 class="cluster__title">Fintech's fraud warning, from Yaoundé</h2>
+          <p class="cluster__body">Cameroon's warning is a useful counterweight to a week dominated by billion-dollar headlines: the everyday risk is unglamorous and measurable. Audits of 108 fintech firms found 3,914 vulnerabilities, with weak access controls and poor data protection at the top of the list, as AI-enabled fraud and phishing grow alongside fintech adoption itself. No single heist, no single flaw — just the steady arithmetic of fast-growing financial apps outrunning their own security basics.</p>
+          <ul class="cluster__items">
+          <li><b>ITWeb Africa:</b> <a href="https://itweb.africa/article/cameroon-warns-of-rising-fintech-cyberthreats/JN1gPvOAQJrMjL6m">Cameroon warns of rising fintech cyberthreats after audits find 3,914 vulnerabilities</a></li>
+          </ul>
+        </article>
+
+        <article class="cluster">
           <p class="cluster__meta">Cluster · Midday update</p>
           <h2 class="cluster__title">KEV grows: GitLab, Cisco, WordPress, Drupal</h2>
           <ul class="cluster__items">

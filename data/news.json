@@ -6,6 +6,58 @@
   ],
   "clusters": [
     {
+      "date": "2026-10-30",
+      "theme": "Sunday's patch deadline",
+      "topic": "Summary — Tech Security",
+      "items": [
+        "thn-kev-gitlab-cisco-1030"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "theme": "WordPress and Drupal, under live fire",
+      "topic": "Summary — Tech Security",
+      "items": [
+        "thn-wordpress-rce-1030",
+        "thn-drupal-commerce-1030"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "theme": "PHP2Shell's long tail reaches the travel desk",
+      "topic": "Summary — Tech Security",
+      "items": [
+        "travelweekly-php-1030",
+        "itsecuritynews-overnight-1030"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "theme": "The $6.3B heist, and the $6.34B promise",
+      "topic": "Summary — Fintech Security",
+      "items": [
+        "reuters-binance-heist-1030",
+        "coindesk-binance-cover-1030",
+        "coindesk-btc-fallout-1030"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "theme": "Buy the wallet, lose the coins — again",
+      "topic": "Summary — Fintech Security",
+      "items": [
+        "eufinance-trezor-cryptobilis-1030"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "theme": "Cameroon's fintech audit: 3,914 flaws",
+      "topic": "Summary — Fintech Security",
+      "items": [
+        "itweb-cameroon-fintech-1030"
+      ]
+    },
+    {
       "date": "2026-10-24",
       "theme": "The Cambodia scam case reaches a US court",
       "topic": "Fintech security",
