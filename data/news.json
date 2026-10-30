@@ -945,7 +945,9 @@
       "topic": "Morning edition",
       "items": [
         "reuters-binance-heist-1030",
-        "itsecuritynews-overnight-1030"
+        "itsecuritynews-overnight-1030",
+        "coindesk-binance-cover-1030",
+        "coindesk-btc-fallout-1030"
       ]
     },
     {
@@ -997,6 +999,32 @@
       "topic": "Morning edition",
       "items": [
         "devto-adt-thrive-1030"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "theme": "KEV grows: GitLab, Cisco, WordPress, Drupal",
+      "topic": "Vulnerabilities",
+      "items": [
+        "thn-kev-gitlab-cisco-1030",
+        "thn-wordpress-rce-1030",
+        "thn-drupal-commerce-1030"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "theme": "Midday funding: Cohere's C$7B target and Dulo's seed",
+      "topic": "Startups",
+      "items": [
+        "techstartups-funding-1030"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "theme": "PHP2Shell reaches travel desks",
+      "topic": "Tech security",
+      "items": [
+        "travelweekly-php-1030"
       ]
     }
   ],
@@ -2859,6 +2887,76 @@
       "outlet": "Reuters",
       "headline": "Foxconn flags a new OpenAI collaboration in the works after its chairman met Sam Altman, says there is no AI bubble, and expects double-digit growth next year as AI servers pass half its revenue",
       "url": "https://1027superhits.com/2026/10/30/foxconn-working-on-a-new-tie-up-with-openai-says-there-is-no-ai-bubble/",
+      "lane": null
+    },
+    {
+      "id": "coindesk-binance-cover-1030",
+      "date": "2026-10-30",
+      "time": "12:30 PM",
+      "outlet": "CoinDesk",
+      "author": null,
+      "headline": "Binance sets aside more than $6.34 billion in company resources to restore customer balances after the $6.3 billion theft — $3 billion frozen with partners so far, withdrawals paused pending security checks",
+      "url": "https://www.coindesk.com/business/2026/10/30/binance-arranges-usd6-34-billion-to-cover-losses-from-record-crypto-hack",
+      "lane": "fraud"
+    },
+    {
+      "id": "coindesk-btc-fallout-1030",
+      "date": "2026-10-30",
+      "time": "12:30 PM",
+      "outlet": "CoinDesk",
+      "author": null,
+      "headline": "Bitcoin slides below $77,000 and over $1 billion in leveraged bets liquidate after the Binance theft, while Polymarket suspends international trading after hackers drain more than $2.6 million",
+      "url": "https://www.coindesk.com/markets/2026/10/30/usd6-billion-binance-hack-sends-bitcoin-ether-tumbling-standard-chartered-sees-more-losses-ahead",
+      "lane": "fraud"
+    },
+    {
+      "id": "thn-kev-gitlab-cisco-1030",
+      "date": "2026-10-30",
+      "time": "12:30 PM",
+      "outlet": "The Hacker News",
+      "author": "Ravie Lakshmanan",
+      "headline": "CISA adds a CVSS-10 GitLab RCE and a Cisco firewall DoS flaw to its exploited-vulnerabilities list, giving federal agencies until November 1 to patch",
+      "url": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
+      "lane": "bug"
+    },
+    {
+      "id": "thn-wordpress-rce-1030",
+      "date": "2026-10-30",
+      "time": "12:30 PM",
+      "outlet": "The Hacker News",
+      "author": "Ravie Lakshmanan",
+      "headline": "WordPress Core RCE flaw patched October 28 draws nearly 63,000 attack attempts in 24 hours, Wordfence says — sites urged to update to 7.1.4",
+      "url": "http://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
+      "lane": "bug"
+    },
+    {
+      "id": "thn-drupal-commerce-1030",
+      "date": "2026-10-30",
+      "time": "12:30 PM",
+      "outlet": "The Hacker News",
+      "author": "Ravie Lakshmanan",
+      "headline": "Drupal warns a 'highly critical' Commerce Core authorization-bypass flaw is being actively exploited, letting attackers bypass access controls on store routes and fields",
+      "url": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
+      "lane": "bug"
+    },
+    {
+      "id": "techstartups-funding-1030",
+      "date": "2026-10-30",
+      "time": "12:30 PM",
+      "outlet": "TechStartups",
+      "author": null,
+      "headline": "Cohere opens a financing targeting up to C$7 billion while AI engineering startup Dulo raises a $130 million seed backed by Eric Schmidt, John Doerr and DST Global",
+      "url": "https://techstartups.com/2026/10/30/startup-funding-news-today-october-30-2026-kalshi-cohere-bites-dulo-opentrons-firehawk-defense-more/",
+      "lane": null
+    },
+    {
+      "id": "travelweekly-php-1030",
+      "date": "2026-10-30",
+      "time": "12:30 PM",
+      "outlet": "Travel Weekly",
+      "author": null,
+      "headline": "Travel firms told to stay vigilant as the PHP2Shell alert takes 30+ UK government sites offline — agents urged to confirm providers patched both flaws",
+      "url": "https://travelweekly.co.uk/news/travel-firms-told-be-vigilant-following-cybersecurity-alert",
       "lane": null
     }
   ],
