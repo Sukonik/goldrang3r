@@ -938,9 +938,69 @@
         "coinlab-johnston-1029",
         "particle-dprk-sanctions-1029"
       ]
+    },
+    {
+      "date": "2026-10-30",
+      "theme": "The biggest heist in crypto history",
+      "topic": "Morning edition",
+      "items": [
+        "reuters-binance-heist-1030",
+        "itsecuritynews-overnight-1030"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "theme": "Hardware wallets, compromised at the source",
+      "topic": "Morning edition",
+      "items": [
+        "eufinance-trezor-cryptobilis-1030"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "theme": "The week's untested assumptions",
+      "topic": "Morning edition",
+      "items": [
+        "diesec-top5-1030"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "theme": "Fintech's fraud warning, from Yaoundé",
+      "topic": "Morning edition",
+      "items": [
+        "itweb-cameroon-fintech-1030"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "theme": "The funding river: Kalshi, chips, and AI",
+      "topic": "Morning edition",
+      "items": [
+        "cointelegraph-kalshi-1030",
+        "analyticsinsight-nanocore-1030",
+        "wsnext-tenstorrent-1030"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "theme": "Open weights and AI hardware",
+      "topic": "Morning edition",
+      "items": [
+        "devto-mistral-lechonk-1030",
+        "reuters-foxconn-openai-1030"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "theme": "ADT goes private in a $15.3B AI bet",
+      "topic": "Morning edition",
+      "items": [
+        "devto-adt-thrive-1030"
+      ]
     }
   ],
-  "edition": "2026-10-29",
+  "edition": "2026-10-30",
   "items": [
     {
       "author": "Emma Roth",
@@ -2689,6 +2749,116 @@
       "author": "Ravie Lakshmanan",
       "headline": "Cisco patches a second actively exploited firewall VPN zero-day since August: CVE-2026-76418 (CVSS 8.6) in ASA and FTD Remote Access SSL VPN lets an unauthenticated remote attacker crash the device with a crafted request when secondary authentication is configured on a tunnel group",
       "url": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html?m=1",
+      "lane": null
+    },
+    {
+      "id": "reuters-binance-heist-1030",
+      "date": "2026-10-30",
+      "time": "7:30 AM",
+      "author": null,
+      "outlet": "Reuters",
+      "headline": "Gone in 20 minutes: hackers drain $6.3 billion from Binance in the largest crypto heist on record — about $3 billion frozen so far, losses covered by the exchange's user-protection fund, and analysts note similarities to the Bybit attack",
+      "url": "https://www.reuters.com/legal/government/gone-20-minutes-how-biggest-heist-crypto-history-unfolded-2026-10-30/",
+      "lane": "fraud"
+    },
+    {
+      "id": "eufinance-trezor-cryptobilis-1030",
+      "date": "2026-10-30",
+      "time": "7:30 AM",
+      "author": null,
+      "outlet": "EU Finance News",
+      "headline": "Trezor warns customers who bought hardware wallets through reseller CryptoBilis since March to move funds immediately over a suspected hardware implant that could compromise private keys",
+      "url": "https://eufinance.news/trezor-issues-security-alert-over-suspected-hardware-implant-in-devices-sold-by-cryptobilis/",
+      "lane": "fraud"
+    },
+    {
+      "id": "diesec-top5-1030",
+      "date": "2026-10-30",
+      "time": "7:30 AM",
+      "author": null,
+      "outlet": "DIESEC",
+      "headline": "The week's top 5 security stories are about assumptions nobody re-checked: GMO's trading-desktop cloud, a VMware ESXi flaw scored 2.7 exploited as a zero-day, a PeopleSoft trust-rule chain, an unrevoked key behind a poisoned LiteLLM release, and Dahua cameras reachable through the vendor's cloud",
+      "url": "https://diesec.com/2026/10/top-5-cybersecurity-news-october-30-2026/",
+      "lane": "bug"
+    },
+    {
+      "id": "itweb-cameroon-fintech-1030",
+      "date": "2026-10-30",
+      "time": "7:30 AM",
+      "author": null,
+      "outlet": "ITWeb Africa",
+      "headline": "Cameroon warns fintech's rapid growth is drawing AI-enabled fraud and phishing, after 108 security audits of fintech firms found 3,914 vulnerabilities — weak access controls and poor data protection top the list",
+      "url": "https://itweb.africa/article/cameroon-warns-of-rising-fintech-cyberthreats/JN1gPvOAQJrMjL6m",
+      "lane": "fraud"
+    },
+    {
+      "id": "itsecuritynews-overnight-1030",
+      "date": "2026-10-30",
+      "time": "7:30 AM",
+      "author": null,
+      "outlet": "IT Security News",
+      "headline": "Overnight roundup: Binance dominates the window with a suspected $5.7–$6.3 billion theft, PHP2Shell and Brotli flaws keep turning up in real attacks, poisoned AI models and unpatched AI developer tools spread, and third-party leaks expose DHS staff and Japan Airlines passenger data",
+      "url": "https://www.itsecuritynews.info/it-security-news-roundup-2026-10-30-overnight/",
+      "lane": null
+    },
+    {
+      "id": "cointelegraph-kalshi-1030",
+      "date": "2026-10-30",
+      "time": "7:30 AM",
+      "author": null,
+      "outlet": "Cointelegraph",
+      "headline": "Kalshi closes a $1 billion Series G at a $40 billion valuation, co-led by Wellington and Sequoia — up 82% from $22 billion in May — as non-sports annualized revenue tops $1 billion",
+      "url": "https://cointelegraph.com/news/kalshi-closes-1b-funding-round-at-40b-valuation-as-non-sports-revenue-run-rate-tops-1b",
+      "lane": null
+    },
+    {
+      "id": "analyticsinsight-nanocore-1030",
+      "date": "2026-10-30",
+      "time": "7:30 AM",
+      "author": null,
+      "outlet": "Analytics Insight",
+      "headline": "Chinese AI inference chip startup Nano-core raises over RMB 1 billion in a Series C2 round to fund product development and mass-production prep, with customer testing and initial shipments set for early 2027",
+      "url": "https://www.analyticsinsight.net/tech-news/top-tech-news-nano-core-raises-rmb-1-billion-kalshi-hits-40b",
+      "lane": null
+    },
+    {
+      "id": "wsnext-tenstorrent-1030",
+      "date": "2026-10-30",
+      "time": "7:30 AM",
+      "author": null,
+      "outlet": "WSNext",
+      "headline": "Australian platform NonPublic channels $118 million into Tenstorrent's $1.5 billion Series E, valuing the RISC-V AI chipmaker at $6.2 billion and widening access to pre-IPO tech",
+      "url": "https://wsnext.com/94684f9-Artificial-intelligence-Venture-capital/",
+      "lane": null
+    },
+    {
+      "id": "devto-mistral-lechonk-1030",
+      "date": "2026-10-30",
+      "time": "7:30 AM",
+      "author": null,
+      "outlet": "DEV Community",
+      "headline": "Mistral opens the weights on trillion-parameter Mistral Large 4, a.k.a. Le Chonk, claiming the top open-weight coding score — while Alphabet and Microsoft report sharply different AI P&L stories",
+      "url": "https://dev.to/hiroki-ii-ai/ai-daily-digest-october-30-2026-mistral-opens-a-trillion-parameters-cloud-giants-report-openai-1gk7",
+      "lane": null
+    },
+    {
+      "id": "devto-adt-thrive-1030",
+      "date": "2026-10-30",
+      "time": "7:30 AM",
+      "author": null,
+      "outlet": "DEV Community",
+      "headline": "ADT agrees to go private in a $15.3 billion all-cash deal with Thrive Holdings at $10 a share, a 45.6% premium, with closing expected in Q1 2027 and data policies pledged unchanged",
+      "url": "https://dev.to/hiroki-ii-ai/ai-daily-digest-october-30-2026-mistral-opens-a-trillion-parameters-cloud-giants-report-openai-1gk7",
+      "lane": null
+    },
+    {
+      "id": "reuters-foxconn-openai-1030",
+      "date": "2026-10-30",
+      "time": "7:30 AM",
+      "author": "Wen-Yee Lee",
+      "outlet": "Reuters",
+      "headline": "Foxconn flags a new OpenAI collaboration in the works after its chairman met Sam Altman, says there is no AI bubble, and expects double-digit growth next year as AI servers pass half its revenue",
+      "url": "https://1027superhits.com/2026/10/30/foxconn-working-on-a-new-tie-up-with-openai-says-there-is-no-ai-bubble/",
       "lane": null
     }
   ],
