@@ -6,6 +6,62 @@
   ],
   "clusters": [
     {
+      "date": "2026-10-31",
+      "theme": "The tracker gets tracked",
+      "topic": "Summary — Fintech Security",
+      "items": [
+        "thn-chainalysis-intrusion-1031"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "theme": "The heist, day two: 90% back, and rivals harden up",
+      "topic": "Summary — Fintech Security",
+      "items": [
+        "techxplore-binance-explainer-1031",
+        "coincentral-binance-payback-1031",
+        "coincentral-liquidations-1031",
+        "cointelegraph-binance-90pct-1031",
+        "reuters-exchanges-tighten-1031"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "theme": "October's ledger, closed with a CVE",
+      "topic": "Summary — Tech Security",
+      "items": [
+        "volyte-october-alert-1031",
+        "cyberdive-php2shell-root-1031",
+        "suriq-wordpress-cve-1031"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "theme": "Sunday's edge deadline: Ivanti's chain, twelve products deep",
+      "topic": "Summary — Tech Security",
+      "items": [
+        "thn-ivanti-chain-1031",
+        "datawater-edge-recap-1031"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "theme": "The extension that wasn't",
+      "topic": "Summary — Tech Security",
+      "items": [
+        "sophos-claude-cursor-1031"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "theme": "Black October, in one lesson: rotate the keys",
+      "topic": "Summary — Tech Security",
+      "items": [
+        "wiz-black-october-1031",
+        "devto-black-october-1031"
+      ]
+    },
+    {
       "date": "2026-10-30",
       "theme": "Sunday's patch deadline",
       "topic": "Summary — Tech Security",
@@ -3231,6 +3287,26 @@
       "headline": "DataWater's October edge-device recap counts twelve exploited edge products — Fortinet to Cisco ASA — with one federal deadline still open: Cisco ASA/FTD CVE-2026-76418, due Sunday, November 1",
       "url": "https://datawater.com/edge-device-zero-days-october-2026/",
       "lane": "bug"
+    },
+    {
+      "id": "sophos-claude-cursor-1031",
+      "date": "2026-10-31",
+      "time": "1:30 PM",
+      "outlet": "Sophos",
+      "author": null,
+      "headline": "A tampered Claude Code extension (2.1.312/2.1.313) served through Cursor's marketplace for about 11 hours on Oct 29 planted an attacker SSH key and persistence, reaching up to 5,000 users; Sophos warns uninstalling alone leaves the backdoor in place",
+      "url": "https://www.sophos.com/en-us/blog/malicious-claude-code-extension-distributed-through-cursor-marketplace",
+      "lane": null
+    },
+    {
+      "id": "reuters-exchanges-tighten-1031",
+      "date": "2026-10-31",
+      "time": "1:30 PM",
+      "outlet": "Reuters",
+      "author": null,
+      "headline": "Crypto exchanges move to bolster defenses after the record $6.3B Binance heist, with Coinbase adjusting offline key storage and Tether freezing nearly $1.57B and Circle $800M linked to the theft",
+      "url": "https://www.reuters.com/legal/government/crypto-exchanges-call-quick-moves-bolster-defenses-after-binance-heist-2026-10-31/",
+      "lane": null
     }
   ],
   "site": "GoldRang3r"
