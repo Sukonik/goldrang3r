@@ -1078,9 +1078,62 @@
       "items": [
         "travelweekly-php-1030"
       ]
+    },
+    {
+      "date": "2026-10-31",
+      "theme": "The $6.3B heist, day two",
+      "topic": "Fintech security",
+      "items": [
+        "techxplore-binance-explainer-1031",
+        "coincentral-binance-payback-1031",
+        "coincentral-liquidations-1031"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "theme": "Black October: nine platforms, one key hunt",
+      "topic": "Tech security",
+      "items": [
+        "wiz-black-october-1031",
+        "devto-black-october-1031"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "theme": "October's exploit ledger",
+      "topic": "Tech security",
+      "items": [
+        "volyte-october-alert-1031",
+        "cyberdive-php2shell-root-1031"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "theme": "Wall Street reprices the AI buildout",
+      "topic": "Tech markets",
+      "items": [
+        "reuters-tech-rout-1031",
+        "reuters-openai-cut-1031"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "theme": "Funding week: Re:Build and Kalshi lead",
+      "topic": "Startups",
+      "items": [
+        "techinsider-funding-week-1031"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "theme": "WordPress's RCE gets its CVE",
+      "topic": "Vulnerabilities",
+      "items": [
+        "suriq-wordpress-cve-1031"
+      ]
     }
   ],
-  "edition": "2026-10-30",
+  "edition": "2026-10-31",
   "items": [
     {
       "author": "Emma Roth",
@@ -3010,6 +3063,116 @@
       "headline": "Travel firms told to stay vigilant as the PHP2Shell alert takes 30+ UK government sites offline — agents urged to confirm providers patched both flaws",
       "url": "https://travelweekly.co.uk/news/travel-firms-told-be-vigilant-following-cybersecurity-alert",
       "lane": null
+    },
+    {
+      "id": "reuters-tech-rout-1031",
+      "date": "2026-10-31",
+      "time": "7:30 AM",
+      "outlet": "Reuters",
+      "author": null,
+      "headline": "Wall Street's AI-spending reckoning: the Nasdaq posts its biggest fall since June as Intel plunges 28.6% on a weak forecast and Alphabet's $51B-plus capex quarter erases $500B in a session — the index now down 7.8% from its October 6 high",
+      "url": "https://www.reuters.com/legal/legalindustry/october-ends-with-thud-intel-reddit-ai-stalwarts-2026-10-30/",
+      "lane": null
+    },
+    {
+      "id": "techxplore-binance-explainer-1031",
+      "date": "2026-10-31",
+      "time": "7:30 AM",
+      "outlet": "Tech Xplore",
+      "author": null,
+      "headline": "What to know about the $6.3B Binance hack: attackers drained hot wallets on 10 blockchains in about 20 minutes, TRM Labs and Chainalysis point to North Korea's TraderTraitor, and the White House says US officials are investigating",
+      "url": "https://techxplore.com/news/2026-10-63b-hack-binance-biggest-crypto.html",
+      "lane": "fraud"
+    },
+    {
+      "id": "coincentral-binance-payback-1031",
+      "date": "2026-10-31",
+      "time": "7:30 AM",
+      "outlet": "CoinCentral",
+      "author": null,
+      "headline": "Binance sets aside more than $6.34B in company funds to cover the heist — $5B already held in the same tokens stolen, the rest to be bought on public markets and over the counter, with about $3B frozen and withdrawals paused",
+      "url": "https://coincentral.com/binance-hack-how-the-exchange-plans-to-pay-back-6-3-billion/",
+      "lane": "fraud"
+    },
+    {
+      "id": "coincentral-liquidations-1031",
+      "date": "2026-10-31",
+      "time": "3:32 AM",
+      "outlet": "CoinCentral",
+      "author": null,
+      "headline": "Crypto liquidations hit $397.74M in 24 hours as Bitcoin trades near $77,000 — about 38.8% below its record high — and US spot Bitcoin ETFs post $643.33M in net outflows on Friday",
+      "url": "https://coincentral.com/crypto-liquidations-reach-400-million-as-binance-hack-pressures-bitcoin-ethereum-and-solana/",
+      "lane": "fraud"
+    },
+    {
+      "id": "wiz-black-october-1031",
+      "date": "2026-10-31",
+      "time": "7:30 AM",
+      "outlet": "Wiz",
+      "author": "Benjamin Read and Rami McCarthy",
+      "headline": "Wiz names October ‘Black October’: at least nine AI developer platforms disclosed incidents this month — Fireworks AI to Northflank — with attackers hunting stored environment variables for AI keys, tested within 30 minutes and resold for LLMjacking",
+      "url": "https://www.wiz.io/blog/black-october-for-ai-developer-platforms",
+      "lane": "bug"
+    },
+    {
+      "id": "devto-black-october-1031",
+      "date": "2026-10-31",
+      "time": "7:30 AM",
+      "outlet": "DEV Community",
+      "author": null,
+      "headline": "Nine AI dev platforms breached, keys resold: stolen model keys were tested within about 30 minutes and later resold, with two enterprise Bedrock abuses alone running up over $100k in list-price usage, per Wiz's October tally",
+      "url": "https://dev.to/lycore/black-october-9-ai-dev-platforms-were-breached-rotate-your-keys-today-35d3",
+      "lane": "bug"
+    },
+    {
+      "id": "volyte-october-alert-1031",
+      "date": "2026-10-31",
+      "time": "7:30 AM",
+      "outlet": "Volyte",
+      "author": null,
+      "headline": "October's patch ledger: PHP's exploited RCE pair, a Linux kernel flaw reachable over the network rated 9.8, and Microsoft's record 1,400-plus-vulnerability Patch Tuesday — with a second kernel race condition still awaiting fixes on most distros",
+      "url": "https://volyte.com/blog/security-updates-october-2026",
+      "lane": "bug"
+    },
+    {
+      "id": "cyberdive-php2shell-root-1031",
+      "date": "2026-10-31",
+      "time": "7:30 AM",
+      "outlet": "Cybersecurity Dive",
+      "author": null,
+      "headline": "China-nexus actors chained PHP2Shell with the Fragnesia Linux kernel flaw to gain root on Palo Alto firewalls and breach US government servers, Cybersecurity Dive reports",
+      "url": null,
+      "lane": "bug"
+    },
+    {
+      "id": "techinsider-funding-week-1031",
+      "date": "2026-10-31",
+      "time": "7:30 AM",
+      "outlet": "Tech Insider",
+      "author": null,
+      "headline": "Funding week, October 24–30: manufacturing startup Re:Build closes $2.1B and Kalshi adds $1B at a $40B valuation, leading a roughly $4.8B week for US startups",
+      "url": "https://tech-insider.org/biggest-funding-rounds-rebuild-kalshi-bedrock-physical-ai-2026/",
+      "lane": null
+    },
+    {
+      "id": "reuters-openai-cut-1031",
+      "date": "2026-10-31",
+      "time": "7:30 AM",
+      "outlet": "Reuters",
+      "author": null,
+      "headline": "OpenAI slashes its funding target by $10B to about $20B at a $1.25T valuation amid the tech rout, the FT reports — the first close is expected to raise less than $20B as some investors trim allocations",
+      "url": "https://wixx.com/2026/10/30/openai-cuts-funding-target-by-10-billion-ft-reports/",
+      "lane": null
+    },
+    {
+      "id": "suriq-wordpress-cve-1031",
+      "date": "2026-10-31",
+      "time": "7:30 AM",
+      "outlet": "Suriq",
+      "author": null,
+      "headline": "WordPress's upgrade-window RCE finally gets its CVE — CVE-2026-119977 — three days after the 7.1.4 patch, as Wordfence counts 60,000-plus blocked attempts and WordPress's own advisory rates the same bug Low",
+      "url": "https://suriq.io/blog/wordpress-core-cve-2026-119977-upgrade-window-rce",
+      "lane": "bug"
     }
   ],
   "site": "GoldRang3r"
