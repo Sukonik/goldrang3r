@@ -1086,7 +1086,8 @@
       "items": [
         "techxplore-binance-explainer-1031",
         "coincentral-binance-payback-1031",
-        "coincentral-liquidations-1031"
+        "coincentral-liquidations-1031",
+        "cointelegraph-binance-90pct-1031"
       ]
     },
     {
@@ -1130,6 +1131,23 @@
       "topic": "Vulnerabilities",
       "items": [
         "suriq-wordpress-cve-1031"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "theme": "Midday: the tracker gets tracked",
+      "topic": "Fintech security",
+      "items": [
+        "thn-chainalysis-intrusion-1031"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "theme": "Midday: Ivanti's three-flaw chain, and October's edge ledger",
+      "topic": "Vulnerabilities",
+      "items": [
+        "thn-ivanti-chain-1031",
+        "datawater-edge-recap-1031"
       ]
     }
   ],
@@ -3172,6 +3190,46 @@
       "author": null,
       "headline": "WordPress's upgrade-window RCE finally gets its CVE — CVE-2026-119977 — three days after the 7.1.4 patch, as Wordfence counts 60,000-plus blocked attempts and WordPress's own advisory rates the same bug Low",
       "url": "https://suriq.io/blog/wordpress-core-cve-2026-119977-upgrade-window-rce",
+      "lane": "bug"
+    },
+    {
+      "id": "cointelegraph-binance-90pct-1031",
+      "date": "2026-10-31",
+      "time": "12:30 PM",
+      "outlet": "Cointelegraph",
+      "author": null,
+      "headline": "Binance says 90% of the $6.3B heist's assets are now replenished, up from 80% a day earlier, and it remains on track to resume withdrawals Sunday — customer BTC, ETH and eight other assets fully backed, with the shortfall in less liquid tokens still being bought",
+      "url": "https://cointelegraph.com/news/binance-hack-90-percent-replenished",
+      "lane": "fraud"
+    },
+    {
+      "id": "thn-chainalysis-intrusion-1031",
+      "date": "2026-10-31",
+      "time": "12:30 PM",
+      "outlet": "The Hacker News",
+      "author": "Ravie Lakshmanan",
+      "headline": "Chainalysis confirms an attacker using 'offensive agentic techniques' broke into its systems and internal tools and accessed non-sensitive customer data — user IDs, full names, emails and organization role labels — while investigation content, credentials and session tokens stayed untouched",
+      "url": "http://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
+      "lane": "fraud"
+    },
+    {
+      "id": "thn-ivanti-chain-1031",
+      "date": "2026-10-31",
+      "time": "12:30 PM",
+      "outlet": "The Hacker News",
+      "author": "Ravie Lakshmanan",
+      "headline": "CISA adds two Ivanti Connect Secure flaws to its exploited-vulnerabilities list, completing a three-flaw chain — authentication bypass, code execution, privilege escalation — that gives unauthenticated root access; federal agencies must patch CVE-2026-111357 by Nov 2 and CVE-2026-118527 by Nov 13",
+      "url": "http://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
+      "lane": "bug"
+    },
+    {
+      "id": "datawater-edge-recap-1031",
+      "date": "2026-10-31",
+      "time": "12:30 PM",
+      "outlet": "DataWater",
+      "author": null,
+      "headline": "DataWater's October edge-device recap counts twelve exploited edge products — Fortinet to Cisco ASA — with one federal deadline still open: Cisco ASA/FTD CVE-2026-76418, due Sunday, November 1",
+      "url": "https://datawater.com/edge-device-zero-days-october-2026/",
       "lane": "bug"
     }
   ],
