@@ -75,6 +75,64 @@
         <p class="feed__date">Sunday, November 1, 2026</p>
 
         <article class="cluster">
+          <p class="cluster__meta">Cluster · Afternoon summaries · Summary — Tech Security</p>
+          <h2 class="cluster__title">The 10.0 that needs no key</h2>
+          <p class="cluster__body">Canonical&#x27;s LXD and MicroCloud carry a maximum-severity flaw, CVE-2026-112816, that lets an attacker log in as a trusted client without holding that client&#x27;s private key — only network access to the HTTPS API and the client&#x27;s public certificate are needed. Fixed versions are out, but Canonical notes the LXD point releases were still rolling from the candidate channel to stable, so admins should check the version they actually have after refreshing rather than assume the fix arrived. The Incus project reports the same flaw and says restricting network access to the listener is the only mitigation short of upgrading to 7.6.0 — a reminder that a perfect score usually means the fix is urgent, not optional.</p>
+          <ul class="cluster__items">
+          <li><b>The Hacker News:</b> <a href="https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html">Critical LXD and MicroCloud flaw lets attackers impersonate trusted clients without a private key</a></li>
+          </ul>
+        </article>
+
+        <article class="cluster">
+          <p class="cluster__meta">Cluster · Afternoon summaries · Summary — Tech Security</p>
+          <h2 class="cluster__title">AI on both sides of the breach</h2>
+          <p class="cluster__body">Cisco Talos finds the VOLTA infostealer packaging stolen data into a structured bundle and handing it to an AI model to rank victims by their assets and security posture, with a fallback chain across Claude Opus 4.6, Kimi K2 and Gemini 2.5 Flash. On the other side of the same coin, CrowdStrike says China-backed Vapor Panda used an agentic AI pentesting tool to compromise 140 sensitive targets in 11 days. The same capability that sorts victims is now running the attacks — defenders should assume AI is in the loop on both sides of every incident from here on.</p>
+          <ul class="cluster__items">
+          <li><b>Precise Impact:</b> <a href="https://www.preciseimpact.ai/briefing/ai-news-digest-2026-11-01">VOLTA infostealer sends stolen data to an AI model to rank its victims</a></li>
+          <li><b>SecureResearch:</b> <a href="https://secureresearch.com/briefings/2026-11-01.html">Vapor Panda used an agentic AI pentesting tool against 140 targets in 11 days</a></li>
+          </ul>
+        </article>
+
+        <article class="cluster">
+          <p class="cluster__meta">Cluster · Afternoon summaries · Summary — Tech Security</p>
+          <h2 class="cluster__title">Breach watch: keys and bookings</h2>
+          <p class="cluster__body">Northflank told customers to assume their stored environment variables were decrypted after a breach led to unauthorized use of AI API keys, with Wiz tying it to October&#x27;s run of nine AI developer platform incidents. Separately, Malaysia Airlines said some customer information may have been affected by the Amadeus breach, joining Cathay Pacific and Japan Airlines, which reported 53,000 bookings and 92,000 customers affected. Two different breaches, one lesson: third-party platforms keep holding the keys and the bookings, and their disclosures keep arriving in waves.</p>
+          <ul class="cluster__items">
+          <li><b>Punk Report:</b> <a href="https://punkreport.sh/news/northflank-breach-ai-keys/">Northflank breach exposes developer AI keys</a></li>
+          <li><b>Reuters:</b> <a href="https://www.reuters.com/legal/litigation/malaysia-airlines-says-customers-may-be-affected-by-amadeus-breach-2026-11-01/">Malaysia Airlines says customers may be affected by Amadeus breach</a></li>
+          </ul>
+        </article>
+
+        <article class="cluster">
+          <p class="cluster__meta">Cluster · Afternoon summaries · Summary — Fintech Security</p>
+          <h2 class="cluster__title">Attribution lands, laundering moves</h2>
+          <p class="cluster__body">The FBI formally confirmed North Korea&#x27;s TraderTraitor stole more than $6B from Binance and asked DeFi firms, exchanges and analytics providers to block 600-plus Ethereum addresses as the group converts the loot mainly into ether. The laundering has not paused for the announcement: on November 1 the attacker&#x27;s wallet moved about 486,970 SOL, roughly $46.4M, toward Bitcoin through the Relay cross-chain service, part of a reported 970,522 SOL stash. Attribution names the culprit; it does not freeze the funds — the chase now runs through every swap service the group touches.</p>
+          <ul class="cluster__items">
+          <li><b>CoinDesk:</b> <a href="https://www.coindesk.com/policy/2026/10/31/fbi-confirms-north-korea-s-role-in-usd6-billion-binance-hack-asks-defi-community-to-block-btc-eth-sol-addresses">FBI confirms North Korea&#x27;s TraderTraitor stole more than $6B from Binance</a></li>
+          <li><b>TradingView News:</b> <a href="https://www.tradingview.com/news/bravenewcoin:fd0dea4f0094b:0/">Binance hacker routes stolen Solana through Relay Protocol</a></li>
+          </ul>
+        </article>
+
+        <article class="cluster">
+          <p class="cluster__meta">Cluster · Afternoon summaries · Summary — Fintech Security</p>
+          <h2 class="cluster__title">Polymarket pays it back</h2>
+          <p class="cluster__body">A hijacked third-party page-speed script injected malicious code into Polymarket and drained about $2.7M from signed-in traders&#x27; wallets. The platform now says 689 of the 726 affected wallets have been refunded in full, with the rest paid as claims are verified, plus $1.19M to about 5,500 wallets for losses during the trading halt. Supply-chain attacks keep finding the weakest script on the page — and this time, at least, the refund math is public.</p>
+          <ul class="cluster__items">
+          <li><b>VerakWorld:</b> <a href="https://verakworld.com/daily-tech-news-top-60-technology-updates-for-november-1-2026/">Malicious code injected into Polymarket via a hijacked third-party script drains about $2.7M</a></li>
+          <li><b>Stocktwits:</b> <a href="https://stocktwits.com/news-articles/markets/cryptocurrency/bitcoin-holds-near-78-k-over-weekend-as-polymarket-refunds-hack-victims-after-crypto-security-scares/cNGeAf4R92d">Polymarket says 689 of 726 wallets hit have been refunded in full</a></li>
+          </ul>
+        </article>
+
+        <article class="cluster">
+          <p class="cluster__meta">Cluster · Afternoon summaries · Summary — Fintech Security</p>
+          <h2 class="cluster__title">The phone you can&#x27;t patch</h2>
+          <p class="cluster__body">OneKey founder Yishi warns that iPhone 11 and earlier models carry unpatchable BootROM flaws — checkm8 and the June-disclosed usbliter8 — that could expose wallet seed phrases to anyone who briefly holds the phone and uses a DFU-mode USB tool. The flaw lives in the chip&#x27;s boot ROM, so no software update can fix it; the defense is physical — keep older phones out of other people&#x27;s hands and move wallet keys to newer hardware. For anyone still running a crypto wallet on a pre-12 iPhone, this is the nudge to migrate.</p>
+          <ul class="cluster__items">
+          <li><b>TradingView News:</b> <a href="https://www.tradingview.com/news/cryptobriefing:ba15bd869094b:0-onekey-founder-warns-older-iphones-have-unpatchable-chip-vulnerabilities/">OneKey founder warns older iPhones have unpatchable chip vulnerabilities</a></li>
+          </ul>
+        </article>
+
+        <article class="cluster">
           <p class="cluster__meta">Cluster · Midday update</p>
           <h2 class="cluster__title">Midday: a new loader, refunds, and unpatchable phones</h2>
           <ul class="cluster__items">
