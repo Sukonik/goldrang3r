@@ -6,6 +6,59 @@
   ],
   "clusters": [
     {
+      "date": "2026-11-01",
+      "theme": "The attribution lands: FBI names TraderTraitor",
+      "topic": "Morning edition",
+      "items": [
+        "fbi-tradertraitor-coindesk-1101",
+        "binance-backed-bitcoincom-1101",
+        "secureresearch-brief-1101"
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "theme": "The quarter in attacks: 18.2M DDoS events",
+      "topic": "Morning edition",
+      "items": [
+        "thn-cloudflare-ddos-1101"
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "theme": "The login wall era: Reddit goes logged-in",
+      "topic": "Morning edition",
+      "items": [
+        "bleeping-reddit-login-1101"
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "theme": "AI on both sides of the breach",
+      "topic": "Morning edition",
+      "items": [
+        "preciseimpact-volta-1101",
+        "secureresearch-brief-1101"
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "theme": "The AI money squeeze: bonds, cuts, and rankings",
+      "topic": "Morning edition",
+      "items": [
+        "dailycaller-msft-bond-1101",
+        "blockonomi-openai-cut-1101",
+        "gfd-tech100-1101"
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "theme": "The supply-chain drain: Polymarket's $2.7M",
+      "topic": "Morning edition",
+      "items": [
+        "verakworld-polymarket-1101"
+      ]
+    },
+    {
       "date": "2026-10-31",
       "theme": "The tracker gets tracked",
       "topic": "Summary — Fintech Security",
@@ -1207,7 +1260,7 @@
       ]
     }
   ],
-  "edition": "2026-10-31",
+  "edition": "2026-11-01",
   "items": [
     {
       "author": "Emma Roth",
@@ -3307,6 +3360,106 @@
       "headline": "Crypto exchanges move to bolster defenses after the record $6.3B Binance heist, with Coinbase adjusting offline key storage and Tether freezing nearly $1.57B and Circle $800M linked to the theft",
       "url": "https://www.reuters.com/legal/government/crypto-exchanges-call-quick-moves-bolster-defenses-after-binance-heist-2026-10-31/",
       "lane": null
+    },
+    {
+      "id": "fbi-tradertraitor-coindesk-1101",
+      "date": "2026-11-01",
+      "time": "9:10 PM",
+      "outlet": "CoinDesk",
+      "author": null,
+      "headline": "FBI confirms North Korea's TraderTraitor stole more than $6B from Binance and asks DeFi firms, exchanges and analytics providers to block 600-plus Ethereum addresses as the group converts the loot mainly into ether",
+      "url": "https://www.coindesk.com/policy/2026/10/31/fbi-confirms-north-korea-s-role-in-usd6-billion-binance-hack-asks-defi-community-to-block-btc-eth-sol-addresses",
+      "lane": "fraud"
+    },
+    {
+      "id": "binance-backed-bitcoincom-1101",
+      "date": "2026-11-01",
+      "time": "1:45 PM",
+      "outlet": "Bitcoin.com",
+      "author": null,
+      "headline": "Binance says BTC, ETH, USDT, BNB, SOL, USDC, XRP, USD1, RLUSD and ZEC are now fully backed after replenishing 90% of the heist's assets, with withdrawals still targeted for Sunday",
+      "url": "https://news.bitcoin.com/security/binance-says-btc-eth-xrp-and-7-other-cryptos-fully-backed-after-hack/",
+      "lane": "fraud"
+    },
+    {
+      "id": "secureresearch-brief-1101",
+      "date": "2026-11-01",
+      "time": "7:30 AM",
+      "outlet": "SecureResearch",
+      "author": null,
+      "headline": "The November 1 daily brief ties the Binance attribution to a wider state-actor map: CrowdStrike says China-backed Vapor Panda used an agentic AI pentesting tool to compromise 140 sensitive targets in 11 days, and CISA's exploited list adds chained Ivanti and kernel flaws",
+      "url": "https://secureresearch.com/briefings/2026-11-01.html",
+      "lane": "bug"
+    },
+    {
+      "id": "thn-cloudflare-ddos-1101",
+      "date": "2026-11-01",
+      "time": "7:30 AM",
+      "outlet": "The Hacker News",
+      "author": "Ravie Lakshmanan",
+      "headline": "Cloudflare mitigated 18.2M network-layer DDoS attacks in Q3, up 38% from Q2 — about 8,226 an hour — as short-burst, sub-1 Gbps attacks surged 208% and hyper-volumetric attacks over 1 Tbps fell 69%",
+      "url": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
+      "lane": "bug"
+    },
+    {
+      "id": "bleeping-reddit-login-1101",
+      "date": "2026-11-01",
+      "time": "10:05 AM",
+      "outlet": "BleepingComputer",
+      "author": null,
+      "headline": "Reddit will gradually become a logged-in service, co-founder Steve Huffman says, testing mandatory sign-in in select markets outside the US to curb unauthorised scraping and personalise feeds — no real names or ID required",
+      "url": "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/",
+      "lane": null
+    },
+    {
+      "id": "preciseimpact-volta-1101",
+      "date": "2026-11-01",
+      "time": "7:30 AM",
+      "outlet": "Precise Impact",
+      "author": null,
+      "headline": "Cisco Talos finds the VOLTA infostealer sending a structured bundle of stolen data to an AI model to rank victims' assets and security posture, with a fallback chain across Claude Opus 4.6, Kimi K2 and Gemini 2.5 Flash",
+      "url": "https://www.preciseimpact.ai/briefing/ai-news-digest-2026-11-01",
+      "lane": "bug"
+    },
+    {
+      "id": "dailycaller-msft-bond-1101",
+      "date": "2026-11-01",
+      "time": "7:30 AM",
+      "outlet": "Daily Caller",
+      "author": null,
+      "headline": "Microsoft seeks at least $25B in its first US bond sale since 2017 — ten tranches, two to 40 years — as quarterly capex tops $50B and its calendar-year AI buildout bill approaches $170B",
+      "url": "https://dailycaller.com/2026/10/30/microsoft-turns-to-wall-street-for-25-billion-as-ai-spending-bill-hits-170-billion",
+      "lane": null
+    },
+    {
+      "id": "blockonomi-openai-cut-1101",
+      "date": "2026-11-01",
+      "time": "7:30 AM",
+      "outlet": "Blockonomi",
+      "author": null,
+      "headline": "OpenAI cuts its funding target by $10B to about $20B at a $1.25T valuation amid the tech rout, the FT reports, while Blackstone warns Anthropic may not earn an investment-grade rating after its IPO",
+      "url": "https://blockonomi.com/is-the-ai-funding-boom-starting-to-crack-openai-cuts-target-by-10-billion/",
+      "lane": null
+    },
+    {
+      "id": "gfd-tech100-1101",
+      "date": "2026-11-01",
+      "time": "7:30 AM",
+      "outlet": "Green Flag Digital",
+      "author": "Joe Robison",
+      "headline": "OpenAI leads the Q4 2026 fastest-growing private tech ranking ahead of Kalshi and Anthropic, with 71 of the top 100 companies AI companies, scored on funding, traffic and branded search",
+      "url": "https://greenflagdigital.com/gfd-tech-100-ranking/",
+      "lane": null
+    },
+    {
+      "id": "verakworld-polymarket-1101",
+      "date": "2026-11-01",
+      "time": "7:30 AM",
+      "outlet": "VerakWorld",
+      "author": null,
+      "headline": "Malicious code injected into Polymarket via a hijacked third-party page-speed script drained about $2.7M from signed-in traders' wallets; the platform says it is refunding all 726 affected wallets",
+      "url": "https://verakworld.com/daily-tech-news-top-60-technology-updates-for-november-1-2026/",
+      "lane": "fraud"
     }
   ],
   "site": "GoldRang3r"
