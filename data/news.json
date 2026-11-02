@@ -1382,6 +1382,40 @@
         "technode-genrobot-1102",
         "techinsider-marble-1102"
       ]
+    },
+    {
+      "date": "2026-11-02",
+      "theme": "The Acronis purge, years in the making",
+      "topic": "Midday update",
+      "items": [
+        "nextgov-acronis-1102"
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "theme": "The heist's AI hunt — and the $4.7B walkout",
+      "topic": "Midday update",
+      "items": [
+        "pymnts-binance-ai-1102",
+        "reuters-binance-outflows-1102"
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "theme": "Funding Monday: space, hypersonics, and a $750M war chest",
+      "topic": "Midday update",
+      "items": [
+        "techstartups-funding-1102",
+        "tech-eu-creandum-1102"
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "theme": "OpenAI's $30B ask shrinks",
+      "topic": "Midday update",
+      "items": [
+        "techstartups-openai-1102"
+      ]
     }
   ],
   "edition": "2026-11-02",
@@ -3779,6 +3813,66 @@
       "author": null,
       "headline": "Munich startup Marble Cognition raises a $3.75M pre-seed co-led by Heartcore Capital and Seedcamp to build AI 'coworkers' that learn a company by watching employees work",
       "url": "https://tech-insider.org/marble-cognition-3-75m-pre-seed-ai-coworkers-munich-2026/",
+      "lane": null
+    },
+    {
+      "id": "nextgov-acronis-1102",
+      "date": "2026-11-02",
+      "time": "10:03 AM",
+      "outlet": "Nextgov/FCW",
+      "author": "David DiMolfetta",
+      "headline": "A US order purging Acronis products from federal civilian systems by January 27 stems from years of scrutiny over the firm's Russian development ties, sources say — the DHS directive was signed July 31 and only publicly posted last week",
+      "url": "https://www.nextgov.com/cybersecurity/2026/11/us-order-purge-acronis-tied-years-scrutiny-over-russian-ties/416970/",
+      "lane": null
+    },
+    {
+      "id": "pymnts-binance-ai-1102",
+      "date": "2026-11-02",
+      "time": "12:30 PM",
+      "outlet": "PYMNTS",
+      "author": null,
+      "headline": "Bloomberg: North Korea's TraderTraitor used AI to hunt high-value crypto targets in the $6.3B Binance heist, laundering proceeds through about 12,000 wallets across 11 blockchains in under four days",
+      "url": "https://www.pymnts.com/cryptocurrency/2026/binance-hackers-employ-ai-to-hunt-high-value-crypto-targets/",
+      "lane": "fraud"
+    },
+    {
+      "id": "reuters-binance-outflows-1102",
+      "date": "2026-11-02",
+      "time": "12:30 PM",
+      "outlet": "Reuters",
+      "author": "Rae Wee, Elizabeth Howcroft",
+      "headline": "Binance says customers pulled a net $4.7B since withdrawals reopened Sunday after the $6.3B hack — about 2.8% of platform assets — as the exchange says it covered losses from its treasury, insurance fund and security reserves",
+      "url": "https://wncy.com/2026/11/01/binance-sees-outflows-stabilising-as-exchange-returns-online-after-6-3-billion-heist/",
+      "lane": "fraud"
+    },
+    {
+      "id": "techstartups-funding-1102",
+      "date": "2026-11-02",
+      "time": "12:30 PM",
+      "outlet": "TechStartups",
+      "author": null,
+      "headline": "Funding Monday: Northwood Space leads with a $375M Series C at a $2B valuation, Hypersonica raises €100M for hypersonic missile technology, and India's Two Point O Capital adds $10M for clean-energy financing",
+      "url": "https://techstartups.com/2026/11/02/startup-funding-news-today-november-2-2026-northwood-space-hypersonica-roboscience-more/",
+      "lane": null
+    },
+    {
+      "id": "tech-eu-creandum-1102",
+      "date": "2026-11-02",
+      "time": "8:30 AM",
+      "outlet": "Tech.eu",
+      "author": null,
+      "headline": "Creandum closes its largest fund yet at $750M (Fund VIII, up from a €500M Fund VII) to back seed and Series A founders, with half the capital reserved for follow-on rounds",
+      "url": "https://tech.eu/2026/11/02/lovable-and-black-forest-labs-backer-creandum-closes-750m-fund-had/",
+      "lane": null
+    },
+    {
+      "id": "techstartups-openai-1102",
+      "date": "2026-11-02",
+      "time": "12:30 PM",
+      "outlet": "TechStartups",
+      "author": "Daniel Levi",
+      "headline": "OpenAI has secured only about $11B toward its $30B raise, cutting its target to $20B at a roughly $1.25T valuation, as investors balk at AI spending ahead of a planned 2027 IPO",
+      "url": "https://techstartups.com/2026/11/02/openai-falls-short-of-30-billion-funding-goal-as-investors-grow-wary-of-ai-spending/",
       "lane": null
     }
   ],
