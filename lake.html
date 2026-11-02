@@ -75,6 +75,63 @@
         <p class="feed__date">Monday, November 2, 2026</p>
 
         <article class="cluster">
+          <p class="cluster__meta">Cluster · Afternoon summaries · Summary — Tech Security</p>
+          <h2 class="cluster__title">The VPN chain, closed — on deadline day</h2>
+          <p class="cluster__body">Ivanti has now patched the last two flaws in its exploited Connect Secure chain: a privilege-escalation bug and a file-upload bug, joining October&#x27;s authentication bypass, with fixed builds 25.1.1.3 and 22.8R2.6. The federal clock makes the order clear — November 2 for the escalation flaw, November 13 for the upload flaw — and the chain&#x27;s lesson is to chase the fixed version number, not the CVE list, since the advisory kept growing after the first patch. Any internet-facing gateway still unpatched should be treated as suspect until its logs prove otherwise.</p>
+          <ul class="cluster__items">
+          <li><b>SecurityWeek:</b> <a href="https://www.securityweek.com/ivanti-patches-two-more-zero-days-exploited-in-connect-secure-attack-chain/">Ivanti patches two more Connect Secure zero-days chained in attacks</a></li>
+          </ul>
+        </article>
+
+        <article class="cluster">
+          <p class="cluster__meta">Cluster · Afternoon summaries · Summary — Tech Security</p>
+          <h2 class="cluster__title">Spyware alerts, 99 countries deep</h2>
+          <p class="cluster__body">Apple&#x27;s newest round of mercenary-spyware threat notifications reached users in 99 countries, the second major wave since August&#x27;s 110-country round, taking the program past 150 countries in total. An alert means high-confidence targeting, not a confirmed infection — but Germany&#x27;s federal security office still told Bundestag members to treat their phones as possibly compromised. No vendor, exploit, or operator is named, which is exactly why the code of conduct for commercial spyware vendors, due this month, matters: the alerts keep arriving faster than the accountability.</p>
+          <ul class="cluster__items">
+          <li><b>GBHackers:</b> <a href="https://gbhackers.com/apple-issues-urgent-security-alerts-over-mercenary-spyware-attacks/">Apple sends a fresh round of mercenary-spyware threat notifications to users in 99 countries</a></li>
+          </ul>
+        </article>
+
+        <article class="cluster">
+          <p class="cluster__meta">Cluster · Afternoon summaries · Summary — Tech Security</p>
+          <h2 class="cluster__title">Two trust boundaries, both broken</h2>
+          <p class="cluster__body">Eighty-three malicious issues, pull requests, and comments landed on 61 public code repositories in about 45 minutes on September 1, each hiding shell commands inside HTML comments. Where a workflow pasted user-controlled text into shell code, the payload ran, encoded the environment, and tried to phone it home — with execution confirmed in at least two workflows, though no stolen secrets or altered releases have been found so far. The same week, a pre-auth flaw in the TightVNC viewer let a malicious server run code before any password prompt, by shrinking a 4 GB framebuffer into a 128 KB allocation — and its Listening Mode on port 5500 needs no password at all. Two different products, one rule: never let untrusted input reach a shell or a memory allocation unchecked.</p>
+          <ul class="cluster__items">
+          <li><b>Cyber Security News:</b> <a href="https://cybersecuritynews.com/hackers-target-61-github-repositories/">Command-injection campaign hits 61 public repositories via issues and comments</a></li>
+          <li><b>Cyber Security News:</b> <a href="https://cybersecuritynews.com/tightvnc-pre-auth-rce-vulnerability/">Pre-auth remote code execution in TightVNC Viewer, fixed in 2.8.90</a></li>
+          </ul>
+        </article>
+
+        <article class="cluster">
+          <p class="cluster__meta">Cluster · Afternoon summaries · Summary — Tech Security</p>
+          <h2 class="cluster__title">The 27-million-record claim from Tashkent</h2>
+          <p class="cluster__body">A hacking collective calling itself Butterfly claims it breached a database holding personal records of more than 27 million Uzbek citizens — names, phone numbers, national ID numbers, home addresses, passport details, and biometric photos — leaking a minister&#x27;s details as proof and threatening a dark-web sale if demands, still undisclosed, were not met by the morning of November 2. The claim is unverified, and it lands on top of earlier reports of a leak from a traffic-safety platform plus a developer&#x27;s disclosure of a ministry portal flaw said to expose tens of millions of records. Uzbekistan&#x27;s Interior Ministry and its Cybersecurity Center have opened an inquiry; until they confirm scope, this stays a claim with a very large blast radius, not a confirmed breach.</p>
+          <ul class="cluster__items">
+          <li><b>Fergana News:</b> <a href="https://en.fergana.news/news/150491/">Hackers claim massive breach of personal data of 27 million Uzbek citizens</a></li>
+          </ul>
+        </article>
+
+        <article class="cluster">
+          <p class="cluster__meta">Cluster · Afternoon summaries · Summary — Fintech Security</p>
+          <h2 class="cluster__title">Pull the plug: the wallet drain</h2>
+          <p class="cluster__body">BTCPay Server, built so no central party can pull the plug, had to ask every operator to pull it themselves: shut down until the investigation ends. Early findings point to servers older than version 2.4.2, where attackers logged in as admin by means still unknown, while the project&#x27;s own 2.4.7 servers were not hit. No loss total or affected count is disclosed yet — and the shutdown warning was deliberately not limited to one version, so operators should not assume a newer-but-unpatched build is safe.</p>
+          <ul class="cluster__items">
+          <li><b>CoinDesk:</b> <a href="https://www.coindesk.com/tech/2026/11/02/btcpay-a-bitcoin-payment-tool-tells-users-to-switch-off-their-servers-after-reports-of-drained-wallets">BTCPay Server tells operators to switch off their servers after reports of drained wallets</a></li>
+          </ul>
+        </article>
+
+        <article class="cluster">
+          <p class="cluster__meta">Cluster · Afternoon summaries · Summary — Fintech Security</p>
+          <h2 class="cluster__title">The AI hunt — and the $4.7B walkout</h2>
+          <p class="cluster__body">The Binance heist&#x27;s second chapter is about method and money: the group behind the $6.3B theft reportedly used AI to pick high-value targets, then laundered proceeds through roughly 12,000 wallets across 11 blockchains in under four days. Meanwhile customers, once withdrawals reopened Sunday, pulled a net $4.7B — about 2.8% of platform assets, a figure analysts read as confidence largely holding — while the exchange says it covered losses from its treasury, insurance fund, and security reserves. About half the stolen funds sat in stablecoins, and issuers including Circle say they froze more than $1.1B of it; the rest is still moving faster than the freeze orders.</p>
+          <ul class="cluster__items">
+          <li><b>PYMNTS:</b> <a href="https://www.pymnts.com/cryptocurrency/2026/binance-hackers-employ-ai-to-hunt-high-value-crypto-targets/">Binance hackers employ AI to hunt high-value crypto targets</a></li>
+          <li><b>Reuters:</b> <a href="https://wncy.com/2026/11/01/binance-sees-outflows-stabilising-as-exchange-returns-online-after-6-3-billion-heist/">Binance sees outflows stabilising as exchange returns online after $6.3B heist</a></li>
+          </ul>
+        </article>
+
+
+        <article class="cluster">
           <p class="cluster__meta">Cluster · Midday update</p>
           <h2 class="cluster__title">The Acronis purge, years in the making</h2>
           <p class="cluster__body">The federal purge of Acronis was not a snap decision: sources say scrutiny of the Swiss cybersecurity firm's development ties in Russia spanned multiple administrations under foreign-ownership reviews, culminating in a July 31 DHS directive giving civilian agencies until January 27 to remove all of its software.</p>

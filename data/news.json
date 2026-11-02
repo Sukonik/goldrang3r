@@ -6,6 +6,56 @@
   ],
   "clusters": [
     {
+      "date": "2026-11-02",
+      "theme": "The VPN chain, closed — on deadline day",
+      "topic": "Summary — Tech Security",
+      "items": [
+        "securityweek-ivanti-1102"
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "theme": "Spyware alerts, 99 countries deep",
+      "topic": "Summary — Tech Security",
+      "items": [
+        "gbhackers-apple-spyware-1102"
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "theme": "Two trust boundaries, both broken",
+      "topic": "Summary — Tech Security",
+      "items": [
+        "cybersecuritynews-github-1102",
+        "cybersecuritynews-tightvnc-1102"
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "theme": "The 27-million-record claim from Tashkent",
+      "topic": "Summary — Tech Security",
+      "items": [
+        "fergana-uzbek-27m-1102"
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "theme": "Pull the plug: the wallet drain",
+      "topic": "Summary — Fintech Security",
+      "items": [
+        "coindesk-btcpay-1102"
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "theme": "The AI hunt — and the $4.7B walkout",
+      "topic": "Summary — Fintech Security",
+      "items": [
+        "pymnts-binance-ai-1102",
+        "reuters-binance-outflows-1102"
+      ]
+    },
+    {
       "date": "2026-11-01",
       "theme": "The 10.0 that needs no key",
       "topic": "Summary — Tech Security",
@@ -3873,6 +3923,16 @@
       "author": "Daniel Levi",
       "headline": "OpenAI has secured only about $11B toward its $30B raise, cutting its target to $20B at a roughly $1.25T valuation, as investors balk at AI spending ahead of a planned 2027 IPO",
       "url": "https://techstartups.com/2026/11/02/openai-falls-short-of-30-billion-funding-goal-as-investors-grow-wary-of-ai-spending/",
+      "lane": null
+    },
+    {
+      "id": "fergana-uzbek-27m-1102",
+      "date": "2026-11-02",
+      "time": "1:30 PM",
+      "outlet": "Fergana News",
+      "author": null,
+      "headline": "Hackers claim a breach of personal data of 27 million Uzbek citizens and threaten a dark-web sale",
+      "url": "https://en.fergana.news/news/150491/",
       "lane": null
     }
   ],
