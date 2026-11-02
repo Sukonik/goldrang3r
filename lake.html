@@ -72,6 +72,76 @@
         <p class="lede">The river shows headlines one by one. The Lake groups them: related articles from different outlets, clustered under the story they belong to — so a developing story reads as one place, not twelve tabs.</p>
 
         <!-- LAKE:START -->
+        <p class="feed__date">Monday, November 2, 2026</p>
+
+        <article class="cluster">
+          <p class="cluster__meta">Cluster · Morning edition</p>
+          <h2 class="cluster__title">The VPN chain, closed</h2>
+          <p class="cluster__body">Ivanti has now patched every flaw in the Connect Secure chain Volexity found exploited in the wild: the October auth bypass plus a privilege escalation and a file-upload flaw, with fixed builds 25.1.1.3 and 22.8R2.6. CISA&#x27;s KEV deadlines make the priority explicit — November 2 for the escalation flaw, November 13 for the upload flaw — and the lesson from the response post-mortems is to track the fixed version, not the CVE, since the advisory kept growing after the first patch.</p>
+          <ul class="cluster__items">
+          <li><b>SecurityWeek:</b> <a href="https://www.securityweek.com/ivanti-patches-two-more-zero-days-exploited-in-connect-secure-attack-chain/">Ivanti patches two more Connect Secure zero-days chained in attacks — CVE-2026-111357 (8.8) and CVE-2026-118527 — completing the chain with October&#x27;s auth bypass, as CISA sets a November 2 federal deadline for the privilege-escalation flaw</a></li>
+          </ul>
+        </article>
+
+        <article class="cluster">
+          <p class="cluster__meta">Cluster · Morning edition</p>
+          <h2 class="cluster__title">A new spyware wave, and a warning in Berlin</h2>
+          <p class="cluster__body">Apple&#x27;s latest threat notifications reached users in 99 countries, a second major wave after August&#x27;s 110-country round, taking the program past 150 countries in total. The alerts mean high-confidence targeting, not confirmed infection — but Germany&#x27;s BSI still told Bundestag members to treat their phones as possibly compromised. No vendor, exploit, or operator is named, which is exactly why the Pall Mall Process code for commercial spyware vendors, due this month, matters.</p>
+          <ul class="cluster__items">
+          <li><b>GBHackers:</b> <a href="https://gbhackers.com/apple-issues-urgent-security-alerts-over-mercenary-spyware-attacks/">Apple sends a fresh round of mercenary-spyware threat notifications to users in 99 countries, its second major wave since August, as Germany&#x27;s BSI warns lawmakers their iPhones may have been targeted</a></li>
+          </ul>
+        </article>
+
+        <article class="cluster">
+          <p class="cluster__meta">Cluster · Morning edition</p>
+          <h2 class="cluster__title">Shut it down: the wallet drain</h2>
+          <p class="cluster__body">BTCPay Server, built so no central party can pull the plug, had to ask every operator to pull it themselves: shut down with ./btcpay-down.sh until the investigation ends. Reports point to servers older than 2.4.2, where attackers logged in as admin by means still unknown; the project&#x27;s own 2.4.7 servers were not hit. No loss total or affected count is disclosed yet — and the shutdown warning was deliberately not limited to one version.</p>
+          <ul class="cluster__items">
+          <li><b>CoinDesk:</b> <a href="https://www.coindesk.com/tech/2026/11/02/btcpay-a-bitcoin-payment-tool-tells-users-to-switch-off-their-servers-after-reports-of-drained-wallets">BTCPay Server tells operators to shut down their servers after reports of attackers draining merchants&#x27; bitcoin hot wallets, with early findings pointing to versions older than 2.4.2 where attackers logged in as admin</a></li>
+          </ul>
+        </article>
+
+        <article class="cluster">
+          <p class="cluster__meta">Cluster · Morning edition</p>
+          <h2 class="cluster__title">Your issue tracker is a shell</h2>
+          <p class="cluster__body">Eighty-three malicious issues, pull requests, and comments landed on 61 public repos in about 45 minutes on September 1, each hiding Bash command substitution in HTML comments. Where a workflow pasted user-controlled text into shell code, the payload ran env, encoded the output, and tried to POST it to an attacker server — with execution confirmed in at least two workflows. Radware confirms no stolen secrets or altered releases yet, but the pattern is the lesson: never let untrusted text reach a shell, quoted or not.</p>
+          <ul class="cluster__items">
+          <li><b>Cyber Security News:</b> <a href="https://cybersecuritynews.com/hackers-target-61-github-repositories/">Radware traces a coordinated command-injection campaign that hit 61 public GitHub repos — LangExtract, Trivy, Brave, MLflow among them — hiding shell commands in issues and comments to run code inside Actions workflows and exfiltrate environment variables</a></li>
+          </ul>
+        </article>
+
+        <article class="cluster">
+          <p class="cluster__meta">Cluster · Morning edition</p>
+          <h2 class="cluster__title">The viewer that trusts the server</h2>
+          <p class="cluster__body">TightVNC&#x27;s viewer computes its framebuffer in 64 bits but stores it in a 32-bit int, so a server announcing 32768 x 32769 pixels gets a 128 KB buffer for 4 GB of pixels — and pixel writes then land at attacker-chosen offsets. A public PoC chains an ASLR leak and a ROP chain to CreateProcessW, before any password prompt, and Listening Mode on port 5500 needs no password at all. The fix shipped quietly in 2.8.89 and 2.8.90; upgrade to 2.8.90.</p>
+          <ul class="cluster__items">
+          <li><b>Cyber Security News:</b> <a href="https://cybersecuritynews.com/tightvnc-pre-auth-rce-vulnerability/">A pre-auth RCE in TightVNC Viewer 2.8.88 lets a malicious server execute code before any password prompt, via a 32-bit integer wrap that turns a 4 GB framebuffer into a 128 KB allocation; fixed in 2.8.89 and 2.8.90</a></li>
+          </ul>
+        </article>
+
+        <article class="cluster">
+          <p class="cluster__meta">Cluster · Morning edition</p>
+          <h2 class="cluster__title">Phishing goes targeted</h2>
+          <p class="cluster__body">Mass phishing is giving way to the sniper rifle: spear-phishing rose 41.1%, pre-attack scouting 33.7%, and company impersonation 28% in KnowBe4&#x27;s Q3 data, with attacks now twice as likely to come from legitimate infrastructure as in Q2. AI platforms are the newest trusted ground for lures, and attackers turn breaking news into live phishing bait 5.4 times faster than in 2022. Monday, when inboxes are busiest, is still peak day.</p>
+          <ul class="cluster__items">
+          <li><b>Digital CFO Asia:</b> <a href="https://digitalcfoasia.com/cybercriminals-turn-to-targeted-attacks-as-spear-phishing-rises-41-1/">KnowBe4&#x27;s Q3 report finds spear-phishing up 41.1% as attackers shift from mass campaigns to targeted identity attacks, with AI platforms the newest trusted infrastructure abused for lures</a></li>
+          </ul>
+        </article>
+
+        <article class="cluster">
+          <p class="cluster__meta">Cluster · Morning edition</p>
+          <h2 class="cluster__title">AI money Monday</h2>
+          <p class="cluster__body">Abu Dhabi put OpenAI inside its government, its oil company, and its sovereign investor in a single morning — four agreements, no dollar figures disclosed, one food-import pilot already live. The funding tape ran the same direction: $125M for Salience Labs&#x27; optical switches for GPU clusters, $100M for Foundry&#x27;s autonomous assembly factories, $100M for GenRobot&#x27;s robot-training data, and a $3.75M pre-seed for Marble&#x27;s AI coworkers. Hardware and infrastructure keep eating the checks; the application layer is still proving itself.</p>
+          <ul class="cluster__items">
+          <li><b>RR Tech Pulse:</b> <a href="https://rrtechpulse.com/stories/abu-dhabi-openai-four-agreements/">Abu Dhabi signs four OpenAI agreements spanning government, energy and investment — including a &#x27;Machine-Readable Government&#x27; pilot already live on food imports — as Sam Altman meets the crown prince</a></li>
+          <li><b>Evertiq:</b> <a href="https://evertiq.com/news/2026-11-02-salience-labs-raises-125m-to-scale-performance-in-ai-data-centers">UK photonics startup Salience Labs closes an oversubscribed $125M Series B led by Bullhound Capital to scale optical circuit switching for AI data centers</a></li>
+          <li><b>Evertiq:</b> <a href="https://evertiq.com/news/2026-11-02-foundry-raises-100m-to-build-autonomous-factory-for-assembly">Foundry Robotics raises an oversubscribed $100M Series A led by Marlinspike Partners to build autonomous factories for complex assembly out of its 130,000-square-foot Emeryville plant</a></li>
+          <li><b>TechNode:</b> <a href="https://technode.com/2026/11/02/robot-training-data-startup-genrobot-ai-raises-100-million-in-series-a-funding/">Beijing robot-training-data startup GenRobot AI discloses a $100M Series A+ from SAIC Motor, Baidu and others to scale equipment and software that collect human demonstrations for robot training</a></li>
+          <li><b>Tech Insider:</b> <a href="https://tech-insider.org/marble-cognition-3-75m-pre-seed-ai-coworkers-munich-2026/">Munich startup Marble Cognition raises a $3.75M pre-seed co-led by Heartcore Capital and Seedcamp to build AI &#x27;coworkers&#x27; that learn a company by watching employees work</a></li>
+          </ul>
+        </article>
+
+
         <p class="feed__date">Sunday, November 1, 2026</p>
 
         <article class="cluster">
@@ -197,150 +267,7 @@
           </ul>
         </article>
 
-        <p class="feed__date">Saturday, October 31, 2026</p>
-
-        <article class="cluster">
-          <p class="cluster__meta">Cluster · Afternoon summaries · Summary — Tech Security</p>
-          <h2 class="cluster__title">Black October, in one lesson: rotate the keys</h2>
-          <p class="cluster__body">October’s quiet scandal finally has a name. Wiz counted at least nine AI developer platforms that disclosed incidents this month, from Fireworks AI early in the month to Northflank at its end, and in every public report the target was the same: environment variables holding customers’ AI model keys. Stolen keys were tested within about half an hour and later resold, with two enterprise abuses alone running up more than $100,000 in list-price usage. The lesson is unglamorous and urgent — rotate keys, scope them narrowly, and treat any platform holding them as a vault, not a shelf.</p>
-          <ul class="cluster__items">
-          <li><b>Wiz:</b> <a href="https://www.wiz.io/blog/black-october-for-ai-developer-platforms">Wiz names October ‘Black October’: nine AI developer platforms, one key hunt</a></li>
-          <li><b>DEV Community:</b> <a href="https://dev.to/lycore/black-october-9-ai-dev-platforms-were-breached-rotate-your-keys-today-35d3">Nine AI dev platforms breached, keys resold within about 30 minutes</a></li>
-          </ul>
-        </article>
-
-        <article class="cluster">
-          <p class="cluster__meta">Cluster · Afternoon summaries · Summary — Tech Security</p>
-          <h2 class="cluster__title">The extension that wasn’t</h2>
-          <p class="cluster__body">For about eleven hours on October 29, Cursor’s marketplace served tampered builds of the Claude Code extension that Anthropic did not make or publish. The builds collected machine details, planted an attacker-controlled SSH key, and set up persistence to survive reboots, reaching up to 5,000 users before Cursor pulled them, shut the marketplace, and rotated its keys. Coding errors meant the remote-login step failed on most machines, but Sophos warns the danger does not end with an uninstall — the key and persistence files stay behind until they are removed and credentials rotated. Anyone who installed or updated the extension from Cursor that day should check for the planted key and clean the machine, not just update past it.</p>
-          <ul class="cluster__items">
-          <li><b>Sophos:</b> <a href="https://www.sophos.com/en-us/blog/malicious-claude-code-extension-distributed-through-cursor-marketplace">Malicious Claude Code extension distributed through Cursor marketplace</a></li>
-          </ul>
-        </article>
-
-        <article class="cluster">
-          <p class="cluster__meta">Cluster · Afternoon summaries · Summary — Tech Security</p>
-          <h2 class="cluster__title">Sunday’s edge deadline: Ivanti’s chain, twelve products deep</h2>
-          <p class="cluster__body">Federal agencies face a Sunday deadline on two fronts at once. CISA added two Ivanti Connect Secure flaws to its exploited list, completing a three-flaw chain — authentication bypass, code execution, privilege escalation — that hands an unauthenticated attacker root access, with one patch due November 2 and the other November 13. DataWater’s October recap counts twelve exploited edge products in total, from Fortinet to Cisco ASA, and one deadline is still open as the weekend starts: Cisco’s ASA/FTD firewall flaw, due Sunday, November 1. Edge devices are the month’s through-line — they sit exposed, they get chained, and their patch windows are now measured in days.</p>
-          <ul class="cluster__items">
-          <li><b>The Hacker News:</b> <a href="http://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html">Attackers chain three Ivanti Connect Secure flaws to unauthenticated root access</a></li>
-          <li><b>DataWater:</b> <a href="https://datawater.com/edge-device-zero-days-october-2026/">October edge-device recap: twelve exploited products, one deadline still open</a></li>
-          </ul>
-        </article>
-
-        <article class="cluster">
-          <p class="cluster__meta">Cluster · Afternoon summaries · Summary — Tech Security</p>
-          <h2 class="cluster__title">October’s ledger, closed with a CVE</h2>
-          <p class="cluster__body">October’s patch month reads as one long chain reaction. Volyte’s month-end ledger pairs PHP’s exploited remote-code pair and a network-reachable Linux kernel flaw rated 9.8 with Microsoft’s record Patch Tuesday of more than 1,400 vulnerabilities — and a second kernel race condition still awaiting fixes on most distributions. Cybersecurity Dive reports China-nexus actors chained the PHP flaw with the Fragnesia kernel flaw to gain root on Palo Alto firewalls and breach government servers, showing how two ‘separate’ bugs become one break-in. The month’s last loose end tied off too: WordPress’s upgrade-window remote-code flaw finally received its CVE number, three days after the patch, with blocked attempts already past 60,000.</p>
-          <ul class="cluster__items">
-          <li><b>Volyte:</b> <a href="https://volyte.com/blog/security-updates-october-2026">October’s patch ledger: PHP, a 9.8 kernel flaw, and a record Patch Tuesday</a></li>
-          <li><b>Cybersecurity Dive:</b> China-nexus actors chained PHP2Shell with the Fragnesia kernel flaw to root Palo Alto firewalls</li>
-          <li><b>Suriq:</b> <a href="https://suriq.io/blog/wordpress-core-cve-2026-119977-upgrade-window-rce">WordPress’s upgrade-window RCE gets its CVE as blocked attempts pass 60,000</a></li>
-          </ul>
-        </article>
-
-        <article class="cluster">
-          <p class="cluster__meta">Cluster · Afternoon summaries · Summary — Fintech Security</p>
-          <h2 class="cluster__title">The heist, day two: 90% back, and rivals harden up</h2>
-          <p class="cluster__body">Binance says 90% of the $6.3 billion heist’s assets are now replenished, up from 80% a day earlier, with customer bitcoin, ether and eight other assets fully backed and withdrawals on track to resume Sunday. The market damage is still settling — nearly $398 million in liquidations in 24 hours, bitcoin near $77,000, and more than $643 million in net outflows from US spot bitcoin ETFs on Friday. Rivals are moving before the next attack, not after it: Coinbase adjusted its offline key-storage systems, Tether froze nearly $1.57 billion and Circle froze $800 million linked to the theft, and OKX’s chief called for a real-time industry alert system to freeze stolen funds faster. Attribution still points to North Korea’s TraderTraitor unit in analysts’ assessments, though Binance itself has named no one.</p>
-          <ul class="cluster__items">
-          <li><b>Cointelegraph:</b> <a href="https://cointelegraph.com/news/binance-hack-90-percent-replenished">Binance says 90% of the heist’s assets are replenished, withdrawals set to resume Sunday</a></li>
-          <li><b>CoinCentral:</b> <a href="https://coincentral.com/binance-hack-how-the-exchange-plans-to-pay-back-6-3-billion/">Binance sets aside more than $6.34B to cover the heist</a></li>
-          <li><b>CoinCentral:</b> <a href="https://coincentral.com/crypto-liquidations-reach-400-million-as-binance-hack-pressures-bitcoin-ethereum-and-solana/">Liquidations hit $397.74M in 24 hours as bitcoin trades near $77,000</a></li>
-          <li><b>Tech Xplore:</b> <a href="https://techxplore.com/news/2026-10-63b-hack-binance-biggest-crypto.html">What to know about the $6.3B Binance hack, likely the biggest-ever crypto theft</a></li>
-          <li><b>Reuters:</b> <a href="https://www.reuters.com/legal/government/crypto-exchanges-call-quick-moves-bolster-defenses-after-binance-heist-2026-10-31/">Exchanges move to bolster defenses after the record Binance heist</a></li>
-          </ul>
-        </article>
-
-        <article class="cluster">
-          <p class="cluster__meta">Cluster · Afternoon summaries · Summary — Fintech Security</p>
-          <h2 class="cluster__title">The tracker gets tracked</h2>
-          <p class="cluster__body">In a week when crypto’s investigators have been everywhere, one of them became the story. Chainalysis confirmed an attacker using what it calls offensive agentic techniques broke into its systems and internal tools, reaching user IDs, full names, email addresses and organization role labels. The company says investigation content, credentials and session tokens stayed untouched, and it stresses the intrusion is separate from the Binance theft it helped attribute. The irony is the point: even the firms that trace stolen coins are now targets, and ‘non-sensitive’ contact data is still enough to fuel the next round of phishing.</p>
-          <ul class="cluster__items">
-          <li><b>The Hacker News:</b> <a href="http://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html">Chainalysis confirms intrusion into its systems and internal tools</a></li>
-          </ul>
-        </article>
-
-        <article class="cluster">
-          <p class="cluster__meta">Cluster · Midday update</p>
-          <h2 class="cluster__title">The $6.3B heist, day two — 90% replenished</h2>
-          <ul class="cluster__items">
-          <li><b>Cointelegraph:</b> <a href="https://cointelegraph.com/news/binance-hack-90-percent-replenished">Binance says 90% of the $6.3B heist's assets are now replenished, up from 80% a day earlier, and it remains on track to resume withdrawals Sunday — customer BTC, ETH and eight other assets fully backed, with the shortfall in less liquid tokens still being bought</a></li>
-          </ul>
-        </article>
-
-        <article class="cluster">
-          <p class="cluster__meta">Cluster · Midday update</p>
-          <h2 class="cluster__title">Midday: the tracker gets tracked</h2>
-          <ul class="cluster__items">
-          <li><b>The Hacker News:</b> <a href="http://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html">Chainalysis confirms an attacker using 'offensive agentic techniques' broke into its systems and internal tools and accessed non-sensitive customer data — user IDs, full names, emails and organization role labels — while investigation content, credentials and session tokens stayed untouched</a></li>
-          </ul>
-        </article>
-
-        <article class="cluster">
-          <p class="cluster__meta">Cluster · Midday update</p>
-          <h2 class="cluster__title">Midday: Ivanti&#x27;s three-flaw chain, and October&#x27;s edge ledger</h2>
-          <ul class="cluster__items">
-          <li><b>The Hacker News:</b> <a href="http://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html">CISA adds two Ivanti Connect Secure flaws to its exploited-vulnerabilities list, completing a three-flaw chain — authentication bypass, code execution, privilege escalation — that gives unauthenticated root access; federal agencies must patch CVE-2026-111357 by Nov 2 and CVE-2026-118527 by Nov 13</a></li>
-          <li><b>DataWater:</b> <a href="https://datawater.com/edge-device-zero-days-october-2026/">DataWater's October edge-device recap counts twelve exploited edge products — Fortinet to Cisco ASA — with one federal deadline still open: Cisco ASA/FTD CVE-2026-76418, due Sunday, November 1</a></li>
-          </ul>
-        </article>
-
-
-        <article class="cluster">
-          <p class="cluster__meta">Cluster · Morning edition</p>
-          <h2 class="cluster__title">The $6.3B heist, day two</h2>
-          <ul class="cluster__items">
-          <li><b>Tech Xplore:</b> <a href="https://techxplore.com/news/2026-10-63b-hack-binance-biggest-crypto.html">What to know about the $6.3B Binance hack: attackers drained hot wallets on 10 blockchains in about 20 minutes, TRM Labs and Chainalysis point to North Korea&#x27;s TraderTraitor, and the White House says US officials are investigating</a></li>
-          <li><b>CoinCentral:</b> <a href="https://coincentral.com/binance-hack-how-the-exchange-plans-to-pay-back-6-3-billion/">Binance sets aside more than $6.34B in company funds to cover the heist — $5B already held in the same tokens stolen, the rest to be bought on public markets and over the counter, with about $3B frozen and withdrawals paused</a></li>
-          <li><b>CoinCentral:</b> <a href="https://coincentral.com/crypto-liquidations-reach-400-million-as-binance-hack-pressures-bitcoin-ethereum-and-solana/">Crypto liquidations hit $397.74M in 24 hours as Bitcoin trades near $77,000 — about 38.8% below its record high — and US spot Bitcoin ETFs post $643.33M in net outflows on Friday</a></li>
-          </ul>
-        </article>
-
-        <article class="cluster">
-          <p class="cluster__meta">Cluster · Morning edition</p>
-          <h2 class="cluster__title">Black October: nine platforms, one key hunt</h2>
-          <ul class="cluster__items">
-          <li><b>Wiz:</b> <a href="https://www.wiz.io/blog/black-october-for-ai-developer-platforms">Wiz names October ‘Black October’: at least nine AI developer platforms disclosed incidents this month — Fireworks AI to Northflank — with attackers hunting stored environment variables for AI keys, tested within 30 minutes and resold for LLMjacking</a></li>
-          <li><b>DEV Community:</b> <a href="https://dev.to/lycore/black-october-9-ai-dev-platforms-were-breached-rotate-your-keys-today-35d3">Nine AI dev platforms breached, keys resold: stolen model keys were tested within about 30 minutes and later resold, with two enterprise Bedrock abuses alone running up over $100k in list-price usage, per Wiz&#x27;s October tally</a></li>
-          </ul>
-        </article>
-
-        <article class="cluster">
-          <p class="cluster__meta">Cluster · Morning edition</p>
-          <h2 class="cluster__title">October&#x27;s exploit ledger</h2>
-          <ul class="cluster__items">
-          <li><b>Volyte:</b> <a href="https://volyte.com/blog/security-updates-october-2026">October&#x27;s patch ledger: PHP&#x27;s exploited RCE pair, a Linux kernel flaw reachable over the network rated 9.8, and Microsoft&#x27;s record 1,400-plus-vulnerability Patch Tuesday — with a second kernel race condition still awaiting fixes on most distros</a></li>
-          <li><b>Cybersecurity Dive:</b> China-nexus actors chained PHP2Shell with the Fragnesia Linux kernel flaw to gain root on Palo Alto firewalls and breach US government servers, Cybersecurity Dive reports</li>
-          </ul>
-        </article>
-
-        <article class="cluster">
-          <p class="cluster__meta">Cluster · Morning edition</p>
-          <h2 class="cluster__title">Wall Street reprices the AI buildout</h2>
-          <ul class="cluster__items">
-          <li><b>Reuters:</b> <a href="https://www.reuters.com/legal/legalindustry/october-ends-with-thud-intel-reddit-ai-stalwarts-2026-10-30/">Wall Street&#x27;s AI-spending reckoning: the Nasdaq posts its biggest fall since June as Intel plunges 28.6% on a weak forecast and Alphabet&#x27;s $51B-plus capex quarter erases $500B in a session — the index now down 7.8% from its October 6 high</a></li>
-          <li><b>Reuters:</b> <a href="https://wixx.com/2026/10/30/openai-cuts-funding-target-by-10-billion-ft-reports/">OpenAI slashes its funding target by $10B to about $20B at a $1.25T valuation amid the tech rout, the FT reports — the first close is expected to raise less than $20B as some investors trim allocations</a></li>
-          </ul>
-        </article>
-
-        <article class="cluster">
-          <p class="cluster__meta">Cluster · Morning edition</p>
-          <h2 class="cluster__title">Funding week: Re:Build and Kalshi lead</h2>
-          <ul class="cluster__items">
-          <li><b>Tech Insider:</b> <a href="https://tech-insider.org/biggest-funding-rounds-rebuild-kalshi-bedrock-physical-ai-2026/">Funding week, October 24–30: manufacturing startup Re:Build closes $2.1B and Kalshi adds $1B at a $40B valuation, leading a roughly $4.8B week for US startups</a></li>
-          </ul>
-        </article>
-
-        <article class="cluster">
-          <p class="cluster__meta">Cluster · Morning edition</p>
-          <h2 class="cluster__title">WordPress&#x27;s RCE gets its CVE</h2>
-          <ul class="cluster__items">
-          <li><b>Suriq:</b> <a href="https://suriq.io/blog/wordpress-core-cve-2026-119977-upgrade-window-rce">WordPress&#x27;s upgrade-window RCE finally gets its CVE — CVE-2026-119977 — three days after the 7.1.4 patch, as Wordfence counts 60,000-plus blocked attempts and WordPress&#x27;s own advisory rates the same bug Low</a></li>
-          </ul>
-        </article>
-
-                <!-- LAKE:END -->
+<!-- LAKE:END -->
 
         <div class="note">
           <p><b>How clusters form:</b> same event, same company move, or same developing story — grouped by the editors (human + AI) at each update cycle: 7:30 AM, 12:30 PM, 1:30 PM ET.</p>
