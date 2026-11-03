@@ -6,6 +6,57 @@
   ],
   "clusters": [
     {
+      "date": "2026-11-03",
+      "theme": "A million TV boxes, one built-in backdoor",
+      "topic": "Summary — Tech Security",
+      "items": [
+        "bleeping-xcpe-1103"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "theme": "Gorbag's harvest, in the open",
+      "topic": "Summary — Tech Security",
+      "items": [
+        "thn-gorbag-1103"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "theme": "The AI campaign that keeps finding new victims",
+      "topic": "Summary — Tech Security",
+      "items": [
+        "thn-chainstack-1103"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "theme": "Two payment tools, two very different fixes",
+      "topic": "Summary — Fintech Security",
+      "items": [
+        "thn-btcpay-1103",
+        "thn-cryptopayment-1103"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "theme": "The heist, from a fake interview to the vault",
+      "topic": "Summary — Fintech Security",
+      "items": [
+        "blockchainnews-binance-findings-1103",
+        "reuters-binance-interview-1103"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "theme": "Hot wallets drain, cold wallets get the push",
+      "topic": "Summary — Fintech Security",
+      "items": [
+        "cryptonews-mercado-1103",
+        "coinlab-korea-1103"
+      ]
+    },
+    {
       "date": "2026-11-02",
       "theme": "The VPN chain, closed — on deadline day",
       "topic": "Summary — Tech Security",
@@ -4224,6 +4275,36 @@
       "headline": "Tutor Intelligence raises $75M led by Andreessen Horowitz to expand its industrial robotics business, in a Nov 3 funding roundup led by Moffett AI's near-RMB 1B Series C+ and nPhase's $30M Series D",
       "url": "https://techstartups.com/2026/11/03/startup-funding-news-today-november-3-2026-moffett-ai-tutor-intelligence-larridin-nphase-more/",
       "lane": null
+    },
+    {
+      "id": "thn-chainstack-1103",
+      "date": "2026-11-03",
+      "time": "1:30 PM",
+      "outlet": "The Hacker News",
+      "author": "Ravie Lakshmanan",
+      "headline": "Chainstack discloses a breach of production systems exposing customer data and password hashes, assessed as part of a large-scale AI-powered attack campaign",
+      "url": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html?m=1",
+      "lane": null
+    },
+    {
+      "id": "thn-cryptopayment-1103",
+      "date": "2026-11-03",
+      "time": "1:30 PM",
+      "outlet": "The Hacker News",
+      "author": "Ravie Lakshmanan",
+      "headline": "Attackers target an unpatched maximum-severity flaw in the CryptoPayment Gateway WordPress plugin that can expose wallet credentials",
+      "url": "https://thehackernews.com/2026/11/attackers-target-unpatched.html",
+      "lane": "fraud"
+    },
+    {
+      "id": "reuters-binance-interview-1103",
+      "date": "2026-11-03",
+      "time": "1:30 PM",
+      "outlet": "Reuters",
+      "author": null,
+      "headline": "Binance says hackers used a bogus job interview and a tampered AI tool to compromise a wallet developer's computer before the $6.3B theft",
+      "url": "https://kwsn.com/2026/11/03/binance-says-hackers-used-fake-job-interview-to-compromise-computer-before-6-3-billion-attack/",
+      "lane": "fraud"
     }
   ],
   "site": "GoldRang3r"
