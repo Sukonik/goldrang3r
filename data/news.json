@@ -1520,6 +1520,42 @@
         "anewz-fridge-1103",
         "byobot-gdpx-1103"
       ]
+    },
+    {
+      "date": "2026-11-03",
+      "theme": "AI threats, three warnings",
+      "topic": "Midday update",
+      "items": [
+        "newcivilengineer-ncsc-ai-cni-1103",
+        "cybersecuritydive-cisa-1103",
+        "stocktwits-cz-ai-1103"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "theme": "Gorbag, unmasked",
+      "topic": "Midday update",
+      "items": [
+        "thn-gorbag-1103"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "theme": "The Binance aftermath, day five",
+      "topic": "Midday update",
+      "items": [
+        "blockchainnews-binance-findings-1103",
+        "cointelegraph-eu-theft-1103"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "theme": "Midday funding: robots and tax bots",
+      "topic": "Midday update",
+      "items": [
+        "eu-startups-tallia-1103",
+        "techstartups-tutor-1103"
+      ]
     }
   ],
   "edition": "2026-11-03",
@@ -4107,6 +4143,86 @@
       "author": null,
       "headline": "SemiAnalysis launches GDPx, a benchmark scoring agentic models on paid work across 11 domains, with Anthropic's Opus 5.5 leading overall at 12% — and no model close to human-level performance",
       "url": "https://byobot.ai/ai-news/ai-daily-newsstand-november-3-2026",
+      "lane": null
+    },
+    {
+      "id": "newcivilengineer-ncsc-ai-cni-1103",
+      "date": "2026-11-03",
+      "time": "12:30 PM",
+      "outlet": "New Civil Engineer",
+      "author": null,
+      "headline": "UK cyber agency NCSC warns AI-powered malware is 'highly likely' to feature in a ransomware attack on critical national infrastructure by 2028, in its State of the Cyber Nation report",
+      "url": "https://www.newcivilengineer.com/latest/highly-likely-ai-will-be-used-in-ransomware-attack-on-uk-critical-infrastructure-03-11-2026/",
+      "lane": null
+    },
+    {
+      "id": "thn-gorbag-1103",
+      "date": "2026-11-03",
+      "time": "12:30 PM",
+      "outlet": "The Hacker News",
+      "author": "Ravie Lakshmanan",
+      "headline": "ESET unmasks Gorbag, a Russia-aligned group harvesting credentials, VPN configs and documents from Ukrainian courts, police and front-line city councils since February 2025, lately via a WinRAR path-traversal flaw",
+      "url": "https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html",
+      "lane": null
+    },
+    {
+      "id": "blockchainnews-binance-findings-1103",
+      "date": "2026-11-03",
+      "time": "12:30 PM",
+      "outlet": "Blockchain.News",
+      "author": "Peter Zhang",
+      "headline": "Binance's initial findings on its October 29 incident point to unauthorized access to an internal wallet-signing service and abuse of Ethereum's EIP-7702 delegation, with about $2.85B frozen or intercepted",
+      "url": "https://blockchain.news/news/binance-october-29-2026-security-incident-response",
+      "lane": "fraud"
+    },
+    {
+      "id": "cointelegraph-eu-theft-1103",
+      "date": "2026-11-03",
+      "time": "12:30 PM",
+      "outlet": "Cointelegraph",
+      "author": null,
+      "headline": "Kraken restricts accounts linked to a suspected $133M theft from an unidentified EU entity, as North Korea denies involvement in the $6.3B Binance hack",
+      "url": null,
+      "lane": "fraud"
+    },
+    {
+      "id": "stocktwits-cz-ai-1103",
+      "date": "2026-11-03",
+      "time": "12:30 PM",
+      "outlet": "Stocktwits",
+      "author": null,
+      "headline": "Binance co-founder CZ warns AI is making hacking easier — tools now scan code for flaws far faster than people can — and says no platform has '100% security'",
+      "url": "https://stocktwits.com/news-articles/markets/cryptocurrency/binance-co-founder-cz-warns-ai-is-making-hacking-easier-after-exchange-s-multibillion-dollar-breach/cNGX4iNR95w",
+      "lane": "fraud"
+    },
+    {
+      "id": "cybersecuritydive-cisa-1103",
+      "date": "2026-11-03",
+      "time": "12:30 PM",
+      "outlet": "Cybersecurity Dive",
+      "author": null,
+      "headline": "Three dozen business groups press Congress to renew the 2015 Cybersecurity Information Sharing Act for 10 more years before the latest extension lapses December 11, citing AI-accelerated threats",
+      "url": "https://www.cybersecuritydive.com/news/cisa-2015-reauthorization-congress-ndaa-letter-businesses/873591/",
+      "lane": null
+    },
+    {
+      "id": "eu-startups-tallia-1103",
+      "date": "2026-11-03",
+      "time": "12:30 PM",
+      "outlet": "EU-Startups",
+      "author": null,
+      "headline": "London-based Tallia raises €4M in seed funding co-led by Outward VC and ICAEW to bring AI-powered research and drafting to tax and accountancy firms",
+      "url": "https://www.eu-startups.com/2026/11/london-based-tallia-raises-e4-million-to-bring-ai-powered-research-and-review-to-tax-firms/",
+      "lane": null
+    },
+    {
+      "id": "techstartups-tutor-1103",
+      "date": "2026-11-03",
+      "time": "12:30 PM",
+      "outlet": "TechStartups",
+      "author": null,
+      "headline": "Tutor Intelligence raises $75M led by Andreessen Horowitz to expand its industrial robotics business, in a Nov 3 funding roundup led by Moffett AI's near-RMB 1B Series C+ and nPhase's $30M Series D",
+      "url": "https://techstartups.com/2026/11/03/startup-funding-news-today-november-3-2026-moffett-ai-tutor-intelligence-larridin-nphase-more/",
       "lane": null
     }
   ],
