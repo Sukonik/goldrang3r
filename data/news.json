@@ -1466,9 +1466,63 @@
       "items": [
         "techstartups-openai-1102"
       ]
+    },
+    {
+      "date": "2026-11-03",
+      "theme": "The TV-box botnet, dismantled",
+      "topic": "Morning edition",
+      "items": [
+        "bleeping-xcpe-1103"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "theme": "Fintech security: hot-wallet drains meet a cold-wallet push",
+      "topic": "Morning edition",
+      "items": [
+        "thn-btcpay-1103",
+        "cryptonews-mercado-1103",
+        "coinlab-korea-1103"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "theme": "The Amadeus breach, still spreading",
+      "topic": "Morning edition",
+      "items": [
+        "hkbusiness-cathay-1103"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "theme": "Two big bets: optics and voice",
+      "topic": "Morning edition",
+      "items": [
+        "photonics-marvell-1103",
+        "siliconreport-cresta-1103"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "theme": "Funding Tuesday: measuring AI, chasing grants, programming factories",
+      "topic": "Morning edition",
+      "items": [
+        "siliconreport-larridin-1103",
+        "tech-eu-granter-1103",
+        "techcompanynews-neuron-1103"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "theme": "Fridges, benchmarks, and the morning's odd corners",
+      "topic": "Morning edition",
+      "items": [
+        "anewz-fridge-1103",
+        "byobot-gdpx-1103"
+      ]
     }
   ],
-  "edition": "2026-11-02",
+  "edition": "2026-11-03",
   "items": [
     {
       "author": "Emma Roth",
@@ -3933,6 +3987,126 @@
       "author": null,
       "headline": "Hackers claim a breach of personal data of 27 million Uzbek citizens and threaten a dark-web sale",
       "url": "https://en.fergana.news/news/150491/",
+      "lane": null
+    },
+    {
+      "id": "bleeping-xcpe-1103",
+      "date": "2026-11-03",
+      "time": "7:30 AM",
+      "outlet": "BleepingComputer",
+      "author": null,
+      "headline": "Google and partners dismantle the XCPE botnet of more than 1.3M Android TV boxes, saying maker Videostrong deliberately built in a firmware backdoor and sold access to criminal affiliates — and ban the firm from certified Android devices",
+      "url": "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/",
+      "lane": "protect"
+    },
+    {
+      "id": "thn-btcpay-1103",
+      "date": "2026-11-03",
+      "time": "7:30 AM",
+      "outlet": "The Hacker News",
+      "author": "Ravie Lakshmanan",
+      "headline": "BTCPay Server says attackers exploited a flaw fixed in 2.4.2 to drain bitcoin and litecoin from hot wallets on servers running 2.4.1 or earlier, and urges operators to install the latest 2.4.7 release",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html?m=1",
+      "lane": "fraud"
+    },
+    {
+      "id": "cryptonews-mercado-1103",
+      "date": "2026-11-03",
+      "time": "7:30 AM",
+      "outlet": "CryptoNews",
+      "author": null,
+      "headline": "Chainalysis puts the Mercado Bitcoin breach at about $49M across 17 chains, with nearly $10M frozen, while the exchange counts about $38M in assets involved and says customers will not suffer losses",
+      "url": "https://cryptonews.net/news/security/33692623/",
+      "lane": "fraud"
+    },
+    {
+      "id": "coinlab-korea-1103",
+      "date": "2026-11-03",
+      "time": "7:30 AM",
+      "outlet": "CoinLab",
+      "author": null,
+      "headline": "South Korea's FSC holds an emergency meeting after the $6.3B Binance hack and asks local exchanges to raise cold-wallet shares, add incident-response staff and set aside extra reserves",
+      "url": "https://coinlab.info/en/news/south-korea-cold-storage-binance-hack-nov-2026/",
+      "lane": "fraud"
+    },
+    {
+      "id": "anewz-fridge-1103",
+      "date": "2026-11-03",
+      "time": "7:30 AM",
+      "outlet": "AnewZ",
+      "author": null,
+      "headline": "Suspected cyberattacks hit supermarket refrigeration across Europe, with about 75 stores in Belgium affected alongside sites in Sweden, Ireland, Estonia, the Netherlands and Finland, forcing spoiled food to be discarded",
+      "url": "https://anewz.tv/world/world-news/26244/daily-brief-cyber-threats-and-digital-change/news",
+      "lane": null
+    },
+    {
+      "id": "hkbusiness-cathay-1103",
+      "date": "2026-11-03",
+      "time": "7:30 AM",
+      "outlet": "Hong Kong Business",
+      "author": null,
+      "headline": "Cathay Pacific says about 53,000 bookings were affected by unauthorized access to Amadeus reservation data between August 2023 and September 2026, mostly names, booking references and flight details, with no evidence payment data was accessed",
+      "url": "https://hongkongbusiness.hk/aviation/news/amadeus-incident-affects-53000-cathay-bookings",
+      "lane": null
+    },
+    {
+      "id": "photonics-marvell-1103",
+      "date": "2026-11-03",
+      "time": "7:30 AM",
+      "outlet": "Photonics Spectra",
+      "author": null,
+      "headline": "Marvell agrees to buy Lumentum in an all-stock deal with a $115B implied enterprise value, giving Marvell holders about 67% of the combined company, with closing expected in the first half of 2028",
+      "url": "https://www.photonics.com/Articles/Marvell-Acquiring-Lumentum-for-115B/a72732",
+      "lane": null
+    },
+    {
+      "id": "siliconreport-cresta-1103",
+      "date": "2026-11-03",
+      "time": "7:30 AM",
+      "outlet": "SiliconReport",
+      "author": "Nate Russo",
+      "headline": "Salesforce signs a definitive agreement to acquire voice-AI firm Cresta, reportedly for $2.7B, to fold its voice agents and real-time rep coaching into Agentforce and Service Cloud, with closing expected in fiscal Q1 2028",
+      "url": "https://www.siliconreport.com/salesforce-agrees-to-acquire-voice-ai-platform-cresta",
+      "lane": null
+    },
+    {
+      "id": "siliconreport-larridin-1103",
+      "date": "2026-11-03",
+      "time": "7:30 AM",
+      "outlet": "SiliconReport",
+      "author": "Nate Russo",
+      "headline": "Larridin raises a $30M Series A led by Pelion Ventures to help enterprises track the operational return on AI spending, bringing its total funding to $47M",
+      "url": "https://www.siliconreport.com/larridin-raises-30m-series-a-led-by-pelion-ventures",
+      "lane": null
+    },
+    {
+      "id": "tech-eu-granter-1103",
+      "date": "2026-11-03",
+      "time": "7:30 AM",
+      "outlet": "Tech.eu",
+      "author": null,
+      "headline": "Portuguese AI startup Granter raises €1.6M led by 3XP Global to expand its AI platform for finding and managing European public funding beyond Portugal, lifting total funding to €2M",
+      "url": "https://tech.eu/2026/11/03/portuguese-ai-startup-granter-bags-eur16m-to-expand-across-europe/",
+      "lane": null
+    },
+    {
+      "id": "techcompanynews-neuron-1103",
+      "date": "2026-11-03",
+      "time": "7:30 AM",
+      "outlet": "Tech Company News",
+      "author": null,
+      "headline": "Neuron Industries raises a $10M seed round co-led by FCVC and Obvious Ventures to finish Cortex, an industrial controller engineers program in plain English, with first units expected in early 2027",
+      "url": "https://www.techcompanynews.com/neuron-industries-raises-10-million-in-seed-funding/",
+      "lane": null
+    },
+    {
+      "id": "byobot-gdpx-1103",
+      "date": "2026-11-03",
+      "time": "7:30 AM",
+      "outlet": "BYOBot",
+      "author": null,
+      "headline": "SemiAnalysis launches GDPx, a benchmark scoring agentic models on paid work across 11 domains, with Anthropic's Opus 5.5 leading overall at 12% — and no model close to human-level performance",
+      "url": "https://byobot.ai/ai-news/ai-daily-newsstand-november-3-2026",
       "lane": null
     }
   ],
