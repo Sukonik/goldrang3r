@@ -6,6 +6,65 @@
   ],
   "clusters": [
     {
+      "date": "2026-11-04",
+      "theme": "The exploited list grows, from WordPress to factory gateways",
+      "topic": "Summary — Tech Security",
+      "items": [
+        "bleeping-wordpress-kev-1104",
+        "f5-panos-1104",
+        "threatpodium-kev-1104",
+        "threataft-siemens-1104"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "theme": "Zero clicks, and the package swap",
+      "topic": "Summary — Tech Security",
+      "items": [
+        "bleeping-apt29-1104",
+        "thn-android-1104",
+        "thn-apt-1104"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "theme": "Trust the supplier, check the supplier",
+      "topic": "Summary — Tech Security",
+      "items": [
+        "abijita-cpguard-1104",
+        "thn-sonicwall-1104",
+        "reuters-sia-1104",
+        "abijita-qantas-1104"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "theme": "A bank confirms, an exchange confesses",
+      "topic": "Summary — Fintech Security",
+      "items": [
+        "brusselssignal-arkea-1104",
+        "coincourier-arkea-1104",
+        "analyticsinsight-bitmart-1104"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "theme": "The heist, reconstructed — and the tracker, tracked",
+      "topic": "Summary — Fintech Security",
+      "items": [
+        "fintechnews-binance-1104",
+        "itsecurity-morning-chainalysis-1104"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "theme": "After the heist, the cold-wallet pitch",
+      "topic": "Summary — Fintech Security",
+      "items": [
+        "weex-coinbase-1104"
+      ]
+    },
+    {
       "date": "2026-11-03",
       "theme": "A million TV boxes, one built-in backdoor",
       "topic": "Summary — Tech Security",
@@ -4591,6 +4650,33 @@
       "lane": null,
       "date": "2026-11-04",
       "time": "12:30 PM"
+    },
+    {
+      "id": "threataft-siemens-1104",
+      "date": "2026-11-04",
+      "time": "1:30 PM",
+      "outlet": "ThreatAft",
+      "author": null,
+      "headline": "A CVSS 10.0 missing-authentication flaw in the Node-RED interface on Siemens SIMATIC IoT2050 Advanced gateways, patched in August in Industrial OS V4.3.4.1, is now actively exploited, with VulnCheck observing exploitation from October 30 and 16 attempts by November 1",
+      "url": "https://www.threataft.com/articles/cve-2026-58115-node-red-siemens-iot2050-missing-authentication"
+    },
+    {
+      "id": "abijita-qantas-1104",
+      "date": "2026-11-04",
+      "time": "1:30 PM",
+      "outlet": "Abijita",
+      "author": null,
+      "headline": "Qantas says Amadeus told it of unauthorized access to one of its systems, that the issue was contained in September, and that it is working with Amadeus to understand the impact on any Qantas bookings, with no impact to Qantas systems or databases",
+      "url": "https://www.abijita.com/qantas-amadeus-booking-data-exposure/"
+    },
+    {
+      "id": "weex-coinbase-1104",
+      "date": "2026-11-04",
+      "time": "1:30 PM",
+      "outlet": "WEEX",
+      "author": null,
+      "headline": "Coinbase says its customers are unaffected by the $6.34B Binance hack, with more than 99% of customer assets reportedly held in cold storage, plus distributed signing keys, withdrawal limits, unusual-activity detection and controls that can stop transaction signing",
+      "url": "https://www.weex.com/news/detail/coinbase-says-customers-unaffected-by-634b-binance-hack-bty3n1jls0xaetz9ryc25xae"
     }
   ],
   "site": "GoldRang3r"

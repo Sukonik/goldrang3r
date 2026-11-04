@@ -75,6 +75,72 @@
                 <p class="feed__date">Wednesday, November 4, 2026</p>
 
         <article class="cluster">
+          <p class="cluster__meta">Cluster · Afternoon summaries · Summary — Tech Security</p>
+          <h2 class="cluster__title">The exploited list grows, from WordPress to factory gateways</h2>
+          <p class="cluster__body">CISA's exploited-vulnerabilities list is the day's metronome: a high-severity WordPress Core race-condition flaw, CVE-2026-119977, patched on October 28, is now confirmed actively exploited, with federal civilian agencies ordered to patch by Friday. F5 reports attackers chained the PHP2Shell remote-code flaws with a Linux kernel privilege-escalation bug to compromise 25 PAN-OS systems, including 24 perimeter firewalls, and tunnel into a US government-affiliated environment. And the flaw patched longest ago is the one now being exploited in factories: Siemens' SIMATIC IoT2050 Node-RED flaw, rated CVSS 10.0 and fixed in August, was caught being exploited from October 30. A patch that exists is not a patch that is installed, and this week the gap between the two is where attackers live.</p>
+          <ul class="cluster__items">
+          <li><b>BleepingComputer:</b> <a href="https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/">CISA flags a high-severity WordPress Core race-condition flaw, CVE-2026-119977, as actively exploited and orders federal civilian agencies to patch by Friday</a></li>
+          <li><b>F5 Labs:</b> <a href="https://www.f5.com/labs/articles/weekly-threat-bulletin-november-4th-2026">Attackers chained PHP2Shell RCE flaws with a Linux kernel privilege-escalation bug to compromise 25 PAN-OS systems, including 24 perimeter firewalls, and tunnel into a US government-affiliated environment</a></li>
+          <li><b>ThreatPodium:</b> <a href="https://threatpodium.com/threat-intelligence-report-2026-11-04/">Five vulnerabilities join CISA's exploited list this week as ransomware leak sites post 255 victims in seven days, with Thegentlemen claiming the most</a></li>
+          <li><b>ThreatAft:</b> <a href="https://www.threataft.com/articles/cve-2026-58115-node-red-siemens-iot2050-missing-authentication">A CVSS 10.0 missing-authentication flaw in the Node-RED interface on Siemens SIMATIC IoT2050 Advanced gateways, patched in August in Industrial OS V4.3.4.1, is now actively exploited, with VulnCheck observing exploitation from October 30 and 16 attempts by November 1</a></li>
+          </ul>
+        </article>
+
+        <article class="cluster">
+          <p class="cluster__meta">Cluster · Afternoon summaries · Summary — Tech Security</p>
+          <h2 class="cluster__title">Zero clicks, and the package swap</h2>
+          <p class="cluster__body">Sekoia links Russia's APT29 to a watering-hole campaign that uses already-patched iOS and Android flaws to steal cookies, chat databases, credentials and photos from visitors to compromised sites — no click needed, no download, just a visit. Google's November Android bulletin patches 216 flaws, led by a critical zero-click Framework remote-code flaw, CVE-2026-58868, affecting Android 14 through 17, with no in-the-wild exploitation reported for that one. And Debian and Ubuntu patch an APT flaw, CVE-2026-109518, that lets a man-in-the-middle swap a verified package for a malicious one that then runs as root when APT retries a failed download. The qualifier that matters in all three stories is the same: 'already patched' only protects people who actually patched.</p>
+          <ul class="cluster__items">
+          <li><b>BleepingComputer:</b> <a href="https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/">Sekoia links Russia's APT29 to a watering-hole campaign using already-patched iOS and Android flaws to steal cookies, chat databases, credentials and photos from visitors to compromised sites — no click needed</a></li>
+          <li><b>The Hacker News:</b> <a href="http://thehackernews.com/2026/11/google-patches-critical-android-flaw.html">Google's November Android bulletin patches 216 flaws, led by CVE-2026-58868, a critical zero-click Framework remote-code-execution flaw affecting Android 14 through 17; no in-the-wild exploitation reported</a></li>
+          <li><b>The Hacker News:</b> <a href="http://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html">Debian and Ubuntu patch an APT flaw, CVE-2026-109518, that lets a man-in-the-middle swap a verified package for a malicious one that then runs as root when APT retries a failed download</a></li>
+          </ul>
+        </article>
+
+        <article class="cluster">
+          <p class="cluster__meta">Cluster · Afternoon summaries · Summary — Tech Security</p>
+          <h2 class="cluster__title">Trust the supplier, check the supplier</h2>
+          <p class="cluster__body">OPSSHIELD says attackers used stolen credentials to hijack cPGuard's update channel on November 2, pushing a backdoor and data-stealing script to versions 5.88.12 through 5.88.19, with a spokesperson putting affected servers at 2,946 — the channel meant to deliver protection delivered the compromise instead. SonicWall, meanwhile, will not patch two flaws in end-of-life GMS 9.5.2 and earlier, including a 9.1-rated unauthenticated file-read flaw: end-of-life means the fix is migration, not a patch. And the Amadeus breach keeps spreading, with Singapore Airlines saying about 46,000 booking records may have been affected and Qantas saying Amadeus told it of unauthorized access while it still assesses its own bookings. Two different suppliers, one lesson: the vendor you never think about holds the keys to your servers and your customers' itineraries, so verify the channel and verify the vendor's statement.</p>
+          <ul class="cluster__items">
+          <li><b>Abijita:</b> <a href="https://www.abijita.com/cpguard-update-hijack-linux-servers/">OPSSHIELD says attackers used stolen credentials to hijack cPGuard's update channel on November 2, pushing a backdoor and data-stealing script to versions 5.88.12–5.88.19; a spokesperson put affected servers at 2,946</a></li>
+          <li><b>The Hacker News:</b> <a href="http://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html">SonicWall will not patch two flaws in end-of-life GMS 9.5.2 and earlier, including CVE-2026-109593, a 9.1-rated unauthenticated file-read flaw that could expose internal management files</a></li>
+          <li><b>Reuters:</b> <a href="https://www.reuters.com/world/asia-pacific/singapore-airlines-says-46000-booking-records-affected-by-amadeus-breach-2026-11-04/">Singapore Airlines says about 46,000 booking records may have been affected by the Amadeus breach, joining Cathay Pacific and Japan Airlines in disclosing customer data exposed</a></li>
+          <li><b>Abijita:</b> <a href="https://www.abijita.com/qantas-amadeus-booking-data-exposure/">Qantas says Amadeus told it of unauthorized access to one of its systems, that the issue was contained in September, and that it is working with Amadeus to understand the impact on any Qantas bookings, with no impact to Qantas systems or databases</a></li>
+          </ul>
+        </article>
+
+        <article class="cluster">
+          <p class="cluster__meta">Cluster · Afternoon summaries · Summary — Fintech Security</p>
+          <h2 class="cluster__title">A bank confirms, an exchange confesses</h2>
+          <p class="cluster__body">Crédit Mutuel Arkéa confirms it was hit by an attack enabling fraudulent transactions, saying the incident is now under control and retail clients face no financial impact — after on-chain investigator ZachXBT named the French banking group as the suspected victim of a $133M theft across Kraken, Crypto.com and OKX, a figure the bank itself has not confirmed. BitMart confirms a November 2 breach of about $391,000, with its founder acknowledging funds moved to an address linked to the Mercado Bitcoin exploit. Small breach, big breach, same pattern: exchange accounts drained, investigators tracing the money on-chain, and firms confirming only after the public evidence forces the conversation.</p>
+          <ul class="cluster__items">
+          <li><b>Brussels Signal:</b> <a href="https://brusselssignal.eu/2026/11/french-bank-credit-mutuel-arkea-confirms-cyber-attack-as-investigator-claims-e118-million-stolen/">Crédit Mutuel Arkéa confirms it was hit by an attack enabling fraudulent transactions, saying the incident is now under control and retail clients face no financial impact — after ZachXBT put the suspected theft at $133M</a></li>
+          <li><b>CoinCourier:</b> <a href="https://coincourier.io/zachxbt-french-bank-suspected-crypto-theft/">On-chain investigator ZachXBT names French banking group Crédit Mutuel Arkéa as the suspected victim of a $133M crypto theft across Kraken, Crypto.com and OKX — a claim the bank has not confirmed beyond acknowledging fraudulent transactions</a></li>
+          <li><b>Analytics Insight:</b> <a href="https://www.analyticsinsight.net/news/crypto-news-today-bitcoin-outflow-zcash-seven-zebra-security-fixes-bitmart-hack">BitMart confirms a November 2 breach of about $391,000, with its founder acknowledging funds moved to an address linked to the Mercado Bitcoin exploit</a></li>
+          </ul>
+        </article>
+
+        <article class="cluster">
+          <p class="cluster__meta">Cluster · Afternoon summaries · Summary — Fintech Security</p>
+          <h2 class="cluster__title">The heist, reconstructed — and the tracker, tracked</h2>
+          <p class="cluster__body">Binance's own account of the $6.3B heist is now a complete arc: a five-month campaign from a fake recruiter and a tampered AI tool to hot wallets drained in minutes, with 95% of stolen tokens now replenished, according to co-CEO Richard Teng. Chainalysis, the firm that traces thefts for everyone else, reports an AI-driven incident of its own in which an external actor stole non-sensitive customer data — the latest hit in a wave of AI-powered attacks on crypto firms. Even the investigators are targets now, and 'non-sensitive' still means somebody got inside.</p>
+          <ul class="cluster__items">
+          <li><b>Fintech News Singapore:</b> <a href="https://fintechnews.sg/140431/crypto/how-the-binance-6-billion-crypto-hack-happened/">Binance's account of the $6.3B heist: a five-month campaign from a fake recruiter and a tampered AI tool to drained hot wallets in minutes — with 95% of stolen tokens now replenished, says co-CEO Richard Teng</a></li>
+          <li><b>IT Security News:</b> <a href="https://www.itsecuritynews.info/it-security-news-roundup-2026-11-04-morning/">Chainalysis reports an AI-driven incident in which an external actor stole non-sensitive customer data, the latest hit in a wave of AI-powered attacks on crypto firms</a></li>
+          </ul>
+        </article>
+
+        <article class="cluster">
+          <p class="cluster__meta">Cluster · Afternoon summaries · Summary — Fintech Security</p>
+          <h2 class="cluster__title">After the heist, the cold-wallet pitch</h2>
+          <p class="cluster__body">Coinbase says its customers are unaffected by the $6.34B Binance hack, with more than 99% of customer assets reportedly held in cold storage, alongside distributed signing keys, withdrawal limits, unusual-activity detection, and controls that can stop transaction signing. South Korea's regulator already pressed local exchanges toward cold wallets after Binance; now the pitch is competitive, with cold storage presented as a selling point rather than just a control. The test is whether customers believe the percentage — and whether hot-wallet balances stay small enough that a bad day stays survivable.</p>
+          <ul class="cluster__items">
+          <li><b>WEEX:</b> <a href="https://www.weex.com/news/detail/coinbase-says-customers-unaffected-by-634b-binance-hack-bty3n1jls0xaetz9ryc25xae">Coinbase says its customers are unaffected by the $6.34B Binance hack, with more than 99% of customer assets reportedly held in cold storage, plus distributed signing keys, withdrawal limits, unusual-activity detection and controls that can stop transaction signing</a></li>
+          </ul>
+        </article>
+
+
+        <article class="cluster">
           <p class="cluster__meta">Cluster · Morning edition</p>
           <h2 class="cluster__title">Zero-click phones, patched flaws</h2>
           <ul class="cluster__items">
