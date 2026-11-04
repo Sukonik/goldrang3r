@@ -1607,9 +1607,70 @@
         "eu-startups-tallia-1103",
         "techstartups-tutor-1103"
       ]
+    },
+    {
+      "date": "2026-11-04",
+      "theme": "Zero-click phones, patched flaws",
+      "topic": "Morning edition",
+      "items": [
+        "bleeping-apt29-1104"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "theme": "Exploited flaws, from WordPress to firewalls",
+      "topic": "Morning edition",
+      "items": [
+        "bleeping-wordpress-kev-1104",
+        "f5-panos-1104",
+        "threatpodium-kev-1104"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "theme": "A hijacked update channel",
+      "topic": "Morning edition",
+      "items": [
+        "abijita-cpguard-1104"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "theme": "Blood freezers, turned to 110°C",
+      "topic": "Morning edition",
+      "items": [
+        "itsecurity-overnight-blood-1104"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "theme": "Crypto's ledger: a heist reconstructed, a second theft named",
+      "topic": "Morning edition",
+      "items": [
+        "fintechnews-binance-1104",
+        "coincourier-arkea-1104",
+        "itsecurity-morning-chainalysis-1104"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "theme": "Inference money, still flowing",
+      "topic": "Morning edition",
+      "items": [
+        "cognarah-fal-1104"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "theme": "Paris campus, record year — and Canva cuts deep",
+      "topic": "Morning edition",
+      "items": [
+        "tech-eu-stationf-1104",
+        "yourstory-canva-1104"
+      ]
     }
   ],
-  "edition": "2026-11-03",
+  "edition": "2026-11-04",
   "items": [
     {
       "author": "Emma Roth",
@@ -4305,6 +4366,126 @@
       "headline": "Binance says hackers used a bogus job interview and a tampered AI tool to compromise a wallet developer's computer before the $6.3B theft",
       "url": "https://kwsn.com/2026/11/03/binance-says-hackers-used-fake-job-interview-to-compromise-computer-before-6-3-billion-attack/",
       "lane": "fraud"
+    },
+    {
+      "id": "bleeping-apt29-1104",
+      "outlet": "BleepingComputer",
+      "author": null,
+      "headline": "Sekoia links Russia's APT29 to a watering-hole campaign using already-patched iOS and Android flaws to steal cookies, chat databases, credentials and photos from visitors to compromised sites — no click needed",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/",
+      "lane": "protect",
+      "date": "2026-11-04",
+      "time": "7:30 AM"
+    },
+    {
+      "id": "bleeping-wordpress-kev-1104",
+      "outlet": "BleepingComputer",
+      "author": null,
+      "headline": "CISA flags a high-severity WordPress Core race-condition flaw, CVE-2026-119977, as actively exploited and orders federal civilian agencies to patch by Friday",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/",
+      "lane": "protect",
+      "date": "2026-11-04",
+      "time": "7:30 AM"
+    },
+    {
+      "id": "abijita-cpguard-1104",
+      "outlet": "Abijita",
+      "author": null,
+      "headline": "OPSSHIELD says attackers used stolen credentials to hijack cPGuard's update channel on November 2, pushing a backdoor and data-stealing script to versions 5.88.12–5.88.19; a spokesperson put affected servers at 2,946",
+      "url": "https://www.abijita.com/cpguard-update-hijack-linux-servers/",
+      "lane": "protect",
+      "date": "2026-11-04",
+      "time": "7:30 AM"
+    },
+    {
+      "id": "f5-panos-1104",
+      "outlet": "F5 Labs",
+      "author": null,
+      "headline": "Attackers chained PHP2Shell RCE flaws with a Linux kernel privilege-escalation bug to compromise 25 PAN-OS systems, including 24 perimeter firewalls, and tunnel into a US government-affiliated environment",
+      "url": "https://www.f5.com/labs/articles/weekly-threat-bulletin-november-4th-2026",
+      "lane": "protect",
+      "date": "2026-11-04",
+      "time": "7:30 AM"
+    },
+    {
+      "id": "threatpodium-kev-1104",
+      "outlet": "ThreatPodium",
+      "author": null,
+      "headline": "Five vulnerabilities join CISA's exploited list this week as ransomware leak sites post 255 victims in seven days, with Thegentlemen claiming the most",
+      "url": "https://threatpodium.com/threat-intelligence-report-2026-11-04/",
+      "lane": null,
+      "date": "2026-11-04",
+      "time": "7:30 AM"
+    },
+    {
+      "id": "itsecurity-overnight-blood-1104",
+      "outlet": "IT Security News",
+      "author": null,
+      "headline": "Attackers reportedly reprogrammed French blood-service freezers from −30°C to 110°C, threatening critical plasma supplies, in a morning dominated by cold-chain attacks across Europe",
+      "url": "https://www.itsecuritynews.info/it-security-news-roundup-2026-11-04-overnight/",
+      "lane": "protect",
+      "date": "2026-11-04",
+      "time": "7:30 AM"
+    },
+    {
+      "id": "fintechnews-binance-1104",
+      "outlet": "Fintech News Singapore",
+      "author": null,
+      "headline": "Binance's account of the $6.3B heist: a five-month campaign from a fake recruiter and a tampered AI tool to drained hot wallets in minutes — with 95% of stolen tokens now replenished, says co-CEO Richard Teng",
+      "url": "https://fintechnews.sg/140431/crypto/how-the-binance-6-billion-crypto-hack-happened/",
+      "lane": "fraud",
+      "date": "2026-11-04",
+      "time": "7:30 AM"
+    },
+    {
+      "id": "coincourier-arkea-1104",
+      "outlet": "CoinCourier",
+      "author": null,
+      "headline": "On-chain investigator ZachXBT names French banking group Crédit Mutuel Arkéa as the suspected victim of a $133M crypto theft across Kraken, Crypto.com and OKX — a claim the bank has not confirmed beyond acknowledging fraudulent transactions",
+      "url": "https://coincourier.io/zachxbt-french-bank-suspected-crypto-theft/",
+      "lane": "fraud",
+      "date": "2026-11-04",
+      "time": "7:30 AM"
+    },
+    {
+      "id": "itsecurity-morning-chainalysis-1104",
+      "outlet": "IT Security News",
+      "author": null,
+      "headline": "Chainalysis reports an AI-driven incident in which an external actor stole non-sensitive customer data, the latest hit in a wave of AI-powered attacks on crypto firms",
+      "url": "https://www.itsecuritynews.info/it-security-news-roundup-2026-11-04-morning/",
+      "lane": null,
+      "date": "2026-11-04",
+      "time": "7:30 AM"
+    },
+    {
+      "id": "cognarah-fal-1104",
+      "outlet": "Cognarah",
+      "author": null,
+      "headline": "AI inference startup Fal closes a $1.3B Series F led by Bessemer, doubling its valuation to $16B as demand for AI media generation keeps climbing",
+      "url": "https://www.cognarah.com/article/fal-raises-dollar13-billion-doubles-valuation-to-dollar16-billion-on-inference-demand-mw1rqhvz",
+      "lane": null,
+      "date": "2026-11-04",
+      "time": "7:30 AM"
+    },
+    {
+      "id": "tech-eu-stationf-1104",
+      "outlet": "Tech.eu",
+      "author": null,
+      "headline": "STATION F unveils its 2026 Future 40 — sovereign AI and physical AI lead the themes — as campus startups raise a record €2B this year",
+      "url": "https://tech.eu/2026/11/04/station-f-startups-raise-record-2b-as-campus-unveils-2026-future-40/",
+      "lane": null,
+      "date": "2026-11-04",
+      "time": "7:30 AM"
+    },
+    {
+      "id": "yourstory-canva-1104",
+      "outlet": "YourStory",
+      "author": null,
+      "headline": "Canva cuts 1,271 roles, about 22% of its workforce, as growth slows and product work is reorganised; India's EloElo raises $80M in Series C",
+      "url": "https://yourstory.com/2026/11/startup-news-and-updates-daily-roundup-november-4-2026",
+      "lane": null,
+      "date": "2026-11-04",
+      "time": "7:30 AM"
     }
   ],
   "site": "GoldRang3r"
