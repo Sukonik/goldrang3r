@@ -1668,6 +1668,41 @@
         "tech-eu-stationf-1104",
         "yourstory-canva-1104"
       ]
+    },
+    {
+      "date": "2026-11-04",
+      "theme": "Midday: package managers, phones, and unpatched management tools",
+      "topic": "Midday update",
+      "items": [
+        "thn-apt-1104",
+        "thn-android-1104",
+        "thn-sonicwall-1104"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "theme": "Midday: the Amadeus breach spreads to Singapore Airlines",
+      "topic": "Midday update",
+      "items": [
+        "reuters-sia-1104"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "theme": "Midday: Arkéa confirms, BitMart confesses",
+      "topic": "Midday update",
+      "items": [
+        "brusselssignal-arkea-1104",
+        "analyticsinsight-bitmart-1104"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "theme": "Midday funding: Traversal's $120M and the $1.62B day",
+      "topic": "Midday update",
+      "items": [
+        "techstartups-funding-1104"
+      ]
     }
   ],
   "edition": "2026-11-04",
@@ -4486,6 +4521,76 @@
       "lane": null,
       "date": "2026-11-04",
       "time": "7:30 AM"
+    },
+    {
+      "id": "thn-apt-1104",
+      "outlet": "The Hacker News",
+      "author": "Swati Khandelwal",
+      "headline": "Debian and Ubuntu patch an APT flaw, CVE-2026-109518, that lets a man-in-the-middle swap a verified package for a malicious one that then runs as root when APT retries a failed download",
+      "url": "http://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
+      "lane": "protect",
+      "date": "2026-11-04",
+      "time": "12:30 PM"
+    },
+    {
+      "id": "thn-android-1104",
+      "outlet": "The Hacker News",
+      "author": "Swati Khandelwal",
+      "headline": "Google's November Android bulletin patches 216 flaws, led by CVE-2026-58868, a critical zero-click Framework remote-code-execution flaw affecting Android 14 through 17; no in-the-wild exploitation reported",
+      "url": "http://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
+      "lane": "protect",
+      "date": "2026-11-04",
+      "time": "12:30 PM"
+    },
+    {
+      "id": "thn-sonicwall-1104",
+      "outlet": "The Hacker News",
+      "author": "Ravie Lakshmanan",
+      "headline": "SonicWall will not patch two flaws in end-of-life GMS 9.5.2 and earlier, including CVE-2026-109593, a 9.1-rated unauthenticated file-read flaw that could expose internal management files",
+      "url": "http://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
+      "lane": "protect",
+      "date": "2026-11-04",
+      "time": "12:30 PM"
+    },
+    {
+      "id": "reuters-sia-1104",
+      "outlet": "Reuters",
+      "author": null,
+      "headline": "Singapore Airlines says about 46,000 booking records may have been affected by the Amadeus breach, joining Cathay Pacific and Japan Airlines in disclosing customer data exposed",
+      "url": "https://www.reuters.com/world/asia-pacific/singapore-airlines-says-46000-booking-records-affected-by-amadeus-breach-2026-11-04/",
+      "lane": "protect",
+      "date": "2026-11-04",
+      "time": "12:30 PM"
+    },
+    {
+      "id": "brusselssignal-arkea-1104",
+      "outlet": "Brussels Signal",
+      "author": null,
+      "headline": "Crédit Mutuel Arkéa confirms it was hit by an attack enabling fraudulent transactions, saying the incident is now under control and retail clients face no financial impact — after ZachXBT put the suspected theft at $133M",
+      "url": "https://brusselssignal.eu/2026/11/french-bank-credit-mutuel-arkea-confirms-cyber-attack-as-investigator-claims-e118-million-stolen/",
+      "lane": "fraud",
+      "date": "2026-11-04",
+      "time": "12:30 PM"
+    },
+    {
+      "id": "analyticsinsight-bitmart-1104",
+      "outlet": "Analytics Insight",
+      "author": null,
+      "headline": "BitMart confirms a November 2 breach of about $391,000, with its founder acknowledging funds moved to an address linked to the Mercado Bitcoin exploit",
+      "url": "https://www.analyticsinsight.net/news/crypto-news-today-bitcoin-outflow-zcash-seven-zebra-security-fixes-bitmart-hack",
+      "lane": "fraud",
+      "date": "2026-11-04",
+      "time": "12:30 PM"
+    },
+    {
+      "id": "techstartups-funding-1104",
+      "outlet": "TechStartups",
+      "author": null,
+      "headline": "Traversal raises $120M for AI that diagnoses software outages as today's funding roundup totals about $1.62B across eight dollar rounds, plus Lingchuan's RMB 1B chip round",
+      "url": "https://techstartups.com/2026/11/04/startup-funding-news-today-november-4-2026-fal-traversal-lingchuan-technology-more/",
+      "lane": null,
+      "date": "2026-11-04",
+      "time": "12:30 PM"
     }
   ],
   "site": "GoldRang3r"
