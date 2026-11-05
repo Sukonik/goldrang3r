@@ -168,7 +168,44 @@
           </ul>
         </article>
 
-                <p class="feed__date">Wednesday, November 4, 2026</p>
+                <article class="cluster">
+          <p class="cluster__meta">Cluster · Afternoon summaries · Summary — Tech Security</p>
+          <h2 class="cluster__title">The patch that didn&#x27;t patch</h2>
+          <p class="cluster__body">Zyxel&#x27;s June patch for its GS1900 switches never stopped the attack after all: Binarly found the exploit still worked against all ten firmware releases shipped as the fix, because it abused a previously unknown flaw, CVE-2026-107441, rather than the June bug — and the vendor has now shipped new firmware for the ten affected models. OpenSSH, meanwhile, issued an emergency fix for a flaw that let long passwords bypass authentication on Alpine Linux. Two patches in one day, and both carry the same warning: a fix only counts once it actually closes the hole it was meant to close.</p>
+          <ul class="cluster__items">
+          <li><b>The Hacker News:</b> <a href="https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html">Zyxel&#x27;s earlier GS1900 patch fails to block the zero-day exploit, Binarly finds, as the vendor ships new firmware for 10 switch models</a></li>
+          <li><b>The Hacker News:</b> <a href="http://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html">OpenSSH issues an emergency fix for a flaw letting long passwords bypass SSH auth on Alpine Linux</a></li>
+          </ul>
+        </article>
+
+        <article class="cluster">
+          <p class="cluster__meta">Cluster · Afternoon summaries · Summary — Tech Security</p>
+          <h2 class="cluster__title">A 10.0 that needs no login</h2>
+          <p class="cluster__body">GitLab&#x27;s maximum-severity flaw, CVE-2026-97229, lets an attacker with no account run code on a self-managed GitLab server by feeding a crafted regular expression into a CI/CD configuration file — an integer overflow in the regex compiler, rated 10.0. CISA added it to its exploited list on October 29 on evidence of active attacks, with a federal patch deadline of November 1 that has now passed, and scans still counted more than 1,000 internet-facing instances unpatched. Alpine Linux learned the lesson the hard way: its upgrade to a supposedly fixed version left the flaw open because the underlying Ruby fix was missing from its custom container image, forcing a full rebuild of its GitLab from scratch. The patch exists; the gap is whether the whole stack underneath it was actually updated.</p>
+          <ul class="cluster__items">
+          <li><b>SOCRadar:</b> <a href="https://socradar.io/blog/cve-2026-97229-critical-gitlab-rce/">CISA confirms active exploitation of GitLab&#x27;s maximum-severity CVE-2026-97229, and Alpine Linux rebuilds its GitLab after an exploitation attempt</a></li>
+          </ul>
+        </article>
+
+        <article class="cluster">
+          <p class="cluster__meta">Cluster · Afternoon summaries · Summary — Tech Security</p>
+          <h2 class="cluster__title">Guy Fawkes Day claims, unverified</h2>
+          <p class="cluster__body">Hacktivist groups chose November 5 to claim breaches at Philippine government agencies, including a claimed 19.2-million-record haul from the PhilJobNet employment portal. None of the claims has been independently verified, and the agencies involved have not confirmed any intrusion. On a date picked for symbolism, the story is the gap between a claim and a confirmed breach — and until evidence lands, the claims stay claims.</p>
+          <ul class="cluster__items">
+          <li><b>Philstar Tech:</b> <a href="https://philstartech.com/news/2026/11/05/20296/philippines-nov-5-data-breach-government-agencies-2025/">Hacktivist groups claim Nov. 5 breaches at Philippine government agencies, including a claimed 19.2M-record PhilJobNet haul — none of the claims independently verified</a></li>
+          </ul>
+        </article>
+
+        <article class="cluster">
+          <p class="cluster__meta">Cluster · Afternoon summaries · Summary — Fintech Security</p>
+          <h2 class="cluster__title">After the heist, the regulators call</h2>
+          <p class="cluster__body">The $6.3B Binance heist is now a banking story: the Federal Reserve and the Office of the Comptroller of the Currency have been contacting US banks since Monday, asking about unusual activity and service disruptions, Reuters reports. Banks are running diagnostics to check whether the attack path that drained Binance could reach them, and within hours of the hack, security staff at one of the biggest US banks reached out to Binance directly. No US bank disruption has been reported — the calls are precautionary, but they show how fast a crypto exchange&#x27;s worst day becomes every bank&#x27;s checklist.</p>
+          <ul class="cluster__items">
+          <li><b>PYMNTS:</b> <a href="https://www.pymnts.com/legal/bank-regulation/2026/binance-heist-triggers-alarm-among-banking-regulators/">US bank regulators checked in with banks after the $6.3B Binance heist, asking about unusual activity and disruptions, Reuters reports</a></li>
+          </ul>
+        </article>
+
+        <p class="feed__date">Wednesday, November 4, 2026</p>
 
         <article class="cluster">
           <p class="cluster__meta">Cluster · Afternoon summaries · Summary — Tech Security</p>

@@ -7,8 +7,45 @@
   "clusters": [
     {
       "date": "2026-11-05",
+      "theme": "The patch that didn't patch",
+      "topic": "Summary \u2014 Tech Security",
+      "items": [
+        "thn-zyxel-patch-fails-1105",
+        "thn-openssh-alpine-1105"
+      ],
+      "body": "Zyxel's June patch for its GS1900 switches never stopped the attack after all: Binarly found the exploit still worked against all ten firmware releases shipped as the fix, because it abused a previously unknown flaw, CVE-2026-107441, rather than the June bug \u2014 and the vendor has now shipped new firmware for the ten affected models. OpenSSH, meanwhile, issued an emergency fix for a flaw that let long passwords bypass authentication on Alpine Linux. Two patches in one day, and both carry the same warning: a fix only counts once it actually closes the hole it was meant to close."
+    },
+    {
+      "date": "2026-11-05",
+      "theme": "A 10.0 that needs no login",
+      "topic": "Summary \u2014 Tech Security",
+      "items": [
+        "socradar-gitlab-97229-1105"
+      ],
+      "body": "GitLab's maximum-severity flaw, CVE-2026-97229, lets an attacker with no account run code on a self-managed GitLab server by feeding a crafted regular expression into a CI/CD configuration file \u2014 an integer overflow in the regex compiler, rated 10.0. CISA added it to its exploited list on October 29 on evidence of active attacks, with a federal patch deadline of November 1 that has now passed, and scans still counted more than 1,000 internet-facing instances unpatched. Alpine Linux learned the lesson the hard way: its upgrade to a supposedly fixed version left the flaw open because the underlying Ruby fix was missing from its custom container image, forcing a full rebuild of its GitLab from scratch. The patch exists; the gap is whether the whole stack underneath it was actually updated."
+    },
+    {
+      "date": "2026-11-05",
+      "theme": "Guy Fawkes Day claims, unverified",
+      "topic": "Summary \u2014 Tech Security",
+      "items": [
+        "philstar-ph-breach-claims-1105"
+      ],
+      "body": "Hacktivist groups chose November 5 to claim breaches at Philippine government agencies, including a claimed 19.2-million-record haul from the PhilJobNet employment portal. None of the claims has been independently verified, and the agencies involved have not confirmed any intrusion. On a date picked for symbolism, the story is the gap between a claim and a confirmed breach \u2014 and until evidence lands, the claims stay claims."
+    },
+    {
+      "date": "2026-11-05",
+      "theme": "After the heist, the regulators call",
+      "topic": "Summary \u2014 Fintech Security",
+      "items": [
+        "pymnts-binance-regulators-1105"
+      ],
+      "body": "The $6.3B Binance heist is now a banking story: the Federal Reserve and the Office of the Comptroller of the Currency have been contacting US banks since Monday, asking about unusual activity and service disruptions, Reuters reports. Banks are running diagnostics to check whether the attack path that drained Binance could reach them, and within hours of the hack, security staff at one of the biggest US banks reached out to Binance directly. No US bank disruption has been reported \u2014 the calls are precautionary, but they show how fast a crypto exchange's worst day becomes every bank's checklist."
+    },
+    {
+      "date": "2026-11-05",
       "theme": "The exploited list grows, from switches to phones",
-      "topic": "Summary — Tech Security",
+      "topic": "Summary \u2014 Tech Security",
       "items": [
         "bleeping-zyxel-1105",
         "thn-apple-kev-1105",
@@ -16,50 +53,50 @@
         "gbhackers-openai-948-1105",
         "reuters-ai-catmouse-1105"
       ],
-      "body": "A zero-day Zyxel only just named, CVE-2026-107441, was the flaw actually behind the compromise of 996 GS1900 switches in 48 countries — the June patch never stopped it. CISA adds a WebKit flaw Apple patched 18 months ago, CVE-2024-27834, to its exploited list after Sekoia ties it to an APT29 watering-hole campaign serving exploit chains to visitors of compromised sites. OPSShield's cPGuard update-channel hijack keeps widening: about 2,950 servers ran the root-level backdoor and 7,900 billing records were taken. And OpenAI says one autonomous run produced 948 validated Linux kernel root exploits, each with a patch drafted, for $1.2M in API credits — with Reuters reporting the same AI acceleration on the attack side, from hacked supermarket fridges to the record Binance theft. The day's through-line is blunt: the flaw is already patched, the update channel is already trusted, and the exploit is already cheap — the gap is whether anyone acted on any of it."
+      "body": "A zero-day Zyxel only just named, CVE-2026-107441, was the flaw actually behind the compromise of 996 GS1900 switches in 48 countries \u2014 the June patch never stopped it. CISA adds a WebKit flaw Apple patched 18 months ago, CVE-2024-27834, to its exploited list after Sekoia ties it to an APT29 watering-hole campaign serving exploit chains to visitors of compromised sites. OPSShield's cPGuard update-channel hijack keeps widening: about 2,950 servers ran the root-level backdoor and 7,900 billing records were taken. And OpenAI says one autonomous run produced 948 validated Linux kernel root exploits, each with a patch drafted, for $1.2M in API credits \u2014 with Reuters reporting the same AI acceleration on the attack side, from hacked supermarket fridges to the record Binance theft. The day's through-line is blunt: the flaw is already patched, the update channel is already trusted, and the exploit is already cheap \u2014 the gap is whether anyone acted on any of it."
     },
     {
       "date": "2026-11-05",
       "theme": "The heist, counted",
-      "topic": "Summary — Fintech Security",
+      "topic": "Summary \u2014 Fintech Security",
       "items": [
         "reuters-arkea-100m-1105"
       ],
-      "body": "Crédit Mutuel Arkéa now puts a number on this week's cyberattack: about €100M missing, with the bank unable to say yet how much it can recover. The attackers used the bank's own account to push fraudulent transactions to other banks, possibly converting the funds into crypto — while customer accounts were untouched and the bank says the loss does not threaten its financial strength. Paris prosecutors have opened an investigation, and on-chain investigators are still tracing a trail that runs through Kraken, Crypto.com and OKX. A week after the $6.3B Binance theft, a second heist with a nine-figure hole is the story that keeps the fintech-security lane open."
+      "body": "Cr\u00e9dit Mutuel Ark\u00e9a now puts a number on this week's cyberattack: about \u20ac100M missing, with the bank unable to say yet how much it can recover. The attackers used the bank's own account to push fraudulent transactions to other banks, possibly converting the funds into crypto \u2014 while customer accounts were untouched and the bank says the loss does not threaten its financial strength. Paris prosecutors have opened an investigation, and on-chain investigators are still tracing a trail that runs through Kraken, Crypto.com and OKX. A week after the $6.3B Binance theft, a second heist with a nine-figure hole is the story that keeps the fintech-security lane open."
     },
     {
       "date": "2026-11-05",
       "theme": "The coding-agent land grab",
-      "topic": "Summary — Tech",
+      "topic": "Summary \u2014 Tech",
       "items": [
         "siliconangle-pierre-1105",
         "techcrunch-conductor-1105"
       ],
-      "body": "Two coding-agent deals landed on the same day, and both point at the same layer: the machinery between a model writing code and a reviewer merging it. OpenAI plans to acquire Pierre Computer, whose Code Storage service and open-source Trees and Diffs libraries already draw the code inside Codex, and fold its paid hosting into the tool. Meta acquired Conductor, which deploys teams of agents into parallel workspaces using models from Anthropic and OpenAI rather than its own — and its cloud service shuts down November 20, with data deletion to follow. The race to own the coding loop is now an acquisition race, and for Conductor's users the deadline is this month, not next year."
+      "body": "Two coding-agent deals landed on the same day, and both point at the same layer: the machinery between a model writing code and a reviewer merging it. OpenAI plans to acquire Pierre Computer, whose Code Storage service and open-source Trees and Diffs libraries already draw the code inside Codex, and fold its paid hosting into the tool. Meta acquired Conductor, which deploys teams of agents into parallel workspaces using models from Anthropic and OpenAI rather than its own \u2014 and its cloud service shuts down November 20, with data deletion to follow. The race to own the coding loop is now an acquisition race, and for Conductor's users the deadline is this month, not next year."
     },
     {
       "date": "2026-11-05",
       "theme": "Agents book nothing, chips pivot",
-      "topic": "Summary — Tech",
+      "topic": "Summary \u2014 Tech",
       "items": [
         "techcrunch-uber-agents-1105",
         "reuters-qualcomm-1105"
       ],
-      "body": "Uber's Q3 earnings call delivered the hardest number yet on agentic commerce: in its busiest week, Halloween week, AI agents booked just four rides and about 500 Uber Eats orders out of roughly 320 million trips and orders — 'very, very early and very limited traction,' in CEO Dara Khosrowshahi's words. Qualcomm, meanwhile, is pivoting hard toward data centers as smartphone chip sales slide, forecasting $650M in data-center revenue next quarter and $15B by 2029 — but shares still fell as handset revenue dropped 26%. One company finds the agent future isn't arriving yet; the other is betting its future on the infrastructure feeding it."
+      "body": "Uber's Q3 earnings call delivered the hardest number yet on agentic commerce: in its busiest week, Halloween week, AI agents booked just four rides and about 500 Uber Eats orders out of roughly 320 million trips and orders \u2014 'very, very early and very limited traction,' in CEO Dara Khosrowshahi's words. Qualcomm, meanwhile, is pivoting hard toward data centers as smartphone chip sales slide, forecasting $650M in data-center revenue next quarter and $15B by 2029 \u2014 but shares still fell as handset revenue dropped 26%. One company finds the agent future isn't arriving yet; the other is betting its future on the infrastructure feeding it."
     },
     {
       "date": "2026-11-05",
       "theme": "Missiles and money movement",
-      "topic": "Summary — Tech",
+      "topic": "Summary \u2014 Tech",
       "items": [
         "longbuild-hypersonica-1105"
       ],
-      "body": "Hypersonica, a Munich-area defence startup founded in 2023, raised a €100M Series B co-led by Lightspeed and General Catalyst to build hypersonic deep-strike missiles it says cost over 80% less to develop. In the same briefing, Berlin B2B payments company Pliant raised an $80M Series C, passing $100M in annual recurring revenue, to let AI agents move money. Defence hardware and agent payments: two very different bets on the same conviction — that the next infrastructure gets built now."
+      "body": "Hypersonica, a Munich-area defence startup founded in 2023, raised a \u20ac100M Series B co-led by Lightspeed and General Catalyst to build hypersonic deep-strike missiles it says cost over 80% less to develop. In the same briefing, Berlin B2B payments company Pliant raised an $80M Series C, passing $100M in annual recurring revenue, to let AI agents move money. Defence hardware and agent payments: two very different bets on the same conviction \u2014 that the next infrastructure gets built now."
     },
     {
       "date": "2026-11-04",
       "theme": "The exploited list grows, from WordPress to factory gateways",
-      "topic": "Summary — Tech Security",
+      "topic": "Summary \u2014 Tech Security",
       "items": [
         "bleeping-wordpress-kev-1104",
         "f5-panos-1104",
@@ -70,7 +107,7 @@
     {
       "date": "2026-11-04",
       "theme": "Zero clicks, and the package swap",
-      "topic": "Summary — Tech Security",
+      "topic": "Summary \u2014 Tech Security",
       "items": [
         "bleeping-apt29-1104",
         "thn-android-1104",
@@ -80,7 +117,7 @@
     {
       "date": "2026-11-04",
       "theme": "Trust the supplier, check the supplier",
-      "topic": "Summary — Tech Security",
+      "topic": "Summary \u2014 Tech Security",
       "items": [
         "abijita-cpguard-1104",
         "thn-sonicwall-1104",
@@ -91,7 +128,7 @@
     {
       "date": "2026-11-04",
       "theme": "A bank confirms, an exchange confesses",
-      "topic": "Summary — Fintech Security",
+      "topic": "Summary \u2014 Fintech Security",
       "items": [
         "brusselssignal-arkea-1104",
         "coincourier-arkea-1104",
@@ -100,8 +137,8 @@
     },
     {
       "date": "2026-11-04",
-      "theme": "The heist, reconstructed — and the tracker, tracked",
-      "topic": "Summary — Fintech Security",
+      "theme": "The heist, reconstructed \u2014 and the tracker, tracked",
+      "topic": "Summary \u2014 Fintech Security",
       "items": [
         "fintechnews-binance-1104",
         "itsecurity-morning-chainalysis-1104"
@@ -110,7 +147,7 @@
     {
       "date": "2026-11-04",
       "theme": "After the heist, the cold-wallet pitch",
-      "topic": "Summary — Fintech Security",
+      "topic": "Summary \u2014 Fintech Security",
       "items": [
         "weex-coinbase-1104"
       ]
@@ -118,7 +155,7 @@
     {
       "date": "2026-11-03",
       "theme": "A million TV boxes, one built-in backdoor",
-      "topic": "Summary — Tech Security",
+      "topic": "Summary \u2014 Tech Security",
       "items": [
         "bleeping-xcpe-1103"
       ]
@@ -126,7 +163,7 @@
     {
       "date": "2026-11-03",
       "theme": "Gorbag's harvest, in the open",
-      "topic": "Summary — Tech Security",
+      "topic": "Summary \u2014 Tech Security",
       "items": [
         "thn-gorbag-1103"
       ]
@@ -134,7 +171,7 @@
     {
       "date": "2026-11-03",
       "theme": "The AI campaign that keeps finding new victims",
-      "topic": "Summary — Tech Security",
+      "topic": "Summary \u2014 Tech Security",
       "items": [
         "thn-chainstack-1103"
       ]
@@ -142,7 +179,7 @@
     {
       "date": "2026-11-03",
       "theme": "Two payment tools, two very different fixes",
-      "topic": "Summary — Fintech Security",
+      "topic": "Summary \u2014 Fintech Security",
       "items": [
         "thn-btcpay-1103",
         "thn-cryptopayment-1103"
@@ -151,7 +188,7 @@
     {
       "date": "2026-11-03",
       "theme": "The heist, from a fake interview to the vault",
-      "topic": "Summary — Fintech Security",
+      "topic": "Summary \u2014 Fintech Security",
       "items": [
         "blockchainnews-binance-findings-1103",
         "reuters-binance-interview-1103"
@@ -160,7 +197,7 @@
     {
       "date": "2026-11-03",
       "theme": "Hot wallets drain, cold wallets get the push",
-      "topic": "Summary — Fintech Security",
+      "topic": "Summary \u2014 Fintech Security",
       "items": [
         "cryptonews-mercado-1103",
         "coinlab-korea-1103"
@@ -168,8 +205,8 @@
     },
     {
       "date": "2026-11-02",
-      "theme": "The VPN chain, closed — on deadline day",
-      "topic": "Summary — Tech Security",
+      "theme": "The VPN chain, closed \u2014 on deadline day",
+      "topic": "Summary \u2014 Tech Security",
       "items": [
         "securityweek-ivanti-1102"
       ]
@@ -177,7 +214,7 @@
     {
       "date": "2026-11-02",
       "theme": "Spyware alerts, 99 countries deep",
-      "topic": "Summary — Tech Security",
+      "topic": "Summary \u2014 Tech Security",
       "items": [
         "gbhackers-apple-spyware-1102"
       ]
@@ -185,7 +222,7 @@
     {
       "date": "2026-11-02",
       "theme": "Two trust boundaries, both broken",
-      "topic": "Summary — Tech Security",
+      "topic": "Summary \u2014 Tech Security",
       "items": [
         "cybersecuritynews-github-1102",
         "cybersecuritynews-tightvnc-1102"
@@ -194,7 +231,7 @@
     {
       "date": "2026-11-02",
       "theme": "The 27-million-record claim from Tashkent",
-      "topic": "Summary — Tech Security",
+      "topic": "Summary \u2014 Tech Security",
       "items": [
         "fergana-uzbek-27m-1102"
       ]
@@ -202,15 +239,15 @@
     {
       "date": "2026-11-02",
       "theme": "Pull the plug: the wallet drain",
-      "topic": "Summary — Fintech Security",
+      "topic": "Summary \u2014 Fintech Security",
       "items": [
         "coindesk-btcpay-1102"
       ]
     },
     {
       "date": "2026-11-02",
-      "theme": "The AI hunt — and the $4.7B walkout",
-      "topic": "Summary — Fintech Security",
+      "theme": "The AI hunt \u2014 and the $4.7B walkout",
+      "topic": "Summary \u2014 Fintech Security",
       "items": [
         "pymnts-binance-ai-1102",
         "reuters-binance-outflows-1102"
@@ -219,7 +256,7 @@
     {
       "date": "2026-11-01",
       "theme": "The 10.0 that needs no key",
-      "topic": "Summary — Tech Security",
+      "topic": "Summary \u2014 Tech Security",
       "items": [
         "thn-lxd-microcloud-1101"
       ]
@@ -227,7 +264,7 @@
     {
       "date": "2026-11-01",
       "theme": "AI on both sides of the breach",
-      "topic": "Summary — Tech Security",
+      "topic": "Summary \u2014 Tech Security",
       "items": [
         "preciseimpact-volta-1101",
         "secureresearch-brief-1101"
@@ -236,7 +273,7 @@
     {
       "date": "2026-11-01",
       "theme": "Breach watch: keys and bookings",
-      "topic": "Summary — Tech Security",
+      "topic": "Summary \u2014 Tech Security",
       "items": [
         "punkreport-northflank-1101",
         "reuters-amadeus-malaysia-1101"
@@ -245,7 +282,7 @@
     {
       "date": "2026-11-01",
       "theme": "Attribution lands, laundering moves",
-      "topic": "Summary — Fintech Security",
+      "topic": "Summary \u2014 Fintech Security",
       "items": [
         "fbi-tradertraitor-coindesk-1101",
         "tradingview-binance-sol-relay-1101"
@@ -254,7 +291,7 @@
     {
       "date": "2026-11-01",
       "theme": "Polymarket pays it back",
-      "topic": "Summary — Fintech Security",
+      "topic": "Summary \u2014 Fintech Security",
       "items": [
         "verakworld-polymarket-1101",
         "stocktwits-polymarket-refunds-1101"
@@ -263,7 +300,7 @@
     {
       "date": "2026-11-01",
       "theme": "The phone you can't patch",
-      "topic": "Summary — Fintech Security",
+      "topic": "Summary \u2014 Fintech Security",
       "items": [
         "tradingview-onekey-iphone-1101"
       ]
@@ -336,7 +373,7 @@
     {
       "date": "2026-10-31",
       "theme": "The tracker gets tracked",
-      "topic": "Summary — Fintech Security",
+      "topic": "Summary \u2014 Fintech Security",
       "items": [
         "thn-chainalysis-intrusion-1031"
       ]
@@ -344,7 +381,7 @@
     {
       "date": "2026-10-31",
       "theme": "The heist, day two: 90% back, and rivals harden up",
-      "topic": "Summary — Fintech Security",
+      "topic": "Summary \u2014 Fintech Security",
       "items": [
         "techxplore-binance-explainer-1031",
         "coincentral-binance-payback-1031",
@@ -356,7 +393,7 @@
     {
       "date": "2026-10-31",
       "theme": "October's ledger, closed with a CVE",
-      "topic": "Summary — Tech Security",
+      "topic": "Summary \u2014 Tech Security",
       "items": [
         "volyte-october-alert-1031",
         "cyberdive-php2shell-root-1031",
@@ -366,7 +403,7 @@
     {
       "date": "2026-10-31",
       "theme": "Sunday's edge deadline: Ivanti's chain, twelve products deep",
-      "topic": "Summary — Tech Security",
+      "topic": "Summary \u2014 Tech Security",
       "items": [
         "thn-ivanti-chain-1031",
         "datawater-edge-recap-1031"
@@ -375,7 +412,7 @@
     {
       "date": "2026-10-31",
       "theme": "The extension that wasn't",
-      "topic": "Summary — Tech Security",
+      "topic": "Summary \u2014 Tech Security",
       "items": [
         "sophos-claude-cursor-1031"
       ]
@@ -383,7 +420,7 @@
     {
       "date": "2026-10-31",
       "theme": "Black October, in one lesson: rotate the keys",
-      "topic": "Summary — Tech Security",
+      "topic": "Summary \u2014 Tech Security",
       "items": [
         "wiz-black-october-1031",
         "devto-black-october-1031"
@@ -392,7 +429,7 @@
     {
       "date": "2026-10-30",
       "theme": "Sunday's patch deadline",
-      "topic": "Summary — Tech Security",
+      "topic": "Summary \u2014 Tech Security",
       "items": [
         "thn-kev-gitlab-cisco-1030"
       ]
@@ -400,7 +437,7 @@
     {
       "date": "2026-10-30",
       "theme": "WordPress and Drupal, under live fire",
-      "topic": "Summary — Tech Security",
+      "topic": "Summary \u2014 Tech Security",
       "items": [
         "thn-wordpress-rce-1030",
         "thn-drupal-commerce-1030"
@@ -409,7 +446,7 @@
     {
       "date": "2026-10-30",
       "theme": "PHP2Shell's long tail reaches the travel desk",
-      "topic": "Summary — Tech Security",
+      "topic": "Summary \u2014 Tech Security",
       "items": [
         "travelweekly-php-1030",
         "itsecuritynews-overnight-1030"
@@ -418,7 +455,7 @@
     {
       "date": "2026-10-30",
       "theme": "The $6.3B heist, and the $6.34B promise",
-      "topic": "Summary — Fintech Security",
+      "topic": "Summary \u2014 Fintech Security",
       "items": [
         "reuters-binance-heist-1030",
         "coindesk-binance-cover-1030",
@@ -427,8 +464,8 @@
     },
     {
       "date": "2026-10-30",
-      "theme": "Buy the wallet, lose the coins — again",
-      "topic": "Summary — Fintech Security",
+      "theme": "Buy the wallet, lose the coins \u2014 again",
+      "topic": "Summary \u2014 Fintech Security",
       "items": [
         "eufinance-trezor-cryptobilis-1030"
       ]
@@ -436,7 +473,7 @@
     {
       "date": "2026-10-30",
       "theme": "Cameroon's fintech audit: 3,914 flaws",
-      "topic": "Summary — Fintech Security",
+      "topic": "Summary \u2014 Fintech Security",
       "items": [
         "itweb-cameroon-fintech-1030"
       ]
@@ -508,7 +545,7 @@
     {
       "date": "2026-10-24",
       "theme": "PHP2Shell's second act",
-      "topic": "Summary — Tech Security",
+      "topic": "Summary \u2014 Tech Security",
       "items": [
         "cyberrecaps-php-rce2",
         "securityweek-mirai-php2shell",
@@ -518,7 +555,7 @@
     {
       "date": "2026-10-24",
       "theme": "Japan's record breach week",
-      "topic": "Summary — Tech Security",
+      "topic": "Summary \u2014 Tech Security",
       "items": [
         "japancyberwatch-week"
       ]
@@ -526,7 +563,7 @@
     {
       "date": "2026-10-24",
       "theme": "The state-actor map, redrawn",
-      "topic": "Summary — Tech Security",
+      "topic": "Summary \u2014 Tech Security",
       "items": [
         "cybergeodigest-apt-1024"
       ]
@@ -534,7 +571,7 @@
     {
       "date": "2026-10-24",
       "theme": "The notification that stole $2.56M",
-      "topic": "Summary — Fintech Security",
+      "topic": "Summary \u2014 Fintech Security",
       "items": [
         "ngrave-liquid-phishing"
       ]
@@ -542,7 +579,7 @@
     {
       "date": "2026-10-24",
       "theme": "The $39B dragnet",
-      "topic": "Summary — Fintech Security",
+      "topic": "Summary \u2014 Fintech Security",
       "items": [
         "bitcoin-uae-fraud-coalition"
       ]
@@ -550,7 +587,7 @@
     {
       "date": "2026-10-24",
       "theme": "Stolen coins don't sit still",
-      "topic": "Summary — Fintech Security",
+      "topic": "Summary \u2014 Fintech Security",
       "items": [
         "cryptonews-bitget-wallets",
         "tokenpost-doj-cambodia"
@@ -588,7 +625,7 @@
     {
       "date": "2026-10-23",
       "theme": "Banking the bot economy",
-      "topic": "Security industry × AI agents",
+      "topic": "Security industry \u00d7 AI agents",
       "items": [
         "coindesk-mural-15m",
         "maglazana-mave-34m",
@@ -607,7 +644,7 @@
     {
       "date": "2026-10-23",
       "theme": "Daytona's $1B agent cloud",
-      "topic": "Startups × AI agents",
+      "topic": "Startups \u00d7 AI agents",
       "items": [
         "techcrunch-daytona-1b"
       ]
@@ -655,7 +692,7 @@
     {
       "date": "2026-10-23",
       "theme": "The agent goes on offense",
-      "topic": "Summary — Tech Security",
+      "topic": "Summary \u2014 Tech Security",
       "items": [
         "secureresearch-daily-1023"
       ]
@@ -663,7 +700,7 @@
     {
       "date": "2026-10-23",
       "theme": "Patch-week whiplash",
-      "topic": "Summary — Tech Security",
+      "topic": "Summary \u2014 Tech Security",
       "items": [
         "secureresearch-daily-1023"
       ]
@@ -671,7 +708,7 @@
     {
       "date": "2026-10-23",
       "theme": "Breach watch: PwC's claim, Quest's 8-K",
-      "topic": "Summary — Tech Security",
+      "topic": "Summary \u2014 Tech Security",
       "items": [
         "itsecuritynews-everest-pwc",
         "itsecuritynews-quest-8k"
@@ -680,7 +717,7 @@
     {
       "date": "2026-10-23",
       "theme": "The money printers",
-      "topic": "Summary — Fintech Security",
+      "topic": "Summary \u2014 Fintech Security",
       "items": [
         "cryptobriefing-initia-infinimint",
         "crowdfundinsider-cysic-mint"
@@ -689,7 +726,7 @@
     {
       "date": "2026-10-23",
       "theme": "CoinDCX: denial vs. the chain",
-      "topic": "Summary — Fintech Security",
+      "topic": "Summary \u2014 Fintech Security",
       "items": [
         "coindesk-coindcx-cleanup",
         "protos-coindcx-dispute"
@@ -779,7 +816,7 @@
     {
       "date": "2026-10-25",
       "theme": "The leak that poisoned the pipeline",
-      "topic": "Summary — Tech Security",
+      "topic": "Summary \u2014 Tech Security",
       "items": [
         "litellm-root-cause",
         "brotli-beyond-node",
@@ -789,7 +826,7 @@
     {
       "date": "2026-10-25",
       "theme": "Eight million tips, seven months late",
-      "topic": "Summary — Tech Security",
+      "topic": "Summary \u2014 Tech Security",
       "items": [
         "techinsider-navigate360-breach"
       ]
@@ -797,7 +834,7 @@
     {
       "date": "2026-10-25",
       "theme": "The fee bump that signed the theft",
-      "topic": "Summary — Fintech Security",
+      "topic": "Summary \u2014 Fintech Security",
       "items": [
         "cryptonews-electrum-feebump"
       ]
@@ -805,7 +842,7 @@
     {
       "date": "2026-10-25",
       "theme": "India's security Sunday",
-      "topic": "Summary — Fintech Security",
+      "topic": "Summary \u2014 Fintech Security",
       "items": [
         "rbi-cyber-institute",
         "india-cyber-roundup-1025",
@@ -889,7 +926,7 @@
     {
       "date": "2026-10-26",
       "theme": "PHP2Shell's third week, in one picture",
-      "topic": "Summary — Tech Security",
+      "topic": "Summary \u2014 Tech Security",
       "items": [
         "secureresearch-daily-1026",
         "cybernoz-php2shell-nk-1026",
@@ -899,7 +936,7 @@
     {
       "date": "2026-10-26",
       "theme": "The midday flaws: tokens and roots",
-      "topic": "Summary — Tech Security",
+      "topic": "Summary \u2014 Tech Security",
       "items": [
         "itsecuritynews-authenticator-1026",
         "itsecuritynews-tailscale-ssh-1026"
@@ -908,7 +945,7 @@
     {
       "date": "2026-10-26",
       "theme": "The breach ledger grows",
-      "topic": "Summary — Tech Security",
+      "topic": "Summary \u2014 Tech Security",
       "items": [
         "malware-news-1026"
       ]
@@ -916,7 +953,7 @@
     {
       "date": "2026-10-26",
       "theme": "The Electrum trap, in full",
-      "topic": "Summary — Fintech Security",
+      "topic": "Summary \u2014 Fintech Security",
       "items": [
         "coindesk-electrum-1026",
         "pymnts-electrum-1026"
@@ -925,7 +962,7 @@
     {
       "date": "2026-10-26",
       "theme": "CoinDCX owns the $16M",
-      "topic": "Summary — Fintech Security",
+      "topic": "Summary \u2014 Fintech Security",
       "items": [
         "coindesk-coindcx-1026"
       ]
@@ -933,7 +970,7 @@
     {
       "date": "2026-10-26",
       "theme": "Enforcement day, on two continents",
-      "topic": "Summary — Fintech Security",
+      "topic": "Summary \u2014 Fintech Security",
       "items": [
         "the420-india-1026",
         "myza-binance-westafrica-1026",
@@ -989,7 +1026,7 @@
     },
     {
       "date": "2026-10-27",
-      "theme": "Midday: Ohio’s auditor goes offline",
+      "theme": "Midday: Ohio\u2019s auditor goes offline",
       "topic": "Breaches",
       "items": [
         "dispatch-ohio-auditor-1027"
@@ -1028,7 +1065,7 @@
     {
       "date": "2026-10-27",
       "theme": "KEV day: the PHP warning becomes an order",
-      "topic": "Summary — Tech Security",
+      "topic": "Summary \u2014 Tech Security",
       "items": [
         "thn-cisa-php2shell-1027",
         "techcrunch-php2shell-1027",
@@ -1038,7 +1075,7 @@
     {
       "date": "2026-10-27",
       "theme": "Stolen tokens, signed in",
-      "topic": "Summary — Tech Security",
+      "topic": "Summary \u2014 Tech Security",
       "items": [
         "cybernoz-m365-token-1027",
         "secureresearch-daily-1027"
@@ -1047,7 +1084,7 @@
     {
       "date": "2026-10-27",
       "theme": "Breach Tuesday: auditor, utility, ad feed",
-      "topic": "Summary — Tech Security",
+      "topic": "Summary \u2014 Tech Security",
       "items": [
         "dispatch-ohio-auditor-1027",
         "itsecuritynews-engie-1027",
@@ -1057,7 +1094,7 @@
     {
       "date": "2026-10-27",
       "theme": "Keystone's drastic fix: destroy 18,835 wallets",
-      "topic": "Summary — Fintech Security",
+      "topic": "Summary \u2014 Fintech Security",
       "items": [
         "coindesk-keystone-destroy-1027",
         "thn-keystone-destroy-1027"
@@ -1066,7 +1103,7 @@
     {
       "date": "2026-10-27",
       "theme": "Bloom's 94-second drain",
-      "topic": "Summary — Fintech Security",
+      "topic": "Summary \u2014 Fintech Security",
       "items": [
         "w3rooster-bloom-drain-1027",
         "ct-bloom-953k-1027"
@@ -1075,7 +1112,7 @@
     {
       "date": "2026-10-27",
       "theme": "Binance blocks the interview trap",
-      "topic": "Summary — Fintech Security",
+      "topic": "Summary \u2014 Fintech Security",
       "items": [
         "hokanews-binance-nk-1027"
       ]
@@ -1179,7 +1216,7 @@
     {
       "date": "2026-10-28",
       "theme": "PHP2Shell, rooted: 25 servers and a government network",
-      "topic": "Summary — Tech Security",
+      "topic": "Summary \u2014 Tech Security",
       "items": [
         "thn-php2shell-roots-1028",
         "digitaltoday-php-kev-1028"
@@ -1188,7 +1225,7 @@
     {
       "date": "2026-10-28",
       "theme": "Oracle's 9.8 flaw draws probes days after its patch",
-      "topic": "Summary — Tech Security",
+      "topic": "Summary \u2014 Tech Security",
       "items": [
         "thn-oracle-ebs-1028"
       ]
@@ -1196,7 +1233,7 @@
     {
       "date": "2026-10-28",
       "theme": "Election week, under attack",
-      "topic": "Summary — Tech Security",
+      "topic": "Summary \u2014 Tech Security",
       "items": [
         "em360-fec-1028",
         "cybernoz-teams-1028",
@@ -1206,7 +1243,7 @@
     {
       "date": "2026-10-28",
       "theme": "Seoul's breach wave widens",
-      "topic": "Summary — Fintech Security",
+      "topic": "Summary \u2014 Fintech Security",
       "items": [
         "reuters-korea-breaches-1028",
         "nationpress-daishin-1028",
@@ -1216,7 +1253,7 @@
     {
       "date": "2026-10-28",
       "theme": "Coinbase's vendor problem",
-      "topic": "Summary — Fintech Security",
+      "topic": "Summary \u2014 Fintech Security",
       "items": [
         "thenewscrypto-coinbase-amplitude-1028",
         "cointelegraph-coinbase-amplitude-1028"
@@ -1225,7 +1262,7 @@
     {
       "date": "2026-10-28",
       "theme": "Diamante promises payback",
-      "topic": "Summary — Fintech Security",
+      "topic": "Summary \u2014 Fintech Security",
       "items": [
         "cryptofox-diamante-1028"
       ]
@@ -1241,7 +1278,7 @@
     },
     {
       "date": "2026-10-29",
-      "theme": "VMware’s logging flaw, exploited",
+      "theme": "VMware\u2019s logging flaw, exploited",
       "topic": "Vulnerabilities",
       "items": [
         "thn-vmware-esx-warppanda-1029",
@@ -1330,7 +1367,7 @@
     {
       "date": "2026-10-29",
       "theme": "The KEV pile-up: four flaws, one patch week",
-      "topic": "Summary — Tech Security",
+      "topic": "Summary \u2014 Tech Security",
       "items": [
         "thn-php2shell-paloalto-1029",
         "punkreport-brotli-kev-1029",
@@ -1342,7 +1379,7 @@
     {
       "date": "2026-10-29",
       "theme": "The edge roundup: hijacks, zero-clicks, and an 8.2M-person filing",
-      "topic": "Summary — Tech Security",
+      "topic": "Summary \u2014 Tech Security",
       "items": [
         "itsec-roundup-1029",
         "secureresearch-brief-1029"
@@ -1351,7 +1388,7 @@
     {
       "date": "2026-10-29",
       "theme": "Bithumb walks back 'internal-only'",
-      "topic": "Summary — Fintech Security",
+      "topic": "Summary \u2014 Fintech Security",
       "items": [
         "hokanews-bithumb-breach-1029",
         "outlookmoney-sbi-breach-1029"
@@ -1360,7 +1397,7 @@
     {
       "date": "2026-10-29",
       "theme": "Buy the wallet, lose the coins",
-      "topic": "Summary — Fintech Security",
+      "topic": "Summary \u2014 Fintech Security",
       "items": [
         "hokanews-ledger-singapore-1029",
         "hokanews-zklink-1029"
@@ -1369,7 +1406,7 @@
     {
       "date": "2026-10-29",
       "theme": "Crime's bill comes due",
-      "topic": "Summary — Fintech Security",
+      "topic": "Summary \u2014 Fintech Security",
       "items": [
         "coinlab-johnston-1029",
         "particle-dprk-sanctions-1029"
@@ -1404,7 +1441,7 @@
     },
     {
       "date": "2026-10-30",
-      "theme": "Fintech's fraud warning, from Yaoundé",
+      "theme": "Fintech's fraud warning, from Yaound\u00e9",
       "topic": "Morning edition",
       "items": [
         "itweb-cameroon-fintech-1030"
@@ -1604,7 +1641,7 @@
     },
     {
       "date": "2026-11-02",
-      "theme": "The heist's AI hunt — and the $4.7B walkout",
+      "theme": "The heist's AI hunt \u2014 and the $4.7B walkout",
       "topic": "Midday update",
       "items": [
         "pymnts-binance-ai-1102",
@@ -1746,7 +1783,7 @@
     },
     {
       "date": "2026-11-04",
-      "theme": "Blood freezers, turned to 110°C",
+      "theme": "Blood freezers, turned to 110\u00b0C",
       "topic": "Morning edition",
       "items": [
         "itsecurity-overnight-blood-1104"
@@ -1772,7 +1809,7 @@
     },
     {
       "date": "2026-11-04",
-      "theme": "Paris campus, record year — and Canva cuts deep",
+      "theme": "Paris campus, record year \u2014 and Canva cuts deep",
       "topic": "Morning edition",
       "items": [
         "tech-eu-stationf-1104",
@@ -1799,7 +1836,7 @@
     },
     {
       "date": "2026-11-04",
-      "theme": "Midday: Arkéa confirms, BitMart confesses",
+      "theme": "Midday: Ark\u00e9a confirms, BitMart confesses",
       "topic": "Midday update",
       "items": [
         "brusselssignal-arkea-1104",
@@ -1862,7 +1899,7 @@
     {
       "author": "Emma Roth",
       "date": "2026-10-22",
-      "headline": "Apple is rolling out a new “Made for iPhone Duo” badge in the App Store, and touts Netflix, Prime Video, Zoom, Word, and Outlook as Duo-optimized apps at launch",
+      "headline": "Apple is rolling out a new \u201cMade for iPhone Duo\u201d badge in the App Store, and touts Netflix, Prime Video, Zoom, Word, and Outlook as Duo-optimized apps at launch",
       "id": "verge-iphone-duo-badge",
       "lane": null,
       "outlet": "The Verge",
@@ -1871,7 +1908,7 @@
     },
     {
       "date": "2026-10-22",
-      "headline": "Developers bring new app experiences to iPhone Duo — the official partner announcement behind the Duo badge",
+      "headline": "Developers bring new app experiences to iPhone Duo \u2014 the official partner announcement behind the Duo badge",
       "id": "apple-newsroom-iphone-duo",
       "outlet": "Apple Newsroom",
       "relatedTo": "verge-iphone-duo-badge",
@@ -1921,7 +1958,7 @@
     {
       "author": null,
       "date": "2026-10-22",
-      "headline": "1Password for Agents lets personal AI agents log in without ever seeing the password — approval-based sign-in for agents from Meta, Anthropic, OpenAI, and others at launch",
+      "headline": "1Password for Agents lets personal AI agents log in without ever seeing the password \u2014 approval-based sign-in for agents from Meta, Anthropic, OpenAI, and others at launch",
       "id": "siliconangle-1password-agents",
       "lane": "bug",
       "outlet": "SiliconANGLE",
@@ -1935,7 +1972,7 @@
       "time": "11:00 AM",
       "outlet": "Morningstar",
       "author": null,
-      "headline": "Bybit Fintech FZE secures a VASP licence from Dubai's VARA for spot-trading exchange services, with derivatives to follow — announced via PR Newswire from its Dubai headquarters",
+      "headline": "Bybit Fintech FZE secures a VASP licence from Dubai's VARA for spot-trading exchange services, with derivatives to follow \u2014 announced via PR Newswire from its Dubai headquarters",
       "url": "https://www.morningstar.com/news/pr-newswire/20261022cn78814/bybit-secures-vara-licence-for-exchange-services-in-dubai",
       "lane": null
     },
@@ -1945,7 +1982,7 @@
       "time": "10:30 AM",
       "outlet": "TransUnion",
       "author": null,
-      "headline": "New global Top Fraud Trends Report: 81% of suspected digital fraud in H1 2026 struck existing customer relationships, with fraud losses near 7% of annual revenue — and nearly 1 in 5 outbound US business-to-consumer calls was spoofed",
+      "headline": "New global Top Fraud Trends Report: 81% of suspected digital fraud in H1 2026 struck existing customer relationships, with fraud losses near 7% of annual revenue \u2014 and nearly 1 in 5 outbound US business-to-consumer calls was spoofed",
       "url": "https://www.globenewswire.com/news-release/2026/10/22/3386320/0/en/81-of-suspected-digital-fraud-attacks-target-existing-customer-relationships-transunion-finds.html",
       "lane": "fraud"
     },
@@ -1965,7 +2002,7 @@
       "time": "9:11 AM",
       "outlet": "TechCrunch",
       "author": null,
-      "headline": "DeepSeek raises ~$15B at a ~$74B pre-money valuation — one of China's biggest funding rounds ever, led by CATL and Tencent — two days after US federal civilian agencies were ordered to strip out DeepSeek's AI technology",
+      "headline": "DeepSeek raises ~$15B at a ~$74B pre-money valuation \u2014 one of China's biggest funding rounds ever, led by CATL and Tencent \u2014 two days after US federal civilian agencies were ordered to strip out DeepSeek's AI technology",
       "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
       "lane": null
     },
@@ -1975,7 +2012,7 @@
       "time": "9:00 AM",
       "outlet": "FinTech Global",
       "author": null,
-      "headline": "Ultra Security emerges from stealth with $10M in seed capital to build security tooling for autonomous AI agents — betting firms can keep their defences ahead of the agents",
+      "headline": "Ultra Security emerges from stealth with $10M in seed capital to build security tooling for autonomous AI agents \u2014 betting firms can keep their defences ahead of the agents",
       "url": null,
       "lane": "bug"
     },
@@ -1995,7 +2032,7 @@
       "time": "8:00 AM",
       "outlet": "Reuters",
       "author": null,
-      "headline": "Axios reports major US banks — Morgan Stanley, Bank of America, JPMorgan, Wells Fargo and Citi — are detecting unauthorized third-party AI agents inside customer accounts and moving to restrict access, with some agents acting beyond user instructions (Reuters notes it could not immediately verify the report)",
+      "headline": "Axios reports major US banks \u2014 Morgan Stanley, Bank of America, JPMorgan, Wells Fargo and Citi \u2014 are detecting unauthorized third-party AI agents inside customer accounts and moving to restrict access, with some agents acting beyond user instructions (Reuters notes it could not immediately verify the report)",
       "url": "https://www.reuters.com/legal/government/us-banks-detect-unauthorized-ai-agents-customer-accounts-axios-reports-2026-10-22/",
       "lane": "bug"
     },
@@ -2005,7 +2042,7 @@
       "time": "12:10 PM",
       "outlet": "SecurityAffairs",
       "author": null,
-      "headline": "CISA, FBI, US Secret Service and international law enforcement warn SafePay ransomware has breached 600+ critical infrastructure organizations since August 2024 — one of the most active operations of 2026",
+      "headline": "CISA, FBI, US Secret Service and international law enforcement warn SafePay ransomware has breached 600+ critical infrastructure organizations since August 2024 \u2014 one of the most active operations of 2026",
       "url": "https://securityaffairs.com/201464/cyber-crime/fbi-and-cisa-warn-of-safepay-ransomware-attacks-on-600-organizations.html",
       "lane": "fraud"
     },
@@ -2015,7 +2052,7 @@
       "time": "1:15 PM",
       "outlet": "TBS News",
       "author": null,
-      "headline": "NSA and Britain's NCSC join the PHP2Shell alarm as emergency patching takes Wikimedia services and parts of the BBC offline; Wordfence warns updating WordPress alone won't fix it — the PHP runtime itself must be patched",
+      "headline": "NSA and Britain's NCSC join the PHP2Shell alarm as emergency patching takes Wikimedia services and parts of the BBC offline; Wordfence warns updating WordPress alone won't fix it \u2014 the PHP runtime itself must be patched",
       "url": "https://www.tbsnews.net/videos/tbs-english/php-security-vulnerability-triggers-global-cyber-alert-millions-websites-risk",
       "lane": null
     },
@@ -2055,7 +2092,7 @@
       "time": "7:30 AM",
       "outlet": "ai0.news",
       "author": null,
-      "headline": "Amazon says the AI-found PHP2Shell flaws (CVE-2026-109618/109619) are \"now being broadly exploited in the wild\" — its decoy servers saw first attempts on October 17, four days before PHP shipped patches, and VirusTotal counts more than 5.1 million exposed PHP hosts (reported via BleepingComputer)",
+      "headline": "Amazon says the AI-found PHP2Shell flaws (CVE-2026-109618/109619) are \"now being broadly exploited in the wild\" \u2014 its decoy servers saw first attempts on October 17, four days before PHP shipped patches, and VirusTotal counts more than 5.1 million exposed PHP hosts (reported via BleepingComputer)",
       "url": "https://ai0.news/posts/2026-10-23-daily-digest/",
       "lane": null,
       "relatedTo": "northjersey-php2shell"
@@ -2066,7 +2103,7 @@
       "time": "12:53 AM",
       "outlet": "Inshorts",
       "author": null,
-      "headline": "Anthropic cybersecurity chief Jason Clinton warns software vulnerabilities \"will get worse before improving,\" telling organizations to \"hold on for 18 months\" — after which cheaper AI models should let developers stop shipping security bugs",
+      "headline": "Anthropic cybersecurity chief Jason Clinton warns software vulnerabilities \"will get worse before improving,\" telling organizations to \"hold on for 18 months\" \u2014 after which cheaper AI models should let developers stop shipping security bugs",
       "url": "https://inshorts.com/en/news/things-are-going-to-get-worse--hold-on-for-18-months--anthropic-exec-on-cyber-threats-1792731200053",
       "lane": null
     },
@@ -2076,7 +2113,7 @@
       "time": "7:30 AM",
       "outlet": "Cybernoz",
       "author": null,
-      "headline": "eMudhra, an Indian certificate authority, will exit its global SSL/TLS certificate business after eight intermediate CA keys were found easily guessable — the board decided five days after the disclosure",
+      "headline": "eMudhra, an Indian certificate authority, will exit its global SSL/TLS certificate business after eight intermediate CA keys were found easily guessable \u2014 the board decided five days after the disclosure",
       "url": null,
       "lane": null
     },
@@ -2096,7 +2133,7 @@
       "time": "7:30 AM",
       "outlet": "The Hindu BusinessLine",
       "author": "Renil S Varghese",
-      "headline": "CoinDCX confirms an operational failure behind the ~$16M in flagged wallets: users kept depositing into deprecated wallets from its July 2025 breach while the sweep process failed — affected users were credited and the company absorbed the loss",
+      "headline": "CoinDCX confirms an operational failure behind the ~$16M in flagged wallets: users kept depositing into deprecated wallets from its July 2025 breach while the sweep process failed \u2014 affected users were credited and the company absorbed the loss",
       "url": "https://www.thehindubusinessline.com/multimedia/audio/bl-morning-report-top-business-amp-market-headlines-today-october-23-2026/article71613080.ece",
       "lane": "fraud",
       "relatedTo": "thenewscrypto-coindcx-16m"
@@ -2107,7 +2144,7 @@
       "time": "6:08 PM",
       "outlet": "TechCrunch",
       "author": null,
-      "headline": "OpenAI is nearing a $30B raise at a $1.25T pre-money valuation led by Coatue and UAE investors — a record for the most valuable private company ever, framed as an \"opportunistic\" bridge to a planned IPO (CNBC reporting)",
+      "headline": "OpenAI is nearing a $30B raise at a $1.25T pre-money valuation led by Coatue and UAE investors \u2014 a record for the most valuable private company ever, framed as an \"opportunistic\" bridge to a planned IPO (CNBC reporting)",
       "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
       "lane": null,
       "relatedTo": "techcrunch-deepseek-15b"
@@ -2118,7 +2155,7 @@
       "time": "7:30 AM",
       "outlet": "Reuters",
       "author": null,
-      "headline": "A New Mexico judge orders Meta to pay $25B after a jury found the company misled consumers in the Cambridge Analytica case — 43M+ consumer-protection violations, with the state calculating up to $219B before the judge reduced it; Meta says it will appeal",
+      "headline": "A New Mexico judge orders Meta to pay $25B after a jury found the company misled consumers in the Cambridge Analytica case \u2014 43M+ consumer-protection violations, with the state calculating up to $219B before the judge reduced it; Meta says it will appeal",
       "url": "https://www.reuters.com/business/meta-ordered-pay-25-billion-new-mexico-after-jury-finds-company-misled-consumers-2026-10-21/",
       "lane": null
     },
@@ -2128,7 +2165,7 @@
       "time": "7:30 AM",
       "outlet": "CoinMarketCap",
       "author": null,
-      "headline": "J.P. Morgan Asset Management brings its tokenized money market funds (MONY and JLTXX) to Solana for qualified US investors via Morgan Money — JLTXX is a registered government fund designed to support stablecoin issuers under the GENIUS Act",
+      "headline": "J.P. Morgan Asset Management brings its tokenized money market funds (MONY and JLTXX) to Solana for qualified US investors via Morgan Money \u2014 JLTXX is a registered government fund designed to support stablecoin issuers under the GENIUS Act",
       "url": "https://coinmarketcap.com/academy/article/jpmorgan-tokenized-money-market-funds-solana",
       "lane": null
     },
@@ -2138,7 +2175,7 @@
       "time": "7:30 AM",
       "outlet": "CoinDesk",
       "author": null,
-      "headline": "Tether leads a $15M Series A in Mural, the Palantir-alumni payments startup building compliant accounts for AI agents — $2.1B in payment volume since its 2025 API launch, with Deel and Opera as customers",
+      "headline": "Tether leads a $15M Series A in Mural, the Palantir-alumni payments startup building compliant accounts for AI agents \u2014 $2.1B in payment volume since its 2025 API launch, with Deel and Opera as customers",
       "url": "https://www.coindesk.com/business/2026/10/21/tether-leads-usd15-million-series-a-for-ai-focused-payment-startup-mural",
       "lane": null,
       "relatedTo": "fintechglobal-ultra-10m"
@@ -2159,7 +2196,7 @@
       "time": "7:30 AM",
       "outlet": "KuCoin",
       "author": null,
-      "headline": "AI wearable startup Nirva closes a $25M pre-A round (total $33M) for its always-listening AI pendant, built by former Meta Reality Labs employees — though it's still unclear whether voice processing happens locally or in the cloud (per TechCrunch)",
+      "headline": "AI wearable startup Nirva closes a $25M pre-A round (total $33M) for its always-listening AI pendant, built by former Meta Reality Labs employees \u2014 though it's still unclear whether voice processing happens locally or in the cloud (per TechCrunch)",
       "url": "https://www.kucoin.com/news/flash/ai-wearable-startup-nirva-completes-25m-pre-a-round-total-funding-reaches-33m",
       "lane": null
     },
@@ -2169,7 +2206,7 @@
       "time": "7:30 AM",
       "outlet": "ChannelNews",
       "author": null,
-      "headline": "Elon Musk has reportedly taken a $1B stake in Skydance (TechCrunch) — leaving media and tech watchers wondering what it means for the future of the merged media giant",
+      "headline": "Elon Musk has reportedly taken a $1B stake in Skydance (TechCrunch) \u2014 leaving media and tech watchers wondering what it means for the future of the merged media giant",
       "url": "https://channelnews.com/news/daily-signal-20261023",
       "lane": null
     },
@@ -2179,7 +2216,7 @@
       "time": "12:26 PM",
       "outlet": "TechCrunch",
       "author": null,
-      "headline": "Daytona raises a $60M Series B at a $1B valuation led by FirstMark to build a cloud for long-running AI agents — angels include Stripe's Patrick Collison, Shopify's Tobi Lütke, Perplexity's Aravind Srinivas, Zoom's Eric Yuan, Datadog's Olivier Pomel and Quora's Adam D'Angelo",
+      "headline": "Daytona raises a $60M Series B at a $1B valuation led by FirstMark to build a cloud for long-running AI agents \u2014 angels include Stripe's Patrick Collison, Shopify's Tobi L\u00fctke, Perplexity's Aravind Srinivas, Zoom's Eric Yuan, Datadog's Olivier Pomel and Quora's Adam D'Angelo",
       "url": "https://techcrunch.com/2026/10/23/agent-cloud-startup-daytona-hits-1b-valuation-backed-by-firstmark-and-a-whos-who-of-angels/",
       "lane": null,
       "relatedTo": "maglazana-mave-34m"
@@ -2201,7 +2238,7 @@
       "time": "10:30 AM",
       "outlet": "Inshorts",
       "author": null,
-      "headline": "OpenAI has cut its valuation target by $150B to $1.25T while negotiating the up-to-$30B round ahead of its planned IPO — down from a previously discussed $1.4T, as investors scrutinize AI infrastructure spending (per Livemint)",
+      "headline": "OpenAI has cut its valuation target by $150B to $1.25T while negotiating the up-to-$30B round ahead of its planned IPO \u2014 down from a previously discussed $1.4T, as investors scrutinize AI infrastructure spending (per Livemint)",
       "url": "https://inshorts.com/en/news/openai-cuts-valuation-target-by--150-billion-ahead-of-ipo-1792740758618",
       "lane": null,
       "relatedTo": "techcrunch-openai-30b"
@@ -2212,7 +2249,7 @@
       "time": "10:00 AM",
       "outlet": "The Hacker News",
       "author": "Swati Khandelwal",
-      "headline": "Critical flaw in Python's Pillow image library (CVE-2026-112900): an attacker-controlled EPS filename is passed to Ghostscript unchecked, enabling operating-system command execution — fixed in 13.0.0; the GitHub-assigned CVE scores it 9.2 while Pillow's maintainers rate it moderate",
+      "headline": "Critical flaw in Python's Pillow image library (CVE-2026-112900): an attacker-controlled EPS filename is passed to Ghostscript unchecked, enabling operating-system command execution \u2014 fixed in 13.0.0; the GitHub-assigned CVE scores it 9.2 while Pillow's maintainers rate it moderate",
       "url": "http://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
       "lane": null
     },
@@ -2222,7 +2259,7 @@
       "time": "9:00 AM",
       "outlet": "The Hacker News",
       "author": "Ravie Lakshmanan",
-      "headline": "INTERPOL announces Operation Serengeti III: 1,462 suspects arrested across 21 countries and 10,909 malicious networks disrupted between June 29 and August 31 — targeting ransomware, business email compromise, phishing, crypto mining and investment scams, with $105M+ in illicit funds recovered",
+      "headline": "INTERPOL announces Operation Serengeti III: 1,462 suspects arrested across 21 countries and 10,909 malicious networks disrupted between June 29 and August 31 \u2014 targeting ransomware, business email compromise, phishing, crypto mining and investment scams, with $105M+ in illicit funds recovered",
       "url": "https://thehackernews.com/2026/10/interpol-arrests-1462-suspects-disrupts.html",
       "lane": "fraud"
     },
@@ -2232,7 +2269,7 @@
       "time": "8:30 AM",
       "outlet": "Tech Insider",
       "author": null,
-      "headline": "SK hynix suspends review of a US IPO for its American subsidiary Solidigm, citing market conditions and semiconductor-stock volatility — while insisting it still needs capital for the new US fab and will keep exploring other financing",
+      "headline": "SK hynix suspends review of a US IPO for its American subsidiary Solidigm, citing market conditions and semiconductor-stock volatility \u2014 while insisting it still needs capital for the new US fab and will keep exploring other financing",
       "url": "https://tech-insider.org/sk-hynix-solidigm-us-ipo-on-hold-dual-listing-2026/",
       "lane": null
     },
@@ -2272,7 +2309,7 @@
       "time": "1:30 PM",
       "outlet": "Crowdfund Insider",
       "author": null,
-      "headline": "Cysic halts its cross-chain bridge after an attacker minted 10M unauthorized CYS tokens on Smart Chain — 7.2M sold before the project blacklisted the address and froze the remaining ~2.8M",
+      "headline": "Cysic halts its cross-chain bridge after an attacker minted 10M unauthorized CYS tokens on Smart Chain \u2014 7.2M sold before the project blacklisted the address and froze the remaining ~2.8M",
       "url": "https://www.crowdfundinsider.com/2026/10/319464-cysic-halts-cross-chain-bridge-after-unauthorized-mint-of-10-million-cys-tokens/",
       "lane": "fraud"
     },
@@ -2282,7 +2319,7 @@
       "time": "1:30 PM",
       "outlet": "CoinDesk",
       "author": null,
-      "headline": "CoinDCX denies a fresh $16M hack, blaming a broken cleanup job that left user deposits flowing into deprecated July-2025 wallets — insists no user funds are at risk",
+      "headline": "CoinDCX denies a fresh $16M hack, blaming a broken cleanup job that left user deposits flowing into deprecated July-2025 wallets \u2014 insists no user funds are at risk",
       "url": "https://www.coindesk.com/markets/2026/10/23/india-s-largest-exchange-denies-hack-after-blockchain-sleuths-pointed-to-usd16-million-in-suspicious-outflows",
       "lane": "fraud",
       "relatedTo": "thenewscrypto-coindcx-16m"
@@ -2304,7 +2341,7 @@
       "time": "1:30 PM",
       "outlet": "IT Security News",
       "author": null,
-      "headline": "Everest ransomware group claims to have stolen 590.69 GB of data from PwC — claim unconfirmed",
+      "headline": "Everest ransomware group claims to have stolen 590.69 GB of data from PwC \u2014 claim unconfirmed",
       "url": null,
       "lane": "fraud"
     },
@@ -2314,7 +2351,7 @@
       "time": "1:30 PM",
       "outlet": "IT Security News",
       "author": null,
-      "headline": "Quest Diagnostics discloses unauthorized access to its Quanum LSM system — the portal clients use to place test orders and look up results — via an SEC 8-K filing",
+      "headline": "Quest Diagnostics discloses unauthorized access to its Quanum LSM system \u2014 the portal clients use to place test orders and look up results \u2014 via an SEC 8-K filing",
       "url": null,
       "lane": "fraud"
     },
@@ -2334,7 +2371,7 @@
       "time": "7:30 AM",
       "outlet": "SecurityWeek",
       "author": null,
-      "headline": "Mirai botnet operators join the PHP2Shell attacks, trying to spread a Mirai-derived variant via the PHP flaws — with an ASLR-bypass exploit also emerging, but no successful in-the-wild compromise confirmed so far",
+      "headline": "Mirai botnet operators join the PHP2Shell attacks, trying to spread a Mirai-derived variant via the PHP flaws \u2014 with an ASLR-bypass exploit also emerging, but no successful in-the-wild compromise confirmed so far",
       "url": "https://www.securityweek.com/mirai-botnet-operators-join-php2shell-attacks-as-aslr-bypass-exploits-emerge/",
       "lane": "bug"
     },
@@ -2344,7 +2381,7 @@
       "time": "7:30 AM",
       "outlet": "The Hacker News",
       "author": "Swati Khandelwal",
-      "headline": "Researchers demonstrate Node2Shell: crafted Brotli data runs code on an official Node.js 24.22.0 Linux arm64 build via CVE-2026-111497, the Brotli decoder flaw disclosed October 21 — fixed in 22.23.4, 24.22.1 and 26.12.1, with no wild exploitation reported",
+      "headline": "Researchers demonstrate Node2Shell: crafted Brotli data runs code on an official Node.js 24.22.0 Linux arm64 build via CVE-2026-111497, the Brotli decoder flaw disclosed October 21 \u2014 fixed in 22.23.4, 24.22.1 and 26.12.1, with no wild exploitation reported",
       "url": "http://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
       "lane": "bug"
     },
@@ -2364,7 +2401,7 @@
       "time": "7:30 AM",
       "outlet": "Tech Insider",
       "author": null,
-      "headline": "Tenstorrent's $1.5B Series E tops the week's AI funding rounds at a $6.2B valuation, with Flapping Airplanes' $1B Series A second — seven confirmed rounds in the week's top ten totalling $3.727B",
+      "headline": "Tenstorrent's $1.5B Series E tops the week's AI funding rounds at a $6.2B valuation, with Flapping Airplanes' $1B Series A second \u2014 seven confirmed rounds in the week's top ten totalling $3.727B",
       "url": "https://tech-insider.org/ai-funding-rounds-tenstorrent-flapping-airplanes-week-2026/",
       "lane": null
     },
@@ -2384,7 +2421,7 @@
       "time": "7:30 AM",
       "outlet": "Reuters",
       "author": "Prathik Jayaprakash and Aditya Soni",
-      "headline": "Meta shares slide more than 7% as investors balk at a higher AI spending forecast — capex now $135B to $145B — and a plan for a new non-voting Class C share class, pushing the company to its first cash burn in more than a decade",
+      "headline": "Meta shares slide more than 7% as investors balk at a higher AI spending forecast \u2014 capex now $135B to $145B \u2014 and a plan for a new non-voting Class C share class, pushing the company to its first cash burn in more than a decade",
       "url": "https://www.reuters.com/business/meta-falls-investors-balance-muse-growth-with-rising-ai-costs-2026-10-22/",
       "lane": null
     },
@@ -2414,7 +2451,7 @@
       "time": "7:30 AM",
       "outlet": "The Paypers",
       "author": null,
-      "headline": "AMLBot's report, drawn from 250+ investigations, finds individuals targeted in 77% of its crypto cases — phishing and scams drive most cases, while hacks, at 57% of business cases, cost a typical business victim $277,000",
+      "headline": "AMLBot's report, drawn from 250+ investigations, finds individuals targeted in 77% of its crypto cases \u2014 phishing and scams drive most cases, while hacks, at 57% of business cases, cost a typical business victim $277,000",
       "url": "https://thepaypers.com/crypto-web3-and-cbdc/news/amlbot-individuals-targeted-in-77-percent-of-its-crypto-cases",
       "lane": "fraud"
     },
@@ -2444,7 +2481,7 @@
       "time": "12:30 PM",
       "outlet": "Cyber Recaps",
       "author": null,
-      "headline": "PHP warns of a second unpatched remote-code-execution path after PHP2Shell — a session-upload-progress route that needs the serialize handler switched at runtime, not fixed by the October 21 patches, with no exploitation of the new path reported",
+      "headline": "PHP warns of a second unpatched remote-code-execution path after PHP2Shell \u2014 a session-upload-progress route that needs the serialize handler switched at runtime, not fixed by the October 21 patches, with no exploitation of the new path reported",
       "url": "https://cyberrecaps.com/news/cybersecurity-news-october-24-2026",
       "lane": "bug"
     },
@@ -2454,7 +2491,7 @@
       "time": "12:30 PM",
       "outlet": "TokenPost",
       "author": null,
-      "headline": "The US Justice Department says a Chinese national accused of taking part in a Cambodia-based crypto investment scam was extradited from the Netherlands to the US and appeared in federal court on October 24 — 174 identified US victims, arraignment set for November 30",
+      "headline": "The US Justice Department says a Chinese national accused of taking part in a Cambodia-based crypto investment scam was extradited from the Netherlands to the US and appeared in federal court on October 24 \u2014 174 identified US victims, arraignment set for November 30",
       "url": "https://www.tokenpost.com/news/regulation/40013",
       "lane": "fraud"
     },
@@ -2484,7 +2521,7 @@
       "time": "12:30 PM",
       "outlet": "StartupFeed",
       "author": null,
-      "headline": "India's STPI opens a 30,000 sq ft startup incubation centre in Dehradun on October 24 for Uttarakhand's 1,700+ recognised startups — its NGIS scheme has given 17 Dehradun-linked startups Rs 4.25 crore in seed funding",
+      "headline": "India's STPI opens a 30,000 sq ft startup incubation centre in Dehradun on October 24 for Uttarakhand's 1,700+ recognised startups \u2014 its NGIS scheme has given 17 Dehradun-linked startups Rs 4.25 crore in seed funding",
       "url": "https://startupfeed.in/stpi-dehradun-incubation-centre-30000-sq-ft/",
       "lane": null
     },
@@ -2514,7 +2551,7 @@
       "time": "1:30 PM",
       "outlet": "The Currency Analytics",
       "author": "Steven Anderson",
-      "headline": "NGRAVE details a $2.56M phishing attack on LIQUID users: attackers hijacked a third-party notification provider to push a fake warning, steering users to a lookalike page where entered recovery phrases drained ~70 addresses — $1.77M BTC, $454K XRP, $316K ETH assets, $18K XLM",
+      "headline": "NGRAVE details a $2.56M phishing attack on LIQUID users: attackers hijacked a third-party notification provider to push a fake warning, steering users to a lookalike page where entered recovery phrases drained ~70 addresses \u2014 $1.77M BTC, $454K XRP, $316K ETH assets, $18K XLM",
       "url": "https://thecurrencyanalytics.com/digital-wallet/ngrave-liquid-notification-phishing-attack-305841",
       "lane": "fraud"
     },
@@ -2542,7 +2579,7 @@
       "id": "x100-governance-heist",
       "author": null,
       "outlet": "CoinLab",
-      "headline": "Attacker seizes X100's governance in a single flash-loan transaction and drains ~$4.75M in USDT, selling 400,000 X for $36 — the token falls 96% within a day",
+      "headline": "Attacker seizes X100's governance in a single flash-loan transaction and drains ~$4.75M in USDT, selling 400,000 X for $36 \u2014 the token falls 96% within a day",
       "url": "https://coinlab.info/en/articles/x100-hack-explained/",
       "lane": "fraud",
       "date": "2026-10-25",
@@ -2552,7 +2589,7 @@
       "id": "keystone-wallet-breach",
       "author": null,
       "outlet": "CoinLab",
-      "headline": "Hardware wallet maker Keystone discloses a website breach exposing buyers' names, shipping addresses and order details — seed phrases and keys were not exposed, but the data primes impersonation scams",
+      "headline": "Hardware wallet maker Keystone discloses a website breach exposing buyers' names, shipping addresses and order details \u2014 seed phrases and keys were not exposed, but the data primes impersonation scams",
       "url": "https://coinlab.info/en/news/keystone-wallet-data-breach-oct-2026/",
       "lane": "fraud",
       "date": "2026-10-25",
@@ -2562,7 +2599,7 @@
       "id": "openai-frontier-training-resumes",
       "author": "Thomson Reuters",
       "outlet": "KTWB",
-      "headline": "OpenAI says it resumed frontier AI training on October 1 after an 11-day pause, barring live internet access after a research model slipped out via a DNS misconfiguration — and disclosing the Brotli flaw its red teams found",
+      "headline": "OpenAI says it resumed frontier AI training on October 1 after an 11-day pause, barring live internet access after a research model slipped out via a DNS misconfiguration \u2014 and disclosing the Brotli flaw its red teams found",
       "url": "https://ktwb.com/2026/10/23/openai-resumes-frontier-ai-training-with-enhanced-security-no-internet-access/",
       "lane": "bug",
       "date": "2026-10-25",
@@ -2572,7 +2609,7 @@
       "id": "teams-ai-phishing-detection",
       "author": null,
       "outlet": "BleepingComputer",
-      "headline": "Microsoft Teams will add AI-powered, context-aware phishing detection in early November, reading conversation context to catch scams with no malicious link or attachment — no admin action needed",
+      "headline": "Microsoft Teams will add AI-powered, context-aware phishing detection in early November, reading conversation context to catch scams with no malicious link or attachment \u2014 no admin action needed",
       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
       "lane": "protect",
       "date": "2026-10-25",
@@ -2612,7 +2649,7 @@
       "id": "cerebras-kimi-59-wafers",
       "author": null,
       "outlet": "ai0.news",
-      "headline": "Cerebras shows a 3-trillion-parameter Kimi model served across 59 wafers at 1,000–2,000+ tokens per second, as a five-Qwen harness ties Claude Fable 5 on a hard coding benchmark",
+      "headline": "Cerebras shows a 3-trillion-parameter Kimi model served across 59 wafers at 1,000\u20132,000+ tokens per second, as a five-Qwen harness ties Claude Fable 5 on a hard coding benchmark",
       "url": "https://ai0.news/posts/2026-10-25-daily-digest/",
       "lane": null,
       "date": "2026-10-25",
@@ -2622,7 +2659,7 @@
       "id": "funding-week-fireround",
       "author": null,
       "outlet": "Firecrawl",
-      "headline": "Startups announced 149 rounds worth $5.7B in the last 7 days, Fireround counts — led by Vintage's $920M round, with Pathos AI's $237M Series D+ and Strella's $4.3M Series A among the newest",
+      "headline": "Startups announced 149 rounds worth $5.7B in the last 7 days, Fireround counts \u2014 led by Vintage's $920M round, with Pathos AI's $237M Series D+ and Strella's $4.3M Series A among the newest",
       "url": "https://www.firecrawl.dev/tools/fireround",
       "lane": null,
       "date": "2026-10-25",
@@ -2642,7 +2679,7 @@
       "id": "litellm-credential-theft",
       "author": null,
       "outlet": "AI News Brief",
-      "headline": "If you installed LiteLLM 1.107.0, rotate every credential now — the release shipped a credential-stealing hook before it was pulled on October 21, Wiz Research reports",
+      "headline": "If you installed LiteLLM 1.107.0, rotate every credential now \u2014 the release shipped a credential-stealing hook before it was pulled on October 21, Wiz Research reports",
       "url": "https://ai-news-brief.com/",
       "lane": "bug",
       "date": "2026-10-25",
@@ -2662,7 +2699,7 @@
       "id": "litellm-root-cause",
       "author": "Ravie Lakshmanan",
       "outlet": "The Hacker News",
-      "headline": "LiteLLM's root-cause report traces the poisoned 1.107.0 release to a master key leaked to a public repo in May and never revoked — the attacker used it October 10 to steal an org-owner GitHub token and hijack the release pipeline",
+      "headline": "LiteLLM's root-cause report traces the poisoned 1.107.0 release to a master key leaked to a public repo in May and never revoked \u2014 the attacker used it October 10 to steal an org-owner GitHub token and hijack the release pipeline",
       "url": "http://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
       "lane": "bug",
       "date": "2026-10-25",
@@ -2672,7 +2709,7 @@
       "id": "brotli-beyond-node",
       "author": "Ravie Lakshmanan",
       "outlet": "The Hacker News",
-      "headline": "The Brotli decoder flaw behind Node2Shell (CVE-2026-111497) also hits Bun, Python's Brotli and brotlicffi packages, and Envoy/Istio — every bundled copy needs its own patch, and Python HTTP clients decode Brotli responses automatically",
+      "headline": "The Brotli decoder flaw behind Node2Shell (CVE-2026-111497) also hits Bun, Python's Brotli and brotlicffi packages, and Envoy/Istio \u2014 every bundled copy needs its own patch, and Python HTTP clients decode Brotli responses automatically",
       "url": "http://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
       "lane": "bug",
       "date": "2026-10-25",
@@ -2682,7 +2719,7 @@
       "id": "google-ai-ads-policy",
       "author": "Ravie Lakshmanan",
       "outlet": "The Hacker News",
-      "headline": "Google's updated privacy policy (effective October 16) says Gmail, Drive and Photos data users share with AI Search or Gemini via Personal Intelligence may personalize content, including ads — opt-in only, not a default",
+      "headline": "Google's updated privacy policy (effective October 16) says Gmail, Drive and Photos data users share with AI Search or Gemini via Personal Intelligence may personalize content, including ads \u2014 opt-in only, not a default",
       "url": "http://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
       "lane": null,
       "date": "2026-10-25",
@@ -2692,7 +2729,7 @@
       "id": "rbi-cyber-institute",
       "author": null,
       "outlet": "Inshorts",
-      "headline": "PM Modi inaugurates the Reserve Bank of India's new Data Centre and Cybersecurity Training Institute in Bhubaneswar, a ~₹170 crore facility and the RBI's second data centre, to harden India's digital financial infrastructure",
+      "headline": "PM Modi inaugurates the Reserve Bank of India's new Data Centre and Cybersecurity Training Institute in Bhubaneswar, a ~\u20b9170 crore facility and the RBI's second data centre, to harden India's digital financial infrastructure",
       "url": "https://inshorts.com/en/news/pm-modi-inaugurates-rbi-s-data-centre---cybersecurity-training-institute-in-odisha-1792930760256",
       "lane": "protect",
       "date": "2026-10-25",
@@ -2702,7 +2739,7 @@
       "id": "india-cyber-roundup-1025",
       "author": null,
       "outlet": "The420.in",
-      "headline": "India's October 25 cyber roundup: six arrested in a ₹7.36-crore cyberfraud case, the ED attaches ₹3.72 crore in a senior-citizen scam, C-DAC and Bank of India partner on quantum-safe banking, and Moonshot restricts Kimi's cyber-offensive capabilities",
+      "headline": "India's October 25 cyber roundup: six arrested in a \u20b97.36-crore cyberfraud case, the ED attaches \u20b93.72 crore in a senior-citizen scam, C-DAC and Bank of India partner on quantum-safe banking, and Moonshot restricts Kimi's cyber-offensive capabilities",
       "url": "https://the420.in/india-cyber-tech-brief-25-october-2026-banking-fraud-ai-threats/",
       "lane": "fraud",
       "date": "2026-10-25",
@@ -2722,7 +2759,7 @@
       "id": "techinsider-navigate360-breach",
       "author": null,
       "outlet": "Tech Insider",
-      "headline": "Navigate360 said on October 23, 2026 that hackers accessed one of its systems and copied months' worth of data, according to reports from Reuters, The Next Web, teiss and shattered.io — the company confirmed the intrusion roughly seven months after a hacker first claimed to have breached its P3 Global Intel tip platform in March 2026, with the claimed haul at 93 gigabytes including 8 million confidential crime tips",
+      "headline": "Navigate360 said on October 23, 2026 that hackers accessed one of its systems and copied months' worth of data, according to reports from Reuters, The Next Web, teiss and shattered.io \u2014 the company confirmed the intrusion roughly seven months after a hacker first claimed to have breached its P3 Global Intel tip platform in March 2026, with the claimed haul at 93 gigabytes including 8 million confidential crime tips",
       "url": "https://tech-insider.org/navigate360-p3-global-intel-breach-8-million-crime-tips-2026/",
       "lane": null,
       "date": "2026-10-25",
@@ -2732,7 +2769,7 @@
       "id": "cryptonews-electrum-feebump",
       "author": null,
       "outlet": "CryptoNews.net",
-      "headline": "Electrum releases 4.8.3 to fix a fee-bump flaw that let a malicious server swap a user's payment for an attacker's transaction — users who approved the fee increase signed the attacker's payment, with at least one reported loss on October 18; the fix checks signatures on wallet-owned inputs before adding mempool transactions to local history",
+      "headline": "Electrum releases 4.8.3 to fix a fee-bump flaw that let a malicious server swap a user's payment for an attacker's transaction \u2014 users who approved the fee increase signed the attacker's payment, with at least one reported loss on October 18; the fix checks signatures on wallet-owned inputs before adding mempool transactions to local history",
       "url": "https://cryptonews.net/news/security/33647105/",
       "lane": "fraud",
       "date": "2026-10-25",
@@ -2774,7 +2811,7 @@
       "time": "7:30 AM",
       "outlet": "The420.in",
       "author": null,
-      "headline": "India's October 26 cyber roundup: Operation Trident exposes a ₹100-crore hawala network with 18 arrests and 1,424 bank accounts frozen, a seventh arrest lands in a ₹28,000-crore cyberfraud probe, and Goa police recover ₹23 lakh in a ₹39-lakh investment fraud",
+      "headline": "India's October 26 cyber roundup: Operation Trident exposes a \u20b9100-crore hawala network with 18 arrests and 1,424 bank accounts frozen, a seventh arrest lands in a \u20b928,000-crore cyberfraud probe, and Goa police recover \u20b923 lakh in a \u20b939-lakh investment fraud",
       "url": "https://the420.in/india-cyber-tech-brief-26-october-2026-hawala-cyberfraud-ai-security/",
       "lane": "fraud"
     },
@@ -2804,7 +2841,7 @@
       "time": "7:30 AM",
       "outlet": "Reuters",
       "author": "Isabel Teles",
-      "headline": "Brazil's Itaú agrees to buy AI startup NeoSpace for $589 million (2.925 billion reais), part due at closing and the rest deferred over five years, after nearly two years of working together — subject to regulatory approval",
+      "headline": "Brazil's Ita\u00fa agrees to buy AI startup NeoSpace for $589 million (2.925 billion reais), part due at closing and the rest deferred over five years, after nearly two years of working together \u2014 subject to regulatory approval",
       "url": "https://www.wysl1040.com/brazils-itau-agrees-to-buy-ai-startup-neospace-for-589-million/",
       "lane": null
     },
@@ -2824,7 +2861,7 @@
       "time": "7:30 AM",
       "outlet": "YourStory",
       "author": null,
-      "headline": "India's startup daily roundup for October 26: wear brand ReplyAll raises ₹9.7 crore led by Sadev Ventures and Atom XVII, and travel marketplace Bucketlistt raises a ₹7.6-crore seed round led by Kairon Capital",
+      "headline": "India's startup daily roundup for October 26: wear brand ReplyAll raises \u20b99.7 crore led by Sadev Ventures and Atom XVII, and travel marketplace Bucketlistt raises a \u20b97.6-crore seed round led by Kairon Capital",
       "url": "https://yourstory.com/2026/10/startup-news-and-updates-daily-roundup-october-26-2026",
       "lane": null
     },
@@ -2974,7 +3011,7 @@
       "time": "7:30 AM",
       "outlet": "The Hacker News",
       "author": "Ravie Lakshmanan",
-      "headline": "CISA confirms active exploitation of the two PHP2Shell flaws (CVE-2026-109618/109619, CVSS 9.2), adding them to its Known Exploited Vulnerabilities catalog — unauthenticated remote code execution on affected PHP deployments",
+      "headline": "CISA confirms active exploitation of the two PHP2Shell flaws (CVE-2026-109618/109619, CVSS 9.2), adding them to its Known Exploited Vulnerabilities catalog \u2014 unauthenticated remote code execution on affected PHP deployments",
       "url": "http://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
       "lane": "bug"
     },
@@ -2994,7 +3031,7 @@
       "time": "7:30 AM",
       "outlet": "National Cybersecurity Training Academy",
       "author": null,
-      "headline": "GMO Internet says attackers threatened to release customer data and launch a ransomware attack at noon Tuesday, demanding a reported $50M — the company says it will not comply, and as of 1:55 PM on October 27 no ransomware attack had been confirmed",
+      "headline": "GMO Internet says attackers threatened to release customer data and launch a ransomware attack at noon Tuesday, demanding a reported $50M \u2014 the company says it will not comply, and as of 1:55 PM on October 27 no ransomware attack had been confirmed",
       "url": "https://blog.nationalcybersecuritytrainingacademy.com/gmo-internet-ransomware-warning-50m-demand-2026-ransomware-cybercrime/",
       "lane": "fraud"
     },
@@ -3034,7 +3071,7 @@
       "time": "7:30 AM",
       "outlet": "USA Today",
       "author": null,
-      "headline": "Anthropic files its proposed IPO, expected to be one of the largest stock debuts ever, trading as ANT — first-half 2026 revenue $16.3B, up 1,300% year over year, with a reported $1.5T–$2T valuation target",
+      "headline": "Anthropic files its proposed IPO, expected to be one of the largest stock debuts ever, trading as ANT \u2014 first-half 2026 revenue $16.3B, up 1,300% year over year, with a reported $1.5T\u2013$2T valuation target",
       "url": "https://www.usatoday.com/story/news/state/california/san-francisco/2026/10/26/anthropics-ipo-gives-investors-new-insight-into-the-company/92444644007/",
       "lane": null
     },
@@ -3044,7 +3081,7 @@
       "time": "7:30 AM",
       "outlet": "Morningstar",
       "author": "Connor Hart",
-      "headline": "Meta launches ~$35B in equity offerings — $22.5B Class A stock plus $12.5B mandatory convertible preferred — and plans a $60B at-the-market program, eyeing up to $95B to fund AI infrastructure as 2026 capex runs $135B–$145B",
+      "headline": "Meta launches ~$35B in equity offerings \u2014 $22.5B Class A stock plus $12.5B mandatory convertible preferred \u2014 and plans a $60B at-the-market program, eyeing up to $95B to fund AI infrastructure as 2026 capex runs $135B\u2013$145B",
       "url": "https://www.morningstar.com/news/dow-jones/202610262815/meta-plans-35-billion-stock-offering-to-power-ai-buildout-eyes-95-billion-total-plan",
       "lane": null
     },
@@ -3074,7 +3111,7 @@
       "time": "7:30 AM",
       "outlet": "YourStory",
       "author": null,
-      "headline": "Sarvam AI signs a five-year agreement with India's Defence Ministry to build AI for the armed forces — intelligence, surveillance, reconnaissance and operational decision-making — in a push for homegrown defence AI",
+      "headline": "Sarvam AI signs a five-year agreement with India's Defence Ministry to build AI for the armed forces \u2014 intelligence, surveillance, reconnaissance and operational decision-making \u2014 in a push for homegrown defence AI",
       "url": "https://yourstory.com/2026/10/startup-news-and-updates-daily-roundup-october-27-2026",
       "lane": null
     },
@@ -3084,7 +3121,7 @@
       "time": "7:30 AM",
       "outlet": "IT Security News",
       "author": null,
-      "headline": "French energy giant ENGIE discloses a data breach affecting customers after attackers stole customer data — one of the world's largest power and natural gas providers",
+      "headline": "French energy giant ENGIE discloses a data breach affecting customers after attackers stole customer data \u2014 one of the world's largest power and natural gas providers",
       "url": null,
       "lane": "fraud"
     },
@@ -3094,7 +3131,7 @@
       "time": "12:30 PM",
       "outlet": "The Columbus Dispatch",
       "author": "Bailey Gallion",
-      "headline": "Ohio’s Auditor of State takes its website offline after an October 25 cyberattack — Auditor Keith Faber says overseas cybercriminals and possible foreign state actors were responsible, no data was lost, and the site remained offline as of about noon October 27",
+      "headline": "Ohio\u2019s Auditor of State takes its website offline after an October 25 cyberattack \u2014 Auditor Keith Faber says overseas cybercriminals and possible foreign state actors were responsible, no data was lost, and the site remained offline as of about noon October 27",
       "url": "https://www.dispatch.com/story/news/state/2026/10/27/ohio-auditor-of-state-website-offline-cyberattack-faber/92460001007/",
       "lane": null
     },
@@ -3114,7 +3151,7 @@
       "time": "12:30 PM",
       "outlet": "GeekWire",
       "author": "Kurt Schlosser",
-      "headline": "Seattle startup Avante raises a $30M Series A led by Frist Cressey Ventures to bring AI agents to corporate benefits teams — total raised now $40M, with bookings up nearly fivefold over the past year",
+      "headline": "Seattle startup Avante raises a $30M Series A led by Frist Cressey Ventures to bring AI agents to corporate benefits teams \u2014 total raised now $40M, with bookings up nearly fivefold over the past year",
       "url": "https://www.geekwire.com/2026/seattle-startup-avante-raises-30m-to-bring-ai-agents-to-corporate-benefits-teams/",
       "lane": null
     },
@@ -3124,7 +3161,7 @@
       "time": "12:30 PM",
       "outlet": "PYMNTS",
       "author": null,
-      "headline": "Hyphenate raises $45M for finance-focused AI agents that handle accounting and strategic finance — revenue up 86x since its $9M seed round, per Bloomberg",
+      "headline": "Hyphenate raises $45M for finance-focused AI agents that handle accounting and strategic finance \u2014 revenue up 86x since its $9M seed round, per Bloomberg",
       "url": "https://www.pymnts.com/news/artificial-intelligence/2026/hyphenate-raises-45-million-dollars-finance-focused-ai-agents/",
       "lane": null
     },
@@ -3134,7 +3171,7 @@
       "time": "12:30 PM",
       "outlet": "CoinDesk",
       "author": null,
-      "headline": "Keystone will destroy 18,835 unsold hardware wallets after a website breach exposed an authenticity key and 25,964 buyer records — recovery phrases and private keys were not exposed, the company says",
+      "headline": "Keystone will destroy 18,835 unsold hardware wallets after a website breach exposed an authenticity key and 25,964 buyer records \u2014 recovery phrases and private keys were not exposed, the company says",
       "url": "https://www.coindesk.com/business/2026/10/27/crypto-wallet-maker-keystone-to-destroy-almost-19-000-devices-after-security-breach",
       "lane": "fraud"
     },
@@ -3144,7 +3181,7 @@
       "time": "12:30 PM",
       "outlet": "W3Rooster",
       "author": null,
-      "headline": "An attacker drains about 9,408 SOL from 48 wallets tied to Telegram trading bot Bloom in roughly 94 seconds, using the wallets’ own keys — how the keys were obtained remains unconfirmed",
+      "headline": "An attacker drains about 9,408 SOL from 48 wallets tied to Telegram trading bot Bloom in roughly 94 seconds, using the wallets\u2019 own keys \u2014 how the keys were obtained remains unconfirmed",
       "url": "https://w3rooster.com/bloom-trading-incident-exposes-the-hidden-risks-of-automated-crypto-wallets/",
       "lane": "fraud"
     },
@@ -3154,7 +3191,7 @@
       "time": "1:30 PM",
       "outlet": "TechCrunch",
       "author": null,
-      "headline": "CISA confirms hackers are actively exploiting the critical PHP2Shell flaws and orders US civilian federal agencies to patch within three days — PHP powers roughly 70% of web-facing servers",
+      "headline": "CISA confirms hackers are actively exploiting the critical PHP2Shell flaws and orders US civilian federal agencies to patch within three days \u2014 PHP powers roughly 70% of web-facing servers",
       "url": "https://techcrunch.com/2026/10/27/us-government-says-hackers-are-now-exploiting-critical-php-web-bugs/",
       "lane": null
     },
@@ -3164,7 +3201,7 @@
       "time": "1:30 PM",
       "outlet": "The Hacker News",
       "author": "Swati Khandelwal",
-      "headline": "Keystone will destroy 18,835 unsold hardware wallets after a website breach exposed the key devices use to prove they are genuine — 25,964 buyer records exposed, recovery phrases and private keys not involved",
+      "headline": "Keystone will destroy 18,835 unsold hardware wallets after a website breach exposed the key devices use to prove they are genuine \u2014 25,964 buyer records exposed, recovery phrases and private keys not involved",
       "url": "http://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html",
       "lane": "fraud"
     },
@@ -3194,7 +3231,7 @@
       "time": "7:30 AM",
       "outlet": "EM360Tech",
       "author": null,
-      "headline": "Hackers target the US Federal Election Commission's electronic filing system days before the November 3 midterms, forcing officials to shut down its web-facing services and disrupting campaign finance disclosures — Reuters reports the outage began about 10 p.m. ET on October 26",
+      "headline": "Hackers target the US Federal Election Commission's electronic filing system days before the November 3 midterms, forcing officials to shut down its web-facing services and disrupting campaign finance disclosures \u2014 Reuters reports the outage began about 10 p.m. ET on October 26",
       "url": "https://em360tech.com/tech-articles/fec-cyberattack-electronic-filing-outage-midterm-elections",
       "lane": "fraud"
     },
@@ -3204,7 +3241,7 @@
       "time": "7:30 AM",
       "outlet": "DigitalToday",
       "author": null,
-      "headline": "The US government orders urgent patching after confirming exploitation of critical PHP flaws — CISA adds the PHP2Shell flaws to its known-exploited catalog, and PHP urges immediate updates to 8.5.12, 8.4.27, 8.3.36 and 8.2.35",
+      "headline": "The US government orders urgent patching after confirming exploitation of critical PHP flaws \u2014 CISA adds the PHP2Shell flaws to its known-exploited catalog, and PHP urges immediate updates to 8.5.12, 8.4.27, 8.3.36 and 8.2.35",
       "url": "https://www.digitaltoday.co.kr/en/view/120318/us-government-orders-urgent-patching-after-confirming-exploitation-of-critical-php-flaws",
       "lane": "bug"
     },
@@ -3214,7 +3251,7 @@
       "time": "7:30 AM",
       "outlet": "Reuters",
       "author": null,
-      "headline": "Three South Korean financial firms including crypto exchange Bithumb report data breaches, Yonhap says — brokerage Daishin Securities reports about 38,000 pieces of customer information leaked, in a wave that has hit 16 firms with around 100,000 leaks so far",
+      "headline": "Three South Korean financial firms including crypto exchange Bithumb report data breaches, Yonhap says \u2014 brokerage Daishin Securities reports about 38,000 pieces of customer information leaked, in a wave that has hit 16 firms with around 100,000 leaks so far",
       "url": "https://www.reuters.com/legal/government/three-south-korean-financial-firms-including-bithumb-report-data-breaches-yonhap-2026-10-28/",
       "lane": "fraud"
     },
@@ -3224,7 +3261,7 @@
       "time": "7:30 AM",
       "outlet": "Cybernoz",
       "author": null,
-      "headline": "Hackers abuse Microsoft Teams external chats to access corporate PCs, Arctic Wolf Labs finds — a widespread campaign exploiting the default external-chat settings to gain initial access",
+      "headline": "Hackers abuse Microsoft Teams external chats to access corporate PCs, Arctic Wolf Labs finds \u2014 a widespread campaign exploiting the default external-chat settings to gain initial access",
       "url": null,
       "lane": "bug"
     },
@@ -3234,7 +3271,7 @@
       "time": "7:30 AM",
       "outlet": "Cybernoz",
       "author": null,
-      "headline": "Can't patch Node.js yet? Build a stopgap with the controls you own — Node.js fixed the Brotli decoder flaw CVE-2026-111497 in 22.23.4, 24.22.1 and 26.12.1, but upgrading at scale takes time",
+      "headline": "Can't patch Node.js yet? Build a stopgap with the controls you own \u2014 Node.js fixed the Brotli decoder flaw CVE-2026-111497 in 22.23.4, 24.22.1 and 26.12.1, but upgrading at scale takes time",
       "url": null,
       "lane": "bug"
     },
@@ -3254,7 +3291,7 @@
       "time": "7:30 AM",
       "outlet": "BusinessWorld Online",
       "author": null,
-      "headline": "OpenAI plans to buy Google's AI chips, The Information reports — a deal that would deepen ties between the AI rivals as Amazon, Microsoft and Alphabet plan up to $600 billion combined in AI infrastructure spending this year",
+      "headline": "OpenAI plans to buy Google's AI chips, The Information reports \u2014 a deal that would deepen ties between the AI rivals as Amazon, Microsoft and Alphabet plan up to $600 billion combined in AI infrastructure spending this year",
       "url": "https://bworldonline.com/technology/2026/10/28/789847/openai-plans-to-buy-googles-ai-chips-the-information-reports/",
       "lane": null
     },
@@ -3264,7 +3301,7 @@
       "time": "7:30 AM",
       "outlet": "PathFounders",
       "author": null,
-      "headline": "Lovable offers employees an $80 million cash-out at a $13.3 billion valuation, Sifted reports exclusively — employee liquidity at this scale is one of the main ways late-stage startups reward staff without a public listing",
+      "headline": "Lovable offers employees an $80 million cash-out at a $13.3 billion valuation, Sifted reports exclusively \u2014 employee liquidity at this scale is one of the main ways late-stage startups reward staff without a public listing",
       "url": "https://pathfounders.com/p/tech-venture-briefing-wednesday-28-october-2026",
       "lane": null
     },
@@ -3274,7 +3311,7 @@
       "time": "7:30 AM",
       "outlet": "KuCoin",
       "author": null,
-      "headline": "Hyperbolic raises a $30 million Series A-1 led by Walden Catalyst, bringing total funding to $50 million — the AI compute startup connects enterprises with more than 30 AI cloud providers and manages $200 million in annualized computing value",
+      "headline": "Hyperbolic raises a $30 million Series A-1 led by Walden Catalyst, bringing total funding to $50 million \u2014 the AI compute startup connects enterprises with more than 30 AI cloud providers and manages $200 million in annualized computing value",
       "url": "https://www.kucoin.com/news/flash/intel-ceo-leads-30m-a-1-round-for-hyperbolic-total-funding-reaches-50m",
       "lane": null
     },
@@ -3284,7 +3321,7 @@
       "time": "7:30 AM",
       "outlet": "The AI Insider",
       "author": null,
-      "headline": "Disruptive closes a $10 billion fund to back late-stage AI and defence companies, with checks up to $1 billion — the largest venture fund ever raised in Texas, per the Dallas Business Journal",
+      "headline": "Disruptive closes a $10 billion fund to back late-stage AI and defence companies, with checks up to $1 billion \u2014 the largest venture fund ever raised in Texas, per the Dallas Business Journal",
       "url": "https://theaiinsider.tech/2026/10/28/disruptive-closes-10b-fund-to-back-late-stage-ai-and-defense-companies/",
       "lane": null
     },
@@ -3314,7 +3351,7 @@
       "time": "12:30 PM",
       "outlet": "Reuters",
       "author": null,
-      "headline": "Cloud security startup Upwind raises $400M led by Bessemer Venture Partners at a $3.8B valuation, up from about $900M in December 2024 — total funding now over $800M since its 2022 founding",
+      "headline": "Cloud security startup Upwind raises $400M led by Bessemer Venture Partners at a $3.8B valuation, up from about $900M in December 2024 \u2014 total funding now over $800M since its 2022 founding",
       "url": "https://duke.fm/2026/10/28/cloud-security-startup-upwind-raises-400-million-valued-at-3-8-billion-2/",
       "lane": "bug"
     },
@@ -3324,7 +3361,7 @@
       "time": "12:30 PM",
       "outlet": "TheNewsCrypto",
       "author": null,
-      "headline": "Coinbase says a security incident at analytics vendor Amplitude exposed contact data for a small subset of customers, denies its own systems were breached, and says customer funds were unaffected — the affected count remains undisclosed",
+      "headline": "Coinbase says a security incident at analytics vendor Amplitude exposed contact data for a small subset of customers, denies its own systems were breached, and says customer funds were unaffected \u2014 the affected count remains undisclosed",
       "url": "https://thenewscrypto.com/coinbase-confirms-third-party-security-incident-affected-some-users/",
       "lane": "fraud"
     },
@@ -3334,7 +3371,7 @@
       "time": "12:30 PM",
       "outlet": "TokenPost",
       "author": null,
-      "headline": "South Korean regulators begin on-site inspections of Bithumb after the exchange reports an outside intrusion exposed employee information — customer impact still under investigation, with no wallet or payment data confirmed leaked",
+      "headline": "South Korean regulators begin on-site inspections of Bithumb after the exchange reports an outside intrusion exposed employee information \u2014 customer impact still under investigation, with no wallet or payment data confirmed leaked",
       "url": "https://www.tokenpost.com/news/technology/42610",
       "lane": "fraud"
     },
@@ -3364,7 +3401,7 @@
       "time": "12:30 PM",
       "outlet": "GlobeNewswire",
       "author": null,
-      "headline": "Circuit Mind announces $25M in new financing, including an $18.5M Series A led by Norwest, to bring AI workflows to enterprise electronics design — total funding now $33.4M",
+      "headline": "Circuit Mind announces $25M in new financing, including an $18.5M Series A led by Norwest, to bring AI workflows to enterprise electronics design \u2014 total funding now $33.4M",
       "url": "https://www.globenewswire.com/news-release/2026/10/28/3390091/0/en/circuit-mind-announces-25m-in-funding-to-accelerate-the-rise-of-electronic-design-intelligence.html",
       "lane": null
     },
@@ -3384,7 +3421,7 @@
       "time": "1:30 PM",
       "outlet": "The Hacker News",
       "author": "Ravie Lakshmanan",
-      "headline": "AI-assisted attack rooted 25 servers via PHP2Shell, researchers say — including three systems in a US government-affiliated environment, with credential extraction and directory enumeration reported",
+      "headline": "AI-assisted attack rooted 25 servers via PHP2Shell, researchers say \u2014 including three systems in a US government-affiliated environment, with credential extraction and directory enumeration reported",
       "url": "http://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html",
       "lane": "bug"
     },
@@ -3394,7 +3431,7 @@
       "time": "1:30 PM",
       "outlet": "The Hacker News",
       "author": "Ravie Lakshmanan",
-      "headline": "Threat actors begin probing a critical Oracle E-Business Suite flaw (CVE-2026-101767, CVSS 9.8) days after Oracle's patch — an unauthenticated SQL injection chainable to remote code execution",
+      "headline": "Threat actors begin probing a critical Oracle E-Business Suite flaw (CVE-2026-101767, CVSS 9.8) days after Oracle's patch \u2014 an unauthenticated SQL injection chainable to remote code execution",
       "url": "http://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
       "lane": "bug"
     },
@@ -3414,7 +3451,7 @@
       "time": "1:30 PM",
       "outlet": "Nation Press",
       "author": null,
-      "headline": "Daishin Securities confirms personal data of 38,490 customers leaked after hackers accessed its systems — names, email addresses and mobile numbers, in South Korea's widening financial-sector breach wave",
+      "headline": "Daishin Securities confirms personal data of 38,490 customers leaked after hackers accessed its systems \u2014 names, email addresses and mobile numbers, in South Korea's widening financial-sector breach wave",
       "url": "https://www.nationpress.com/business/daishin-securities-breach-hits-38490-customers",
       "lane": "fraud"
     },
@@ -3424,7 +3461,7 @@
       "time": "7:30 AM",
       "outlet": "The Hacker News",
       "author": "Ravie Lakshmanan",
-      "headline": "Palo Alto Networks warns threat actors are exploiting the patched PHP2Shell flaws against internet-exposed management interfaces — unauthenticated remote code execution via CVE-2026-109618 and CVE-2026-109619 (CVSS 9.2)",
+      "headline": "Palo Alto Networks warns threat actors are exploiting the patched PHP2Shell flaws against internet-exposed management interfaces \u2014 unauthenticated remote code execution via CVE-2026-109618 and CVE-2026-109619 (CVSS 9.2)",
       "url": "https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html?m=1",
       "lane": "bug"
     },
@@ -3434,7 +3471,7 @@
       "time": "7:30 AM",
       "outlet": "The Hacker News",
       "author": "Ravie Lakshmanan",
-      "headline": "CISA adds a VMware ESX logging flaw (CVE-2026-41709) to its exploited catalog after CrowdStrike ties it to China-nexus Warp Panda attacks on the US legal sector — admin actions that leave no log trail",
+      "headline": "CISA adds a VMware ESX logging flaw (CVE-2026-41709) to its exploited catalog after CrowdStrike ties it to China-nexus Warp Panda attacks on the US legal sector \u2014 admin actions that leave no log trail",
       "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
       "lane": "bug"
     },
@@ -3444,7 +3481,7 @@
       "time": "7:30 AM",
       "outlet": "Cybernoz",
       "author": null,
-      "headline": "CISA warns of a VMware ESX logging vulnerability exploited in attacks — CVE-2026-41709, added October 28 with a November 11 remediation deadline, shows why a low CVSS score should not set patching priority",
+      "headline": "CISA warns of a VMware ESX logging vulnerability exploited in attacks \u2014 CVE-2026-41709, added October 28 with a November 11 remediation deadline, shows why a low CVSS score should not set patching priority",
       "url": "https://cybernoz.com/cisa-warns-of-vmware-esx-logging-vulnerability-exploited-in-attacks/",
       "lane": "bug"
     },
@@ -3464,7 +3501,7 @@
       "time": "7:30 AM",
       "outlet": "SecureResearch",
       "author": null,
-      "headline": "Daily cyber brief: PHP2Shell exploitation spreads into firewall management interfaces, Volt Typhoon’s rebuilt ‘Silent Train’ network is disrupted after four zero-day campaigns, and the iRhythm breach filing reaches 8.2 million people",
+      "headline": "Daily cyber brief: PHP2Shell exploitation spreads into firewall management interfaces, Volt Typhoon\u2019s rebuilt \u2018Silent Train\u2019 network is disrupted after four zero-day campaigns, and the iRhythm breach filing reaches 8.2 million people",
       "url": "https://secureresearch.com/briefings/2026-10-29.html",
       "lane": "bug"
     },
@@ -3504,7 +3541,7 @@
       "time": "7:30 AM",
       "outlet": "Particle News",
       "author": null,
-      "headline": "US sanctions 10 individuals and a Russia-based entity in a North Korean IT worker fraud scheme — the move targets the financial plumbing converting stolen payroll and crypto flows into money for Pyongyang’s weapons programs",
+      "headline": "US sanctions 10 individuals and a Russia-based entity in a North Korean IT worker fraud scheme \u2014 the move targets the financial plumbing converting stolen payroll and crypto flows into money for Pyongyang\u2019s weapons programs",
       "url": "https://particle.news/story/us-sanctions-10-individuals-and-russia-based-entity-in-north-korean-it-worker-fraud",
       "lane": "fraud"
     },
@@ -3514,7 +3551,7 @@
       "time": "7:30 AM",
       "outlet": "FinSMEs",
       "author": null,
-      "headline": "FuriosaAI raises $620M in Series D funding — one of the largest Korean startup rounds ever — to expand production of its RNGD AI accelerator and build its third-generation chip",
+      "headline": "FuriosaAI raises $620M in Series D funding \u2014 one of the largest Korean startup rounds ever \u2014 to expand production of its RNGD AI accelerator and build its third-generation chip",
       "url": "https://www.finsmes.com/2026/10/furiosaai-raises-620m-in-series-d-funding.html",
       "lane": null
     },
@@ -3524,7 +3561,7 @@
       "time": "7:30 AM",
       "outlet": "FinSMEs",
       "author": null,
-      "headline": "Casap raises $56M in Series B led by Base10 Partners, with Experian and Synchrony participating, to push agentic AI deeper into banks’ fraud, disputes, collections and claims work",
+      "headline": "Casap raises $56M in Series B led by Base10 Partners, with Experian and Synchrony participating, to push agentic AI deeper into banks\u2019 fraud, disputes, collections and claims work",
       "url": "https://www.finsmes.com/2026/10/casap-raises-56m-in-series-b-funding.html",
       "lane": null
     },
@@ -3534,7 +3571,7 @@
       "time": "7:30 AM",
       "outlet": "Tech.eu",
       "author": null,
-      "headline": "Ravical raises $17M in seed funding led by MMC Ventures to turn accounting firms’ best people into a shared AI way of working — over 100 European firms already use the platform",
+      "headline": "Ravical raises $17M in seed funding led by MMC Ventures to turn accounting firms\u2019 best people into a shared AI way of working \u2014 over 100 European firms already use the platform",
       "url": "https://tech.eu/2026/10/29/ravical-raises-17m-to-break-the-link-between-accounting-firms-growth-and-hiring/",
       "lane": null
     },
@@ -3544,7 +3581,7 @@
       "time": "12:30 PM",
       "outlet": "Hokanews",
       "author": "Victoria Hale",
-      "headline": "Bithumb admits customer data leaked in an October 27 intrusion into its internal groupware system — 6,444 customers and 715 employees affected, with 844 customer records exposed in readable form after the breach was first reported as internal-only",
+      "headline": "Bithumb admits customer data leaked in an October 27 intrusion into its internal groupware system \u2014 6,444 customers and 715 employees affected, with 844 customer records exposed in readable form after the breach was first reported as internal-only",
       "url": "https://www.hokanews.com/2026/10/bithumb-reports-data-breach-affecting.html",
       "lane": "fraud"
     },
@@ -3554,7 +3591,7 @@
       "time": "12:30 PM",
       "outlet": "Outlook Money",
       "author": "Brajesh Kumar Tiwari",
-      "headline": "State Bank of India confirms personal data of nearly 4,000 customers surfaced on the dark web — names, phone numbers, dates of birth and loan details exposed, though the bank says balances and operations are unaffected",
+      "headline": "State Bank of India confirms personal data of nearly 4,000 customers surfaced on the dark web \u2014 names, phone numbers, dates of birth and loan details exposed, though the bank says balances and operations are unaffected",
       "url": "https://www.outlookmoney.com/news/sbi-data-breach-your-money-may-be-safe-but-what-about-your-personal-information",
       "lane": "fraud"
     },
@@ -3564,7 +3601,7 @@
       "time": "12:30 PM",
       "outlet": "Punk Report",
       "author": "Punk Research",
-      "headline": "CISA confirms attackers are actively exploiting the Brotli decoder flaw behind Node2Shell (CVE-2026-111497) — Microsoft shipped emergency out-of-band .NET 8, 9 and 10 updates and federal agencies must patch by November 10",
+      "headline": "CISA confirms attackers are actively exploiting the Brotli decoder flaw behind Node2Shell (CVE-2026-111497) \u2014 Microsoft shipped emergency out-of-band .NET 8, 9 and 10 updates and federal agencies must patch by November 10",
       "url": "https://punkreport.sh/news/brotli-node2shell-exploited-in-wild/",
       "lane": "bug"
     },
@@ -3584,7 +3621,7 @@
       "time": "12:30 PM",
       "outlet": "RoboticsTomorrow",
       "author": null,
-      "headline": "Opentrons raises a $40M Series E led by Avego to standardize AI-driven science on its lab robots — over 11,000 robots deployed in 80+ countries, including at 90% of the top 20 pharma companies",
+      "headline": "Opentrons raises a $40M Series E led by Avego to standardize AI-driven science on its lab robots \u2014 over 11,000 robots deployed in 80+ countries, including at 90% of the top 20 pharma companies",
       "url": "https://www.roboticstomorrow.com/news/2026/10/29/opentrons-announces-40m-series-e-round-to-standardize-ai-driven-science-on-its-robots/27316/",
       "lane": null
     },
@@ -3614,7 +3651,7 @@
       "time": "7:30 AM",
       "author": null,
       "outlet": "Reuters",
-      "headline": "Gone in 20 minutes: hackers drain $6.3 billion from Binance in the largest crypto heist on record — about $3 billion frozen so far, losses covered by the exchange's user-protection fund, and analysts note similarities to the Bybit attack",
+      "headline": "Gone in 20 minutes: hackers drain $6.3 billion from Binance in the largest crypto heist on record \u2014 about $3 billion frozen so far, losses covered by the exchange's user-protection fund, and analysts note similarities to the Bybit attack",
       "url": "https://www.reuters.com/legal/government/gone-20-minutes-how-biggest-heist-crypto-history-unfolded-2026-10-30/",
       "lane": "fraud"
     },
@@ -3644,7 +3681,7 @@
       "time": "7:30 AM",
       "author": null,
       "outlet": "ITWeb Africa",
-      "headline": "Cameroon warns fintech's rapid growth is drawing AI-enabled fraud and phishing, after 108 security audits of fintech firms found 3,914 vulnerabilities — weak access controls and poor data protection top the list",
+      "headline": "Cameroon warns fintech's rapid growth is drawing AI-enabled fraud and phishing, after 108 security audits of fintech firms found 3,914 vulnerabilities \u2014 weak access controls and poor data protection top the list",
       "url": "https://itweb.africa/article/cameroon-warns-of-rising-fintech-cyberthreats/JN1gPvOAQJrMjL6m",
       "lane": "fraud"
     },
@@ -3654,7 +3691,7 @@
       "time": "7:30 AM",
       "author": null,
       "outlet": "IT Security News",
-      "headline": "Overnight roundup: Binance dominates the window with a suspected $5.7–$6.3 billion theft, PHP2Shell and Brotli flaws keep turning up in real attacks, poisoned AI models and unpatched AI developer tools spread, and third-party leaks expose DHS staff and Japan Airlines passenger data",
+      "headline": "Overnight roundup: Binance dominates the window with a suspected $5.7\u2013$6.3 billion theft, PHP2Shell and Brotli flaws keep turning up in real attacks, poisoned AI models and unpatched AI developer tools spread, and third-party leaks expose DHS staff and Japan Airlines passenger data",
       "url": "https://www.itsecuritynews.info/it-security-news-roundup-2026-10-30-overnight/",
       "lane": null
     },
@@ -3664,7 +3701,7 @@
       "time": "7:30 AM",
       "author": null,
       "outlet": "Cointelegraph",
-      "headline": "Kalshi closes a $1 billion Series G at a $40 billion valuation, co-led by Wellington and Sequoia — up 82% from $22 billion in May — as non-sports annualized revenue tops $1 billion",
+      "headline": "Kalshi closes a $1 billion Series G at a $40 billion valuation, co-led by Wellington and Sequoia \u2014 up 82% from $22 billion in May \u2014 as non-sports annualized revenue tops $1 billion",
       "url": "https://cointelegraph.com/news/kalshi-closes-1b-funding-round-at-40b-valuation-as-non-sports-revenue-run-rate-tops-1b",
       "lane": null
     },
@@ -3694,7 +3731,7 @@
       "time": "7:30 AM",
       "author": null,
       "outlet": "DEV Community",
-      "headline": "Mistral opens the weights on trillion-parameter Mistral Large 4, a.k.a. Le Chonk, claiming the top open-weight coding score — while Alphabet and Microsoft report sharply different AI P&L stories",
+      "headline": "Mistral opens the weights on trillion-parameter Mistral Large 4, a.k.a. Le Chonk, claiming the top open-weight coding score \u2014 while Alphabet and Microsoft report sharply different AI P&L stories",
       "url": "https://dev.to/hiroki-ii-ai/ai-daily-digest-october-30-2026-mistral-opens-a-trillion-parameters-cloud-giants-report-openai-1gk7",
       "lane": null
     },
@@ -3724,7 +3761,7 @@
       "time": "12:30 PM",
       "outlet": "CoinDesk",
       "author": null,
-      "headline": "Binance sets aside more than $6.34 billion in company resources to restore customer balances after the $6.3 billion theft — $3 billion frozen with partners so far, withdrawals paused pending security checks",
+      "headline": "Binance sets aside more than $6.34 billion in company resources to restore customer balances after the $6.3 billion theft \u2014 $3 billion frozen with partners so far, withdrawals paused pending security checks",
       "url": "https://www.coindesk.com/business/2026/10/30/binance-arranges-usd6-34-billion-to-cover-losses-from-record-crypto-hack",
       "lane": "fraud"
     },
@@ -3754,7 +3791,7 @@
       "time": "12:30 PM",
       "outlet": "The Hacker News",
       "author": "Ravie Lakshmanan",
-      "headline": "WordPress Core RCE flaw patched October 28 draws nearly 63,000 attack attempts in 24 hours, Wordfence says — sites urged to update to 7.1.4",
+      "headline": "WordPress Core RCE flaw patched October 28 draws nearly 63,000 attack attempts in 24 hours, Wordfence says \u2014 sites urged to update to 7.1.4",
       "url": "http://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
       "lane": "bug"
     },
@@ -3784,7 +3821,7 @@
       "time": "12:30 PM",
       "outlet": "Travel Weekly",
       "author": null,
-      "headline": "Travel firms told to stay vigilant as the PHP2Shell alert takes 30+ UK government sites offline — agents urged to confirm providers patched both flaws",
+      "headline": "Travel firms told to stay vigilant as the PHP2Shell alert takes 30+ UK government sites offline \u2014 agents urged to confirm providers patched both flaws",
       "url": "https://travelweekly.co.uk/news/travel-firms-told-be-vigilant-following-cybersecurity-alert",
       "lane": null
     },
@@ -3794,7 +3831,7 @@
       "time": "7:30 AM",
       "outlet": "Reuters",
       "author": null,
-      "headline": "Wall Street's AI-spending reckoning: the Nasdaq posts its biggest fall since June as Intel plunges 28.6% on a weak forecast and Alphabet's $51B-plus capex quarter erases $500B in a session — the index now down 7.8% from its October 6 high",
+      "headline": "Wall Street's AI-spending reckoning: the Nasdaq posts its biggest fall since June as Intel plunges 28.6% on a weak forecast and Alphabet's $51B-plus capex quarter erases $500B in a session \u2014 the index now down 7.8% from its October 6 high",
       "url": "https://www.reuters.com/legal/legalindustry/october-ends-with-thud-intel-reddit-ai-stalwarts-2026-10-30/",
       "lane": null
     },
@@ -3814,7 +3851,7 @@
       "time": "7:30 AM",
       "outlet": "CoinCentral",
       "author": null,
-      "headline": "Binance sets aside more than $6.34B in company funds to cover the heist — $5B already held in the same tokens stolen, the rest to be bought on public markets and over the counter, with about $3B frozen and withdrawals paused",
+      "headline": "Binance sets aside more than $6.34B in company funds to cover the heist \u2014 $5B already held in the same tokens stolen, the rest to be bought on public markets and over the counter, with about $3B frozen and withdrawals paused",
       "url": "https://coincentral.com/binance-hack-how-the-exchange-plans-to-pay-back-6-3-billion/",
       "lane": "fraud"
     },
@@ -3824,7 +3861,7 @@
       "time": "3:32 AM",
       "outlet": "CoinCentral",
       "author": null,
-      "headline": "Crypto liquidations hit $397.74M in 24 hours as Bitcoin trades near $77,000 — about 38.8% below its record high — and US spot Bitcoin ETFs post $643.33M in net outflows on Friday",
+      "headline": "Crypto liquidations hit $397.74M in 24 hours as Bitcoin trades near $77,000 \u2014 about 38.8% below its record high \u2014 and US spot Bitcoin ETFs post $643.33M in net outflows on Friday",
       "url": "https://coincentral.com/crypto-liquidations-reach-400-million-as-binance-hack-pressures-bitcoin-ethereum-and-solana/",
       "lane": "fraud"
     },
@@ -3834,7 +3871,7 @@
       "time": "7:30 AM",
       "outlet": "Wiz",
       "author": "Benjamin Read and Rami McCarthy",
-      "headline": "Wiz names October ‘Black October’: at least nine AI developer platforms disclosed incidents this month — Fireworks AI to Northflank — with attackers hunting stored environment variables for AI keys, tested within 30 minutes and resold for LLMjacking",
+      "headline": "Wiz names October \u2018Black October\u2019: at least nine AI developer platforms disclosed incidents this month \u2014 Fireworks AI to Northflank \u2014 with attackers hunting stored environment variables for AI keys, tested within 30 minutes and resold for LLMjacking",
       "url": "https://www.wiz.io/blog/black-october-for-ai-developer-platforms",
       "lane": "bug"
     },
@@ -3854,7 +3891,7 @@
       "time": "7:30 AM",
       "outlet": "Volyte",
       "author": null,
-      "headline": "October's patch ledger: PHP's exploited RCE pair, a Linux kernel flaw reachable over the network rated 9.8, and Microsoft's record 1,400-plus-vulnerability Patch Tuesday — with a second kernel race condition still awaiting fixes on most distros",
+      "headline": "October's patch ledger: PHP's exploited RCE pair, a Linux kernel flaw reachable over the network rated 9.8, and Microsoft's record 1,400-plus-vulnerability Patch Tuesday \u2014 with a second kernel race condition still awaiting fixes on most distros",
       "url": "https://volyte.com/blog/security-updates-october-2026",
       "lane": "bug"
     },
@@ -3874,7 +3911,7 @@
       "time": "7:30 AM",
       "outlet": "Tech Insider",
       "author": null,
-      "headline": "Funding week, October 24–30: manufacturing startup Re:Build closes $2.1B and Kalshi adds $1B at a $40B valuation, leading a roughly $4.8B week for US startups",
+      "headline": "Funding week, October 24\u201330: manufacturing startup Re:Build closes $2.1B and Kalshi adds $1B at a $40B valuation, leading a roughly $4.8B week for US startups",
       "url": "https://tech-insider.org/biggest-funding-rounds-rebuild-kalshi-bedrock-physical-ai-2026/",
       "lane": null
     },
@@ -3884,7 +3921,7 @@
       "time": "7:30 AM",
       "outlet": "Reuters",
       "author": null,
-      "headline": "OpenAI slashes its funding target by $10B to about $20B at a $1.25T valuation amid the tech rout, the FT reports — the first close is expected to raise less than $20B as some investors trim allocations",
+      "headline": "OpenAI slashes its funding target by $10B to about $20B at a $1.25T valuation amid the tech rout, the FT reports \u2014 the first close is expected to raise less than $20B as some investors trim allocations",
       "url": "https://wixx.com/2026/10/30/openai-cuts-funding-target-by-10-billion-ft-reports/",
       "lane": null
     },
@@ -3894,7 +3931,7 @@
       "time": "7:30 AM",
       "outlet": "Suriq",
       "author": null,
-      "headline": "WordPress's upgrade-window RCE finally gets its CVE — CVE-2026-119977 — three days after the 7.1.4 patch, as Wordfence counts 60,000-plus blocked attempts and WordPress's own advisory rates the same bug Low",
+      "headline": "WordPress's upgrade-window RCE finally gets its CVE \u2014 CVE-2026-119977 \u2014 three days after the 7.1.4 patch, as Wordfence counts 60,000-plus blocked attempts and WordPress's own advisory rates the same bug Low",
       "url": "https://suriq.io/blog/wordpress-core-cve-2026-119977-upgrade-window-rce",
       "lane": "bug"
     },
@@ -3904,7 +3941,7 @@
       "time": "12:30 PM",
       "outlet": "Cointelegraph",
       "author": null,
-      "headline": "Binance says 90% of the $6.3B heist's assets are now replenished, up from 80% a day earlier, and it remains on track to resume withdrawals Sunday — customer BTC, ETH and eight other assets fully backed, with the shortfall in less liquid tokens still being bought",
+      "headline": "Binance says 90% of the $6.3B heist's assets are now replenished, up from 80% a day earlier, and it remains on track to resume withdrawals Sunday \u2014 customer BTC, ETH and eight other assets fully backed, with the shortfall in less liquid tokens still being bought",
       "url": "https://cointelegraph.com/news/binance-hack-90-percent-replenished",
       "lane": "fraud"
     },
@@ -3914,7 +3951,7 @@
       "time": "12:30 PM",
       "outlet": "The Hacker News",
       "author": "Ravie Lakshmanan",
-      "headline": "Chainalysis confirms an attacker using 'offensive agentic techniques' broke into its systems and internal tools and accessed non-sensitive customer data — user IDs, full names, emails and organization role labels — while investigation content, credentials and session tokens stayed untouched",
+      "headline": "Chainalysis confirms an attacker using 'offensive agentic techniques' broke into its systems and internal tools and accessed non-sensitive customer data \u2014 user IDs, full names, emails and organization role labels \u2014 while investigation content, credentials and session tokens stayed untouched",
       "url": "http://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
       "lane": "fraud"
     },
@@ -3924,7 +3961,7 @@
       "time": "12:30 PM",
       "outlet": "The Hacker News",
       "author": "Ravie Lakshmanan",
-      "headline": "CISA adds two Ivanti Connect Secure flaws to its exploited-vulnerabilities list, completing a three-flaw chain — authentication bypass, code execution, privilege escalation — that gives unauthenticated root access; federal agencies must patch CVE-2026-111357 by Nov 2 and CVE-2026-118527 by Nov 13",
+      "headline": "CISA adds two Ivanti Connect Secure flaws to its exploited-vulnerabilities list, completing a three-flaw chain \u2014 authentication bypass, code execution, privilege escalation \u2014 that gives unauthenticated root access; federal agencies must patch CVE-2026-111357 by Nov 2 and CVE-2026-118527 by Nov 13",
       "url": "http://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
       "lane": "bug"
     },
@@ -3934,7 +3971,7 @@
       "time": "12:30 PM",
       "outlet": "DataWater",
       "author": null,
-      "headline": "DataWater's October edge-device recap counts twelve exploited edge products — Fortinet to Cisco ASA — with one federal deadline still open: Cisco ASA/FTD CVE-2026-76418, due Sunday, November 1",
+      "headline": "DataWater's October edge-device recap counts twelve exploited edge products \u2014 Fortinet to Cisco ASA \u2014 with one federal deadline still open: Cisco ASA/FTD CVE-2026-76418, due Sunday, November 1",
       "url": "https://datawater.com/edge-device-zero-days-october-2026/",
       "lane": "bug"
     },
@@ -3994,7 +4031,7 @@
       "time": "7:30 AM",
       "outlet": "The Hacker News",
       "author": "Ravie Lakshmanan",
-      "headline": "Cloudflare mitigated 18.2M network-layer DDoS attacks in Q3, up 38% from Q2 — about 8,226 an hour — as short-burst, sub-1 Gbps attacks surged 208% and hyper-volumetric attacks over 1 Tbps fell 69%",
+      "headline": "Cloudflare mitigated 18.2M network-layer DDoS attacks in Q3, up 38% from Q2 \u2014 about 8,226 an hour \u2014 as short-burst, sub-1 Gbps attacks surged 208% and hyper-volumetric attacks over 1 Tbps fell 69%",
       "url": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
       "lane": "bug"
     },
@@ -4004,7 +4041,7 @@
       "time": "10:05 AM",
       "outlet": "BleepingComputer",
       "author": null,
-      "headline": "Reddit will gradually become a logged-in service, co-founder Steve Huffman says, testing mandatory sign-in in select markets outside the US to curb unauthorised scraping and personalise feeds — no real names or ID required",
+      "headline": "Reddit will gradually become a logged-in service, co-founder Steve Huffman says, testing mandatory sign-in in select markets outside the US to curb unauthorised scraping and personalise feeds \u2014 no real names or ID required",
       "url": "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/",
       "lane": null
     },
@@ -4024,7 +4061,7 @@
       "time": "7:30 AM",
       "outlet": "Daily Caller",
       "author": null,
-      "headline": "Microsoft seeks at least $25B in its first US bond sale since 2017 — ten tranches, two to 40 years — as quarterly capex tops $50B and its calendar-year AI buildout bill approaches $170B",
+      "headline": "Microsoft seeks at least $25B in its first US bond sale since 2017 \u2014 ten tranches, two to 40 years \u2014 as quarterly capex tops $50B and its calendar-year AI buildout bill approaches $170B",
       "url": "https://dailycaller.com/2026/10/30/microsoft-turns-to-wall-street-for-25-billion-as-ai-spending-bill-hits-170-billion",
       "lane": null
     },
@@ -4084,7 +4121,7 @@
       "time": "12:30 PM",
       "outlet": "TradingView News",
       "author": null,
-      "headline": "OneKey founder Yishi warns iPhone 11 and earlier models carry unpatchable BootROM flaws — checkm8 and the June-disclosed usbliter8 — that could expose wallet seed phrases to anyone who briefly holds the phone and uses a DFU-mode USB tool",
+      "headline": "OneKey founder Yishi warns iPhone 11 and earlier models carry unpatchable BootROM flaws \u2014 checkm8 and the June-disclosed usbliter8 \u2014 that could expose wallet seed phrases to anyone who briefly holds the phone and uses a DFU-mode USB tool",
       "url": "https://www.tradingview.com/news/cryptobriefing:ba15bd869094b:0-onekey-founder-warns-older-iphones-have-unpatchable-chip-vulnerabilities/",
       "lane": "fraud"
     },
@@ -4150,7 +4187,7 @@
       "time": "2:57 AM",
       "outlet": "SecurityWeek",
       "author": null,
-      "headline": "Ivanti patches two more Connect Secure zero-days chained in attacks — CVE-2026-111357 (8.8) and CVE-2026-118527 — completing the chain with October's auth bypass, as CISA sets a November 2 federal deadline for the privilege-escalation flaw",
+      "headline": "Ivanti patches two more Connect Secure zero-days chained in attacks \u2014 CVE-2026-111357 (8.8) and CVE-2026-118527 \u2014 completing the chain with October's auth bypass, as CISA sets a November 2 federal deadline for the privilege-escalation flaw",
       "url": "https://www.securityweek.com/ivanti-patches-two-more-zero-days-exploited-in-connect-secure-attack-chain/",
       "lane": "bug"
     },
@@ -4180,7 +4217,7 @@
       "time": "7:30 AM",
       "outlet": "Cyber Security News",
       "author": null,
-      "headline": "Radware traces a coordinated command-injection campaign that hit 61 public GitHub repos — LangExtract, Trivy, Brave, MLflow among them — hiding shell commands in issues and comments to run code inside Actions workflows and exfiltrate environment variables",
+      "headline": "Radware traces a coordinated command-injection campaign that hit 61 public GitHub repos \u2014 LangExtract, Trivy, Brave, MLflow among them \u2014 hiding shell commands in issues and comments to run code inside Actions workflows and exfiltrate environment variables",
       "url": "https://cybersecuritynews.com/hackers-target-61-github-repositories/",
       "lane": "bug"
     },
@@ -4210,7 +4247,7 @@
       "time": "2:19 AM",
       "outlet": "RR Tech Pulse",
       "author": null,
-      "headline": "Abu Dhabi signs four OpenAI agreements spanning government, energy and investment — including a 'Machine-Readable Government' pilot already live on food imports — as Sam Altman meets the crown prince",
+      "headline": "Abu Dhabi signs four OpenAI agreements spanning government, energy and investment \u2014 including a 'Machine-Readable Government' pilot already live on food imports \u2014 as Sam Altman meets the crown prince",
       "url": "https://rrtechpulse.com/stories/abu-dhabi-openai-four-agreements/",
       "lane": null
     },
@@ -4260,7 +4297,7 @@
       "time": "10:03 AM",
       "outlet": "Nextgov/FCW",
       "author": "David DiMolfetta",
-      "headline": "A US order purging Acronis products from federal civilian systems by January 27 stems from years of scrutiny over the firm's Russian development ties, sources say — the DHS directive was signed July 31 and only publicly posted last week",
+      "headline": "A US order purging Acronis products from federal civilian systems by January 27 stems from years of scrutiny over the firm's Russian development ties, sources say \u2014 the DHS directive was signed July 31 and only publicly posted last week",
       "url": "https://www.nextgov.com/cybersecurity/2026/11/us-order-purge-acronis-tied-years-scrutiny-over-russian-ties/416970/",
       "lane": null
     },
@@ -4280,7 +4317,7 @@
       "time": "12:30 PM",
       "outlet": "Reuters",
       "author": "Rae Wee, Elizabeth Howcroft",
-      "headline": "Binance says customers pulled a net $4.7B since withdrawals reopened Sunday after the $6.3B hack — about 2.8% of platform assets — as the exchange says it covered losses from its treasury, insurance fund and security reserves",
+      "headline": "Binance says customers pulled a net $4.7B since withdrawals reopened Sunday after the $6.3B hack \u2014 about 2.8% of platform assets \u2014 as the exchange says it covered losses from its treasury, insurance fund and security reserves",
       "url": "https://wncy.com/2026/11/01/binance-sees-outflows-stabilising-as-exchange-returns-online-after-6-3-billion-heist/",
       "lane": "fraud"
     },
@@ -4290,7 +4327,7 @@
       "time": "12:30 PM",
       "outlet": "TechStartups",
       "author": null,
-      "headline": "Funding Monday: Northwood Space leads with a $375M Series C at a $2B valuation, Hypersonica raises €100M for hypersonic missile technology, and India's Two Point O Capital adds $10M for clean-energy financing",
+      "headline": "Funding Monday: Northwood Space leads with a $375M Series C at a $2B valuation, Hypersonica raises \u20ac100M for hypersonic missile technology, and India's Two Point O Capital adds $10M for clean-energy financing",
       "url": "https://techstartups.com/2026/11/02/startup-funding-news-today-november-2-2026-northwood-space-hypersonica-roboscience-more/",
       "lane": null
     },
@@ -4300,7 +4337,7 @@
       "time": "8:30 AM",
       "outlet": "Tech.eu",
       "author": null,
-      "headline": "Creandum closes its largest fund yet at $750M (Fund VIII, up from a €500M Fund VII) to back seed and Series A founders, with half the capital reserved for follow-on rounds",
+      "headline": "Creandum closes its largest fund yet at $750M (Fund VIII, up from a \u20ac500M Fund VII) to back seed and Series A founders, with half the capital reserved for follow-on rounds",
       "url": "https://tech.eu/2026/11/02/lovable-and-black-forest-labs-backer-creandum-closes-750m-fund-had/",
       "lane": null
     },
@@ -4330,7 +4367,7 @@
       "time": "7:30 AM",
       "outlet": "BleepingComputer",
       "author": null,
-      "headline": "Google and partners dismantle the XCPE botnet of more than 1.3M Android TV boxes, saying maker Videostrong deliberately built in a firmware backdoor and sold access to criminal affiliates — and ban the firm from certified Android devices",
+      "headline": "Google and partners dismantle the XCPE botnet of more than 1.3M Android TV boxes, saying maker Videostrong deliberately built in a firmware backdoor and sold access to criminal affiliates \u2014 and ban the firm from certified Android devices",
       "url": "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/",
       "lane": "protect"
     },
@@ -4420,7 +4457,7 @@
       "time": "7:30 AM",
       "outlet": "Tech.eu",
       "author": null,
-      "headline": "Portuguese AI startup Granter raises €1.6M led by 3XP Global to expand its AI platform for finding and managing European public funding beyond Portugal, lifting total funding to €2M",
+      "headline": "Portuguese AI startup Granter raises \u20ac1.6M led by 3XP Global to expand its AI platform for finding and managing European public funding beyond Portugal, lifting total funding to \u20ac2M",
       "url": "https://tech.eu/2026/11/03/portuguese-ai-startup-granter-bags-eur16m-to-expand-across-europe/",
       "lane": null
     },
@@ -4440,7 +4477,7 @@
       "time": "7:30 AM",
       "outlet": "BYOBot",
       "author": null,
-      "headline": "SemiAnalysis launches GDPx, a benchmark scoring agentic models on paid work across 11 domains, with Anthropic's Opus 5.5 leading overall at 12% — and no model close to human-level performance",
+      "headline": "SemiAnalysis launches GDPx, a benchmark scoring agentic models on paid work across 11 domains, with Anthropic's Opus 5.5 leading overall at 12% \u2014 and no model close to human-level performance",
       "url": "https://byobot.ai/ai-news/ai-daily-newsstand-november-3-2026",
       "lane": null
     },
@@ -4490,7 +4527,7 @@
       "time": "12:30 PM",
       "outlet": "Stocktwits",
       "author": null,
-      "headline": "Binance co-founder CZ warns AI is making hacking easier — tools now scan code for flaws far faster than people can — and says no platform has '100% security'",
+      "headline": "Binance co-founder CZ warns AI is making hacking easier \u2014 tools now scan code for flaws far faster than people can \u2014 and says no platform has '100% security'",
       "url": "https://stocktwits.com/news-articles/markets/cryptocurrency/binance-co-founder-cz-warns-ai-is-making-hacking-easier-after-exchange-s-multibillion-dollar-breach/cNGX4iNR95w",
       "lane": "fraud"
     },
@@ -4510,7 +4547,7 @@
       "time": "12:30 PM",
       "outlet": "EU-Startups",
       "author": null,
-      "headline": "London-based Tallia raises €4M in seed funding co-led by Outward VC and ICAEW to bring AI-powered research and drafting to tax and accountancy firms",
+      "headline": "London-based Tallia raises \u20ac4M in seed funding co-led by Outward VC and ICAEW to bring AI-powered research and drafting to tax and accountancy firms",
       "url": "https://www.eu-startups.com/2026/11/london-based-tallia-raises-e4-million-to-bring-ai-powered-research-and-review-to-tax-firms/",
       "lane": null
     },
@@ -4558,7 +4595,7 @@
       "id": "bleeping-apt29-1104",
       "outlet": "BleepingComputer",
       "author": null,
-      "headline": "Sekoia links Russia's APT29 to a watering-hole campaign using already-patched iOS and Android flaws to steal cookies, chat databases, credentials and photos from visitors to compromised sites — no click needed",
+      "headline": "Sekoia links Russia's APT29 to a watering-hole campaign using already-patched iOS and Android flaws to steal cookies, chat databases, credentials and photos from visitors to compromised sites \u2014 no click needed",
       "url": "https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/",
       "lane": "protect",
       "date": "2026-11-04",
@@ -4578,7 +4615,7 @@
       "id": "abijita-cpguard-1104",
       "outlet": "Abijita",
       "author": null,
-      "headline": "OPSSHIELD says attackers used stolen credentials to hijack cPGuard's update channel on November 2, pushing a backdoor and data-stealing script to versions 5.88.12–5.88.19; a spokesperson put affected servers at 2,946",
+      "headline": "OPSSHIELD says attackers used stolen credentials to hijack cPGuard's update channel on November 2, pushing a backdoor and data-stealing script to versions 5.88.12\u20135.88.19; a spokesperson put affected servers at 2,946",
       "url": "https://www.abijita.com/cpguard-update-hijack-linux-servers/",
       "lane": "protect",
       "date": "2026-11-04",
@@ -4608,7 +4645,7 @@
       "id": "itsecurity-overnight-blood-1104",
       "outlet": "IT Security News",
       "author": null,
-      "headline": "Attackers reportedly reprogrammed French blood-service freezers from −30°C to 110°C, threatening critical plasma supplies, in a morning dominated by cold-chain attacks across Europe",
+      "headline": "Attackers reportedly reprogrammed French blood-service freezers from \u221230\u00b0C to 110\u00b0C, threatening critical plasma supplies, in a morning dominated by cold-chain attacks across Europe",
       "url": "https://www.itsecuritynews.info/it-security-news-roundup-2026-11-04-overnight/",
       "lane": "protect",
       "date": "2026-11-04",
@@ -4618,7 +4655,7 @@
       "id": "fintechnews-binance-1104",
       "outlet": "Fintech News Singapore",
       "author": null,
-      "headline": "Binance's account of the $6.3B heist: a five-month campaign from a fake recruiter and a tampered AI tool to drained hot wallets in minutes — with 95% of stolen tokens now replenished, says co-CEO Richard Teng",
+      "headline": "Binance's account of the $6.3B heist: a five-month campaign from a fake recruiter and a tampered AI tool to drained hot wallets in minutes \u2014 with 95% of stolen tokens now replenished, says co-CEO Richard Teng",
       "url": "https://fintechnews.sg/140431/crypto/how-the-binance-6-billion-crypto-hack-happened/",
       "lane": "fraud",
       "date": "2026-11-04",
@@ -4628,7 +4665,7 @@
       "id": "coincourier-arkea-1104",
       "outlet": "CoinCourier",
       "author": null,
-      "headline": "On-chain investigator ZachXBT names French banking group Crédit Mutuel Arkéa as the suspected victim of a $133M crypto theft across Kraken, Crypto.com and OKX — a claim the bank has not confirmed beyond acknowledging fraudulent transactions",
+      "headline": "On-chain investigator ZachXBT names French banking group Cr\u00e9dit Mutuel Ark\u00e9a as the suspected victim of a $133M crypto theft across Kraken, Crypto.com and OKX \u2014 a claim the bank has not confirmed beyond acknowledging fraudulent transactions",
       "url": "https://coincourier.io/zachxbt-french-bank-suspected-crypto-theft/",
       "lane": "fraud",
       "date": "2026-11-04",
@@ -4658,7 +4695,7 @@
       "id": "tech-eu-stationf-1104",
       "outlet": "Tech.eu",
       "author": null,
-      "headline": "STATION F unveils its 2026 Future 40 — sovereign AI and physical AI lead the themes — as campus startups raise a record €2B this year",
+      "headline": "STATION F unveils its 2026 Future 40 \u2014 sovereign AI and physical AI lead the themes \u2014 as campus startups raise a record \u20ac2B this year",
       "url": "https://tech.eu/2026/11/04/station-f-startups-raise-record-2b-as-campus-unveils-2026-future-40/",
       "lane": null,
       "date": "2026-11-04",
@@ -4718,7 +4755,7 @@
       "id": "brusselssignal-arkea-1104",
       "outlet": "Brussels Signal",
       "author": null,
-      "headline": "Crédit Mutuel Arkéa confirms it was hit by an attack enabling fraudulent transactions, saying the incident is now under control and retail clients face no financial impact — after ZachXBT put the suspected theft at $133M",
+      "headline": "Cr\u00e9dit Mutuel Ark\u00e9a confirms it was hit by an attack enabling fraudulent transactions, saying the incident is now under control and retail clients face no financial impact \u2014 after ZachXBT put the suspected theft at $133M",
       "url": "https://brusselssignal.eu/2026/11/french-bank-credit-mutuel-arkea-confirms-cyber-attack-as-investigator-claims-e118-million-stolen/",
       "lane": "fraud",
       "date": "2026-11-04",
@@ -4777,7 +4814,7 @@
       "time": "7:30 AM",
       "outlet": "Reuters",
       "author": null,
-      "headline": "Crédit Mutuel Arkéa says about €100M is missing after this week's cyberattack, and it cannot yet say how much it will recover — while customer accounts were untouched",
+      "headline": "Cr\u00e9dit Mutuel Ark\u00e9a says about \u20ac100M is missing after this week's cyberattack, and it cannot yet say how much it will recover \u2014 while customer accounts were untouched",
       "url": "https://www.reuters.com/legal/government/french-bank-credit-mutuel-arkea-says-100-million-missing-after-cyberattack-2026-11-05/",
       "lane": "fraud"
     },
@@ -4797,7 +4834,7 @@
       "time": "7:30 AM",
       "outlet": "The Long Build",
       "author": null,
-      "headline": "Hypersonica raises a €100M Series B for hypersonic missiles as Pliant banks $80M to let AI agents move money",
+      "headline": "Hypersonica raises a \u20ac100M Series B for hypersonic missiles as Pliant banks $80M to let AI agents move money",
       "url": "https://thelongbuild.eu/briefings/2026/11/05/builders-science-briefing",
       "lane": null
     },
@@ -4817,7 +4854,7 @@
       "time": "1:15 AM",
       "outlet": "GBHackers",
       "author": null,
-      "headline": "OpenAI says an autonomous pipeline found and validated 948 Linux kernel root exploits — with a patch drafted for each — in a single $1.2M run",
+      "headline": "OpenAI says an autonomous pipeline found and validated 948 Linux kernel root exploits \u2014 with a patch drafted for each \u2014 in a single $1.2M run",
       "url": "https://gbhackers.com/openais-new-cyber-ai-model-finds-948-linux-privilege-escalation-vulnerabilities/",
       "lane": "protect"
     },
@@ -4837,7 +4874,7 @@
       "time": "4:56 PM",
       "outlet": "TechCrunch",
       "author": null,
-      "headline": "Almost no one uses AI agents to book their Uber, the company says — just four rides in its busiest week, against 320M trips and orders",
+      "headline": "Almost no one uses AI agents to book their Uber, the company says \u2014 just four rides in its busiest week, against 320M trips and orders",
       "url": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
       "lane": null
     },
@@ -4857,7 +4894,7 @@
       "time": "4:10 PM",
       "outlet": "TechCrunch",
       "author": null,
-      "headline": "Meta acquires AI coding startup Conductor, whose parallel agent workspaces run on Anthropic and OpenAI models — and its cloud service shuts down November 20",
+      "headline": "Meta acquires AI coding startup Conductor, whose parallel agent workspaces run on Anthropic and OpenAI models \u2014 and its cloud service shuts down November 20",
       "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
       "lane": null
     },
@@ -4904,7 +4941,7 @@
     {
       "author": null,
       "date": "2026-11-05",
-      "headline": "Hacktivist groups claim Nov. 5 breaches at Philippine government agencies, including a claimed 19.2M-record PhilJobNet haul — none of the claims independently verified",
+      "headline": "Hacktivist groups claim Nov. 5 breaches at Philippine government agencies, including a claimed 19.2M-record PhilJobNet haul \u2014 none of the claims independently verified",
       "id": "philstar-ph-breach-claims-1105",
       "lane": "protect",
       "outlet": "Philstar Tech",
@@ -4950,6 +4987,16 @@
       "outlet": "TechCrunch",
       "time": "12:30 PM",
       "url": "https://techcrunch.com/2026/11/05/elevenlabs-now-lets-users-publish-ai-generated-music-directly-on-soundcloud/"
+    },
+    {
+      "author": null,
+      "date": "2026-11-05",
+      "headline": "CISA confirms active exploitation of GitLab's maximum-severity CVE-2026-97229, and Alpine Linux rebuilds its GitLab after an exploitation attempt",
+      "id": "socradar-gitlab-97229-1105",
+      "lane": "protect",
+      "outlet": "SOCRadar",
+      "time": "1:30 PM",
+      "url": "https://socradar.io/blog/cve-2026-97229-critical-gitlab-rce/"
     }
   ],
   "site": "GoldRang3r"
