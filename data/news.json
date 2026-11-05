@@ -1813,6 +1813,48 @@
       "items": [
         "techstartups-funding-1104"
       ]
+    },
+    {
+      "date": "2026-11-05",
+      "theme": "Midday: the patch that didn't patch, and the password that wasn't one",
+      "topic": "Midday update",
+      "items": [
+        "thn-zyxel-patch-fails-1105",
+        "thn-openssh-alpine-1105"
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "theme": "Midday: breach claims hit Philippine agencies on Guy Fawkes Day",
+      "topic": "Midday update",
+      "items": [
+        "philstar-ph-breach-claims-1105"
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "theme": "Midday: after the Binance heist, the regulators call",
+      "topic": "Midday update",
+      "items": [
+        "pymnts-binance-regulators-1105"
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "theme": "Midday: Dropbox buys Tigris, Mistral buys SkipLabs",
+      "topic": "Midday update",
+      "items": [
+        "techcrunch-dropbox-tigris-1105",
+        "dealroom-mistral-skiplabs-1105"
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "theme": "Midday: ElevenLabs takes AI music to SoundCloud",
+      "topic": "Midday update",
+      "items": [
+        "techcrunch-elevenlabs-soundcloud-1105"
+      ]
     }
   ],
   "edition": "2026-11-05",
@@ -4838,6 +4880,76 @@
       "headline": "Zyxel patches a GS1900 zero-day, CVE-2026-107441, that hackers used to compromise 996 switches in 48 countries and steal configs and hashed root passwords",
       "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
       "lane": "protect"
+    },
+    {
+      "author": null,
+      "date": "2026-11-05",
+      "headline": "OpenSSH issues an emergency fix for a flaw letting long passwords bypass SSH auth on Alpine Linux",
+      "id": "thn-openssh-alpine-1105",
+      "lane": "protect",
+      "outlet": "The Hacker News",
+      "time": "12:30 PM",
+      "url": "http://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html"
+    },
+    {
+      "author": null,
+      "date": "2026-11-05",
+      "headline": "Zyxel's earlier GS1900 patch fails to block the zero-day exploit, Binarly finds, as the vendor ships new firmware for 10 switch models",
+      "id": "thn-zyxel-patch-fails-1105",
+      "lane": "protect",
+      "outlet": "The Hacker News",
+      "time": "12:30 PM",
+      "url": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html"
+    },
+    {
+      "author": null,
+      "date": "2026-11-05",
+      "headline": "Hacktivist groups claim Nov. 5 breaches at Philippine government agencies, including a claimed 19.2M-record PhilJobNet haul — none of the claims independently verified",
+      "id": "philstar-ph-breach-claims-1105",
+      "lane": "protect",
+      "outlet": "Philstar Tech",
+      "time": "12:30 PM",
+      "url": "https://philstartech.com/news/2026/11/05/20296/philippines-nov-5-data-breach-government-agencies-2025/"
+    },
+    {
+      "author": null,
+      "date": "2026-11-05",
+      "headline": "US bank regulators checked in with banks after the $6.3B Binance heist, asking about unusual activity and disruptions, Reuters reports",
+      "id": "pymnts-binance-regulators-1105",
+      "lane": "fraud",
+      "outlet": "PYMNTS",
+      "time": "12:30 PM",
+      "url": "https://www.pymnts.com/legal/bank-regulation/2026/binance-heist-triggers-alarm-among-banking-regulators/"
+    },
+    {
+      "author": null,
+      "date": "2026-11-05",
+      "headline": "Dropbox acquires Tigris Data for $350M to bolster its AI infrastructure, its largest deal yet, backing a new DBX Agent Cloud storage platform",
+      "id": "techcrunch-dropbox-tigris-1105",
+      "lane": null,
+      "outlet": "TechCrunch",
+      "time": "12:30 PM",
+      "url": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/"
+    },
+    {
+      "author": null,
+      "date": "2026-11-05",
+      "headline": "Mistral AI buys SkipLabs, its fifth acquisition of 2026, adding tools to make AI code generation faster and more reliable",
+      "id": "dealroom-mistral-skiplabs-1105",
+      "lane": null,
+      "outlet": "Dealroom",
+      "time": "12:30 PM",
+      "url": "https://dealroom.co/news/170004-mistral-ai-buys-skiplabs-in-its-fifth-acquisition-of-2026/"
+    },
+    {
+      "author": null,
+      "date": "2026-11-05",
+      "headline": "ElevenLabs now lets users publish AI-generated music directly on SoundCloud, with 25M tracks already made on its models",
+      "id": "techcrunch-elevenlabs-soundcloud-1105",
+      "lane": null,
+      "outlet": "TechCrunch",
+      "time": "12:30 PM",
+      "url": "https://techcrunch.com/2026/11/05/elevenlabs-now-lets-users-publish-ai-generated-music-directly-on-soundcloud/"
     }
   ],
   "site": "GoldRang3r"
