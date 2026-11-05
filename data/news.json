@@ -6,6 +6,57 @@
   ],
   "clusters": [
     {
+      "date": "2026-11-05",
+      "theme": "The exploited list grows, from switches to phones",
+      "topic": "Summary — Tech Security",
+      "items": [
+        "bleeping-zyxel-1105",
+        "thn-apple-kev-1105",
+        "abijita-cpguard-1105",
+        "gbhackers-openai-948-1105",
+        "reuters-ai-catmouse-1105"
+      ],
+      "body": "A zero-day Zyxel only just named, CVE-2026-107441, was the flaw actually behind the compromise of 996 GS1900 switches in 48 countries — the June patch never stopped it. CISA adds a WebKit flaw Apple patched 18 months ago, CVE-2024-27834, to its exploited list after Sekoia ties it to an APT29 watering-hole campaign serving exploit chains to visitors of compromised sites. OPSShield's cPGuard update-channel hijack keeps widening: about 2,950 servers ran the root-level backdoor and 7,900 billing records were taken. And OpenAI says one autonomous run produced 948 validated Linux kernel root exploits, each with a patch drafted, for $1.2M in API credits — with Reuters reporting the same AI acceleration on the attack side, from hacked supermarket fridges to the record Binance theft. The day's through-line is blunt: the flaw is already patched, the update channel is already trusted, and the exploit is already cheap — the gap is whether anyone acted on any of it."
+    },
+    {
+      "date": "2026-11-05",
+      "theme": "The heist, counted",
+      "topic": "Summary — Fintech Security",
+      "items": [
+        "reuters-arkea-100m-1105"
+      ],
+      "body": "Crédit Mutuel Arkéa now puts a number on this week's cyberattack: about €100M missing, with the bank unable to say yet how much it can recover. The attackers used the bank's own account to push fraudulent transactions to other banks, possibly converting the funds into crypto — while customer accounts were untouched and the bank says the loss does not threaten its financial strength. Paris prosecutors have opened an investigation, and on-chain investigators are still tracing a trail that runs through Kraken, Crypto.com and OKX. A week after the $6.3B Binance theft, a second heist with a nine-figure hole is the story that keeps the fintech-security lane open."
+    },
+    {
+      "date": "2026-11-05",
+      "theme": "The coding-agent land grab",
+      "topic": "Summary — Tech",
+      "items": [
+        "siliconangle-pierre-1105",
+        "techcrunch-conductor-1105"
+      ],
+      "body": "Two coding-agent deals landed on the same day, and both point at the same layer: the machinery between a model writing code and a reviewer merging it. OpenAI plans to acquire Pierre Computer, whose Code Storage service and open-source Trees and Diffs libraries already draw the code inside Codex, and fold its paid hosting into the tool. Meta acquired Conductor, which deploys teams of agents into parallel workspaces using models from Anthropic and OpenAI rather than its own — and its cloud service shuts down November 20, with data deletion to follow. The race to own the coding loop is now an acquisition race, and for Conductor's users the deadline is this month, not next year."
+    },
+    {
+      "date": "2026-11-05",
+      "theme": "Agents book nothing, chips pivot",
+      "topic": "Summary — Tech",
+      "items": [
+        "techcrunch-uber-agents-1105",
+        "reuters-qualcomm-1105"
+      ],
+      "body": "Uber's Q3 earnings call delivered the hardest number yet on agentic commerce: in its busiest week, Halloween week, AI agents booked just four rides and about 500 Uber Eats orders out of roughly 320 million trips and orders — 'very, very early and very limited traction,' in CEO Dara Khosrowshahi's words. Qualcomm, meanwhile, is pivoting hard toward data centers as smartphone chip sales slide, forecasting $650M in data-center revenue next quarter and $15B by 2029 — but shares still fell as handset revenue dropped 26%. One company finds the agent future isn't arriving yet; the other is betting its future on the infrastructure feeding it."
+    },
+    {
+      "date": "2026-11-05",
+      "theme": "Missiles and money movement",
+      "topic": "Summary — Tech",
+      "items": [
+        "longbuild-hypersonica-1105"
+      ],
+      "body": "Hypersonica, a Munich-area defence startup founded in 2023, raised a €100M Series B co-led by Lightspeed and General Catalyst to build hypersonic deep-strike missiles it says cost over 80% less to develop. In the same briefing, Berlin B2B payments company Pliant raised an $80M Series C, passing $100M in annual recurring revenue, to let AI agents move money. Defence hardware and agent payments: two very different bets on the same conviction — that the next infrastructure gets built now."
+    },
+    {
       "date": "2026-11-04",
       "theme": "The exploited list grows, from WordPress to factory gateways",
       "topic": "Summary — Tech Security",
@@ -1764,7 +1815,7 @@
       ]
     }
   ],
-  "edition": "2026-11-04",
+  "edition": "2026-11-05",
   "items": [
     {
       "author": "Emma Roth",
@@ -4677,6 +4728,116 @@
       "author": null,
       "headline": "Coinbase says its customers are unaffected by the $6.34B Binance hack, with more than 99% of customer assets reportedly held in cold storage, plus distributed signing keys, withdrawal limits, unusual-activity detection and controls that can stop transaction signing",
       "url": "https://www.weex.com/news/detail/coinbase-says-customers-unaffected-by-634b-binance-hack-bty3n1jls0xaetz9ryc25xae"
+    },
+    {
+      "id": "reuters-arkea-100m-1105",
+      "date": "2026-11-05",
+      "time": "7:30 AM",
+      "outlet": "Reuters",
+      "author": null,
+      "headline": "Crédit Mutuel Arkéa says about €100M is missing after this week's cyberattack, and it cannot yet say how much it will recover — while customer accounts were untouched",
+      "url": "https://www.reuters.com/legal/government/french-bank-credit-mutuel-arkea-says-100-million-missing-after-cyberattack-2026-11-05/",
+      "lane": "fraud"
+    },
+    {
+      "id": "thn-apple-kev-1105",
+      "date": "2026-11-05",
+      "time": "7:30 AM",
+      "outlet": "The Hacker News",
+      "author": null,
+      "headline": "CISA adds a WebKit flaw Apple patched 18 months ago, CVE-2024-27834, to its exploited list after Sekoia ties it to an APT29 watering-hole campaign hitting unpatched iPhones and Androids",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
+      "lane": "protect"
+    },
+    {
+      "id": "longbuild-hypersonica-1105",
+      "date": "2026-11-05",
+      "time": "7:30 AM",
+      "outlet": "The Long Build",
+      "author": null,
+      "headline": "Hypersonica raises a €100M Series B for hypersonic missiles as Pliant banks $80M to let AI agents move money",
+      "url": "https://thelongbuild.eu/briefings/2026/11/05/builders-science-briefing",
+      "lane": null
+    },
+    {
+      "id": "abijita-cpguard-1105",
+      "date": "2026-11-05",
+      "time": "3:16 AM",
+      "outlet": "Abijita",
+      "author": null,
+      "headline": "OPSShield says a hijacked cPGuard update channel pushed a root-level backdoor to about 2,950 Linux hosting servers and exposed 7,900 billing records",
+      "url": "https://www.abijita.com/cpguard-breach-exposed-7900-customer-records/",
+      "lane": "protect"
+    },
+    {
+      "id": "gbhackers-openai-948-1105",
+      "date": "2026-11-05",
+      "time": "1:15 AM",
+      "outlet": "GBHackers",
+      "author": null,
+      "headline": "OpenAI says an autonomous pipeline found and validated 948 Linux kernel root exploits — with a patch drafted for each — in a single $1.2M run",
+      "url": "https://gbhackers.com/openais-new-cyber-ai-model-finds-948-linux-privilege-escalation-vulnerabilities/",
+      "lane": "protect"
+    },
+    {
+      "id": "reuters-ai-catmouse-1105",
+      "date": "2026-11-05",
+      "time": "1:07 AM",
+      "outlet": "Reuters",
+      "author": "Toby Sterling, Dimitri Rhodes, Hakan Ersen",
+      "headline": "AI is sharpening the cat-and-mouse hacking battle, from hacked supermarket fridges to a record Binance theft, as companies rush to strengthen defences",
+      "url": "https://wncy.com/2026/11/05/ai-sharpens-cat-and-mouse-hacking-battle-as-companies-strengthen-defences/",
+      "lane": "protect"
+    },
+    {
+      "id": "techcrunch-uber-agents-1105",
+      "date": "2026-11-05",
+      "time": "4:56 PM",
+      "outlet": "TechCrunch",
+      "author": null,
+      "headline": "Almost no one uses AI agents to book their Uber, the company says — just four rides in its busiest week, against 320M trips and orders",
+      "url": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
+      "lane": null
+    },
+    {
+      "id": "siliconangle-pierre-1105",
+      "date": "2026-11-05",
+      "time": "4:14 PM",
+      "outlet": "SiliconANGLE",
+      "author": null,
+      "headline": "OpenAI plans to acquire Pierre Computer, whose code-storage service and Trees and Diffs libraries already power Codex, in a shot at GitHub",
+      "url": "https://siliconangle.com/2026/11/04/openai-to-acquire-developer-tooling-startup-pierre-computer/",
+      "lane": null
+    },
+    {
+      "id": "techcrunch-conductor-1105",
+      "date": "2026-11-05",
+      "time": "4:10 PM",
+      "outlet": "TechCrunch",
+      "author": null,
+      "headline": "Meta acquires AI coding startup Conductor, whose parallel agent workspaces run on Anthropic and OpenAI models — and its cloud service shuts down November 20",
+      "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+      "lane": null
+    },
+    {
+      "id": "reuters-qualcomm-1105",
+      "date": "2026-11-05",
+      "time": "4:04 PM",
+      "outlet": "Reuters",
+      "author": "Anhata Rooprai, Stephen Nellis",
+      "headline": "Qualcomm shares slide as weak smartphone chip sales overshadow its data-center push, with handset revenue down 26%",
+      "url": "https://hot96.com/2026/11/04/qualcomms-smartphone-chip-sales-miss-estimates-shares-fall/",
+      "lane": null
+    },
+    {
+      "id": "bleeping-zyxel-1105",
+      "date": "2026-11-05",
+      "time": "3:58 PM",
+      "outlet": "BleepingComputer",
+      "author": null,
+      "headline": "Zyxel patches a GS1900 zero-day, CVE-2026-107441, that hackers used to compromise 996 switches in 48 countries and steal configs and hashed root passwords",
+      "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
+      "lane": "protect"
     }
   ],
   "site": "GoldRang3r"
