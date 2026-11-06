@@ -1983,6 +1983,55 @@
       ],
       "theme": "Midday checks: the $5B lab and three more",
       "topic": "Summary — Tech"
+    },
+    {
+      "body": "Two different boxes, the same nightmare: root access with no credentials at all. Barracuda's Email Security Gateway can be owned by chaining a 9.3 authorization bypass — which lets an unauthenticated attacker restore a crafted configuration backup — with an 8.6 command injection that runs as root; the patch shipped Monday and the gateway is fixed in version 9.4.0.030. Hours after the SSHole disclosure, attackers were already trying the oversized-password trick against Alpine Linux honeypots and got root in under nine hours, needing only a valid account name and a password between 257 and 1,024 characters. Both fixes exist; the race now is whether admins install them before the scanners find the exposed interfaces.",
+      "date": "2026-11-06",
+      "items": [
+        "thn-barracuda-esg-1106",
+        "thn-sshole-exploited-1106"
+      ],
+      "theme": "Root without a login, twice in one day",
+      "topic": "Summary — Tech Security"
+    },
+    {
+      "body": "A browser extension that can run scripts on claude.ai could turn Claude Desktop into a remote shell, researchers at Forever Security showed: Dispatch accepted an ordinary signed-in web session, so an extension could send the desktop agent instructions as if the user had typed them — and auto-approve the prompts. Because Dispatch pairs devices by account, the same trick could reach a second computer, turning a personal browser add-on into a foothold on a work laptop. Anthropic accepted the report as valid in May but closed it as a duplicate, and says Dispatch is being retired — though the researchers warn the same trust model lives on in Claude Code Remote Control and Cowork sessions.",
+      "date": "2026-11-06",
+      "items": [
+        "thn-claude-dispatch-1106"
+      ],
+      "theme": "The browser extension that drives your AI agent",
+      "topic": "Summary — Tech Security"
+    },
+    {
+      "body": "Three stories from three very different corners, all about trust. DigiCert began notifying customers after a February 2025 migration left an internal system on the public internet for 16 months, exposing archived records — including passports and driver's licenses for a small minority — with no count disclosed. Researchers found six addresses on the White House network serving as residential proxy exits, used 236 times by 28 proxy services, with the cause still unconfirmed and no breach claimed. And a new extortion group, Whitearmor, listed Unilever on its leak site with a $15M demand and a claimed 79GB haul the company has not confirmed. The lesson is the same from all three angles: the names people trust are the ones attackers aim at — and the ones left doing the explaining.",
+      "date": "2026-11-06",
+      "items": [
+        "theregister-digicert-notices-1106",
+        "securityweek-whitehouse-proxies-1106",
+        "assured-whitearmor-unilever-1106"
+      ],
+      "theme": "The trust layer wobbles",
+      "topic": "Summary — Tech Security"
+    },
+    {
+      "body": "The Binance laundering operation is now measurable: Elliptic counts more than 20,000 wallets across 16 blockchains and 65,000 transactions, with about $124M in stolen altcoins already swapped into bitcoin — most of it XRP moved through THORChain — while roughly $3.11B still sits in attacker-linked addresses and $2.85B has been frozen. Chainalysis traces nearly $1B of the flow to Chinese laundering networks, about $500M of it through TRON. Binance, meanwhile, is reopening withdrawals in stages and says it has replenished virtually all customer losses — the heist is becoming a long, public accounting exercise rather than a single event.",
+      "date": "2026-11-06",
+      "items": [
+        "theblock-elliptic-binance-1106",
+        "cryptonomist-binance-laundering-1106"
+      ],
+      "theme": "The heist, laundered in the open",
+      "topic": "Summary — Fintech Security"
+    },
+    {
+      "body": "India's CERT-In has warned banks, payment firms, and crypto exchanges about AI-driven attacks from a group it calls CRAFTY FALCON, which it rates critical: the attackers exploit payment and disbursement APIs to push through unauthorized transactions and steal wallet keys. The advisory, issued November 4, names non-bank lenders, digital lending platforms, payment aggregators, and virtual-asset exchanges among the targets, and urges firms to isolate affected systems, rotate credentials, and report incidents. The warning lands a week after the Binance heist showed what happens when the same playbook works — the industry's pipes, not just its vaults, are the target now.",
+      "date": "2026-11-06",
+      "items": [
+        "outlookmoney-certin-craftyfalcon-1106"
+      ],
+      "theme": "India's cyber agency warns the money pipes",
+      "topic": "Summary — Fintech Security"
     }
   ],
   "edition": "2026-11-06",
@@ -5278,6 +5327,46 @@
       "outlet": "VC Cafe",
       "time": "12:30 PM",
       "url": "https://www.vccafe.com/weekly-firgun-newsletter-november-6-2026/"
+    },
+    {
+      "author": "Swati Khandelwal",
+      "date": "2026-11-06",
+      "headline": "Two Barracuda Email Security Gateway flaws chain to unauthenticated root — a 9.3 authorization bypass plus an 8.6 command injection",
+      "id": "thn-barracuda-esg-1106",
+      "lane": "protect",
+      "outlet": "The Hacker News",
+      "time": "1:30 PM",
+      "url": "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html"
+    },
+    {
+      "author": "Swati Khandelwal",
+      "date": "2026-11-06",
+      "headline": "Malicious browser extensions could use Claude Dispatch to run code on users' computers",
+      "id": "thn-claude-dispatch-1106",
+      "lane": "protect",
+      "outlet": "The Hacker News",
+      "time": "1:30 PM",
+      "url": "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html"
+    },
+    {
+      "author": null,
+      "date": "2026-11-06",
+      "headline": "Elliptic says Binance hackers swapped stolen tokens for $124M in bitcoin; $2.85B frozen as withdrawals reopen in stages",
+      "id": "theblock-elliptic-binance-1106",
+      "lane": "fraud",
+      "outlet": "The Block",
+      "time": "1:30 PM",
+      "url": "https://www.theblock.co/news/markets/2026-11-06-binance-hackers-swap-stolen-tokens-124-million-bitcoin-exchange-plans-withdrawal-reopenings-435930"
+    },
+    {
+      "author": null,
+      "date": "2026-11-06",
+      "headline": "CERT-In cautions financial firms and crypto exchanges over AI-driven attacks by CRAFTY FALCON on payment APIs and wallet keys",
+      "id": "outlookmoney-certin-craftyfalcon-1106",
+      "lane": "fraud",
+      "outlet": "Outlook Money",
+      "time": "1:30 PM",
+      "url": "https://www.outlookmoney.com/invest/cert-in-cautions-against-ai-driven-attacks-targeting-crypto-exchanges-financial-firms"
     }
   ],
   "site": "GoldRang3r"
