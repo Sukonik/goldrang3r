@@ -2100,6 +2100,38 @@
         "inc42-india-startups-255m-1107"
       ],
       "body": "42AI came out of stealth with a $62.5M seed round — self-funded, the founders say — to build a 'behavioral world model' that predicts human behaviour. In India, twenty startups raised $255M between November 2 and 6, up 96% on the previous week, led by GIVA's $103M round. The week's funding picture is the same everywhere: fewer deals, bigger tickets, and AI and defense-linked work taking the largest share."
+    },
+    {
+      "date": "2026-11-07",
+      "theme": "Exploitation spreads, and the secrets left behind",
+      "topic": "Summary — Tech Security",
+      "items": [
+        "mag212-sshole-claude-1107",
+        "bleeping-qnap-plex2shell-1107",
+        "gbhackers-storm2603-1107",
+        "sgrc-entra-10-1107"
+      ],
+      "body": "The SSHole flaw keeps moving: exploitation attempts spread from one IP in Japan to 17 attempts from 11 IPs in 8 countries in a day, and the same daily brief counts 1,379 secrets sitting in public Claude Code configuration files. QNAP is urging an immediate Plex Media Server update as the Plex2Shell flaw chain sees active exploitation, and Storm-2603 is chaining SharePoint flaws with Cloudflare Tunnel to hold remote access. The day’s highest score is a 10.0 authorization bypass in Microsoft Entra Device Registration that lets an attacker elevate privileges over the network. Four stories, one instruction: patch the flaw, rotate the secret, and check the tunnel."
+    },
+    {
+      "date": "2026-11-07",
+      "theme": "The heist used the house’s own AI",
+      "topic": "Summary — Fintech Security",
+      "items": [
+        "solanalink-binance-aitool-1107"
+      ],
+      "body": "Binance’s November 3 incident report adds a detail that reframes the $6.3B heist: the attackers used one of Binance’s own internal AI tools during the lateral-movement phase, after getting in through a fake job interview and a booby-trapped ad. The entry point was an engineer’s laptop; the tool that carried the attack forward was the company’s own. The heist is still the largest crypto theft on record — and now it is also a warning about what an attacker’s hands can do with the victim’s own automation."
+    },
+    {
+      "date": "2026-11-07",
+      "theme": "The billion-dollar week keeps writing checks",
+      "topic": "Summary — Tech",
+      "items": [
+        "fireround-shieldai-1b-1107",
+        "inforcapital-ramp-185b-1107",
+        "foundernews-europe-funding-1107"
+      ],
+      "body": "Shield AI lands a $1B Series D+ led by Innovation X Advisors, the biggest announced round of the week, and Ramp closes a $1.85B Series G as US startups raise more than $20B in October — the year’s strongest month. In Europe, a single €835M debt deal pushes the week’s startup funding past €1.3B across more than 60 deals. The week’s funding picture is the same everywhere: fewer deals, bigger tickets, and defense and AI-linked work taking the largest share."
     }
   ],
   "edition": "2026-11-07",
@@ -5555,6 +5587,86 @@
       "lane": null,
       "headline": "Indian startups raised $255M this week, up 96% on last week, led by GIVA's $103M round",
       "url": "https://inc42.com/buzz/from-giva-to-eloelo-group-indian-startups-raised-255-mn-this-week/"
+    },
+    {
+      "id": "mag212-sshole-claude-1107",
+      "date": "2026-11-07",
+      "time": "12:30 PM",
+      "author": "El Mostafa Ouchen",
+      "outlet": "MAG212 Cyber",
+      "lane": "protect",
+      "headline": "SSHole exploitation spreads to 17 attempts from 11 IPs in 8 countries — and 1,379 secrets turn up in public Claude Code files",
+      "url": "https://cyber.mag212.com/sonicwall-vpn-flaw-exploited-mag212-cyber-daily-november-7-2026/"
+    },
+    {
+      "id": "bleeping-qnap-plex2shell-1107",
+      "date": "2026-11-07",
+      "time": "12:30 PM",
+      "author": null,
+      "outlet": "BleepingComputer",
+      "lane": "protect",
+      "headline": "QNAP urges an immediate Plex Media Server update as the Plex2Shell flaw chain sees active exploitation",
+      "url": null
+    },
+    {
+      "id": "gbhackers-storm2603-1107",
+      "date": "2026-11-07",
+      "time": "12:30 PM",
+      "author": null,
+      "outlet": "Securelist",
+      "lane": "protect",
+      "headline": "Storm-2603 exploits SharePoint flaws and abuses Cloudflare Tunnel to hold remote access",
+      "url": null
+    },
+    {
+      "id": "sgrc-entra-10-1107",
+      "date": "2026-11-07",
+      "time": "12:30 PM",
+      "author": null,
+      "outlet": "SGRC Daily Cyber Brief",
+      "lane": "protect",
+      "headline": "A 10.0 authorization bypass in Microsoft Entra Device Registration lets an attacker elevate privileges over the network",
+      "url": "https://www.sovereigngrc.com/insights/daily"
+    },
+    {
+      "id": "solanalink-binance-aitool-1107",
+      "date": "2026-11-07",
+      "time": "12:30 PM",
+      "author": null,
+      "outlet": "SolanaLink",
+      "lane": "fraud",
+      "headline": "Binance’s incident report says the attackers used one of its own internal AI tools during the heist’s lateral-movement phase",
+      "url": "https://www.solanalink.jp/en/blog/binance-hack-ai-agent-exchange-security-2026/"
+    },
+    {
+      "id": "fireround-shieldai-1b-1107",
+      "date": "2026-11-07",
+      "time": "12:30 PM",
+      "author": null,
+      "outlet": "Fireround",
+      "lane": null,
+      "headline": "Shield AI lands a $1B Series D+ led by Innovation X Advisors, the week’s biggest announced round",
+      "url": "https://www.firecrawl.dev/tools/fireround"
+    },
+    {
+      "id": "inforcapital-ramp-185b-1107",
+      "date": "2026-11-07",
+      "time": "12:30 PM",
+      "author": null,
+      "outlet": "InforCapital",
+      "lane": null,
+      "headline": "Ramp closes a $1.85B Series G as US startups raise $20B+ in October, the year’s strongest month",
+      "url": "https://inforcapital.com/news/weekly-funding-roundup-oct-31-nov-6-sharp-rise-in-capital-inflow/"
+    },
+    {
+      "id": "foundernews-europe-funding-1107",
+      "date": "2026-11-07",
+      "time": "12:30 PM",
+      "author": null,
+      "outlet": "Founder News",
+      "lane": null,
+      "headline": "A single €835M debt deal drives Europe’s startup funding past €1.3B for the week",
+      "url": "https://foundernews.eu/single-e835-million-debt-deal-drives-europes-e1-3-billion-startup-funding-week/"
     }
   ],
   "site": "GoldRang3r"
