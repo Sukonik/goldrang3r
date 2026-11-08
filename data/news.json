@@ -2273,6 +2273,52 @@
       ],
       "theme": "Midday checks: $350M for custom models, seeds for agents and accounting",
       "topic": "Midday edition"
+    },
+    {
+      "body": "SM Entertainment says an external attacker broke into its internal business systems around November 4 and copied stored documents — including employee names, phone numbers, addresses, bank account numbers, resident registration numbers, and contract details — before the company blocked the attack paths and rotated the compromised access keys. The breach also swept through affiliates DearU, which runs the fan-messaging app Bubble, and concert producer Dream Maker, though SM says no fan data on Bubble was touched. It is the second major Korean entertainment breach in six days, after HYBE disclosed its own internal leak on November 2, and the pattern is the same both times: the attackers went for the approval and document systems, not the customer-facing platforms. SM has not said how many people are affected, and says no secondary misuse has been confirmed so far.",
+      "date": "2026-11-08",
+      "items": [
+        "sedaily-sm-entertainment-1108"
+      ],
+      "theme": "K-entertainment's second breach in a week",
+      "topic": "Summary — Tech Security"
+    },
+    {
+      "body": "SonicWall has disclosed two flaws in its Global Management System, the console that manages fleets of its firewalls — and says neither will ever be patched, because the product has reached end of life. The worse of the two, CVE-2026-109593, scores 9.1 and lets an unauthenticated attacker with network access read internal GMS files; the second, CVE-2026-109594, is a SQL injection rated 6.8 that needs high privileges but can read or change database records. Both were reported by researchers at Pentest-Tools, and SonicWall's only advice is to migrate to its replacement, Network Security Manager. There is no reported exploitation yet, but the vendor's own track record argues against waiting: CISA has added 19 SonicWall flaws to its exploited-vulnerabilities catalog in four years, 13 of them also used by ransomware gangs.",
+      "date": "2026-11-08",
+      "items": [
+        "bleepingcomputer-sonicwall-gms-1108"
+      ],
+      "theme": "The patch that will never come",
+      "topic": "Summary — Tech Security"
+    },
+    {
+      "body": "The Binance hackers have started swapping stolen XRP into bitcoin, Elliptic told reporters, with about $50 million moved mostly through THORChain, a service that shifts assets between blockchains — a move that puts the money beyond the reach of stablecoin issuers that can freeze tokens. The laundering trail now spans more than 20,000 wallets across 16 blockchains and at least 65,000 transactions, with roughly $3.1 billion still sitting in addresses linked to the theft. The shift is also sharpening a policy fight: the stalled CLARITY Act draft lacks hot-wallet limits, insurance, and customer protections that might have limited the damage, and the CFTC chair is using the breach to argue for federal oversight of offshore exchanges. Binance says it will cover the loss and has published reserves to show it can.",
+      "date": "2026-11-08",
+      "items": [
+        "frontier-binance-laundering-1108"
+      ],
+      "theme": "The laundering trail moves to bitcoin",
+      "topic": "Summary — Fintech Security"
+    },
+    {
+      "body": "Mercado Bitcoin's attacker kept emptying customer deposit addresses for about four hours after the exchange said the breach was contained, according to blockchain data from Bitquery, which traced $48.6 million taken across ten blockchains — above the $40 million first reported. The same attacker took about $391,000 from wallets Bitquery ties to BitMart, whose founder confirmed a November 2 hack and suspects the same group, with the BitMart transfers starting roughly 53 minutes before the first Mercado Bitcoin funds moved. Mercado Bitcoin says no customer funds were lost and about $11.2 million has been frozen with help from Tether, Circle and others, but deposits and withdrawals remain suspended with no reopening date. The two hits, hours apart and sharing an attacker address, look less like isolated incidents than one operation working down a list.",
+      "date": "2026-11-08",
+      "items": [
+        "coindesk-mercado-bitmart-1108"
+      ],
+      "theme": "Contained — except it wasn't",
+      "topic": "Summary — Fintech Security"
+    },
+    {
+      "body": "Mirae Asset Securities, South Korea's largest broker, has confirmed a November 4–5 hack that leaked account numbers for about 3,800 customers and personal data of 35,255 current and former staff — days after regulators unveiled new countermeasures for the sector. A follow-up report puts the total at about 39,000 records and names Mirae Asset Securities as the third Korean brokerage hit, after Daishin and Hanyang, and the fourth Mirae Asset affiliate breached, after its life insurance, global investments and energy infrastructure arms. The attackers hit a mobile-web phone-authentication login service and the group's groupware a day apart, and the company says no resident registration numbers, passport numbers or financial damage have been confirmed so far. The timing is the story: the breach landed the same week the crackdown was announced, and the sector's defenses are being tested faster than they are being built.",
+      "date": "2026-11-08",
+      "items": [
+        "mt-mirae-asset-1108",
+        "sedaily-mirae-asset-1108"
+      ],
+      "theme": "The fourth Mirae affiliate falls",
+      "topic": "Summary — Fintech Security"
     }
   ],
   "edition": "2026-11-08",
@@ -6048,6 +6094,56 @@
       "outlet": "Crosswalk",
       "time": "12:30 PM",
       "url": "https://crosswalk.to/crosswalk/deals"
+    },
+    {
+      "author": null,
+      "date": "2026-11-08",
+      "headline": "SM Entertainment discloses a Nov 4 breach that leaked employee resident registration numbers, bank account numbers and contract details across SM, DearU and Dream Maker — six days after HYBE's leak",
+      "id": "sedaily-sm-entertainment-1108",
+      "lane": "protect",
+      "outlet": "Seoul Economic Daily",
+      "time": "1:30 PM",
+      "url": "https://en.sedaily.com/culture/2026/11/08/sm-entertainment-says-employee-id-and-bank-data-leaked-in"
+    },
+    {
+      "author": null,
+      "date": "2026-11-08",
+      "headline": "SonicWall warns two flaws in end-of-life Global Management System will never be patched — CVE-2026-109593, a 9.1 unauthenticated file read, and a 6.8 SQL injection — and tells customers to migrate",
+      "id": "bleepingcomputer-sonicwall-gms-1108",
+      "lane": "protect",
+      "outlet": "BleepingComputer",
+      "time": "1:30 PM",
+      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-unpatched-flaws-in-end-of-life-gms-software/"
+    },
+    {
+      "author": null,
+      "date": "2026-11-08",
+      "headline": "Elliptic tracks Binance hackers swapping about $50M in stolen XRP into bitcoin via THORChain as roughly $3.1B stays in linked wallets, sharpening calls for exchange security standards in crypto legislation",
+      "id": "frontier-binance-laundering-1108",
+      "lane": "fraud",
+      "outlet": "The Frontier",
+      "time": "1:30 PM",
+      "url": "https://thefrontier.fm/article/2026/11/07/binance-hack-pushes-security-rules-focus"
+    },
+    {
+      "author": null,
+      "date": "2026-11-08",
+      "headline": "Mercado Bitcoin's attacker kept emptying customer deposit addresses for four hours after the exchange said the breach was contained, Bitquery finds — and the same group hit BitMart for about $391K the same day",
+      "id": "coindesk-mercado-bitmart-1108",
+      "lane": "fraud",
+      "outlet": "CoinDesk",
+      "time": "1:30 PM",
+      "url": "https://www.coindesk.com/business/2026/11/05/mercado-bitcoin-hack-continued-hours-after-exchange-said-attack-was-contained-report-finds"
+    },
+    {
+      "author": null,
+      "date": "2026-11-08",
+      "headline": "Mirae Asset Securities reports a breach of about 39,000 records — the third Korean brokerage hit and the fourth Mirae Asset affiliate — days after regulators unveiled new countermeasures",
+      "id": "sedaily-mirae-asset-1108",
+      "lane": "fraud",
+      "outlet": "Seoul Economic Daily",
+      "time": "1:30 PM",
+      "url": "https://en.sedaily.com/finance/2026/11/08/mirae-asset-securities-reports-data-breach-affecting-39000"
     }
   ],
   "site": "GoldRang3r"
