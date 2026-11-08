@@ -2178,9 +2178,70 @@
       ],
       "theme": "The week after the heist",
       "topic": "Summary — Fintech Security"
+    },
+    {
+      "date": "2026-11-08",
+      "theme": "SAML, MFA, and the VPN that skipped both",
+      "topic": "Morning edition",
+      "items": [
+        "securityweek-sonicwall-1108"
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "theme": "The fix that only the Store delivers",
+      "topic": "Morning edition",
+      "items": [
+        "thn-paint-rce-1108"
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "theme": "AI that finds the bugs — and the one that leaked the keys",
+      "topic": "Morning edition",
+      "items": [
+        "thn-gpt6cyber-1108",
+        "sulat-claudecode-1108"
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "theme": "Two breaches, widening disclosures",
+      "topic": "Morning edition",
+      "items": [
+        "tokenpost-chainalysis-1108",
+        "hispion-digicert-1108"
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "theme": "A kill switch for rogue agents",
+      "topic": "Morning edition",
+      "items": [
+        "crowdstrike-killswitch-1108"
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "theme": "ARTEX goes after the banks",
+      "topic": "Morning edition",
+      "items": [
+        "msft-artex-1108",
+        "hindu-craftyfalcon-1108"
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "theme": "The IPO that met the rout — and the funding that didn't blink",
+      "topic": "Morning edition",
+      "items": [
+        "thedecoder-anthropic-ipo-1108",
+        "crosswalk-shieldai-1108",
+        "crosswalk-zipline-1108"
+      ]
     }
   ],
-  "edition": "2026-11-07",
+  "edition": "2026-11-08",
   "items": [
     {
       "author": "Emma Roth",
@@ -5773,6 +5834,126 @@
       "outlet": "This Week in Fintech",
       "time": "1:30 PM",
       "url": "https://www.thisweekinfintech.com/p/binance-hack-shows-how-attackers-can-turn-a-company-s-own-systems-against-it"
+    },
+    {
+      "id": "securityweek-sonicwall-1108",
+      "outlet": "SecurityWeek",
+      "author": null,
+      "headline": "CISA adds SonicWall's exploited SSL VPN flaw CVE-2026-19868 to its KEV catalog — it lets alternate-method credentials bypass SAML and SAML-enforced MFA, with a Nov 20 federal patch deadline",
+      "url": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
+      "lane": "protect",
+      "date": "2026-11-08",
+      "time": "7:30 AM"
+    },
+    {
+      "id": "thn-paint-rce-1108",
+      "outlet": "The Hacker News",
+      "author": "Swati Khandelwal",
+      "headline": "Microsoft Paint's remote-code-execution flaw CVE-2026-83844 is fixed only via a Microsoft Store update — Windows Update won't deliver build 11.2609.401.0",
+      "url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+      "lane": "protect",
+      "date": "2026-11-08",
+      "time": "7:30 AM"
+    },
+    {
+      "id": "thn-gpt6cyber-1108",
+      "outlet": "The Hacker News",
+      "author": "Ravie Lakshmanan",
+      "headline": "OpenAI launches GPT-6 Cyber, a security model it rates Critical — it helped find 81 previously unknown Firefox flaws and built working exploits for 948 Linux kernel bugs",
+      "url": "http://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
+      "lane": "protect",
+      "date": "2026-11-08",
+      "time": "7:30 AM"
+    },
+    {
+      "id": "sulat-claudecode-1108",
+      "outlet": "Sulat News",
+      "author": "JP Caparas",
+      "headline": "Claude Code's 'Don't Ask Again' saved approved commands — passwords and keys included — into .claude/settings.local.json; Apiiro found 2,539 secrets across 1,994 public GitHub repos",
+      "url": "https://news.sulat.com/2026/11/08/claude-code-dont-ask-again-settings-secrets-github/",
+      "lane": "bug",
+      "date": "2026-11-08",
+      "time": "7:30 AM"
+    },
+    {
+      "id": "tokenpost-chainalysis-1108",
+      "outlet": "TokenPost",
+      "author": null,
+      "headline": "Chainalysis restores Reactor, KYT and Address Screening after disclosing that names, password hashes and live tokens for all users were exposed — Data Solutions and Chain (Beta) still offline",
+      "url": "https://www.tokenpost.com/news/technology/51371",
+      "lane": "protect",
+      "date": "2026-11-08",
+      "time": "7:30 AM"
+    },
+    {
+      "id": "hispion-digicert-1108",
+      "outlet": "Hispion News",
+      "author": null,
+      "headline": "DigiCert confirms a breach after a server migration left an internal archive exposed — customer contact data plus some passports and driver's licenses were accessed June 27–July 2",
+      "url": "https://www.hispion.com/en/news/2026/11/06/digicert-discloses-breach-exposing-identity-documents-and-customer-data/",
+      "lane": "protect",
+      "date": "2026-11-08",
+      "time": "7:30 AM"
+    },
+    {
+      "id": "crowdstrike-killswitch-1108",
+      "outlet": "CrowdStrike",
+      "author": null,
+      "headline": "CrowdStrike ships an AI Kill Switch in Falcon Guardian to stop rogue agents at runtime, and agrees to buy Fiddler AI (reported ~$400M) and Dreadnode to watch and test them",
+      "url": "https://www.crowdstrike.com/en-us/press-releases/crowdstrike-delivers-ai-security-safety-for-the-enterprise/",
+      "lane": "protect",
+      "date": "2026-11-08",
+      "time": "7:30 AM"
+    },
+    {
+      "id": "msft-artex-1108",
+      "outlet": "Microsoft Security Blog",
+      "author": null,
+      "headline": "Storm-3358, a Cambodia-based financially motivated group, is running the ARTEX agentic AI framework against financial firms in Southeast Asia, exploiting file-upload and SSRF flaws to plant RATs",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/",
+      "lane": "fraud",
+      "date": "2026-11-08",
+      "time": "7:30 AM"
+    },
+    {
+      "id": "hindu-craftyfalcon-1108",
+      "outlet": "The Hindu BusinessLine",
+      "author": null,
+      "headline": "India's CERT-In warns banks, NBFCs and fintechs that the AI-assisted 'CRAFTY FALCON' campaign is stealing funds through victims' own payment APIs at machine speed",
+      "url": "https://www.thehindubusinessline.com/money-and-banking/central-cyber-security-agency-warns-banks-fintech-firms-of-ai-powered-frauds/article71667190.ece/amp/",
+      "lane": "fraud",
+      "date": "2026-11-08",
+      "time": "7:30 AM"
+    },
+    {
+      "id": "thedecoder-anthropic-ipo-1108",
+      "outlet": "The Decoder",
+      "author": null,
+      "headline": "Anthropic presses ahead with its pre-Thanksgiving IPO despite the tech selloff, accepting a $1.25–1.75T valuation — below the $2T once hoped for — with the roadshow starting next week",
+      "url": "https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation/",
+      "lane": null,
+      "date": "2026-11-08",
+      "time": "7:30 AM"
+    },
+    {
+      "id": "crosswalk-shieldai-1108",
+      "outlet": "Crosswalk",
+      "author": null,
+      "headline": "Shield AI raises $1B Series H at a $28.8B valuation, part of a $2.5B financing to fund its up-to-$5.3B acquisition of radar maker Echodyne",
+      "url": "https://crosswalk.to/crosswalk/deals/2026-11-08",
+      "lane": null,
+      "date": "2026-11-08",
+      "time": "7:30 AM"
+    },
+    {
+      "id": "crosswalk-zipline-1108",
+      "outlet": "Crosswalk",
+      "author": null,
+      "headline": "Zipline raises $1.5B at a $21.5B valuation for its autonomous drone delivery network, as Northwood Space lands a $375M Series C at $2B",
+      "url": "https://crosswalk.to/crosswalk/deals/2026-11-08",
+      "lane": null,
+      "date": "2026-11-08",
+      "time": "7:30 AM"
     }
   ],
   "site": "GoldRang3r"
