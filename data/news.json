@@ -2449,6 +2449,59 @@
       ],
       "date": "2026-11-09",
       "topic": "Midday edition"
+    },
+    {
+      "body": "Attackers stole the central-login passwords of everyone registered on the Technical University of Munich's myTUM portal — including a TUMonline administrator, whose credentials were then used against the campus management system, which the university took offline and restored Monday morning with password resets. Revolve told regulators its September attack hit more than 1.5 million people, and Iris Plaza, a Japanese homeware platform, may have exposed 7.7 million customers after a cloud-service compromise forced it to pull its online store. Frontline Education told Indiana regulators its August breach affected more than 3 million school district staff and students.",
+      "date": "2026-11-09",
+      "items": [
+        "theregister-tum-breach-1109",
+        "securityweek-revolve-data-breach-1109",
+        "securityweek-iris-plaza-breach-1109",
+        "techmaniacs-frontline-education-1109"
+      ],
+      "theme": "Four breaches, one morning",
+      "topic": "Summary — Tech Security"
+    },
+    {
+      "body": "Hackers are now actively breaching Linux systems through the OpenSSH “ssHole” authentication bypass, CVE-2026-123158, using it to run commands, steal credentials and set up persistent access — days after the fix shipped, with SANS honeypots already logging attempts from 13 IP addresses. The same morning, CISA added a second actively exploited flaw to its catalog: CVE-2026-102895, an authentication bypass in GPUStack that gives unauthenticated attackers full administrative access, including creating persistent admin API keys, with a federal patch deadline of November 12. Both flaws share a shape — authentication that can simply be walked around — and both are already being used, not just theorized.",
+      "date": "2026-11-09",
+      "items": [
+        "bleepingcomputer-hackers-exploit-sshole-1109",
+        "cisa-cisa-adds-cve-2026-102895-1109"
+      ],
+      "theme": "Exploitation, confirmed",
+      "topic": "Summary — Tech Security"
+    },
+    {
+      "body": "Fake GitHub security tools have infected more than 2,000 PCs with malware that disables defenses and steals data, Doctor Web found — a campaign that ran for two years, turning the very tools people download to stay safe into the attack. On the same day, a flaw in the APT package manager used by Debian and Ubuntu, CVE-2026-109518, was disclosed: under certain conditions it can be exploited to install a package and run code as root. The lesson of both is the same — the software you trust to protect or update your system is itself a target, and the fix in both cases is to get it from a source you can verify.",
+      "date": "2026-11-09",
+      "items": [
+        "cybernoz-fake-github-tools-1109",
+        "thehackernews-debian-apt-1109"
+      ],
+      "theme": "The tools that bite back",
+      "topic": "Summary — Tech Security"
+    },
+    {
+      "body": "A flaw in Web3Auth let an attacker drain Keplr crypto wallets set up with Google or Apple sign-in, stealing at least $1 million, per GoPlus — and Web3Auth responded by emptying other at-risk wallets into recovery itself. Separately, Ankr's Ethereum bridge lost more than $303,000 after an attacker replayed a redeemed deposit receipt to bypass withdrawal checks in five unauthorized withdrawals. And California ordered crypto ATM operator CoinFlip to pay more than $4.8 million to fraud victims, mostly elderly, after its roughly 500 ATMs failed identity checks since 2021. Three different weak points — the sign-in layer, the bridge, and the ATM — and the same outcome: money gone before anyone noticed.",
+      "date": "2026-11-09",
+      "items": [
+        "thehackernews-web3auth-keplr-1109",
+        "defiplanet-ankr-bridge-1109",
+        "panews-coinflip-1109"
+      ],
+      "theme": "A bad morning for crypto custody",
+      "topic": "Summary — Fintech Security"
+    },
+    {
+      "body": "Binance has denied claims of a new data breach after a threat actor using the ShinyHunters handle posted allegations on a newly emerged underground forum; the exchange says there is no breach, and nothing has been independently confirmed. The same day, ransomware group N0n listed Expedia on its leak site and claimed 830 million loyalty records were stolen — also unverified, and Expedia has not confirmed a breach. Two giant claims, two denials or silences, and no evidence either way: the leak-site post is the story now, and the verification comes later, if it comes at all.",
+      "date": "2026-11-09",
+      "items": [
+        "bleepingcomputer-binance-denies-data-1109",
+        "dunyadesk-expedia-ransomware-1109"
+      ],
+      "theme": "Claim, deny, repeat",
+      "topic": "Summary — Fintech Security"
     }
   ],
   "edition": "2026-11-09",
@@ -6534,6 +6587,36 @@
       "outlet": "The Register",
       "time": "12:30 PM",
       "url": "https://www.theregister.com/cyber-crime/2026/11/09/japanese-homeware-giant-pulls-online-store-after-cloud-breach-puts-77m-records-at-risk/5308377"
+    },
+    {
+      "author": null,
+      "date": "2026-11-09",
+      "headline": "Portal breach at Germany's top university exposes every registered user's password — attackers stole central-login passwords for all myTUM users, including a TUMonline admin, and the campus system was taken offline",
+      "id": "theregister-tum-breach-1109",
+      "lane": "protect",
+      "outlet": "The Register",
+      "time": "1:30 PM",
+      "url": "https://www.theregister.com/cyber-crime/2026/11/09/portal-breach-at-germanys-top-university-exposes-every-registered-users-password/5308380"
+    },
+    {
+      "author": null,
+      "date": "2026-11-09",
+      "headline": "Frontline Education tells Indiana regulators its August breach hit 3M+ school district staff and students",
+      "id": "techmaniacs-frontline-education-1109",
+      "lane": "protect",
+      "outlet": "Tech Maniacs",
+      "time": "1:30 PM",
+      "url": "https://techmaniacs.com/2026/11/09/cyber-briefing-nov-9-openssh-sshole-exploit-and-react-rce-pose-urgent-patching-needs/"
+    },
+    {
+      "author": "Ravie Lakshmanan",
+      "date": "2026-11-09",
+      "headline": "Debian and Ubuntu APT flaw CVE-2026-109518 lets an attacker run code as root when installing a package under certain conditions",
+      "id": "thehackernews-debian-apt-1109",
+      "lane": "bug",
+      "outlet": "The Hacker News",
+      "time": "1:30 PM",
+      "url": "https://thehackernews.com/2026/11/weekly-recap-sshole-exploited-apt-root.html"
     }
   ],
   "site": "GoldRang3r"

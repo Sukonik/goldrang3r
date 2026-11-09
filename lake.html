@@ -73,6 +73,59 @@
 
         <!-- LAKE:START -->
                         <p class="feed__date">Monday, November 9, 2026</p>
+
+        <article class="cluster">
+          <p class="cluster__meta">Cluster · Afternoon summaries · Summary — Tech Security</p>
+          <h2 class="cluster__title">Four breaches, one morning</h2>
+          <p class="cluster__body">Attackers stole the central-login passwords of everyone registered on the Technical University of Munich&#x27;s myTUM portal — including a TUMonline administrator, whose credentials were then used against the campus management system, which the university took offline and restored Monday morning with password resets. Revolve told regulators its September attack hit more than 1.5 million people, and Iris Plaza, a Japanese homeware platform, may have exposed 7.7 million customers after a cloud-service compromise forced it to pull its online store. Frontline Education told Indiana regulators its August breach affected more than 3 million school district staff and students.</p>
+          <ul class="cluster__items">
+          <li><b>The Register:</b> <a href="https://www.theregister.com/cyber-crime/2026/11/09/portal-breach-at-germanys-top-university-exposes-every-registered-users-password/5308380">Portal breach at Germany&#x27;s top university exposes every registered user&#x27;s password — attackers stole central-login passwords for all myTUM users, including a TUMonline admin, and the campus system was taken offline</a></li>
+          <li><b>SecurityWeek:</b> <a href="https://www.securityweek.com/revolve-puts-data-breach-victim-count-at-1-5-million/">Revolve Puts Data Breach Victim Count at 1.5 Million — Online fashion retailer Revolve has told regulators that the September cyberattack affected more than 1.5 million individuals.</a></li>
+          <li><b>SecurityWeek:</b> <a href="https://www.securityweek.com/iris-plaza-breach-may-have-exposed-data-of-7-7-million-customers/">Iris Plaza Breach May Have Exposed Data of 7.7 Million Customers — Hackers compromised an external cloud service used by the shopping platform and may have stolen personal information from it.</a></li>
+          <li><b>Tech Maniacs:</b> <a href="https://techmaniacs.com/2026/11/09/cyber-briefing-nov-9-openssh-sshole-exploit-and-react-rce-pose-urgent-patching-needs/">Frontline Education tells Indiana regulators its August breach hit 3M+ school district staff and students</a></li>
+          </ul>
+        </article>
+
+        <article class="cluster">
+          <p class="cluster__meta">Cluster · Afternoon summaries · Summary — Tech Security</p>
+          <h2 class="cluster__title">Exploitation, confirmed</h2>
+          <p class="cluster__body">Hackers are now actively breaching Linux systems through the OpenSSH “ssHole” authentication bypass, CVE-2026-123158, using it to run commands, steal credentials and set up persistent access — days after the fix shipped, with SANS honeypots already logging attempts from 13 IP addresses. The same morning, CISA added a second actively exploited flaw to its catalog: CVE-2026-102895, an authentication bypass in GPUStack that gives unauthenticated attackers full administrative access, including creating persistent admin API keys, with a federal patch deadline of November 12. Both flaws share a shape — authentication that can simply be walked around — and both are already being used, not just theorized.</p>
+          <ul class="cluster__items">
+          <li><b>BleepingComputer:</b> <a href="https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/">Hackers exploit SSHole OpenSSH flaw to breach Linux systems — Hackers are actively exploiting the &quot;SSHole&quot; vulnerability (CVE-2026-123158) in OpenSSH to execute commands, steal credentials, and establish persistent access.</a></li>
+          <li><b>CISA:</b> <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">CISA adds CVE-2026-102895 (GPUStack) to its exploited-vulnerabilities catalog — GPUStack contains an improper authentication vulnerability which could allow unauthenticated administrative access, including user and model changes, persistent administrator API-key creation, disclosure of worker and cl</a></li>
+          </ul>
+        </article>
+
+        <article class="cluster">
+          <p class="cluster__meta">Cluster · Afternoon summaries · Summary — Tech Security</p>
+          <h2 class="cluster__title">The tools that bite back</h2>
+          <p class="cluster__body">Fake GitHub security tools have infected more than 2,000 PCs with malware that disables defenses and steals data, Doctor Web found — a campaign that ran for two years, turning the very tools people download to stay safe into the attack. On the same day, a flaw in the APT package manager used by Debian and Ubuntu, CVE-2026-109518, was disclosed: under certain conditions it can be exploited to install a package and run code as root. The lesson of both is the same — the software you trust to protect or update your system is itself a target, and the fix in both cases is to get it from a source you can verify.</p>
+          <ul class="cluster__items">
+          <li><b>Cybernoz:</b> <a href="https://cybernoz.com/fake-github-security-tools-infect-over-2000-pcs-with-malware/">Fake GitHub security tools infected 2,000+ PCs with malware that disables defenses and steals data, Doctor Web finds — a campaign running for two years</a></li>
+          <li><b>The Hacker News:</b> <a href="https://thehackernews.com/2026/11/weekly-recap-sshole-exploited-apt-root.html">Debian and Ubuntu APT flaw CVE-2026-109518 lets an attacker run code as root when installing a package under certain conditions</a></li>
+          </ul>
+        </article>
+
+        <article class="cluster">
+          <p class="cluster__meta">Cluster · Afternoon summaries · Summary — Fintech Security</p>
+          <h2 class="cluster__title">A bad morning for crypto custody</h2>
+          <p class="cluster__body">A flaw in Web3Auth let an attacker drain Keplr crypto wallets set up with Google or Apple sign-in, stealing at least $1 million, per GoPlus — and Web3Auth responded by emptying other at-risk wallets into recovery itself. Separately, Ankr&#x27;s Ethereum bridge lost more than $303,000 after an attacker replayed a redeemed deposit receipt to bypass withdrawal checks in five unauthorized withdrawals. And California ordered crypto ATM operator CoinFlip to pay more than $4.8 million to fraud victims, mostly elderly, after its roughly 500 ATMs failed identity checks since 2021. Three different weak points — the sign-in layer, the bridge, and the ATM — and the same outcome: money gone before anyone noticed.</p>
+          <ul class="cluster__items">
+          <li><b>The Hacker News:</b> <a href="http://thehackernews.com/2026/11/web3auth-flaw-exploited-to-steal-keplr.html">A Web3Auth flaw let an attacker drain Keplr crypto wallets set up with Google or Apple sign-in — at least $1M stolen, per GoPlus; Web3Auth emptied other at-risk wallets into recovery</a></li>
+          <li><b>DeFi Planet:</b> <a href="https://defi-planet.com/2026/11/ankr-ethereum-bridge-faces-ongoing-303k-exploit/">Ankr&#x27;s Ethereum bridge loses $303K+ after an attacker replays a redeemed deposit receipt to bypass withdrawal checks in five unauthorized withdrawals</a></li>
+          <li><b>PANews:</b> <a href="https://www.panews.io/articles/01a1bec9-f72e-750c-be9c-b2fcc4c926bf">California orders crypto ATM operator CoinFlip to pay $4.8M+ to fraud victims — mostly elderly — after its ~500 ATMs failed identity checks since 2021</a></li>
+          </ul>
+        </article>
+
+        <article class="cluster">
+          <p class="cluster__meta">Cluster · Afternoon summaries · Summary — Fintech Security</p>
+          <h2 class="cluster__title">Claim, deny, repeat</h2>
+          <p class="cluster__body">Binance has denied claims of a new data breach after a threat actor using the ShinyHunters handle posted allegations on a newly emerged underground forum; the exchange says there is no breach, and nothing has been independently confirmed. The same day, ransomware group N0n listed Expedia on its leak site and claimed 830 million loyalty records were stolen — also unverified, and Expedia has not confirmed a breach. Two giant claims, two denials or silences, and no evidence either way: the leak-site post is the story now, and the verification comes later, if it comes at all.</p>
+          <ul class="cluster__items">
+          <li><b>BleepingComputer:</b> <a href="https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/">Binance denies data breach after alleged ShinyHunters claims — Binance, the world&#x27;s largest crypto exchange, has denied claims of a new security breach made by a threat actor using the &#x27;ShinyHunters&#x27; handle on a newly emerged underground cybercrime forum.</a></li>
+          <li><b>Dunyadesk:</b> <a href="https://dunyadesk.com/article/expedia-data-breach-claim-n0n-ransomware-830-million-loyalty-records-nov-2026">Ransomware group N0n lists Expedia on its leak site and claims 830M loyalty records were stolen — unverified, and Expedia has not confirmed a breach</a></li>
+          </ul>
+        </article>
         <article class="cluster">
           <p class="cluster__meta">Cluster · Midday edition</p>
           <h2 class="cluster__title">CISA adds CVE-2026-102895 GPUStack</h2>
