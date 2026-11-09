@@ -2385,6 +2385,70 @@
       ],
       "theme": "Funding: $300M for defense manufacturing",
       "topic": "Midday edition"
+    },
+    {
+      "theme": "CISA adds CVE-2026-102895 GPUStack",
+      "items": [
+        "cisa-cisa-adds-cve-2026-102895-1109"
+      ],
+      "date": "2026-11-09",
+      "topic": "Midday edition"
+    },
+    {
+      "theme": "Hackers exploit SSHole OpenSSH",
+      "items": [
+        "bleepingcomputer-hackers-exploit-sshole-1109"
+      ],
+      "date": "2026-11-09",
+      "topic": "Midday edition"
+    },
+    {
+      "theme": "Binance denies data breach",
+      "items": [
+        "bleepingcomputer-binance-denies-data-1109"
+      ],
+      "date": "2026-11-09",
+      "topic": "Midday edition"
+    },
+    {
+      "theme": "Revolve Data Breach Victim",
+      "items": [
+        "securityweek-revolve-data-breach-1109"
+      ],
+      "date": "2026-11-09",
+      "topic": "Midday edition"
+    },
+    {
+      "theme": "Hardware-testing engineering startup Nominal",
+      "items": [
+        "siliconangle-hardware-testing-engineering-startup-1109"
+      ],
+      "date": "2026-11-09",
+      "topic": "Midday edition"
+    },
+    {
+      "theme": "Iris Plaza Breach Exposed",
+      "items": [
+        "securityweek-iris-plaza-breach-1109"
+      ],
+      "date": "2026-11-09",
+      "topic": "Midday edition"
+    },
+    {
+      "theme": "Snapp raises a16z ChatGPT",
+      "items": [
+        "techstartups-snapp-raises-a16z-1109"
+      ],
+      "date": "2026-11-09",
+      "topic": "Midday edition"
+    },
+    {
+      "theme": "Japanese homeware giant pulls",
+      "items": [
+        "theregister-japanese-homeware-giant-1109"
+      ],
+      "date": "2026-11-09",
+      "topic": "Midday edition"
     }
   ],
   "edition": "2026-11-09",
@@ -6390,6 +6454,86 @@
       "outlet": "Tech Startups",
       "time": "12:30 PM",
       "url": "https://techstartups.com/2026/11/09/startup-funding-news-today-november-9-2026-boson-ai-onodrim-mavria-t-therapeutics-more/"
+    },
+    {
+      "author": null,
+      "date": "2026-11-09",
+      "headline": "CISA adds CVE-2026-102895 (GPUStack) to its exploited-vulnerabilities catalog — GPUStack contains an improper authentication vulnerability which could allow unauthenticated administrative access, including user and model changes, persistent administrator API-key creation, disclosure of worker and cl",
+      "id": "cisa-cisa-adds-cve-2026-102895-1109",
+      "lane": "bug",
+      "outlet": "CISA",
+      "time": "12:30 PM",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+    },
+    {
+      "author": "Bill Toulas",
+      "date": "2026-11-09",
+      "headline": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems — Hackers are actively exploiting the \"SSHole\" vulnerability (CVE-2026-123158) in OpenSSH to execute commands, steal credentials, and establish persistent access.",
+      "id": "bleepingcomputer-hackers-exploit-sshole-1109",
+      "lane": "bug",
+      "outlet": "BleepingComputer",
+      "time": "12:30 PM",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/"
+    },
+    {
+      "author": "Sergiu Gatlan",
+      "date": "2026-11-09",
+      "headline": "Binance denies data breach after alleged ShinyHunters claims — Binance, the world's largest crypto exchange, has denied claims of a new security breach made by a threat actor using the 'ShinyHunters' handle on a newly emerged underground cybercrime forum.",
+      "id": "bleepingcomputer-binance-denies-data-1109",
+      "lane": "fraud",
+      "outlet": "BleepingComputer",
+      "time": "12:30 PM",
+      "url": "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/"
+    },
+    {
+      "author": "Eduard Kovacs",
+      "date": "2026-11-09",
+      "headline": "Revolve Puts Data Breach Victim Count at 1.5 Million — Online fashion retailer Revolve has told regulators that the September cyberattack affected more than 1.5 million individuals.",
+      "id": "securityweek-revolve-data-breach-1109",
+      "lane": null,
+      "outlet": "SecurityWeek",
+      "time": "12:30 PM",
+      "url": "https://www.securityweek.com/revolve-puts-data-breach-victim-count-at-1-5-million/"
+    },
+    {
+      "author": "Kyt Dotson",
+      "date": "2026-11-09",
+      "headline": "Hardware-testing and engineering startup Nominal raises $240M at $3B valuation — Artificial intelligence-powered hardware-testing and engineering software startup Nominal Inc.",
+      "id": "siliconangle-hardware-testing-engineering-startup-1109",
+      "lane": null,
+      "outlet": "SiliconANGLE",
+      "time": "12:30 PM",
+      "url": "https://siliconangle.com/2026/11/09/ai-powered-hardware-testing-and-engineering-startup-nominal-raises-240m-at-3b-valuation/"
+    },
+    {
+      "author": "Ionut Arghire",
+      "date": "2026-11-09",
+      "headline": "Iris Plaza Breach May Have Exposed Data of 7.7 Million Customers — Hackers compromised an external cloud service used by the shopping platform and may have stolen personal information from it.",
+      "id": "securityweek-iris-plaza-breach-1109",
+      "lane": null,
+      "outlet": "SecurityWeek",
+      "time": "12:30 PM",
+      "url": "https://www.securityweek.com/iris-plaza-breach-may-have-exposed-data-of-7-7-million-customers/"
+    },
+    {
+      "author": "Daniel Levi",
+      "date": "2026-11-09",
+      "headline": "Snapp raises $4.6M from a16z to take on ChatGPT and Claude with real-time sports AI — ChatGPT and Claude can answer almost anything, but predicting what happens on a football field or basketball court is a different challenge.",
+      "id": "techstartups-snapp-raises-a16z-1109",
+      "lane": null,
+      "outlet": "TechStartups",
+      "time": "12:30 PM",
+      "url": "https://techstartups.com/2026/11/09/snapp-raises-4-6m-from-a16z-to-take-on-chatgpt-and-claude-with-real-time-sports-ai/"
+    },
+    {
+      "author": "Carly Page",
+      "date": "2026-11-09",
+      "headline": "Japanese homeware giant pulls online store after cloud breach puts 7.7M records at risk — No reopening date as orders face delays and some customers are told to refuse deliveries to cancel purchases",
+      "id": "theregister-japanese-homeware-giant-1109",
+      "lane": null,
+      "outlet": "The Register",
+      "time": "12:30 PM",
+      "url": "https://www.theregister.com/cyber-crime/2026/11/09/japanese-homeware-giant-pulls-online-store-after-cloud-breach-puts-77m-records-at-risk/5308377"
     }
   ],
   "site": "GoldRang3r"
