@@ -42,10 +42,13 @@ ET_ZONE = ZoneInfo("America/New_York")
 DAY_ONE = datetime(2026, 10, 21).date()
 UA = {"User-Agent": "Mozilla/5.0 (compatible; GoldRang3rDesk/1.0)"}
 PUSH_SCRIPT = Path.home() / "workspace" / "skills" / "github" / "bin" / "gh_push_dir.py"
-GOAL_HIDDEN = (Path.home() / "workspace" / "goals" /
-               "goldranger-semi-automated-bounty-hunting-protection-platform" / "hidden_files")
-RUNS_DIR = GOAL_HIDDEN / "newsdesk-runs"
-DRAFTS_DIR = GOAL_HIDDEN / "newsdesk-drafts"
+# Run reports + summary briefs live OUTSIDE the repo, in a state dir that
+# contains no forbidden strings (the repo must never contain them).
+# Override with NEWSDESK_STATE_DIR if the cron wrapper wants them elsewhere.
+STATE_DIR = Path(os.environ.get(
+    "NEWSDESK_STATE_DIR", str(Path.home() / "workspace" / "newsdesk-state")))
+RUNS_DIR = STATE_DIR / "runs"
+DRAFTS_DIR = STATE_DIR / "drafts"
 CISA_CATALOG_URL = "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
 KEV_JSON = "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
 
